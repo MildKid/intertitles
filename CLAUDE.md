@@ -50,8 +50,8 @@ tool's `model` parameter; bulk data (frames, logs, transcripts) stays out of the
   judgment. Never tell a worker to double-check itself.
 - Escalate one tier for the failed piece; never re-delegate the whole job.
 - Before a fan-out of six or more agents, and between batches:
-  `ccusage blocks --active --json`. Read `costUSD`. Working ceiling on the current plan
-  (Max x5) is about $87 per 5-hour window; keep a batch under a third of what is left.
+  `ccusage blocks --active --json`. Read `costUSD` against the plan's 5-hour window
+  ceiling; keep a batch under a third of what is left.
 - Launch independent agents in one message so they run in parallel.
 
 ## Style
