@@ -5,13 +5,13 @@ crowdsourced (Crowdin), turned into cards (by designers, or automatically), and 
 back into the film with the running time untouched, so the result works with live
 accompaniment.
 
-First program, Silent Movie Day at the Brook Arts Center, Bound Brook NJ, Sept 27, 2026:
+Site: <https://intertitles.org/>. The first three films:
 
 | Film | Year | Cards | Status |
 |---|---|---|---|
-| The Adventurer (Chaplin) | 1917 | `data/films/the-adventurer-1917/` | print not chosen |
-| Number, Please? (Lloyd) | 1920 | `data/films/number-please-1920/` | print not chosen |
-| Sherlock, Jr. (Keaton) | 1924 | `data/films/sherlock-jr-1924/` | print not chosen |
+| The Adventurer (Chaplin) | 1917 | `data/films/the-adventurer-1917/` | transcribed, unverified |
+| Number, Please? (Lloyd) | 1920 | `data/films/number-please-1920/` | transcribed, unverified |
+| Sherlock, Jr. (Keaton) | 1924 | `data/films/sherlock-jr-1924/` | transcribed, unverified; projection print in hand |
 
 First language pair: English to Mexican Spanish (`es-MX`).
 
