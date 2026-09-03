@@ -230,3 +230,6 @@ description says so.
   the shortest (*The Adventurer*, ~24 minutes, plain cards) as the proof.
 - Card typography per film: reproduce the original card style, or a house style across
   all three.
+- German-language films (*Faust*, *Metropolis*): whether the bilingual card pairs the
+  original German with Spanish, or an English translation with Spanish, for a US audience.
+  Their `film.yaml` records `source: de` until this is decided.

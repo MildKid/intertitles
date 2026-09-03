@@ -1,6 +1,70 @@
 {
- "generated": "2026-09-03T13:22:15Z",
+ "generated": "2026-09-03T19:53:21Z",
  "films": [
+  {
+   "slug": "don-juan-1926",
+   "title": "Don Juan",
+   "year": 1926,
+   "cards": 0,
+   "transcribed": 0,
+   "verified": 0,
+   "translated": {
+    "es-MX": 0
+   },
+   "designed": {
+    "es-MX": 0
+   },
+   "timing": "none",
+   "extraction": "not-started"
+  },
+  {
+   "slug": "faust-1926",
+   "title": "Faust",
+   "year": 1926,
+   "cards": 0,
+   "transcribed": 0,
+   "verified": 0,
+   "translated": {
+    "es-MX": 0
+   },
+   "designed": {
+    "es-MX": 0
+   },
+   "timing": "none",
+   "extraction": "not-started"
+  },
+  {
+   "slug": "it-1927",
+   "title": "It",
+   "year": 1927,
+   "cards": 0,
+   "transcribed": 0,
+   "verified": 0,
+   "translated": {
+    "es-MX": 0
+   },
+   "designed": {
+    "es-MX": 0
+   },
+   "timing": "none",
+   "extraction": "not-started"
+  },
+  {
+   "slug": "metropolis-1927",
+   "title": "Metropolis",
+   "year": 1927,
+   "cards": 0,
+   "transcribed": 0,
+   "verified": 0,
+   "translated": {
+    "es-MX": 0
+   },
+   "designed": {
+    "es-MX": 0
+   },
+   "timing": "none",
+   "extraction": "not-started"
+  },
   {
    "slug": "number-please-1920",
    "title": "Number, Please?",
@@ -16,6 +80,22 @@
    },
    "timing": "reference",
    "extraction": "transcribed"
+  },
+  {
+   "slug": "seventh-heaven-1927",
+   "title": "7th Heaven",
+   "year": 1927,
+   "cards": 0,
+   "transcribed": 0,
+   "verified": 0,
+   "translated": {
+    "es-MX": 0
+   },
+   "designed": {
+    "es-MX": 0
+   },
+   "timing": "none",
+   "extraction": "not-started"
   },
   {
    "slug": "sherlock-jr-1924",
@@ -48,6 +128,38 @@
    },
    "timing": "reference",
    "extraction": "transcribed"
+  },
+  {
+   "slug": "the-general-1926",
+   "title": "The General",
+   "year": 1926,
+   "cards": 0,
+   "transcribed": 0,
+   "verified": 0,
+   "translated": {
+    "es-MX": 0
+   },
+   "designed": {
+    "es-MX": 0
+   },
+   "timing": "none",
+   "extraction": "not-started"
+  },
+  {
+   "slug": "the-kid-brother-1927",
+   "title": "The Kid Brother",
+   "year": 1927,
+   "cards": 0,
+   "transcribed": 0,
+   "verified": 0,
+   "translated": {
+    "es-MX": 0
+   },
+   "designed": {
+    "es-MX": 0
+   },
+   "timing": "none",
+   "extraction": "not-started"
   }
  ]
 }

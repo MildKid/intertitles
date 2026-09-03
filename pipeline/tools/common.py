@@ -137,7 +137,8 @@ def list_films(include_example: bool = False) -> list[str]:
 def load_film(slug: str) -> Film:
     d = FILMS / slug
     meta = yaml.safe_load((d / "film.yaml").read_text(encoding="utf-8")) or {}
-    cards_doc = yaml.safe_load((d / "cards.yaml").read_text(encoding="utf-8")) or {}
+    cp = d / "cards.yaml"          # absent until the film is transcribed; the film still lists
+    cards_doc = (yaml.safe_load(cp.read_text(encoding="utf-8")) or {}) if cp.exists() else {}
     cards: list[Card] = []
     for i, raw in enumerate(cards_doc.get("cards") or [], start=1):
         cards.append(

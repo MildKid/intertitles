@@ -91,6 +91,9 @@ def main(argv: list[str]) -> int:
     slugs = argv or list_films(include_example=True)
     for slug in slugs:
         film = load_film(slug)
+        if not film.cards:
+            print(f"{slug}: no cards yet, no POT")
+            continue
         pot = build_pot(film)
         pot_path(slug).parent.mkdir(parents=True, exist_ok=True)
         pot.save(str(pot_path(slug)))

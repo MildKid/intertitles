@@ -1,0 +1,41 @@
+slug: the-general-1926
+title: The General
+year: 1926
+director: Buster Keaton and Clyde Bruckman
+production: Buster Keaton Productions; distributed by United Artists
+runtime_min:            # blank until a print is chosen; runtimes differ by transfer
+rights: >
+  Public domain in the United States (published 1926). Specific restorations may add
+  copyrighted material (new scores, restoration credits); use a plain public-domain print.
+synopsis: >
+  A Southern railroad engineer, rejected by the army, chases Union spies who have stolen his locomotive and his girl, and brings both back.
+languages:
+  source: en
+  targets: [es-MX]
+
+# The timecodes in cards.yaml belong to ONE specific file. Fill this in when the print is
+# chosen (the copy that will actually be projected, if possible). Blank = unknown.
+print:
+  status: none   # none | reference | projection (docs/design.md, Text first)
+  source: ""
+  source_file: ""
+  file: ""
+  sha256: ""
+  fps:
+  width:
+  height:
+  duration: ""
+  size_bytes:
+  downloaded: ""
+  why: ""
+
+render:
+  frame: 1920x1080
+
+extraction:
+  status: not-started   # not-started | candidates | transcribed | timed | locked
+  notes: ""
+
+card_style_notes: >
+  Verify against the print before designing: card frame treatment, typeface, use of
+  quotation marks and dashes on dialogue cards, and whether any cards carry ornaments.

@@ -5,13 +5,20 @@ crowdsourced (Crowdin), turned into cards (by designers, or automatically), and 
 back into the film with the running time untouched, so the result works with live
 accompaniment.
 
-Site: <https://intertitles.org/>. The first three films:
+Site: <https://intertitles.org/>. The films:
 
 | Film | Year | Cards | Status |
 |---|---|---|---|
 | The Adventurer (Chaplin) | 1917 | `data/films/the-adventurer-1917/` | transcribed, unverified |
 | Number, Please? (Lloyd) | 1920 | `data/films/number-please-1920/` | transcribed, unverified |
 | Sherlock, Jr. (Keaton) | 1924 | `data/films/sherlock-jr-1924/` | transcribed, unverified; projection print in hand |
+| The General (Keaton) | 1926 | `data/films/the-general-1926/` | print not chosen |
+| Don Juan (Barrymore) | 1926 | `data/films/don-juan-1926/` | print not chosen |
+| Faust (Murnau) | 1926 | `data/films/faust-1926/` | print not chosen |
+| The Kid Brother (Lloyd) | 1927 | `data/films/the-kid-brother-1927/` | print not chosen |
+| It (Bow) | 1927 | `data/films/it-1927/` | print not chosen |
+| 7th Heaven (Borzage) | 1927 | `data/films/seventh-heaven-1927/` | print not chosen |
+| Metropolis (Lang) | 1927 | `data/films/metropolis-1927/` | print not chosen |
 
 First language pair: English to Mexican Spanish (`es-MX`).
 
