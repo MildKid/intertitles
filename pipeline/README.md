@@ -15,6 +15,7 @@ Stages, each a script with a plain-file contract on both sides (run from the rep
 | `tools/extract.py` | a print | `out/<slug>/extract/` candidates + thumbnails |
 | `tools/transcribe.py` | candidates + the print | `out/<slug>/extract/grabs/`, reader prompts in `batches/`, `transcribed.yaml`; `--commit` writes `data/films/<slug>/cards.yaml` |
 | `tools/scrub.py` | a print, cards, the frame grabs under `out/<slug>/extract/` | `data/films/<slug>/cards.yaml`, edited card by card in the browser |
+| `tools/align.py` | cards + the print they were timed against + another copy | the offset per card; `--apply` moves `in`/`out` and the `print:` block |
 | `tools/export_po.py` | `data/films/<slug>/cards.yaml` | `data/locales/templates/<slug>.pot`, merges into `data/locales/<lang>/<slug>.po` |
 | `tools/crowdin_screenshots.py` | cards, frame grabs under `out/<slug>/extract/` | screenshots in the Crowdin project, tagged to their strings (needs `CROWDIN_TOKEN`) |
 | `tools/lint.py` | cards + translations | report; exit 1 on errors |

@@ -66,6 +66,7 @@ def main() -> int:
                         str(OUT / "_example.es-MX.stacked.mp4"), "-frames:v", "1", str(png)], check=True)
         print(f"check -> {png}")
     run("pipeline/tests/test_scrub.py")      # the card-verification server, on a temp copy of the data
+    run("pipeline/tests/test_align.py")      # re-timing onto a deliberately shifted copy
     return 0
 
 

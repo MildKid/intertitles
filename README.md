@@ -58,6 +58,7 @@ python pipeline/tools/extract.py <slug> --print path/to/print.mp4   # candidate 
 python pipeline/tools/transcribe.py <slug> --prepare                 # grabs + reader prompts; then --merge, --commit
 #   ... fill the film.yaml print: block (source, sha256, fps) ...
 python pipeline/tools/scrub.py <slug>                                # check each card against the print, in the browser
+python pipeline/tools/align.py <slug> --print path/to/better-print.mp4   # re-time onto another copy; --apply to write
 python pipeline/tools/export_po.py <slug>                            # POT + merge into each .po
 #   ... translations arrive from Crowdin into data/locales/<lang>/<slug>.po ...
 python pipeline/tools/lint.py <slug>                                 # reading speed, lines, missing

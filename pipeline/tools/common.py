@@ -365,3 +365,86 @@ def probe(path: Path) -> dict:
     fps = float(num) / float(den or 1) if float(den or 1) else 0.0
     return {"width": st.get("width"), "height": st.get("height"), "fps": round(fps, 3),
             "duration": float((j.get("format") or {}).get("duration") or 0)}
+
+
+# ---------------------------------------------------------------- film.yaml
+
+_FILM_KEY = re.compile(r"^(\s+)([A-Za-z_][\w.-]*)\s*:(.*)$")
+# A trailing comment on a plain scalar line: keep it when the value is rewritten.
+_TRAILING_COMMENT = re.compile(r"^([^'\"#]*?)(\s+#.*)$")
+# Order used for print: keys the tool writes; keys already in the file keep their place.
+PRINT_KEY_ORDER = ("status", "source", "source_file", "file", "sha256", "fps", "width",
+                   "height", "duration", "size_bytes", "downloaded", "why")
+
+
+def _film_value(key: str, value) -> str:
+    """The scalar text for one print: key. Timecodes and ids stay quoted strings."""
+    if key in ("duration", "file", "sha256", "downloaded"):
+        return _quoted(value)
+    return _scalar(value)
+
+
+def write_film_print(slug: str, values: dict) -> Path:
+    """Set keys inside film.yaml's `print:` block, leaving the rest of the file alone.
+
+    The repo reads YAML with PyYAML, which drops comments and block scalars on a dump, and
+    film.yaml is a hand-written file full of both. So this edits the block line by line:
+    known keys are rewritten in place (keeping any trailing `# ...` comment), keys that are
+    not in the file yet are appended to the block, and every other line -- including keys no
+    tool knows about -- is untouched. Only `print:` is ever written.
+    """
+    p = FILMS / slug / "film.yaml"
+    lines = p.read_text(encoding="utf-8").split("\n")
+    start = next((i for i, ln in enumerate(lines) if re.match(r"^print\s*:", ln)), None)
+    if start is None:
+        raise ValueError(f"{p}: no `print:` block")
+    end = len(lines)                                  # first line back at column 0
+    for i in range(start + 1, len(lines)):
+        if lines[i].strip() and not lines[i][:1].isspace():
+            end = i
+            break
+    while end > start + 1 and not lines[end - 1].strip():
+        end -= 1                                      # trailing blank lines belong to the gap
+    block = lines[start + 1:end]
+
+    spans: dict[str, tuple[int, int]] = {}            # key -> [first line, one past last)
+    indent = None
+    order: list[str] = []
+    key_at = None
+    for i, ln in enumerate(block):
+        m = _FILM_KEY.match(ln)
+        if m and (indent is None or len(m.group(1)) <= len(indent)):
+            if key_at is not None:
+                spans[order[-1]] = (key_at, i)
+            indent, key_at = m.group(1), i
+            order.append(m.group(2))
+    if key_at is not None:
+        spans[order[-1]] = (key_at, len(block))
+    indent = indent if indent is not None else "  "
+
+    out: list[str] = []
+    i = 0
+    while i < len(block):
+        key = next((k for k, (a, _) in spans.items() if a == i), None)
+        if key is None or key not in values:
+            out.append(block[i])
+            i += 1
+            continue
+        a, b = spans[key]
+        comment = ""
+        m = _FILM_KEY.match(block[a])
+        cm = _TRAILING_COMMENT.match(m.group(3)) if m else None
+        if cm and b - a == 1:
+            comment = cm.group(2)
+        out.append(f"{indent}{key}: {_film_value(key, values[key])}{comment}".rstrip())
+        i = b
+    for key in [k for k in PRINT_KEY_ORDER if k in values] + [k for k in values if k not in PRINT_KEY_ORDER]:
+        if key not in spans:
+            out.append(f"{indent}{key}: {_film_value(key, values[key])}")
+
+    text = "\n".join(lines[:start + 1] + out + lines[end:])
+    yaml.safe_load(text)                              # refuse to write something that does not parse
+    tmp = p.with_suffix(".yaml.tmp")
+    tmp.write_text(text, encoding="utf-8", newline="\n")
+    tmp.replace(p)
+    return p
