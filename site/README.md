@@ -15,3 +15,9 @@ Graphics are CC0 clip art from openclipart.org; `img/SOURCES.md` lists each file
 Nothing here is maintained by hand from `data/`. The one link to the rest of the repo is
 `status.json`, written by `pipeline/tools/status.py` and committed alongside `index.html`
 so the page has something to read on GitHub Pages without a build step.
+
+The `<head>` carries one JSON-LD block (schema.org): the WebSite, the project as an
+Organization, each film as a Movie marked public domain, the code as SoftwareSourceCode
+under MIT, and the transcriptions and translations as a Dataset under CC BY 4.0. Add a
+Movie node when a film is added; add a ScreeningEvent only once a screening is booked.
+Check edits at <https://validator.schema.org/>.
