@@ -9,6 +9,7 @@ Everything else (POT files, rendered PNGs, assembled video) is derived.
 """
 from __future__ import annotations
 
+import os
 import re
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -16,10 +17,14 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-FILMS = ROOT / "films"
-LOCALES = ROOT / "locales"
+# The data root is where films/ and locales/ live. It defaults to this repo, but the
+# tools never assume it: set INTERTITLES_DATA to point at a separate data checkout
+# (the plan is to move film data into its own repo once a second program exists).
+DATA = Path(os.environ.get("INTERTITLES_DATA", ROOT)).resolve()
+FILMS = DATA / "films"
+LOCALES = DATA / "locales"
 TEMPLATES = ROOT / "templates"
-OUT = ROOT / "out"
+OUT = Path(os.environ.get("INTERTITLES_OUT", DATA / "out")).resolve()
 
 CARD_TYPES = ("title", "narrative", "dialogue", "insert", "credit")
 
