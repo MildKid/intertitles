@@ -9,9 +9,10 @@ Anything this checklist could not confirm from Crowdin's documentation is marked
 
 ## 1. Decide the license (your call)
 
-**Question: do you take the proposal in `docs/design.md` § Licensing as written?**
-
-Proposed answer:
+Decided 2026-09-03: the proposal below, as written, with `Copyright (c) 2026 Billy Mild` in
+`LICENSE`. If the project later becomes a GSTOS project, add the organisation as a second
+copyright line (or assign the copyright to it) in `LICENSE`; MIT allows either without
+relicensing.
 
 | What | License |
 |---|---|
@@ -65,6 +66,31 @@ with `actions/deploy-pages`, under `permissions: pages: write, id-token: write` 
 2. **Settings** → **Pages** → **Build and deployment** → **Source**: **GitHub Actions**.
 3. Open the **Actions** tab and watch the `Pages` run. The URL appears on the run's
    `deploy` job and on the Pages settings screen: `https://mildkid.github.io/intertitles/`.
+
+### Custom domain: intertitles.org
+
+`site/CNAME` holds `intertitles.org`, so the Pages artifact carries the domain with it.
+At the registrar, add these DNS records (GitHub's current Pages addresses; confirm at
+<https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site>):
+
+| Host | Type | Value |
+|---|---|---|
+| `@` | A | `185.199.108.153` |
+| `@` | A | `185.199.109.153` |
+| `@` | A | `185.199.110.153` |
+| `@` | A | `185.199.111.153` |
+| `@` | AAAA | `2606:50c0:8000::153` |
+| `@` | AAAA | `2606:50c0:8001::153` |
+| `@` | AAAA | `2606:50c0:8002::153` |
+| `@` | AAAA | `2606:50c0:8003::153` |
+| `www` | CNAME | `mildkid.github.io` |
+
+Then **Settings** → **Pages** → **Custom domain**: type `intertitles.org`, save, wait for
+the DNS check to pass, and tick **Enforce HTTPS** once the certificate is issued (up to an
+hour). Verifying the domain under your account profile (**Settings** → **Pages** →
+**Add a domain**) stops anyone else's Pages site from claiming it. Once live, the site is
+`https://intertitles.org/` and `site/status.json` fetches relative to it, so nothing in
+`site/` changes.
 
 The page needs no build step. `site/status.json` is written by `pipeline/tools/status.py`
 and committed, and `index.html` fetches it with a small inline script; served over HTTPS

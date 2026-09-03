@@ -108,6 +108,12 @@ source and a hash; `assemble.py` refuses a different file unless told otherwise.
 better print appears, the cards get re-timed against it and the hash updated. Text and
 translations survive re-timing untouched, which is the point of separating them.
 
+`pipeline/tools/align.py` does the measuring. It matches each card's own frames from the old
+print against the new copy, reports the offset per card, and flags the ones that disagree with
+the median, so a different leader (one constant offset) reads differently from a different cut
+(a drift). `--apply` writes the new timecodes and the `print:` block; `print.status` stays as
+it is, because only a person knows whether the new file is the one that gets projected.
+
 ## Pipeline
 
 ```
@@ -204,15 +210,17 @@ a progress board: the pipeline will write a small status file (per film: extract
 translated, designed, assembled) that the site includes. Nothing on the site is
 maintained by hand from data that lives in `data/`.
 
-## Licensing (proposed, not yet decided)
+## Licensing
+
+Decided 2026-09-03; the terms live in `data/README.md` § Licenses and `LICENSE`.
 
 - Films: public domain in the US. Say which print and confirm its status before publishing.
 - Card text (transcriptions): public domain, as they reproduce the films.
 - Translations and card designs: CC BY 4.0, so other theatres can use them with credit.
 - Code: MIT.
 
-Contributors on Crowdin agree to the project's license by contributing; state it in the
-project description. Decide before the repo goes public.
+Contributors on Crowdin agree to the project's license by contributing; the project
+description says so.
 
 ## Open decisions
 
@@ -222,4 +230,3 @@ project description. Decide before the repo goes public.
   the shortest (*The Adventurer*, ~24 minutes, plain cards) as the proof.
 - Card typography per film: reproduce the original card style, or a house style across
   all three.
-- Repo license, above.

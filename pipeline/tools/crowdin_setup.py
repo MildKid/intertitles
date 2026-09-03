@@ -40,8 +40,8 @@ DESCRIPTION = (
     "Bilingual title cards for public-domain silent films. Each string is one intertitle card; "
     "translations must fit the same card for the same seconds, so keep them as short as the "
     "English or shorter and keep the line breaks. Guidelines: "
-    "https://github.com/MildKid/intertitles/blob/main/docs/translating.md . "
-    "Translations are contributed under CC BY 4.0 (proposed; see docs/go-public.md)."
+    "https://github.com/MildKid/intertitles/blob/main/docs/translating.md . Site: https://intertitles.org/ . "
+    "Translations contributed here are published under CC BY 4.0 and credited to their translators."
 )
 SETTINGS = {
     "visibility": "open",

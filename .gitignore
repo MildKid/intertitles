@@ -1,9 +1,12 @@
 *.avi
 *.filter
+*.m4v
 *.mkv
 *.mov
 *.mp4
+*.ogv
 *.pyc
+*.webm
 .venv/
 __pycache__/
 node_modules/

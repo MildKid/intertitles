@@ -55,3 +55,16 @@ file that will be shown). `print.source`, `source_file`, `file`, `sha256` (first
 `fps`, `width`, `height`, `duration`, `size_bytes`, and `why` record the copy actually
 used and the reason it was chosen. The file itself lives under `prints/` and is never
 committed.
+
+## Licenses
+
+- **The films** are public domain in the United States. Each `film.yaml` names the print
+  used and its rights note; confirm the status per film before publishing a new one.
+- **Transcriptions** (the `text` of every card in `cards.yaml`) are public domain, since
+  they reproduce the films.
+- **Translations** (`locales/<lang>/*.po`) and **designer cards** (`films/<slug>/cards/`)
+  are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Other
+  theatres may use them with credit; translators and designers are credited by name.
+- **Code** (`pipeline/`, `site/`) is MIT; see `LICENSE` at the repo root.
+
+Contributing to this repo, or to the Crowdin project, places your work under these terms.
