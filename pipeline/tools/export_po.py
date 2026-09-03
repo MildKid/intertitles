@@ -18,6 +18,13 @@ import polib
 from common import Card, Film, list_films, load_film, po_path, pot_path
 
 
+def lf_only(p) -> None:
+    """polib writes the platform newline; the repo and Crowdin want LF."""
+    b = p.read_bytes()
+    if b"\r\n" in b:
+        p.write_bytes(b.replace(b"\r\n", b"\n"))
+
+
 def translator_comment(film: Film, c: Card) -> str:
     bits = [f"Card {c.index} of {len(film.cards)}", c.type]
     if c.speaker:
@@ -73,6 +80,7 @@ def merge_into(film: Film, pot: polib.POFile, lang: str) -> tuple[int, int, int]
     po.merge(pot)
     p.parent.mkdir(parents=True, exist_ok=True)
     po.save(str(p))
+    lf_only(p)
     translated = sum(1 for e in po if e.msgstr and not e.obsolete and "fuzzy" not in e.flags)
     fuzzy = sum(1 for e in po if "fuzzy" in e.flags and not e.obsolete)
     total = sum(1 for e in po if not e.obsolete)
@@ -86,6 +94,7 @@ def main(argv: list[str]) -> int:
         pot = build_pot(film)
         pot_path(slug).parent.mkdir(parents=True, exist_ok=True)
         pot.save(str(pot_path(slug)))
+        lf_only(pot_path(slug))
         print(f"{slug}: {len(pot)} strings -> {pot_path(slug).relative_to(pot_path(slug).parents[2])}")
         for lang in film.target_langs:
             t, f, n = merge_into(film, pot, lang)

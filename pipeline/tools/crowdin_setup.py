@@ -14,7 +14,7 @@ Settings applied (docs/design.md § Crowdsourcing, docs/go-public.md § Crowdin)
   description: the short project blurb plus a link to docs/translating.md
 
 Token: CROWDIN_TOKEN in the environment or the one-line file ~/.crowdin_token (see
-crowdin_screenshots.resolve_token). Project id: CROWDIN_PROJECT_ID or --project.
+crowdin_screenshots.resolve_token). Project id: --project, CROWDIN_PROJECT_ID, or project_id in crowdin.yml.
 
 --upload-sources is a bootstrap for testing before the GitHub integration is connected. The
 integration manages the same files itself; run --delete-sources before connecting it so
@@ -66,7 +66,7 @@ def show(project: str) -> int:
         print(f"  (fields not present in this account's project object: {', '.join(missing)}; "
               "check them in the Crowdin UI)")
     files = list(cs.paginate(f"/projects/{project}/files"))
-    print(f"  files: {len(files)}" + "".join(f"\n    {f['data']['id']}  {f['data']['name']}" for f in files))
+    print(f"  files: {len(files)}" + "".join(f"\n    {f['id']}  {f['name']}" for f in files))
     return 0
 
 
@@ -101,7 +101,7 @@ def configure(project: str) -> int:
 
 
 def upload_sources(project: str) -> int:
-    existing = {f["data"]["name"]: f["data"]["id"] for f in cs.paginate(f"/projects/{project}/files")}
+    existing = {f["name"]: f["id"] for f in cs.paginate(f"/projects/{project}/files")}
     for slug in common.list_films():
         pot = common.pot_path(slug)
         if not pot.exists():
@@ -123,9 +123,9 @@ def delete_sources(project: str) -> int:
     pots = {common.pot_path(s).name for s in common.list_films()}
     n = 0
     for f in cs.paginate(f"/projects/{project}/files"):
-        if f["data"]["name"] in pots:
-            cs.api("DELETE", f"/projects/{project}/files/{f['data']['id']}")
-            print(f"  deleted {f['data']['name']}")
+        if f["name"] in pots:
+            cs.api("DELETE", f"/projects/{project}/files/{f['id']}")
+            print(f"  deleted {f['name']}")
             n += 1
     print(f"{n} files deleted")
     return 0
@@ -146,7 +146,7 @@ def main(argv: list[str]) -> int:
     if not cs._TOKEN:
         print(cs.NO_TOKEN_MSG, file=sys.stderr)
         return 2
-    project = (a.project or os.environ.get("CROWDIN_PROJECT_ID", "")).strip()
+    project = (a.project or os.environ.get("CROWDIN_PROJECT_ID", "") or cs.project_id_from_yml()).strip()
     if not a.create and not project:
         print("No Crowdin project id. Pass --project <id> or set CROWDIN_PROJECT_ID "
               "(printed by --create; also in the project URL).", file=sys.stderr)

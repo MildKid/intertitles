@@ -31,6 +31,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -61,6 +62,16 @@ def resolve_token() -> str:
         return tok
     if TOKEN_FILE.exists():
         return TOKEN_FILE.read_text(encoding="utf-8").strip().splitlines()[0].strip() if TOKEN_FILE.stat().st_size else ""
+    return ""
+
+
+def project_id_from_yml() -> str:
+    """crowdin.yml at the repo root may carry project_id (the CLI's own key); the tools use it too."""
+    y = common.ROOT / "crowdin.yml"
+    if y.exists():
+        m = re.search(r'(?m)^"?project_id"?:\s*"?(\d+)"?', y.read_text(encoding="utf-8"))
+        if m:
+            return m.group(1)
     return ""
 
 
@@ -174,8 +185,8 @@ def match_strings(card_ids, strings) -> tuple[dict[str, int], list[str]]:
         cid = str(cid)
         hit = by_identifier.get(cid)
         if hit is None:
-            prefix = cid + "||"
-            hit = next((r for r in rows if str(r.get("identifier") or "").startswith(prefix)), None)
+            prefixes = (cid + "‖", cid + "||")      # Crowdin joins msgctxt and msgid with U+2016; "||" in older docs
+            hit = next((r for r in rows if str(r.get("identifier") or "").startswith(prefixes)), None)
         if hit is None:
             pat = re.compile(r"(?<![0-9A-Za-z])" + re.escape(cid) + r"(?![0-9A-Za-z])")
             hit = next((r for r in rows if pat.search(str(r.get("context") or ""))), None)
@@ -315,14 +326,11 @@ def main(argv: list[str]) -> int:
                     help="print the first ten strings of a film's file and exit")
     args = ap.parse_args(argv)
 
-    _TOKEN = os.environ.get("CROWDIN_TOKEN", "").strip()
+    _TOKEN = resolve_token()
     if not _TOKEN:
-        print("CROWDIN_TOKEN is not set. Create a personal access token in Crowdin under\n"
-              "Account Settings -> API, then set it in the environment:\n"
-              '  PowerShell: $env:CROWDIN_TOKEN = "<token>"\n'
-              "  bash:       export CROWDIN_TOKEN=<token>", file=sys.stderr)
+        print(NO_TOKEN_MSG, file=sys.stderr)
         return 2
-    _PROJECT = (args.project or os.environ.get("CROWDIN_PROJECT_ID", "")).strip()
+    _PROJECT = (args.project or os.environ.get("CROWDIN_PROJECT_ID", "") or project_id_from_yml()).strip()
     if not _PROJECT:
         print("No Crowdin project id. Pass --project <id> or set CROWDIN_PROJECT_ID.\n"
               "The numeric id is on the project's Tools -> API page and in the project URL.",
