@@ -208,6 +208,16 @@ def designer_card(slug: str, lang: str, card_id: str) -> Path | None:
     return None
 
 
+def rel(path: Path | str) -> str:
+    """A path for a printed message: relative to the repo root when it sits inside it.
+    Out-of-tree roots (INTERTITLES_OUT, a temp directory in the tests) print in full."""
+    p = Path(path)
+    try:
+        return p.relative_to(ROOT).as_posix()
+    except ValueError:
+        return p.as_posix()
+
+
 def id_sort_key(card_id: str) -> tuple[int, str]:
     """'042' < '042a' < '043'. Non-numeric ids sort after numeric ones, alphabetically."""
     m = re.match(r"^(\d+)(.*)$", str(card_id))

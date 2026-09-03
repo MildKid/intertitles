@@ -13,6 +13,7 @@ Stages, each a script with a plain-file contract on both sides (run from the rep
 | Script | Reads | Writes |
 |---|---|---|
 | `tools/extract.py` | a print | `out/<slug>/extract/` candidates + thumbnails |
+| `tools/ocr.py` | candidates + the frame grabs | `out/<slug>/extract/ocr.yaml`: the cards a local OCR pass settles, so the vision pass reads the rest |
 | `tools/transcribe.py` | candidates + the print | `out/<slug>/extract/grabs/`, reader prompts in `batches/`, `transcribed.yaml`; `--commit` writes `data/films/<slug>/cards.yaml` |
 | `tools/scrub.py` | a print, cards, the frame grabs under `out/<slug>/extract/` | `data/films/<slug>/cards.yaml`, edited card by card in the browser |
 | `tools/align.py` | cards + the print they were timed against + another copy | the offset per card; `--apply` moves `in`/`out` and the `print:` block |
@@ -66,10 +67,12 @@ file, nudge each in and out, verify, then update the `print:` block.
 
 ## Transcribing cards
 
-The reading is a vision pass by sub-agents (or a person), never OCR. `transcribe.py` makes
-that pass repeatable:
+The reading is a vision pass by sub-agents (or a person); `ocr.py` only narrows it down,
+and no card reaches `verified: true` without a person. `transcribe.py` makes the pass
+repeatable:
 
 ```
+python pipeline/tools/ocr.py <slug>                         # local OCR pre-read: ocr.yaml, so --prepare batches only what OCR could not settle (--all ignores it)
 python pipeline/tools/transcribe.py <slug> --prepare        # full-res grabs at each card's midpoint, id-stamped copies for readers, batches/NN.md prompts
 #   give each batches/NN.md to one reader; it writes batches/NN.response.json
 python pipeline/tools/transcribe.py <slug> --merge          # all responses -> transcribed.yaml (counts by confidence, rejects, unread)

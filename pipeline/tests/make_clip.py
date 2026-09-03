@@ -30,12 +30,17 @@ def font_arg() -> str:
 def make_clip() -> Path:
     OUT.mkdir(parents=True, exist_ok=True)
     # test pattern, with the card windows blacked out and labelled so a miss is obvious
-    vf = (
-        "drawbox=enable='between(t,1,3.5)':x=0:y=0:w=iw:h=ih:color=black:t=fill,"
-        "drawbox=enable='between(t,4,7)':x=0:y=0:w=iw:h=ih:color=black:t=fill,"
-        "drawbox=enable='between(t,8,9.5)':x=0:y=0:w=iw:h=ih:color=black:t=fill,"
-        "drawtext=enable='between(t,1,3.5)+between(t,4,7)+between(t,8,9.5)':" + font_arg() +
-        "text='ORIGINAL CARD (should be covered)':fontcolor=white:fontsize=36:x=(w-tw)/2:y=h-80"
+    # Each card window carries its own words, so a tool that reads the frames (ocr.py) sees
+    # three different cards rather than three copies of one.
+    windows = ((1, 3.5, "THE EXAMPLE REEL - original card should be covered"),
+               (4, 7, "MORNING IN THE BOOTH - original card should be covered"),
+               (8, 9.5, "WAKE UP THE PICTURE IS ON - original card should be covered"))
+    vf = ",".join(
+        [f"drawbox=enable='between(t,{t0},{t1})':x=0:y=0:w=iw:h=ih:color=black:t=fill"
+         for t0, t1, _ in windows]
+        + [f"drawtext=enable='between(t,{t0},{t1})':" + font_arg() +
+           f"text='{text}':fontcolor=white:fontsize=36:x=(w-tw)/2:y=h-80"
+           for t0, t1, text in windows]
     )
     subprocess.run(
         ["ffmpeg", "-y", "-v", "error", "-f", "lavfi", "-i", "testsrc2=duration=10:size=1280x720:rate=24",
@@ -67,6 +72,7 @@ def main() -> int:
         print(f"check -> {png}")
     run("pipeline/tests/test_scrub.py")      # the card-verification server, on a temp copy of the data
     run("pipeline/tests/test_align.py")      # re-timing onto a deliberately shifted copy
+    run("pipeline/tests/test_ocr.py")        # the OCR pre-read, on a temp output root
     return 0
 
 

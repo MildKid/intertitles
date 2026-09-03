@@ -116,7 +116,7 @@ it is, because only a person knows whether the new file is the one that gets pro
 ## Pipeline
 
 ```
-print ──► extract.py ──► candidates + thumbnails ──► transcribe (human / vision pass) ──► cards.yaml
+print ──► extract.py ──► candidates + thumbnails ──► ocr.py (pre-read) ──► transcribe (human / vision pass) ──► cards.yaml
                                                                                             │
                                                                             export_po.py ◄──┘
                                                                                  │
@@ -152,6 +152,19 @@ tightens the timecodes. A vision-model pass over the thumbnails can draft the
 transcription; a person still checks every card against the print before the film is
 marked `locked`. Existing fan transcriptions online can speed this up but are not a
 source of truth; the print is.
+
+### OCR pre-read
+
+`pipeline/tools/ocr.py` runs RapidOCR (ONNX, Apache-2.0, local, no key) over the frame
+grabs before the vision pass and sorts the candidates into three classes. A frame with no
+text at all is recorded as not a card, which is most of what the extract rules over-collect;
+a frame OCR reads confidently is recorded as a card at confidence `medium`, never higher,
+because a person still checks it in `scrub.py`; everything else goes to the readers. Two
+consecutive candidates that read the same are one card that extract split, and the later one
+is marked a duplicate. On the Sherlock Jr. print this leaves about a fifth of the candidates
+for the vision pass, at no cost. The safety net is that a long candidate found by the dark
+rule stays unsettled even when OCR reads nothing, because an ornate or illustrated card can
+defeat OCR; `transcribe.py --all` ignores the pre-read altogether.
 
 ### Crowdsourcing
 

@@ -4,6 +4,7 @@ The reading itself is done by vision-model sub-agents (or a person); this script
 pass efficient and repeatable. Everything lives under out/<slug>/extract/:
 
     python pipeline/tools/transcribe.py <slug> --prepare [--print P]   grabs/<id>.png + batches/NN.{md,json}
+    python pipeline/tools/transcribe.py <slug> --grabs-only            grabs/<id>.png and nothing else
     python pipeline/tools/transcribe.py <slug> --merge                 batches/*.response.json -> transcribed.yaml
     python pipeline/tools/transcribe.py <slug> --second-pass           batches/p2-NN.{md,json} for low-confidence cards
     python pipeline/tools/transcribe.py <slug> --adjudicate            batches/adjudicate.md for pass-1/pass-2 disagreements
@@ -12,8 +13,13 @@ pass efficient and repeatable. Everything lives under out/<slug>/extract/:
 Each batches/NN.md is the exact prompt one reader gets: image paths, the JSON shape, and where
 to write the answer (batches/NN.response.json). A batch can be rerun alone. --merge reads
 every response present, in this order of trust: adjudication > pass-1/pass-2 agreement >
-pass 1 alone. A candidate with no reading keeps empty text and confidence low; the model is
-never allowed to renumber or drop a card.
+pass 1 alone > the OCR pre-read. A candidate with no reading keeps empty text and confidence
+low; the model is never allowed to renumber or drop a card.
+
+Run ocr.py first and the vision pass gets smaller: --prepare then batches only the
+candidates OCR could not settle, and --merge fills the rest in from ocr.yaml at the lowest
+trust tier. --all ignores ocr.yaml and batches every candidate. Without ocr.yaml, every
+stage behaves as it always has.
 
 --commit writes cards.yaml through common.write_cards (fixed key order, `|-` text blocks). A
 card already marked verified: true is never overwritten. Candidates the readers marked
@@ -33,8 +39,8 @@ from pathlib import Path
 
 import yaml
 
-from common import (ALIGNS, CARD_TYPES, CONFIDENCES, FILMS, FRAME_STYLES, OUT, ROOT, dump_cards,
-                    find_print, id_sort_key, load_cards_doc, load_film, parse_tc, write_cards)
+from common import (ALIGNS, CARD_TYPES, CONFIDENCES, FILMS, FRAME_STYLES, OUT, dump_cards,
+                    find_print, id_sort_key, load_cards_doc, load_film, parse_tc, rel, write_cards)
 
 GRAB_MAX_W = 1280
 CONF_RANK = {"high": 2, "medium": 1, "low": 0, "": -1}
@@ -181,7 +187,7 @@ Images ({count}):
 """
 
 
-def write_batch(slug: str, name: str, pass_no: int, ids: list[str], meta: dict) -> Path:
+def write_batch(slug: str, name: str, pass_no: int, ids: list[str], meta: dict, note: str = "") -> Path:
     bdir = extract_dir(slug) / "batches"
     bdir.mkdir(parents=True, exist_ok=True)
     gdir = extract_dir(slug) / "grabs"
@@ -189,6 +195,9 @@ def write_batch(slug: str, name: str, pass_no: int, ids: list[str], meta: dict) 
     images = "\n".join(f'{i + 1}. id "{cid}": {(gdir / f"{cid}.png").as_posix()}' for i, cid in enumerate(ids))
     prompt = PROMPT.format(name=name, title=meta.get("title", slug), year=meta.get("year", ""),
                            response=response.as_posix(), count=len(ids), images=images)
+    if note:
+        head, _, rest = prompt.partition("\n")
+        prompt = f"{head}\n\n{note}\n{rest}"
     (bdir / f"{name}.md").write_text(prompt, encoding="utf-8", newline="\n")
     (bdir / f"{name}.json").write_text(json.dumps({
         "batch": name, "pass": pass_no, "ids": ids,
@@ -212,7 +221,22 @@ def chunk(ids: list[str], size: int) -> list[list[str]]:
     return out
 
 
-def prepare(slug: str, a: argparse.Namespace) -> None:
+def ocr_filter(slug: str, ids: list[str], use_ocr: bool) -> tuple[list[str], str]:
+    """-> (the ids the readers get, a note for the batch prompts). The full list when there is
+    no ocr.yaml or --all was given."""
+    if not use_ocr:
+        return ids, ""
+    import ocr                                       # imported here: ocr.py imports this module
+
+    doc = ocr.load_ocr(slug)
+    if not doc:
+        return ids, ""
+    left = [cid for cid in ids if cid in set(ocr.unsettled_ids(doc))]
+    note = f"These are {len(left)} of {len(ids)} candidates; the rest were settled or rejected by OCR."
+    return left, note
+
+
+def prepare(slug: str, a: argparse.Namespace, grabs_only: bool = False) -> None:
     film = load_film(slug)
     cands = load_candidates(slug).get("cards") or []
     if not cands:
@@ -222,10 +246,18 @@ def prepare(slug: str, a: argparse.Namespace) -> None:
         raise SystemExit("no print found: pass --print, set print.file in film.yaml, or put it under prints/<slug>/")
     only = set(a.only) if a.only else None
     make_grabs(slug, cands, print_path, only)
+    if grabs_only:
+        return
     ids = [str(c["id"]) for c in cands]
+    ids, note = ocr_filter(slug, ids, not a.all)
+    if note:
+        print(f"  {note}")
+    if not ids:
+        print("  every candidate was settled or rejected by OCR; no batches to write")
+        return
     for i, group in enumerate(chunk(ids, a.batch_size), start=1):
-        p = write_batch(slug, f"{i:02d}", 1, group, film.meta)
-        print(f"  batch {i:02d}: {len(group)} cards  {p.relative_to(ROOT).as_posix()}")
+        p = write_batch(slug, f"{i:02d}", 1, group, film.meta, note)
+        print(f"  batch {i:02d}: {len(group)} cards  {rel(p)}")
 
 
 # ---------------------------------------------------------------- readings
@@ -293,8 +325,12 @@ def load_responses(slug: str) -> tuple[dict, dict, dict, dict]:
     return p1, p2, adj, batch_of
 
 
-def merge_readings(r1: dict | None, r2: dict | None, ra: dict | None, batches: list[str]) -> dict:
-    if r1 is None:
+def merge_readings(r1: dict | None, r2: dict | None, ra: dict | None, batches: list[str],
+                   r0: dict | None = None) -> dict:
+    """r0 is the OCR pre-read: the lowest tier, used only when no reader answered for this id."""
+    if r1 is None and r0 is not None:
+        base = clean_reading(r0)
+    elif r1 is None:
         base = clean_reading({})
         base["doubt"] = f"no reading returned (batch {batches[0] if batches else '?'})"
     else:
@@ -335,6 +371,9 @@ def merge(slug: str, quiet: bool = False) -> dict:
     cdoc = load_candidates(slug)
     cands = cdoc.get("cards") or []
     p1, p2, adj, batch_of = load_responses(slug)
+    import ocr                                       # imported here: ocr.py imports this module
+
+    pre = ocr.ocr_readings(ocr.load_ocr(slug))
     known = {str(c["id"]) for c in cands}
     for src, name in ((p1, "pass 1"), (p2, "pass 2"), (adj, "adjudication")):
         for cid in src:
@@ -342,10 +381,10 @@ def merge(slug: str, quiet: bool = False) -> dict:
                 print(f"  WARN {name}: id {cid} is not a candidate; ignored")
     cards = []
     stats = {"total": len(cands), "high": 0, "medium": 0, "low": 0, "rejected": 0,
-             "unread": 0, "disagree": 0, "adjudicated": 0}
+             "unread": 0, "ocr": 0, "disagree": 0, "adjudicated": 0}
     for c in cands:
         cid = str(c["id"])
-        m = merge_readings(p1.get(cid), p2.get(cid), adj.get(cid), batch_of.get(cid, []))
+        m = merge_readings(p1.get(cid), p2.get(cid), adj.get(cid), batch_of.get(cid, []), pre.get(cid))
         card = {"id": cid, "in": c.get("in"), "out": c.get("out"),
                 "type": m["type"] or "dialogue", "text": m["text"], "context": "",
                 "verified": False, "style": m["style"], "confidence": m["confidence"], "doubt": m["doubt"]}
@@ -355,7 +394,7 @@ def merge(slug: str, quiet: bool = False) -> dict:
         if m.get("adjudicated"):
             stats["adjudicated"] += 1
         if cid not in p1:
-            stats["unread"] += 1
+            stats["ocr" if cid in pre else "unread"] += 1
         if card["type"] == "none":
             stats["rejected"] += 1
         else:
@@ -368,9 +407,10 @@ def merge(slug: str, quiet: bool = False) -> dict:
     text_out = extract_dir(slug) / "transcribed.yaml"
     text_out.write_text(dump_cards(doc, header), encoding="utf-8", newline="\n")
     if not quiet:
-        print(f"{slug}: {stats['total']} candidates -> {text_out.relative_to(ROOT).as_posix()}")
+        print(f"{slug}: {stats['total']} candidates -> {rel(text_out)}")
         print(f"  high {stats['high']}  medium {stats['medium']}  low {stats['low']}  "
               f"rejected {stats['rejected']}  unread {stats['unread']}  "
+              f"from ocr {stats['ocr']}  "
               f"disagreements {stats['disagree']}  adjudicated {stats['adjudicated']}")
         lows = [c["id"] for c in cards if c["type"] != "none" and c["confidence"] == "low"]
         if lows:
@@ -396,7 +436,7 @@ def second_pass(slug: str, a: argparse.Namespace) -> None:
     groups = chunk(list(reversed(lows)), size)
     for i, group in enumerate(groups, start=1):
         p = write_batch(slug, f"p2-{i:02d}", 2, group, film.meta)
-        print(f"  batch p2-{i:02d}: {len(group)} cards  {p.relative_to(ROOT).as_posix()}")
+        print(f"  batch p2-{i:02d}: {len(group)} cards  {rel(p)}")
     print(f"{len(lows)} low-confidence cards in {len(groups)} second-pass batches")
 
 
@@ -450,7 +490,7 @@ def adjudicate(slug: str) -> None:
                                                       "ids": [c["id"] for c in dis],
                                                       "response": response.as_posix()}, indent=1),
                                           encoding="utf-8", newline="\n")
-    print(f"{len(dis)} disagreements -> {(bdir / 'adjudicate.md').relative_to(ROOT).as_posix()}")
+    print(f"{len(dis)} disagreements -> {rel(bdir / 'adjudicate.md')}")
 
 
 # ---------------------------------------------------------------- commit
@@ -512,7 +552,7 @@ def commit(slug: str, a: argparse.Namespace) -> None:
     p = write_cards(slug, doc)
     if set_extraction_status(slug, "transcribed"):
         print("  film.yaml extraction.status: transcribed")
-    print(f"  -> {p.relative_to(ROOT).as_posix()}")
+    print(f"  -> {rel(p)}")
 
 
 # ---------------------------------------------------------------- main
@@ -521,6 +561,7 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("slug")
     ap.add_argument("--prepare", action="store_true", help="make grabs and pass-1 batch prompts")
+    ap.add_argument("--grabs-only", action="store_true", help="make the frame grabs, write no batches")
     ap.add_argument("--merge", action="store_true", help="merge every response into transcribed.yaml")
     ap.add_argument("--second-pass", action="store_true", help="batch prompts for low-confidence cards")
     ap.add_argument("--adjudicate", action="store_true", help="one prompt for pass-1/pass-2 disagreements")
@@ -530,11 +571,12 @@ def main() -> int:
     ap.add_argument("--print", dest="print_path", help="the reference copy (default: film.yaml / prints/)")
     ap.add_argument("--batch-size", type=int, default=10, help="cards per reader, 8 to 12")
     ap.add_argument("--only", nargs="*", help="regrab just these ids")
+    ap.add_argument("--all", action="store_true", help="batch every candidate, ignoring ocr.yaml")
     a = ap.parse_args()
-    if not any((a.prepare, a.merge, a.second_pass, a.adjudicate, a.commit)):
-        ap.error("pick one of --prepare, --merge, --second-pass, --adjudicate, --commit")
-    if a.prepare:
-        prepare(a.slug, a)
+    if not any((a.prepare, a.grabs_only, a.merge, a.second_pass, a.adjudicate, a.commit)):
+        ap.error("pick one of --prepare, --grabs-only, --merge, --second-pass, --adjudicate, --commit")
+    if a.prepare or a.grabs_only:
+        prepare(a.slug, a, grabs_only=a.grabs_only and not a.prepare)
     if a.merge:
         merge(a.slug)
     if a.second_pass:
