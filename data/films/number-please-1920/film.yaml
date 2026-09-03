@@ -16,20 +16,28 @@ languages:
   targets: [es-MX]
 
 print:
-  status: none        # none | reference | projection (docs/design.md, Text first)
-  source: ""
-  file: ""
-  sha256: ""
-  fps:
-  width:
-  height:
-  duration: ""
+  status: reference   # none | reference | projection (docs/design.md, Text first)
+  source: https://archive.org/details/Number_Please
+  source_file: https://archive.org/download/Number_Please/Number_Please.mp4
+  file: prints/number-please-1920/number-please-1920.mp4
+  sha256: e2e3f9fd024c4e2d2e4c17963a1cf9bc12928b9cbfbaf978313215d5b340d39d   # first 64 MB, common.sha256_head
+  fps: 22.267
+  width: 640
+  height: 480
+  duration: "00:25:14.063"
+  size_bytes: 211653781
+  downloaded: 2026-09-03
+  why: >
+    archive.org item Number_Please, the widely circulated copy (plain plot description, no restoration
+    or copyright wording). The only other genuine copy, silent-number-please (659x504 mkv), adds a few
+    pixels in a container browsers play badly. No copy on Wikimedia Commons. The cards are illustrated
+    art titles (cursive text over a drawing), which is why extract.py needs the still-frame rule.
 
 render:
   frame: 1920x1080
 
 extraction:
-  status: not-started
+  status: transcribed
   notes: ""
 
 card_style_notes: >

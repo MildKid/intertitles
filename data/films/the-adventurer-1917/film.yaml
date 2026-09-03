@@ -16,20 +16,29 @@ languages:
   targets: [es-MX]
 
 print:
-  status: none        # none | reference | projection (docs/design.md, Text first)
-  source: ""
-  file: ""
-  sha256: ""
-  fps:
-  width:
-  height:
-  duration: ""
+  status: reference   # none | reference | projection (docs/design.md, Text first)
+  source: https://archive.org/details/the-adventurer-1917
+  source_file: https://archive.org/download/the-adventurer-1917/The%20Adventurer%20%281917%29.mp4
+  file: prints/the-adventurer-1917/the-adventurer-1917.mp4
+  sha256: dd013b10dc1f77d5f6d86dc0318277705e14a36707f48a69ec35f98d6e25216a   # first 64 MB, common.sha256_head
+  fps: 29.97
+  width: 640
+  height: 480
+  duration: "00:23:19.798"
+  size_bytes: 209009510
+  downloaded: 2026-09-03
+  why: >
+    archive.org item the-adventurer-1917, the only standalone copy there above 320 px wide with a
+    plain description (no restoration, score, or distributor credit). Runner-up: Wikimedia Commons
+    "The Adventurer (1917).webm" (960x720, a YouTube re-upload of unstated origin). The 1440x1080
+    Commons file cites yts.mx and was passed over: it is almost certainly a rip of a restored Blu-ray.
+    Frame is 640x480 with the 4:3 picture pillarboxed inside it; 29.97 fps, so a step-frame transfer.
 
 render:
   frame: 1920x1080
 
 extraction:
-  status: not-started
+  status: transcribed
   notes: ""
 
 card_style_notes: >

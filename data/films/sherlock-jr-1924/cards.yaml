@@ -1,4 +1,886 @@
-# Intertitle cards, in film order. Empty until extraction (see docs/design.md, "Extraction").
-# Schema: see films/_example/cards.yaml.
+# Intertitle cards, in film order. Schema: data/README.md and films/_example/cards.yaml.
+# Written by the pipeline (transcribe.py, scrub.py); hand edits are fine, key order is kept.
 film: sherlock-jr-1924
-cards: []
+cards:
+  - id: "001"
+    in: "00:00:00.000"
+    out: "00:00:28.750"
+    type: credit
+    text: |-
+      Story by
+      Jean Havez, Joe Mitchell
+      and
+      Clyde Bruckman
+      Photography by
+      Elgin Lessley and Byron Houck
+      Art Director          Electrician
+      Fred Gabourie          Denver Harmon
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: italic on "Story by", "and", "Photography by", "Art Director", "Electrician"; roman on names
+      all_caps: false
+    confidence: high
+
+  - id: "003"
+    in: "00:00:31.500"
+    out: "00:00:46.000"
+    type: credit
+    text: |-
+      Distributed by
+      METRO PICTURES CORPORATION
+      Controlled by
+      LOEW'S INCORPORATED
+      Copyrighted 1924 in United
+      States of America by Metro
+      Pictures Corporation. Controlled
+      by Loew's Incorporated. All rights
+      reserved under International Con-
+      vention of Buenos Aires.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: company names set in larger capitals
+      all_caps: false
+    confidence: high
+
+  - id: "004"
+    in: "00:00:47.500"
+    out: "00:00:53.500"
+    type: credit
+    text: |-
+      Passed by the
+      National Board of Review
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "005"
+    in: "00:00:54.500"
+    out: "00:01:03.750"
+    type: narrative
+    text: |-
+      There is an old proverb
+      which says:
+      Don't try to do two things
+      at once and expect to do
+      justice to both.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: none
+      emphasis: italic on the proverb text (last three lines)
+      all_caps: false
+    confidence: high
+
+  - id: "006"
+    in: "00:01:05.500"
+    out: "00:01:25.500"
+    type: narrative
+    text: |-
+      This is the story of a boy
+      who tried it.  While
+      employed as a moving
+      picture operator in a
+      small town theater he
+      was also studying to be
+      a detective.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "008"
+    in: "00:01:33.250"
+    out: "00:01:35.250"
+    type: insert
+    text: |-
+      How-to-be
+      a
+      detective
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: bold lettering on booklet cover, small decorative rules around "a"
+      all_caps: true
+    confidence: high
+
+  - id: "009"
+    in: "00:01:35.750"
+    out: "00:01:37.500"
+    type: insert
+    text: |-
+      How-to-be
+      a
+      detective
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: bold lettering on booklet cover, small decorative rules around "a"
+      all_caps: true
+    confidence: high
+
+  - id: "011"
+    in: "00:01:54.000"
+    out: "00:02:01.750"
+    type: dialogue
+    text: |-
+      "Say — Mr. Detective — before you clean up any mysteries — clean up this theater."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "012"
+    in: "00:02:07.250"
+    out: "00:02:14.250"
+    type: credit
+    text: |-
+      The girl in the case.
+      —Kathryn McGuire
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: none
+      emphasis: italic credit name
+      all_caps: false
+    confidence: high
+
+  - id: "014"
+    in: "00:02:18.500"
+    out: "00:02:27.250"
+    type: credit
+    text: |-
+      The girl's father had nothing to do so he got a hired man to help him.
+      —Joe Keaton
+      —Erwin Connelly
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: none
+      emphasis: italic credit names
+      all_caps: false
+    confidence: high
+
+  - id: "015"
+    in: "00:02:39.000"
+    out: "00:02:40.250"
+    type: insert
+    text: |-
+      To-day
+      Hearts & Pearls
+      or
+      The-Lounge
+      Lizard's
+      Lost Love
+      in Five-Parts
+    context: ""
+    verified: false
+    style:
+      frame: rule
+      align: center
+      quote_style: ""
+      emphasis: ornamental flourishes around "in five-parts"
+      all_caps: true
+    confidence: high
+
+  - id: "016"
+    in: "00:02:41.500"
+    out: "00:02:43.250"
+    type: insert
+    text: |-
+      To-day
+      Hearts & Pearls
+      or
+      The-Lounge
+      Lizard's
+      Lost Love
+      in Five-Parts
+    context: ""
+    verified: false
+    style:
+      frame: rule
+      align: center
+      quote_style: ""
+      emphasis: ornamental flourishes around "in five-parts"
+      all_caps: true
+    confidence: high
+
+  - id: "017"
+    in: "00:02:48.000"
+    out: "00:02:48.750"
+    type: insert
+    text: |-
+      $1.00
+      Per Box
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "018"
+    in: "00:02:51.250"
+    out: "00:02:53.000"
+    type: insert
+    text: |-
+      $3.00
+      Per Box
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "019"
+    in: "00:03:41.750"
+    out: "00:03:47.250"
+    type: credit
+    text: |-
+      The local sheik.
+      —Ward Crane
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: none
+      emphasis: italic credit name
+      all_caps: false
+    confidence: high
+
+  - id: "020"
+    in: "00:04:22.250"
+    out: "00:04:25.750"
+    type: dialogue
+    text: |-
+      "I lost a dollar — did you find it?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "021"
+    in: "00:04:31.750"
+    out: "00:04:33.750"
+    type: dialogue
+    text: |-
+      "Describe it."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "022"
+    in: "00:05:03.000"
+    out: "00:05:04.500"
+    type: dialogue
+    text: |-
+      "I lost a dollar."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "035"
+    in: "00:08:14.000"
+    out: "00:08:15.500"
+    type: insert
+    text: |-
+      I. Goldman & Co
+      Pawn Brokers
+      800
+      Buy and Sell
+    context: ""
+    verified: false
+    style:
+      frame: rule
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: true
+    confidence: high
+    doubt: shop sign; lower line partly hidden by the pawnbroker's balls (session model viewed the frame)
+
+  - id: "053"
+    in: "00:10:30.500"
+    out: "00:10:34.500"
+    type: dialogue
+    text: |-
+      "Some one has stolen my watch."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "055"
+    in: "00:10:49.000"
+    out: "00:10:50.500"
+    type: insert
+    text: |-
+      HOW TO BE A DETECTIVE
+      RULE 1. Search Everybody
+      RULE 2. Look for Clue
+      RULE 3. Examine all windows
+      RULE 4. Search for finger prints
+    context: ""
+    verified: false
+    style:
+      frame: rule
+      align: left
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "056"
+    in: "00:10:51.000"
+    out: "00:10:53.250"
+    type: insert
+    text: |-
+      RULE 1. Search Everybody
+      RULE 2. Look for Clue
+    context: ""
+    verified: false
+    style:
+      frame: rule
+      align: left
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: frame cut by shot change; only top portion of the card is visible, header and lower rules not shown
+
+  - id: "058"
+    in: "00:11:09.000"
+    out: "00:11:13.000"
+    type: dialogue
+    text: |-
+      "It looks like a job for the police."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "060"
+    in: "00:11:19.500"
+    out: "00:11:24.250"
+    type: dialogue
+    text: |-
+      "I'll take charge of this case and start by searching everybody."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "061"
+    in: "00:11:29.250"
+    out: "00:11:34.000"
+    type: dialogue
+    text: |-
+      "Hey —
+      I'm the fellow who
+      lost the watch."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: reread dropped the quotation marks; restored after viewing the frame (session model)
+
+  - id: "062"
+    in: "00:11:50.250"
+    out: "00:11:53.250"
+    type: dialogue
+    text: |-
+      "Why don't you search
+      him, too?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: first reading had quotation marks, reread dropped them; marks restored to match the film's dialogue cards, confirm in scrub
+
+  - id: "063"
+    in: "00:12:02.750"
+    out: "00:12:04.250"
+    type: insert
+    text: |-
+      I. GOLDMAN & CO.
+      Pawn Brokers
+      800 MAIN ST.
+      10/23 1924
+      WATCH & CHAIN
+      $4.00
+      No. 65361
+      Will Smith
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: left
+      quote_style: ""
+      emphasis: printed heading, handwritten date, amount and signature
+      all_caps: false
+    confidence: medium
+    doubt: pawn ticket number '65361' and signature 'Will Smith' are handwritten/cursive and slightly uncertain
+
+  - id: "064"
+    in: "00:12:43.250"
+    out: "00:12:50.250"
+    type: dialogue
+    text: |-
+      "I'm sorry, my boy, but
+      we never want to see
+      you in this house again."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: first reading had quotation marks, reread dropped them; marks restored to match the film's dialogue cards, confirm in scrub
+
+  - id: "073"
+    in: "00:13:52.500"
+    out: "00:13:56.500"
+    type: insert
+    text: |-
+      Rule 5. Shadow your man closely
+      Rule 6. Send for police
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: rule numbers set off from the rest of the line
+      all_caps: true
+    confidence: medium
+    doubt: 'Frame is cut by a shot change: only a horizontal band of the page is visible, so a partial line above ("... Search for finger prints", rule number unreadable) and the bottom of the Rule 6 line are clipped; the two lines transcribed are the ones actually legible.'
+
+  - id: "081"
+    in: "00:15:41.500"
+    out: "00:15:55.500"
+    type: narrative
+    text: |-
+      As a detective he was all wet, so he went back to see what he could do to his other job.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: large decorative initial capital
+      all_caps: false
+    confidence: high
+
+  - id: "083"
+    in: "00:16:11.750"
+    out: "00:16:14.750"
+    type: insert
+    text: |-
+      Goldman & Co
+      Pawn brokers
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: true
+    confidence: medium
+    doubt: sign is dark and partly obscured by glare; some letters uncertain; shop name "Goldman" partly obscured at left edge, could include an extra leading character
+
+  - id: "085"
+    in: "00:16:22.000"
+    out: "00:16:26.250"
+    type: dialogue
+    text: |-
+      "Can you describe the man who pawned this watch?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "086"
+    in: "00:16:43.750"
+    out: "00:16:47.750"
+    type: insert
+    text: |-
+      Veronal Film Co.
+      Presents
+      "Hearts and Pearls"
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: true
+    confidence: medium
+    doubt: small text on the theater's screen-within-scene; a few letters are approximate
+
+  - id: "087"
+    in: "00:16:50.000"
+    out: "00:16:52.750"
+    type: insert
+    text: ""
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: low
+    doubt: text overlaid on the illustration is illegible at this resolution
+
+  - id: "125"
+    in: "00:22:17.500"
+    out: "00:22:21.000"
+    type: dialogue
+    text: |-
+      "Some one has stolen
+      the pearls."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "126"
+    in: "00:22:35.500"
+    out: "00:22:41.250"
+    type: dialogue
+    text: |-
+      "We are lost! He is sending
+      for the world's greatest
+      detective — Sherlock Jr.!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "131"
+    in: "00:23:43.500"
+    out: "00:23:49.000"
+    type: narrative
+    text: |-
+      The crime-crushing criminologist—
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "133"
+    in: "00:24:34.500"
+    out: "00:24:39.250"
+    type: dialogue
+    text: |-
+      "Don't bother to explain—
+      this is a simple case for
+      me."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "134"
+    in: "00:25:01.000"
+    out: "00:25:01.750"
+    type: insert
+    text: |-
+      Poison
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: true
+    confidence: high
+
+  - id: "136"
+    in: "00:25:33.250"
+    out: "00:25:39.000"
+    type: dialogue
+    text: |-
+      "Pardon, sir. I think
+      there is something
+      in your drink."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "158"
+    in: "00:29:40.250"
+    out: "00:29:55.250"
+    type: narrative
+    text: |-
+      By the next day the master mind had completely solved the mystery—with the exception of locating the pearls and finding the thief.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: large drop-cap initial letter
+      all_caps: false
+    confidence: high
+
+  - id: "159"
+    in: "00:29:58.000"
+    out: "00:30:06.500"
+    type: credit
+    text: |-
+      His assistant—
+      Gillette.
+      A Gem who was Ever-Ready
+      in a bad scrape.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: large drop-cap initial letter
+      all_caps: false
+    confidence: high
+
+  - id: "171"
+    in: "00:33:35.250"
+    out: "00:33:40.250"
+    type: dialogue
+    text: |-
+      "That's a detective.
+      When he's dead I'll
+      put you in there."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "172"
+    in: "00:33:42.750"
+    out: "00:33:48.000"
+    type: dialogue
+    text: |-
+      "And now I'll tell you where
+      our little sweetie is
+      this minute!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "174"
+    in: "00:34:04.750"
+    out: "00:34:08.250"
+    type: dialogue
+    text: |-
+      "And she's waiting
+      there for me."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "182"
+    in: "00:36:48.750"
+    out: "00:36:53.500"
+    type: dialogue
+    text: |-
+      "Be careful or one of us will get hurt."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "190"
+    in: "00:38:30.750"
+    out: "00:38:37.250"
+    type: dialogue
+    text: |-
+      "I never thought you'd make it."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "198"
+    in: "00:42:10.750"
+    out: "00:42:16.500"
+    type: dialogue
+    text: |-
+      "Father sent me to tell you that we've made a terrible mistake—"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "217"
+    in: "00:44:05.750"
+    out: "00:44:33.750"
+    type: credit
+    text: |-
+      Vintage Music Score
+      Synchronized by
+      Jay Ward
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high

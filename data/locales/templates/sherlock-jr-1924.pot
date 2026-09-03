@@ -1,0 +1,477 @@
+# Sherlock, Jr. (1924) — intertitles.
+# Generated from data/films/<slug>/cards.yaml by pipeline/tools/export_po.py. Do not edit by hand.
+msgid ""
+msgstr ""
+"Project-Id-Version: intertitles sherlock-jr-1924\n"
+"POT-Creation-Date: 2026-09-03 13:22+0000\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Film-Title: Sherlock, Jr.\n"
+"X-Film-Year: 1924\n"
+
+#. Card 1 of 49 · credit · 28.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:1
+msgctxt "001"
+msgid ""
+"Story by\n"
+"Jean Havez, Joe Mitchell\n"
+"and\n"
+"Clyde Bruckman\n"
+"Photography by\n"
+"Elgin Lessley and Byron Houck\n"
+"Art Director          Electrician\n"
+"Fred Gabourie          Denver Harmon"
+msgstr ""
+
+#. Card 2 of 49 · credit · 14.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:2
+msgctxt "003"
+msgid ""
+"Distributed by\n"
+"METRO PICTURES CORPORATION\n"
+"Controlled by\n"
+"LOEW'S INCORPORATED\n"
+"Copyrighted 1924 in United\n"
+"States of America by Metro\n"
+"Pictures Corporation. Controlled\n"
+"by Loew's Incorporated. All rights\n"
+"reserved under International Con-\n"
+"vention of Buenos Aires."
+msgstr ""
+
+#. Card 3 of 49 · credit · 6.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:3
+msgctxt "004"
+msgid ""
+"Passed by the\n"
+"National Board of Review"
+msgstr ""
+
+#. Card 4 of 49 · narrative · 9.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:4
+msgctxt "005"
+msgid ""
+"There is an old proverb\n"
+"which says:\n"
+"Don't try to do two things\n"
+"at once and expect to do\n"
+"justice to both."
+msgstr ""
+
+#. Card 5 of 49 · narrative · 20.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:5
+msgctxt "006"
+msgid ""
+"This is the story of a boy\n"
+"who tried it.  While\n"
+"employed as a moving\n"
+"picture operator in a\n"
+"small town theater he\n"
+"was also studying to be\n"
+"a detective."
+msgstr ""
+
+#. Card 6 of 49 · insert · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:6
+msgctxt "008"
+msgid ""
+"How-to-be\n"
+"a\n"
+"detective"
+msgstr ""
+
+#. Card 7 of 49 · insert · 1.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:7
+msgctxt "009"
+msgid ""
+"How-to-be\n"
+"a\n"
+"detective"
+msgstr ""
+
+#. Card 8 of 49 · dialogue · 7.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:8
+msgctxt "011"
+msgid ""
+"\"Say — Mr. Detective — before you clean up any mysteries — clean up this "
+"theater.\""
+msgstr ""
+
+#. Card 9 of 49 · credit · 7.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:9
+msgctxt "012"
+msgid ""
+"The girl in the case.\n"
+"—Kathryn McGuire"
+msgstr ""
+
+#. Card 10 of 49 · credit · 8.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:10
+msgctxt "014"
+msgid ""
+"The girl's father had nothing to do so he got a hired man to help him.\n"
+"—Joe Keaton\n"
+"—Erwin Connelly"
+msgstr ""
+
+#. Card 11 of 49 · insert · 1.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:11
+msgctxt "015"
+msgid ""
+"To-day\n"
+"Hearts & Pearls\n"
+"or\n"
+"The-Lounge\n"
+"Lizard's\n"
+"Lost Love\n"
+"in Five-Parts"
+msgstr ""
+
+#. Card 12 of 49 · insert · 1.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:12
+msgctxt "016"
+msgid ""
+"To-day\n"
+"Hearts & Pearls\n"
+"or\n"
+"The-Lounge\n"
+"Lizard's\n"
+"Lost Love\n"
+"in Five-Parts"
+msgstr ""
+
+#. Card 13 of 49 · insert · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:13
+msgctxt "017"
+msgid ""
+"$1.00\n"
+"Per Box"
+msgstr ""
+
+#. Card 14 of 49 · insert · 1.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:14
+msgctxt "018"
+msgid ""
+"$3.00\n"
+"Per Box"
+msgstr ""
+
+#. Card 15 of 49 · credit · 5.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:15
+msgctxt "019"
+msgid ""
+"The local sheik.\n"
+"—Ward Crane"
+msgstr ""
+
+#. Card 16 of 49 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:16
+msgctxt "020"
+msgid "\"I lost a dollar — did you find it?\""
+msgstr ""
+
+#. Card 17 of 49 · dialogue · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:17
+msgctxt "021"
+msgid "\"Describe it.\""
+msgstr ""
+
+#. Card 18 of 49 · dialogue · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:18
+msgctxt "022"
+msgid "\"I lost a dollar.\""
+msgstr ""
+
+#. Card 19 of 49 · insert · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:19
+msgctxt "035"
+msgid ""
+"I. Goldman & Co\n"
+"Pawn Brokers\n"
+"800\n"
+"Buy and Sell"
+msgstr ""
+
+#. Card 20 of 49 · dialogue · 4.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:20
+msgctxt "053"
+msgid "\"Some one has stolen my watch.\""
+msgstr ""
+
+#. Card 21 of 49 · insert · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:21
+msgctxt "055"
+msgid ""
+"HOW TO BE A DETECTIVE\n"
+"RULE 1. Search Everybody\n"
+"RULE 2. Look for Clue\n"
+"RULE 3. Examine all windows\n"
+"RULE 4. Search for finger prints"
+msgstr ""
+
+#. Card 22 of 49 · insert · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:22
+msgctxt "056"
+msgid ""
+"RULE 1. Search Everybody\n"
+"RULE 2. Look for Clue"
+msgstr ""
+
+#. Card 23 of 49 · dialogue · 4.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:23
+msgctxt "058"
+msgid "\"It looks like a job for the police.\""
+msgstr ""
+
+#. Card 24 of 49 · dialogue · 4.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:24
+msgctxt "060"
+msgid "\"I'll take charge of this case and start by searching everybody.\""
+msgstr ""
+
+#. Card 25 of 49 · dialogue · 4.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:25
+msgctxt "061"
+msgid ""
+"\"Hey —\n"
+"I'm the fellow who\n"
+"lost the watch.\""
+msgstr ""
+
+#. Card 26 of 49 · dialogue · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:26
+msgctxt "062"
+msgid ""
+"\"Why don't you search\n"
+"him, too?\""
+msgstr ""
+
+#. Card 27 of 49 · insert · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:27
+msgctxt "063"
+msgid ""
+"I. GOLDMAN & CO.\n"
+"Pawn Brokers\n"
+"800 MAIN ST.\n"
+"10/23 1924\n"
+"WATCH & CHAIN\n"
+"$4.00\n"
+"No. 65361\n"
+"Will Smith"
+msgstr ""
+
+#. Card 28 of 49 · dialogue · 7.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:28
+msgctxt "064"
+msgid ""
+"\"I'm sorry, my boy, but\n"
+"we never want to see\n"
+"you in this house again.\""
+msgstr ""
+
+#. Card 29 of 49 · insert · 4.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:29
+msgctxt "073"
+msgid ""
+"Rule 5. Shadow your man closely\n"
+"Rule 6. Send for police"
+msgstr ""
+
+#. Card 30 of 49 · narrative · 14.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:30
+msgctxt "081"
+msgid ""
+"As a detective he was all wet, so he went back to see what he could do to "
+"his other job."
+msgstr ""
+
+#. Card 31 of 49 · insert · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:31
+msgctxt "083"
+msgid ""
+"Goldman & Co\n"
+"Pawn brokers"
+msgstr ""
+
+#. Card 32 of 49 · dialogue · 4.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:32
+msgctxt "085"
+msgid "\"Can you describe the man who pawned this watch?\""
+msgstr ""
+
+#. Card 33 of 49 · insert · 4.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:33
+msgctxt "086"
+msgid ""
+"Veronal Film Co.\n"
+"Presents\n"
+"\"Hearts and Pearls\""
+msgstr ""
+
+#. Card 35 of 49 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:35
+msgctxt "125"
+msgid ""
+"\"Some one has stolen\n"
+"the pearls.\""
+msgstr ""
+
+#. Card 36 of 49 · dialogue · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:36
+msgctxt "126"
+msgid ""
+"\"We are lost! He is sending\n"
+"for the world's greatest\n"
+"detective — Sherlock Jr.!\""
+msgstr ""
+
+#. Card 37 of 49 · narrative · 5.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:37
+msgctxt "131"
+msgid "The crime-crushing criminologist—"
+msgstr ""
+
+#. Card 38 of 49 · dialogue · 4.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:38
+msgctxt "133"
+msgid ""
+"\"Don't bother to explain—\n"
+"this is a simple case for\n"
+"me.\""
+msgstr ""
+
+#. Card 39 of 49 · insert · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:39
+msgctxt "134"
+msgid "Poison"
+msgstr ""
+
+#. Card 40 of 49 · dialogue · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:40
+msgctxt "136"
+msgid ""
+"\"Pardon, sir. I think\n"
+"there is something\n"
+"in your drink.\""
+msgstr ""
+
+#. Card 41 of 49 · narrative · 15.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:41
+msgctxt "158"
+msgid ""
+"By the next day the master mind had completely solved the mystery—with the "
+"exception of locating the pearls and finding the thief."
+msgstr ""
+
+#. Card 42 of 49 · credit · 8.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:42
+msgctxt "159"
+msgid ""
+"His assistant—\n"
+"Gillette.\n"
+"A Gem who was Ever-Ready\n"
+"in a bad scrape."
+msgstr ""
+
+#. Card 43 of 49 · dialogue · 5.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:43
+msgctxt "171"
+msgid ""
+"\"That's a detective.\n"
+"When he's dead I'll\n"
+"put you in there.\""
+msgstr ""
+
+#. Card 44 of 49 · dialogue · 5.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:44
+msgctxt "172"
+msgid ""
+"\"And now I'll tell you where\n"
+"our little sweetie is\n"
+"this minute!\""
+msgstr ""
+
+#. Card 45 of 49 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:45
+msgctxt "174"
+msgid ""
+"\"And she's waiting\n"
+"there for me.\""
+msgstr ""
+
+#. Card 46 of 49 · dialogue · 4.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:46
+msgctxt "182"
+msgid "\"Be careful or one of us will get hurt.\""
+msgstr ""
+
+#. Card 47 of 49 · dialogue · 6.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:47
+msgctxt "190"
+msgid "\"I never thought you'd make it.\""
+msgstr ""
+
+#. Card 48 of 49 · dialogue · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:48
+msgctxt "198"
+msgid "\"Father sent me to tell you that we've made a terrible mistake—\""
+msgstr ""
+
+#. Card 49 of 49 · credit · 28.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/sherlock-jr-1924/cards.yaml:49
+msgctxt "217"
+msgid ""
+"Vintage Music Score\n"
+"Synchronized by\n"
+"Jay Ward"
+msgstr ""

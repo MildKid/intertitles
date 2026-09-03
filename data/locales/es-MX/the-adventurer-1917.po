@@ -1,0 +1,127 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: intertitles the-adventurer-1917\n"
+"POT-Creation-Date: 2026-09-03 05:36+0000\n"
+"Language: es-MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Film-Title: The Adventurer\n"
+"X-Film-Year: 1917\n"
+
+#. Card 1 of 14 · credit · 15.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-adventurer-1917/cards.yaml:1
+msgctxt "001"
+msgid ""
+"Cast\n"
+"The Convict\n"
+"Charlie Chaplin\n"
+"The Girl\n"
+"Edna Purviance"
+msgstr ""
+
+#. Card 2 of 14 · narrative · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-adventurer-1917/cards.yaml:2
+msgctxt "020"
+msgid "A morning dip."
+msgstr ""
+
+#. Card 3 of 14 · narrative · 1.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-adventurer-1917/cards.yaml:3
+msgctxt "021"
+msgid "Her brave admirer."
+msgstr ""
+
+#. Card 4 of 14 · dialogue · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-adventurer-1917/cards.yaml:4
+msgctxt "024"
+msgid "\"My mother! Save her!\""
+msgstr ""
+
+#. Card 5 of 14 · dialogue · 5.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-adventurer-1917/cards.yaml:5
+msgctxt "029"
+msgid ""
+"\"I heard your cries\n"
+"from my yacht!\""
+msgstr ""
+
+#. Card 6 of 14 · narrative · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-adventurer-1917/cards.yaml:6
+msgctxt "033"
+msgid "A tired guest."
+msgstr ""
+
+#. Card 7 of 14 · narrative · 2.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-adventurer-1917/cards.yaml:7
+msgctxt "035"
+msgid "Dressed in somebody's best."
+msgstr ""
+
+#. Card 8 of 14 · insert · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-adventurer-1917/cards.yaml:8
+msgctxt "040"
+msgid ""
+"CRIMINAL ESCAPES\n"
+"CONVICT AT LARGE\n"
+"Officials Completely Baffled\n"
+"Rain of Bullets Fail to Stop Convict No. 23\n"
+"in Wild Dash from State Prison.\n"
+"CONVICT No. 23, \"THE EEL.\""
+msgstr ""
+
+#. Card 9 of 14 · dialogue · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-adventurer-1917/cards.yaml:9
+msgctxt "041"
+msgid "\"My father is Judge Brown.\""
+msgstr ""
+
+#. Card 10 of 14 · dialogue · 2.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-adventurer-1917/cards.yaml:10
+msgctxt "042"
+msgid ""
+"\"My rescuer, Commodore\n"
+"Slick.\""
+msgstr ""
+
+#. Card 11 of 14 · dialogue · 3.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-adventurer-1917/cards.yaml:11
+msgctxt "043"
+msgid ""
+"\"Your face is familiar,\n"
+"Commodore!\""
+msgstr ""
+
+#. Card 12 of 14 · dialogue · 2.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-adventurer-1917/cards.yaml:12
+msgctxt "047"
+msgid "\"You need a shave!\""
+msgstr ""
+
+#. Card 13 of 14 · narrative · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-adventurer-1917/cards.yaml:13
+msgctxt "048"
+msgid "The prison guard is also being entertained."
+msgstr ""
+
+#. Card 14 of 14 · credit · 2.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-adventurer-1917/cards.yaml:14
+msgctxt "054"
+msgid "The end"
+msgstr ""

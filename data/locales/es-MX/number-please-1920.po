@@ -1,0 +1,257 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: intertitles number-please-1920\n"
+"POT-Creation-Date: 2026-09-03 05:36+0000\n"
+"Language: es-MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Film-Title: Number, Please?\n"
+"X-Film-Year: 1920\n"
+
+#. Card 1 of 26 · title · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:1
+msgctxt "001"
+msgid ""
+"Harold Lloyd\n"
+"in\n"
+"Number Please"
+msgstr ""
+
+#. Card 2 of 26 · credit · 17.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:2
+msgctxt "002"
+msgid ""
+"Photographed by\n"
+"Walter Lundin\n"
+"Titles by\n"
+"H. M. Walker"
+msgstr ""
+
+#. Card 3 of 26 · narrative · 14.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:3
+msgctxt "003"
+msgid ""
+"An old, old story of men\n"
+"who have loved, lost and\n"
+"tried to forget."
+msgstr ""
+
+#. Card 4 of 26 · narrative · 5.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:4
+msgctxt "005"
+msgid ""
+"Some would lose 'her' image\n"
+"in the mystic haze of the\n"
+"silent seas."
+msgstr ""
+
+#. Card 5 of 26 · narrative · 7.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:5
+msgctxt "006"
+msgid ""
+"Others turn from 'the girl'\n"
+"to the feverish lure of the\n"
+"gaming table."
+msgstr ""
+
+#. Card 6 of 26 · narrative · 5.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:6
+msgctxt "008"
+msgid ""
+"The Girl. Grief laid its\n"
+"heavy hand upon her -\n"
+"but the hand slipped."
+msgstr ""
+
+#. Card 7 of 26 · dialogue · 3.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:7
+msgctxt "010"
+msgid ""
+"\"What shall we do?\n"
+"General Pershing is lost.\""
+msgstr ""
+
+#. Card 8 of 26 · dialogue · 4.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:8
+msgctxt "018"
+msgid ""
+"\"There's Uncle Dudley --\n"
+"Maybe he'll let us\n"
+"go up in his balloon.\""
+msgstr ""
+
+#. Card 9 of 26 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:9
+msgctxt "019"
+msgid ""
+"\"Remember, you must get\n"
+"your mother's consent.\""
+msgstr ""
+
+#. Card 10 of 26 · dialogue · 2.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:10
+msgctxt "020"
+msgid ""
+"\"Oh - the pass is only\n"
+"good for two.\""
+msgstr ""
+
+#. Card 11 of 26 · dialogue · 5.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:11
+msgctxt "021"
+msgid ""
+"\"The one that gets\n"
+"mamma's consent\n"
+"can go with me.\""
+msgstr ""
+
+#. Card 12 of 26 · dialogue · 5.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:12
+msgctxt "022"
+msgid ""
+"\"I'll telephone!\n"
+"That overgrown Kewpie\n"
+"can't get ahead of me.\""
+msgstr ""
+
+#. Card 13 of 26 · dialogue · 8.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:13
+msgctxt "038"
+msgid "\"The line is busy\""
+msgstr ""
+
+#. Card 14 of 26 · dialogue · 4.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:14
+msgctxt "039"
+msgid ""
+"\"Hey! Hey!\n"
+"What are you ~\n"
+"a mind reader?\""
+msgstr ""
+
+#. Card 15 of 26 · narrative · 7.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:15
+msgctxt "042"
+msgid ""
+"\"The poor nut didn't know\n"
+"whether he was calling\n"
+"Minneapolis or Mexico.\""
+msgstr ""
+
+#. Card 16 of 26 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:16
+msgctxt "053"
+msgid "\"Who is speaking? I can't hear a word you say.\""
+msgstr ""
+
+#. Card 17 of 26 · insert · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:17
+msgctxt "054"
+msgid "Out Of Order"
+msgstr ""
+
+#. Card 18 of 26 · dialogue · 6.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:18
+msgctxt "061"
+msgid ""
+"\"This line stutters—\n"
+"TALK LOUDER!\""
+msgstr ""
+
+#. Card 19 of 26 · dialogue · 20.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:19
+msgctxt "064"
+msgid ""
+"\"You've given me eight\n"
+"'wrong numbers', nine\n"
+"'busy buzzes' and four\n"
+"'informations'. What\n"
+"else have you?\""
+msgstr ""
+
+#. Card 20 of 26 · dialogue · 4.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:20
+msgctxt "066"
+msgid ""
+"\"Why certainly,\n"
+"I told Roy she could go.\""
+msgstr ""
+
+#. Card 21 of 26 · dialogue · 5.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:21
+msgctxt "068"
+msgid ""
+"\"Keep an eye on that bird -\n"
+"if he isn't crazy he's got\n"
+"a running start.\""
+msgstr ""
+
+#. Card 22 of 26 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:22
+msgctxt "069"
+msgid ""
+"\"--and the balloon pass\n"
+"was in the purse.\""
+msgstr ""
+
+#. Card 23 of 26 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:23
+msgctxt "071"
+msgid ""
+"\"Where is my purse?\n"
+"Roy says he gave it\n"
+"to you.\""
+msgstr ""
+
+#. Card 24 of 26 · narrative · 8.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:24
+msgctxt "072"
+msgid ""
+"Again - A lone wanderer\n"
+"roams the world facing the\n"
+"drab dawn of a dead\n"
+"tomorrow."
+msgstr ""
+
+#. Card 25 of 26 · credit · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:25
+msgctxt "073"
+msgid "Pathé Exchange, Inc."
+msgstr ""
+
+#. Card 26 of 26 · credit · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/number-please-1920/cards.yaml:26
+msgctxt "074"
+msgid ""
+"Pathé\n"
+"Exchange"
+msgstr ""

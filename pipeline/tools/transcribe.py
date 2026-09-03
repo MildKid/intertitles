@@ -302,6 +302,8 @@ def merge_readings(r1: dict | None, r2: dict | None, ra: dict | None, batches: l
     if r2 is not None and r1 is not None:
         if norm_text(r1["text"]) == norm_text(r2["text"]):
             best = max(r1["confidence"], r2["confidence"], "medium", key=lambda c: CONF_RANK[c])
+            if not r1["text"].strip():
+                best = "low"                      # two readers agreeing they cannot read it is still unread
             base["confidence"] = best
             if best == "high":
                 base["doubt"] = ""
@@ -471,12 +473,17 @@ def commit(slug: str, a: argparse.Namespace) -> None:
     new_cards = (yaml.safe_load(src.read_text(encoding="utf-8")) or {}).get("cards") or []
     doc = load_cards_doc(slug)
     existing = {str(c["id"]): c for c in doc["cards"]}
-    kept_verified, replaced, added, skipped = [], [], [], []
+    kept_verified, replaced, added, skipped, dropped = [], [], [], [], []
     merged: dict[str, dict] = dict(existing)
     for nc in new_cards:
         cid = str(nc["id"])
         if nc.get("type") == "none" and not a.include_rejects:
             skipped.append(cid)
+            old = existing.get(cid)
+            if old is not None and not old.get("verified"):
+                # an earlier pass put this candidate in cards.yaml; the readers now reject it
+                merged.pop(cid, None)
+                dropped.append(cid)
             continue
         nc = dict(nc)
         nc.pop("disagreement", None)
@@ -497,7 +504,8 @@ def commit(slug: str, a: argparse.Namespace) -> None:
         merged[cid] = nc
     doc["cards"] = [merged[k] for k in sorted(merged, key=id_sort_key)]
     print(f"{slug}: {len(doc['cards'])} cards ({len(added)} new, {len(replaced)} replaced, "
-          f"{len(kept_verified)} verified kept, {len(skipped)} rejects left out)")
+          f"{len(kept_verified)} verified kept, {len(skipped)} rejects left out, "
+          f"{len(dropped)} unverified cards dropped as rejects{': ' + ', '.join(dropped) if dropped else ''})")
     if a.dry_run:
         print("  dry run; cards.yaml untouched")
         return

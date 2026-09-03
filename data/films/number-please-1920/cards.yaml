@@ -1,4 +1,463 @@
-# Intertitle cards, in film order. Empty until extraction (see docs/design.md, "Extraction").
-# Schema: see films/_example/cards.yaml.
+# Intertitle cards, in film order. Schema: data/README.md and films/_example/cards.yaml.
+# Written by the pipeline (transcribe.py, scrub.py); hand edits are fine, key order is kept.
 film: number-please-1920
-cards: []
+cards:
+  - id: "001"
+    in: "00:00:00.000"
+    out: "00:00:00.750"
+    type: title
+    text: |-
+      Harold Lloyd
+      in
+      Number Please
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: true
+    confidence: medium
+    doubt: Faint line above 'Harold Lloyd' is illegible; no comma visible after 'Number' and the mark after 'Please' is too degraded to confirm as a question mark.
+
+  - id: "002"
+    in: "00:00:01.250"
+    out: "00:00:18.500"
+    type: credit
+    text: |-
+      Photographed by
+      Walter Lundin
+      Titles by
+      H. M. Walker
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: true
+    confidence: high
+
+  - id: "003"
+    in: "00:00:19.250"
+    out: "00:00:33.500"
+    type: narrative
+    text: |-
+      An old, old story of men
+      who have loved, lost and
+      tried to forget.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "005"
+    in: "00:00:40.500"
+    out: "00:00:45.500"
+    type: narrative
+    text: |-
+      Some would lose 'her' image
+      in the mystic haze of the
+      silent seas.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "006"
+    in: "00:00:51.000"
+    out: "00:00:58.500"
+    type: narrative
+    text: |-
+      Others turn from 'the girl'
+      to the feverish lure of the
+      gaming table.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "008"
+    in: "00:02:25.000"
+    out: "00:02:30.250"
+    type: narrative
+    text: |-
+      The Girl. Grief laid its
+      heavy hand upon her -
+      but the hand slipped.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "010"
+    in: "00:04:10.250"
+    out: "00:04:14.000"
+    type: dialogue
+    text: |-
+      "What shall we do?
+      General Pershing is lost."
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: double curly
+      emphasis: '''shall'' in italics'
+      all_caps: false
+    confidence: high
+
+  - id: "018"
+    in: "00:08:28.500"
+    out: "00:08:32.500"
+    type: dialogue
+    text: |-
+      "There's Uncle Dudley --
+      Maybe he'll let us
+      go up in his balloon."
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: punctuation after 'Dudley' read as a dash; could be an ellipsis
+
+  - id: "019"
+    in: "00:08:44.250"
+    out: "00:08:47.750"
+    type: dialogue
+    text: |-
+      "Remember, you must get
+      your mother's consent."
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "020"
+    in: "00:09:05.500"
+    out: "00:09:08.000"
+    type: dialogue
+    text: |-
+      "Oh - the pass is only
+      good for two."
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "021"
+    in: "00:09:16.250"
+    out: "00:09:21.250"
+    type: dialogue
+    text: |-
+      "The one that gets
+      mamma's consent
+      can go with me."
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "022"
+    in: "00:09:36.750"
+    out: "00:09:42.250"
+    type: dialogue
+    text: |-
+      "I'll telephone!
+      That overgrown Kewpie
+      can't get ahead of me."
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "038"
+    in: "00:11:52.750"
+    out: "00:12:01.500"
+    type: dialogue
+    text: |-
+      "The line is busy"
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: double curly
+      emphasis: italic on "busy"
+      all_caps: false
+    confidence: high
+
+  - id: "039"
+    in: "00:12:04.250"
+    out: "00:12:08.500"
+    type: dialogue
+    text: |-
+      "Hey! Hey!
+      What are you ~
+      a mind reader?"
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "042"
+    in: "00:12:28.750"
+    out: "00:12:36.250"
+    type: narrative
+    text: |-
+      "The poor nut didn't know
+      whether he was calling
+      Minneapolis or Mexico."
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "053"
+    in: "00:14:27.750"
+    out: "00:14:31.250"
+    type: dialogue
+    text: |-
+      "Who is speaking? I can't hear a word you say."
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "054"
+    in: "00:14:42.250"
+    out: "00:14:44.500"
+    type: insert
+    text: |-
+      Out Of Order
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "061"
+    in: "00:15:39.750"
+    out: "00:15:46.000"
+    type: dialogue
+    text: |-
+      "This line stutters—
+      TALK LOUDER!"
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: double curly
+      emphasis: '"TALK LOUDER!" set in large capitals for emphasis'
+      all_caps: false
+    confidence: high
+
+  - id: "064"
+    in: "00:16:29.000"
+    out: "00:16:49.000"
+    type: dialogue
+    text: |-
+      "You've given me eight
+      'wrong numbers', nine
+      'busy buzzes' and four
+      'informations'. What
+      else have you?"
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: double curly
+      emphasis: single quotes around 'wrong numbers', 'busy buzzes', 'informations' for emphasis
+      all_caps: false
+    confidence: high
+
+  - id: "066"
+    in: "00:16:55.750"
+    out: "00:17:00.000"
+    type: dialogue
+    text: |-
+      "Why certainly,
+      I told Roy she could go."
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "068"
+    in: "00:19:01.000"
+    out: "00:19:06.250"
+    type: dialogue
+    text: |-
+      "Keep an eye on that bird -
+      if he isn't crazy he's got
+      a running start."
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "069"
+    in: "00:19:39.250"
+    out: "00:19:42.750"
+    type: dialogue
+    text: |-
+      "--and the balloon pass
+      was in the purse."
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "071"
+    in: "00:24:15.500"
+    out: "00:24:20.000"
+    type: dialogue
+    text: |-
+      "Where is my purse?
+      Roy says he gave it
+      to you."
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "072"
+    in: "00:24:47.250"
+    out: "00:24:55.500"
+    type: narrative
+    text: |-
+      Again - A lone wanderer
+      roams the world facing the
+      drab dawn of a dead
+      tomorrow.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "073"
+    in: "00:25:08.250"
+    out: "00:25:12.750"
+    type: credit
+    text: |-
+      Pathé Exchange, Inc.
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "074"
+    in: "00:25:13.250"
+    out: "00:25:14.000"
+    type: credit
+    text: |-
+      Pathé
+      Exchange
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: Script 'Pathé' over smaller 'Exchange' on the rooster logo card; no 'Inc.' is visible, and 'Exchange' is dim enough that its exact form is uncertain.

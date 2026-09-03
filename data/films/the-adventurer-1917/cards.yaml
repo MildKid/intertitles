@@ -1,4 +1,241 @@
-# Intertitle cards, in film order. Empty until extraction (see docs/design.md, "Extraction").
-# Schema: see films/_example/cards.yaml.
+# Intertitle cards, in film order. Schema: data/README.md and films/_example/cards.yaml.
+# Written by the pipeline (transcribe.py, scrub.py); hand edits are fine, key order is kept.
 film: the-adventurer-1917
-cards: []
+cards:
+  - id: "001"
+    in: "00:00:00.000"
+    out: "00:00:15.750"
+    type: credit
+    text: |-
+      Cast
+      The Convict
+      Charlie Chaplin
+      The Girl
+      Edna Purviance
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: '"Cast" and role labels smaller than the actor names'
+      all_caps: false
+    confidence: high
+
+  - id: "020"
+    in: "00:04:35.500"
+    out: "00:04:37.000"
+    type: narrative
+    text: |-
+      A morning dip.
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: center
+      quote_style: ""
+      emphasis: decorative illuminated initial letter in an ornament box
+      all_caps: false
+    confidence: high
+
+  - id: "021"
+    in: "00:04:48.750"
+    out: "00:04:50.000"
+    type: narrative
+    text: |-
+      Her brave admirer.
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: center
+      quote_style: ""
+      emphasis: decorative illuminated initial letter in an ornament box
+      all_caps: false
+    confidence: medium
+    doubt: Initial letter obscured by the ornament box; read as "H" for "Her"
+
+  - id: "024"
+    in: "00:05:05.750"
+    out: "00:05:07.250"
+    type: dialogue
+    text: |-
+      "My mother! Save her!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: decorative drop cap
+      all_caps: false
+    confidence: high
+
+  - id: "029"
+    in: "00:08:17.250"
+    out: "00:08:22.750"
+    type: dialogue
+    text: |-
+      "I heard your cries
+      from my yacht!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: decorative drop cap
+      all_caps: false
+    confidence: high
+
+  - id: "033"
+    in: "00:10:18.250"
+    out: "00:10:21.750"
+    type: narrative
+    text: |-
+      A tired guest.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: none
+      emphasis: decorative drop cap
+      all_caps: false
+    confidence: high
+
+  - id: "035"
+    in: "00:11:00.500"
+    out: "00:11:03.250"
+    type: narrative
+    text: |-
+      Dressed in somebody's best.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: none
+      emphasis: drop cap
+      all_caps: false
+    confidence: high
+
+  - id: "040"
+    in: "00:13:21.500"
+    out: "00:13:23.750"
+    type: insert
+    text: |-
+      CRIMINAL ESCAPES
+      CONVICT AT LARGE
+      Officials Completely Baffled
+      Rain of Bullets Fail to Stop Convict No. 23
+      in Wild Dash from State Prison.
+      CONVICT No. 23, "THE EEL."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: bold headline type
+      all_caps: false
+    confidence: high
+    doubt: 'Left out: the masthead date/weather line, the left-hand column headlines cropped by the frame edge, and all small-print article body text, none of which is legible with confidence.'
+
+  - id: "041"
+    in: "00:13:28.000"
+    out: "00:13:31.000"
+    type: dialogue
+    text: |-
+      "My father is Judge Brown."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: drop cap
+      all_caps: false
+    confidence: high
+
+  - id: "042"
+    in: "00:13:33.750"
+    out: "00:13:36.500"
+    type: dialogue
+    text: |-
+      "My rescuer, Commodore
+      Slick."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: drop cap
+      all_caps: false
+    confidence: high
+
+  - id: "043"
+    in: "00:13:42.500"
+    out: "00:13:45.750"
+    type: dialogue
+    text: |-
+      "Your face is familiar,
+      Commodore!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: drop cap
+      all_caps: false
+    confidence: high
+
+  - id: "047"
+    in: "00:14:56.250"
+    out: "00:14:59.000"
+    type: dialogue
+    text: |-
+      "You need a shave!"
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "048"
+    in: "00:16:03.500"
+    out: "00:16:06.500"
+    type: narrative
+    text: |-
+      The prison guard is also being entertained.
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "054"
+    in: "00:23:17.000"
+    out: "00:23:19.750"
+    type: credit
+    text: |-
+      The end
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: hand-lettered, chalk-style font
+      all_caps: true
+    confidence: high

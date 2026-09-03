@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-03T05:36:30Z",
+ "generated": "2026-09-03T13:22:15Z",
  "films": [
   {
    "slug": "number-please-1920",
@@ -21,8 +21,8 @@
    "slug": "sherlock-jr-1924",
    "title": "Sherlock, Jr.",
    "year": 1924,
-   "cards": 50,
-   "transcribed": 50,
+   "cards": 49,
+   "transcribed": 48,
    "verified": 0,
    "translated": {
     "es-MX": 0

@@ -19,20 +19,30 @@ languages:
 # The timecodes in cards.yaml belong to ONE specific file. Fill this in when the print is
 # chosen (the copy the Brook will actually project, if possible). Blank = unknown.
 print:
-  status: none        # none | reference | projection (docs/design.md, Text first)
-  source: ""          # e.g. archive.org identifier, disc, or who supplied the file
-  file: ""            # local path, outside the repo
-  sha256: ""          # tools/assemble.py checks this (first 64 MB)
-  fps:
-  width:
-  height:
-  duration: ""
+  status: reference   # none | reference | projection (docs/design.md, Text first)
+  source: https://archive.org/details/sherlockjr1924_201909
+  source_file: https://archive.org/download/sherlockjr1924_201909/Sherlock%20Jr.%20-%20Buster%20Keaton%20%281924%29%20HD%20%5B720p%5D.mp4
+  file: prints/sherlock-jr-1924/sherlock-jr-1924.mp4
+  sha256: 108808d58c01aa78762007177e78b87adba1852b153d64d3338301b5dad52541   # first 64 MB, common.sha256_head
+  fps: 23.976
+  width: 960
+  height: 720
+  duration: "00:44:33.847"
+  size_bytes: 354283591
+  downloaded: 2026-09-03
+  why: >
+    archive.org item sherlockjr1924_201909: the highest-resolution copy whose page makes no restoration
+    or copyright claim. Its description credits a music score (Club Foot Orchestra), which is allowed;
+    any score or distributor card in the file gets type credit and is dropped. Passed over: two copies
+    labelled "restored" or delivered as a Blu-ray .m2ts, and a yts-named rip, all likely from a
+    commercial restoration. Runner-up: sherlock-jr.-1924 (720x546 mkv). All copies run 42 to 46 min,
+    so this is the full-length cut.
 
 render:
   frame: 1920x1080
 
 extraction:
-  status: not-started   # not-started | candidates | transcribed | timed | locked
+  status: transcribed   # not-started | candidates | transcribed | timed | locked
   notes: ""
 
 card_style_notes: >
