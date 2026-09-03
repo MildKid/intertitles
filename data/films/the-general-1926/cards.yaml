@@ -5,44 +5,46 @@ cards:
   - id: "001"
     in: "00:00:00.000"
     out: "00:00:49.500"
-    type: narrative
+    type: credit
     text: |-
       Adapted by
-      A1 Boasberg and Charles Smith
+      Al Boasberg and Charles Smith
       Photographed by
       Dev Jennings and Bert Haines
-      Technical Director Lighting Effects
-      Fred Gabourie Denver Harmon
+      Technical Director
+      Fred Gabourie
+      Lighting Effects
+      Denver Harmon
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: none
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      emphasis: italic role labels above each name line
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Adapted by\nA1 Boasberg and Charles Smith\nPhotographed by\nDev Jennings and Bert Haines\nTechnical Director Lighting Effects\nFred Gabourie Denver Harmon'
 
   - id: "002"
     in: "00:00:52.000"
     out: "00:00:58.750"
     type: narrative
     text: |-
-      T he Western and Atlantic
+      The Western and Atlantic
       Flyer speeding into
-      Marietta, Ga, in the Spring
-      of 1861
+      Marietta, Ga., in the Spring
+      of 1861.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: none
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      emphasis: drop cap on first letter
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'T he Western and Atlantic\nFlyer speeding into\nMarietta, Ga, in the Spring\nof 1861'
 
   - id: "004"
     in: "00:01:58.250"
@@ -55,13 +57,13 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: none
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "017"
     in: "00:04:17.250"
@@ -69,17 +71,17 @@ cards:
     type: dialogue
     text: |-
       "Fort Sumter has been
-      fired upon.
+      fired upon."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Fort Sumter has been\nfired upon.'
 
   - id: "018"
     in: "00:04:21.000"
@@ -104,69 +106,69 @@ cards:
     text: |-
       "Yes, dad, and I'm going
       to be one of the first
-      to enlist.
+      to enlist."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Yes, dad, and I\'m going\nto be one of the first\nto enlist.'
 
   - id: "024"
     in: "00:05:02.750"
     out: "00:05:07.750"
     type: dialogue
     text: |-
-      "Aren't you going
-      to enlist?!
+      'Aren't you going
+      to enlist?'
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: single
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Aren\'t you going\nto enlist?!'
 
   - id: "029"
     in: "00:06:00.000"
     out: "00:06:02.250"
     type: dialogue
     text: |-
-      "Your name?
+      'Your name?'
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: single
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Your name?'
 
   - id: "030"
     in: "00:06:04.000"
     out: "00:06:05.750"
-    type: dialogue
+    type: narrative
     text: |-
-      'Johnnie Gray ."
+      'Johnnie Gray.'
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: single
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '\'Johnnie Gray ."'
 
   - id: "031"
     in: "00:06:06.250"
@@ -190,17 +192,17 @@ cards:
     type: dialogue
     text: |-
       "Engineer on the Western
-      and Atlantic Railroad.
+      and Atlantic Railroad."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Engineer on the Western\nand Atlantic Railroad.'
 
   - id: "036"
     in: "00:06:31.000"
@@ -208,52 +210,52 @@ cards:
     type: dialogue
     text: |-
       "Don't enlist him. He is
-      more yaluable to the
-      South as an engineer.
+      more valuable to the
+      South as an engineer."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Don\'t enlist him. He is\nmore yaluable to the\nSouth as an engineer.'
 
   - id: "037"
     in: "00:06:45.000"
     out: "00:06:47.500"
-    type: narrative
+    type: dialogue
     text: |-
-      IWe can't use you.
+      "We can't use you."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: single
+      quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "IWe can't use you."
 
   - id: "048"
     in: "00:07:54.000"
     out: "00:07:58.750"
     type: dialogue
     text: |-
-      "William Brown.
+      "William Brown."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"William Brown.'
 
   - id: "049"
     in: "00:07:59.750"
@@ -277,34 +279,34 @@ cards:
     type: dialogue
     text: |-
       "If you lose this war
-      don't blame me.
+      don't blame me."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"If you lose this war\ndon\'t blame me.'
 
   - id: "063"
     in: "00:09:51.000"
     out: "00:09:56.750"
     type: dialogue
     text: |-
-      "Did Johnnie enlist?!
+      "Did Johnnie enlist?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Did Johnnie enlist?!'
 
   - id: "064"
     in: "00:09:58.500"
@@ -316,13 +318,13 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "072"
     in: "00:10:37.250"
@@ -361,40 +363,38 @@ cards:
     out: "00:10:59.500"
     type: dialogue
     text: |-
-      "Please don't lie -I
-      don't want you to
-      speak to me again
-      until you are in
-      uniform.
+      "Please don't lie—I
+      don't want you to speak to me again
+      until you are in uniform."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Please don\'t lie -I\ndon\'t want you to\nspeak to me again\nuntil you are in\nuniform.'
 
   - id: "081"
     in: "00:11:28.500"
     out: "00:11:34.000"
     type: narrative
     text: |-
-      H year later.
+      A year later.
       In a Union encampment
       just North of Chattanooga.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: ""
+      emphasis: illuminated initial capital "A"
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'H year later.\nIn a Union encampment\njust North of Chattanooga.'
 
   - id: "082"
     in: "00:11:35.750"
@@ -452,93 +452,86 @@ cards:
     out: "00:13:21.750"
     type: dialogue
     text: |-
-      "As soon as I arrive
-      I will let you know
-      how seriously father
-      is wounded."
+      "As soon as I arrive I will let you know
+      how seriously father is wounded."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "092"
     in: "00:13:53.750"
     out: "00:13:59.000"
     type: dialogue
     text: |-
-      "Big Shanty. Twenty
-      minutes for dinner.
+      "Big Shanty. Twenty minutes for dinner."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Big Shanty. Twenty\nminutes for dinner.'
 
   - id: "120"
     in: "00:18:01.000"
     out: "00:18:06.000"
     type: dialogue
     text: |-
-      "Three men stole my
-      General. I think they
-      are deserters.
+      "Three men stole my General. I think they are deserters."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Three men stole my\nGeneral. I think they\nare deserters.'
 
   - id: "124"
     in: "00:20:02.000"
     out: "00:20:04.750"
     type: dialogue
     text: |-
-      "Why not stop and
-      fight them?"
+      "Why not stop and fight them?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "125"
     in: "00:20:08.500"
     out: "00:20:12.500"
     type: dialogue
     text: |-
-      "I'm afraid they have us
-      greatly outnumbered."
+      "I'm afraid they have us greatly outnumbered."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "150"
     in: "00:29:19.500"
@@ -547,17 +540,17 @@ cards:
     text: |-
       The Southern army
       facing Chattanooga
-      is ordered to retreat
+      is ordered to retreat.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: none
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      emphasis: large drop-cap initial
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'The Southern army\nfacing Chattanooga\nis ordered to retreat'
 
   - id: "151"
     in: "00:30:31.500"
@@ -565,163 +558,144 @@ cards:
     type: narrative
     text: |-
       General Parker's victorious
-      Northern army advancing
+      Northern army advancing.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: single
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: none
+      emphasis: large drop-cap initial
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "General Parker's victorious\nNorthern army advancing"
 
   - id: "155"
     in: "00:32:26.000"
     out: "00:32:29.250"
     type: dialogue
     text: |-
-      "There is only one man
-      on that engine.
+      "There is only one man on that engine."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"There is only one man\non that engine.'
 
   - id: "162"
     in: "00:33:19.250"
     out: "00:33:26.250"
     type: narrative
     text: |-
-      In the enemy's country-
-      hopelessly lost, helplessly
-      cold and horribly hungry
+      In the enemy's country—
+      hopelessly lost, helplessly cold and horribly hungry.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: single
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: none
+      emphasis: large drop-cap initial
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "In the enemy's country-\nhopelessly lost, helplessly\ncold and horribly hungry"
 
   - id: "171"
     in: "00:34:39.250"
     out: "00:34:51.750"
     type: dialogue
     text: |-
-      "At nine o'clock tomorrow
-      morning our supply trains
-      will meet and unite with
-      General Parker's army at
-      the Rock River bridge.
+      "At nine o'clock tomorrow morning our supply trains will meet and unite with General Parker's army at the Rock River bridge."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"At nine o\'clock tomorrow\nmorning our supply trains\nwill meet and unite with\nGeneral Parker\'s army at\nthe Rock River bridge.'
 
   - id: "172"
     in: "00:34:52.250"
     out: "00:35:07.750"
     type: dialogue
     text: |-
-      "Then the army, backed
-      by our supply trains, will
-      advance for a surprise
-      attack on the rebels'left
-      flank."
+      "Then the army, backed by our supply trains, will advance for a surprise attack on the rebels' left flank."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Then the army, backed\nby our supply trains, will\nadvance for a surprise\nattack on the rebels\'left\nflank."'
 
   - id: "173"
     in: "00:35:08.500"
     out: "00:35:17.250"
     type: dialogue
     text: |-
-      "Once our trains and
-      troops cross that bridge,
-      nothing 'on earth can
-      stop us.
+      "Once our trains and troops cross that bridge, nothing on earth can stop us."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Once our trains and\ntroops cross that bridge,\nnothing \'on earth can\nstop us.'
 
   - id: "178"
     in: "00:35:57.250"
     out: "00:36:09.000"
     type: dialogue
     text: |-
-      "This girl was in the
-      baggage car when we
-      stole the train, so I
-      thought it best to
-      hold her."
+      "This girl was in the baggage car when we stole the train, so I thought it best to hold her."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "205"
     in: "00:42:25.500"
     out: "00:42:31.250"
     type: narrative
     text: |-
-      Hfter a nice, quiet,
-      refreshing night's
-      rest.
+      After a nice, quiet, refreshing night's rest.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: single
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: none
+      emphasis: large drop-cap initial
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "Hfter a nice, quiet,\nrefreshing night's\nrest."
 
   - id: "223"
     in: "00:47:06.500"
     out: "00:47:16.250"
     type: dialogue
     text: |-
-      'I will get that spy
+      "I will get that spy
       before he reaches the
       Southern lines. You
       follow with the supply
@@ -729,30 +703,30 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '\'I will get that spy\nbefore he reaches the\nSouthern lines. You\nfollow with the supply\ntrains as planned."'
 
   - id: "228"
     in: "00:47:53.500"
     out: "00:47:56.250"
-    type: narrative
+    type: insert
     text: |-
-      W.&.A.R. R.
+      W.& A.R.R.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: illustrated
       align: center
-      quote_style: none
+      quote_style: ""
       emphasis: ""
-      all_caps: 
+      all_caps: false
     confidence: medium
-    doubt: ocr
+    doubt: exact spacing/punctuation of the painted lettering on the tender car is uncertain; replaced ocr reading 'W.&.A.R. R.'
 
   - id: "235"
     in: "00:50:01.000"
@@ -764,49 +738,49 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "274"
     in: "01:00:33.250"
     out: "01:00:38.250"
     type: narrative
     text: |-
-      The Rock River bridge
+      The Rock River bridge.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: ""
+      emphasis: decorative cursive capital T
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'The Rock River bridge'
 
   - id: "281"
     in: "01:01:22.500"
     out: "01:01:27.750"
     type: narrative
     text: |-
-      T he Northern division
+      The Northern division
       nearing the bridge to
-      meet the supply trains
+      meet the supply trains.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: ""
+      emphasis: decorative cursive capital T
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'T he Northern division\nnearing the bridge to\nmeet the supply trains'
 
   - id: "296"
     in: "01:04:16.500"
@@ -829,107 +803,102 @@ cards:
     out: "01:08:03.500"
     type: dialogue
     text: |-
-      "That bridge is not
-      burned enough to
-      stop you, and my
-      men will ford the
-      river."
+      "That bridge is not burned enough to stop you, and my men will ford the river."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "339"
     in: "01:13:20.750"
     out: "01:13:21.500"
     type: narrative
     text: |-
-      Heroes of the day
+      Heroes of the day.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: ""
+      emphasis: decorative cursive capital H
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Heroes of the day'
 
   - id: "360"
     in: "01:15:51.250"
     out: "01:15:53.500"
     type: dialogue
     text: |-
-      '"Is that your uniform?
+      "Is that your uniform?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '\'"Is that your uniform?'
 
   - id: "362"
     in: "01:16:00.000"
     out: "01:16:04.250"
     type: dialogue
     text: |-
-      "I had to wear it to get
-      through the lines."
+      "I had to wear it to get through the lines."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "363"
     in: "01:16:07.000"
     out: "01:16:08.750"
     type: dialogue
     text: |-
-      'Take it off!"
+      "Take it off!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '\'Take it off!"'
 
   - id: "369"
     in: "01:17:17.250"
     out: "01:17:19.000"
     type: dialogue
     text: |-
-      "Enlist the Lieutenant.
+      "Enlist the Lieutenant."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Enlist the Lieutenant.'
 
   - id: "371"
     in: "01:17:26.750"

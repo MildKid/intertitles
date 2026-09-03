@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: intertitles the-general-1926\n"
-"POT-Creation-Date: 2026-09-03 20:25+0000\n"
+"POT-Creation-Date: 2026-09-03 23:59+0000\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -11,17 +11,19 @@ msgstr ""
 "X-Film-Title: The General\n"
 "X-Film-Year: 1926\n"
 
-#. Card 1 of 54 · narrative · 49.5s on screen
+#. Card 1 of 54 · credit · 49.5s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-general-1926/cards.yaml:1
 msgctxt "001"
 msgid ""
 "Adapted by\n"
-"A1 Boasberg and Charles Smith\n"
+"Al Boasberg and Charles Smith\n"
 "Photographed by\n"
 "Dev Jennings and Bert Haines\n"
-"Technical Director Lighting Effects\n"
-"Fred Gabourie Denver Harmon"
+"Technical Director\n"
+"Fred Gabourie\n"
+"Lighting Effects\n"
+"Denver Harmon"
 msgstr ""
 
 #. Card 2 of 54 · narrative · 6.8s on screen
@@ -29,10 +31,10 @@ msgstr ""
 #: data/films/the-general-1926/cards.yaml:2
 msgctxt "002"
 msgid ""
-"T he Western and Atlantic\n"
+"The Western and Atlantic\n"
 "Flyer speeding into\n"
-"Marietta, Ga, in the Spring\n"
-"of 1861"
+"Marietta, Ga., in the Spring\n"
+"of 1861."
 msgstr ""
 
 #. Card 3 of 54 · narrative · 9.0s on screen
@@ -51,7 +53,7 @@ msgstr ""
 msgctxt "017"
 msgid ""
 "\"Fort Sumter has been\n"
-"fired upon."
+"fired upon.\""
 msgstr ""
 
 #. Card 5 of 54 · dialogue · 5.2s on screen
@@ -68,7 +70,7 @@ msgctxt "019"
 msgid ""
 "\"Yes, dad, and I'm going\n"
 "to be one of the first\n"
-"to enlist."
+"to enlist.\""
 msgstr ""
 
 #. Card 7 of 54 · dialogue · 5.0s on screen
@@ -76,22 +78,22 @@ msgstr ""
 #: data/films/the-general-1926/cards.yaml:7
 msgctxt "024"
 msgid ""
-"\"Aren't you going\n"
-"to enlist?!"
+"'Aren't you going\n"
+"to enlist?'"
 msgstr ""
 
 #. Card 8 of 54 · dialogue · 2.2s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-general-1926/cards.yaml:8
 msgctxt "029"
-msgid "\"Your name?"
+msgid "'Your name?'"
 msgstr ""
 
-#. Card 9 of 54 · dialogue · 1.8s on screen
+#. Card 9 of 54 · narrative · 1.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-general-1926/cards.yaml:9
 msgctxt "030"
-msgid "'Johnnie Gray .\""
+msgid "'Johnnie Gray.'"
 msgstr ""
 
 #. Card 10 of 54 · dialogue · 4.5s on screen
@@ -107,7 +109,7 @@ msgstr ""
 msgctxt "032"
 msgid ""
 "\"Engineer on the Western\n"
-"and Atlantic Railroad."
+"and Atlantic Railroad.\""
 msgstr ""
 
 #. Card 12 of 54 · dialogue · 8.0s on screen
@@ -116,22 +118,22 @@ msgstr ""
 msgctxt "036"
 msgid ""
 "\"Don't enlist him. He is\n"
-"more yaluable to the\n"
-"South as an engineer."
+"more valuable to the\n"
+"South as an engineer.\""
 msgstr ""
 
-#. Card 13 of 54 · narrative · 2.5s on screen
+#. Card 13 of 54 · dialogue · 2.5s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-general-1926/cards.yaml:13
 msgctxt "037"
-msgid "IWe can't use you."
+msgid "\"We can't use you.\""
 msgstr ""
 
 #. Card 14 of 54 · dialogue · 4.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-general-1926/cards.yaml:14
 msgctxt "048"
-msgid "\"William Brown."
+msgid "\"William Brown.\""
 msgstr ""
 
 #. Card 15 of 54 · dialogue · 9.8s on screen
@@ -147,14 +149,14 @@ msgstr ""
 msgctxt "057"
 msgid ""
 "\"If you lose this war\n"
-"don't blame me."
+"don't blame me.\""
 msgstr ""
 
 #. Card 17 of 54 · dialogue · 5.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-general-1926/cards.yaml:17
 msgctxt "063"
-msgid "\"Did Johnnie enlist?!"
+msgid "\"Did Johnnie enlist?\""
 msgstr ""
 
 #. Card 18 of 54 · dialogue · 3.8s on screen
@@ -185,11 +187,9 @@ msgstr ""
 #: data/films/the-general-1926/cards.yaml:21
 msgctxt "075"
 msgid ""
-"\"Please don't lie -I\n"
-"don't want you to\n"
-"speak to me again\n"
-"until you are in\n"
-"uniform."
+"\"Please don't lie—I\n"
+"don't want you to speak to me again\n"
+"until you are in uniform.\""
 msgstr ""
 
 #. Card 22 of 54 · narrative · 5.5s on screen
@@ -197,7 +197,7 @@ msgstr ""
 #: data/films/the-general-1926/cards.yaml:22
 msgctxt "081"
 msgid ""
-"H year later.\n"
+"A year later.\n"
 "In a Union encampment\n"
 "just North of Chattanooga."
 msgstr ""
@@ -226,47 +226,36 @@ msgstr ""
 #: data/films/the-general-1926/cards.yaml:26
 msgctxt "088"
 msgid ""
-"\"As soon as I arrive\n"
-"I will let you know\n"
-"how seriously father\n"
-"is wounded.\""
+"\"As soon as I arrive I will let you know\n"
+"how seriously father is wounded.\""
 msgstr ""
 
 #. Card 27 of 54 · dialogue · 5.2s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-general-1926/cards.yaml:27
 msgctxt "092"
-msgid ""
-"\"Big Shanty. Twenty\n"
-"minutes for dinner."
+msgid "\"Big Shanty. Twenty minutes for dinner.\""
 msgstr ""
 
 #. Card 28 of 54 · dialogue · 5.0s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-general-1926/cards.yaml:28
 msgctxt "120"
-msgid ""
-"\"Three men stole my\n"
-"General. I think they\n"
-"are deserters."
+msgid "\"Three men stole my General. I think they are deserters.\""
 msgstr ""
 
 #. Card 29 of 54 · dialogue · 2.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-general-1926/cards.yaml:29
 msgctxt "124"
-msgid ""
-"\"Why not stop and\n"
-"fight them?\""
+msgid "\"Why not stop and fight them?\""
 msgstr ""
 
 #. Card 30 of 54 · dialogue · 4.0s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-general-1926/cards.yaml:30
 msgctxt "125"
-msgid ""
-"\"I'm afraid they have us\n"
-"greatly outnumbered.\""
+msgid "\"I'm afraid they have us greatly outnumbered.\""
 msgstr ""
 
 #. Card 31 of 54 · narrative · 5.5s on screen
@@ -276,7 +265,7 @@ msgctxt "150"
 msgid ""
 "The Southern army\n"
 "facing Chattanooga\n"
-"is ordered to retreat"
+"is ordered to retreat."
 msgstr ""
 
 #. Card 32 of 54 · narrative · 3.8s on screen
@@ -285,16 +274,14 @@ msgstr ""
 msgctxt "151"
 msgid ""
 "General Parker's victorious\n"
-"Northern army advancing"
+"Northern army advancing."
 msgstr ""
 
 #. Card 33 of 54 · dialogue · 3.2s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-general-1926/cards.yaml:33
 msgctxt "155"
-msgid ""
-"\"There is only one man\n"
-"on that engine."
+msgid "\"There is only one man on that engine.\""
 msgstr ""
 
 #. Card 34 of 54 · narrative · 7.0s on screen
@@ -302,9 +289,8 @@ msgstr ""
 #: data/films/the-general-1926/cards.yaml:34
 msgctxt "162"
 msgid ""
-"In the enemy's country-\n"
-"hopelessly lost, helplessly\n"
-"cold and horribly hungry"
+"In the enemy's country—\n"
+"hopelessly lost, helplessly cold and horribly hungry."
 msgstr ""
 
 #. Card 35 of 54 · dialogue · 12.5s on screen
@@ -312,11 +298,8 @@ msgstr ""
 #: data/films/the-general-1926/cards.yaml:35
 msgctxt "171"
 msgid ""
-"\"At nine o'clock tomorrow\n"
-"morning our supply trains\n"
-"will meet and unite with\n"
-"General Parker's army at\n"
-"the Rock River bridge."
+"\"At nine o'clock tomorrow morning our supply trains will meet and unite "
+"with General Parker's army at the Rock River bridge.\""
 msgstr ""
 
 #. Card 36 of 54 · dialogue · 15.5s on screen
@@ -324,11 +307,8 @@ msgstr ""
 #: data/films/the-general-1926/cards.yaml:36
 msgctxt "172"
 msgid ""
-"\"Then the army, backed\n"
-"by our supply trains, will\n"
-"advance for a surprise\n"
-"attack on the rebels'left\n"
-"flank.\""
+"\"Then the army, backed by our supply trains, will advance for a surprise "
+"attack on the rebels' left flank.\""
 msgstr ""
 
 #. Card 37 of 54 · dialogue · 8.8s on screen
@@ -336,10 +316,8 @@ msgstr ""
 #: data/films/the-general-1926/cards.yaml:37
 msgctxt "173"
 msgid ""
-"\"Once our trains and\n"
-"troops cross that bridge,\n"
-"nothing 'on earth can\n"
-"stop us."
+"\"Once our trains and troops cross that bridge, nothing on earth can stop "
+"us.\""
 msgstr ""
 
 #. Card 38 of 54 · dialogue · 11.8s on screen
@@ -347,21 +325,15 @@ msgstr ""
 #: data/films/the-general-1926/cards.yaml:38
 msgctxt "178"
 msgid ""
-"\"This girl was in the\n"
-"baggage car when we\n"
-"stole the train, so I\n"
-"thought it best to\n"
-"hold her.\""
+"\"This girl was in the baggage car when we stole the train, so I thought it "
+"best to hold her.\""
 msgstr ""
 
 #. Card 39 of 54 · narrative · 5.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-general-1926/cards.yaml:39
 msgctxt "205"
-msgid ""
-"Hfter a nice, quiet,\n"
-"refreshing night's\n"
-"rest."
+msgid "After a nice, quiet, refreshing night's rest."
 msgstr ""
 
 #. Card 40 of 54 · dialogue · 9.8s on screen
@@ -369,18 +341,18 @@ msgstr ""
 #: data/films/the-general-1926/cards.yaml:40
 msgctxt "223"
 msgid ""
-"'I will get that spy\n"
+"\"I will get that spy\n"
 "before he reaches the\n"
 "Southern lines. You\n"
 "follow with the supply\n"
 "trains as planned.\""
 msgstr ""
 
-#. Card 41 of 54 · narrative · 2.8s on screen
+#. Card 41 of 54 · insert · 2.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-general-1926/cards.yaml:41
 msgctxt "228"
-msgid "W.&.A.R. R."
+msgid "W.& A.R.R."
 msgstr ""
 
 #. Card 42 of 54 · dialogue · 3.0s on screen
@@ -396,7 +368,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-general-1926/cards.yaml:43
 msgctxt "274"
-msgid "The Rock River bridge"
+msgid "The Rock River bridge."
 msgstr ""
 
 #. Card 44 of 54 · narrative · 5.2s on screen
@@ -404,9 +376,9 @@ msgstr ""
 #: data/films/the-general-1926/cards.yaml:44
 msgctxt "281"
 msgid ""
-"T he Northern division\n"
+"The Northern division\n"
 "nearing the bridge to\n"
-"meet the supply trains"
+"meet the supply trains."
 msgstr ""
 
 #. Card 45 of 54 · insert · 1.2s on screen
@@ -421,10 +393,7 @@ msgstr ""
 #: data/films/the-general-1926/cards.yaml:46
 msgctxt "306"
 msgid ""
-"\"That bridge is not\n"
-"burned enough to\n"
-"stop you, and my\n"
-"men will ford the\n"
+"\"That bridge is not burned enough to stop you, and my men will ford the "
 "river.\""
 msgstr ""
 
@@ -432,37 +401,35 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-general-1926/cards.yaml:47
 msgctxt "339"
-msgid "Heroes of the day"
+msgid "Heroes of the day."
 msgstr ""
 
 #. Card 48 of 54 · dialogue · 2.2s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-general-1926/cards.yaml:48
 msgctxt "360"
-msgid "'\"Is that your uniform?"
+msgid "\"Is that your uniform?\""
 msgstr ""
 
 #. Card 49 of 54 · dialogue · 4.2s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-general-1926/cards.yaml:49
 msgctxt "362"
-msgid ""
-"\"I had to wear it to get\n"
-"through the lines.\""
+msgid "\"I had to wear it to get through the lines.\""
 msgstr ""
 
 #. Card 50 of 54 · dialogue · 1.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-general-1926/cards.yaml:50
 msgctxt "363"
-msgid "'Take it off!\""
+msgid "\"Take it off!\""
 msgstr ""
 
 #. Card 51 of 54 · dialogue · 1.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-general-1926/cards.yaml:51
 msgctxt "369"
-msgid "\"Enlist the Lieutenant."
+msgid "\"Enlist the Lieutenant.\""
 msgstr ""
 
 #. Card 52 of 54 · dialogue · 1.8s on screen

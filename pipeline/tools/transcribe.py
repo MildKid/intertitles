@@ -6,7 +6,7 @@ pass efficient and repeatable. Everything lives under out/<slug>/extract/:
     python pipeline/tools/transcribe.py <slug> --prepare [--print P]   grabs/<id>.png + batches/NN.{md,json}
     python pipeline/tools/transcribe.py <slug> --grabs-only            grabs/<id>.png and nothing else
     python pipeline/tools/transcribe.py <slug> --merge                 batches/*.response.json -> transcribed.yaml
-    python pipeline/tools/transcribe.py <slug> --second-pass           batches/p2-NN.{md,json} for low-confidence cards
+    python pipeline/tools/transcribe.py <slug> --second-pass [--include-ocr]   batches/p2-NN.{md,json} for low-confidence (and OCR-settled) cards
     python pipeline/tools/transcribe.py <slug> --adjudicate            batches/adjudicate.md for pass-1/pass-2 disagreements
     python pipeline/tools/transcribe.py <slug> --commit [--dry-run]    transcribed.yaml -> data/films/<slug>/cards.yaml
 
@@ -328,6 +328,16 @@ def load_responses(slug: str) -> tuple[dict, dict, dict, dict]:
 def merge_readings(r1: dict | None, r2: dict | None, ra: dict | None, batches: list[str],
                    r0: dict | None = None) -> dict:
     """r0 is the OCR pre-read: the lowest tier, used only when no reader answered for this id."""
+    if r1 is None and r0 is not None and r2 is not None:
+        # OCR settled it, then a second-pass reader looked: the reader wins, and agreement
+        # with OCR is worth a step of confidence. Never adjudicated: OCR is not a reader.
+        base = json.loads(json.dumps(r2))
+        if norm_text(r0.get("text", "")) == norm_text(r2["text"]):
+            base["confidence"] = max(r2["confidence"], "medium", key=lambda c: CONF_RANK[c])
+            base["doubt"] = r2.get("doubt") or "ocr and pass 2 agree"
+        else:
+            base["doubt"] = "; ".join(d for d in [r2.get("doubt", ""), f"replaced ocr reading {r0.get('text', '')!r}"] if d)
+        return base
     if r1 is None and r0 is not None:
         base = clean_reading(r0)
     elif r1 is None:
@@ -427,6 +437,11 @@ def second_pass(slug: str, a: argparse.Namespace) -> None:
     film = load_film(slug)
     doc = merge(slug, quiet=True)
     lows = [c["id"] for c in doc["cards"] if c["type"] != "none" and c["confidence"] == "low"]
+    if a.include_ocr:
+        # cards no reader has seen: OCR settled them (doubt "ocr"); a second-pass read checks them
+        lows += [c["id"] for c in doc["cards"] if c["type"] != "none" and c["confidence"] != "low"
+                 and str(c.get("doubt", "")).strip() == "ocr" and c["id"] not in lows]
+        lows.sort(key=id_sort_key)
     if not lows:
         print("no low-confidence cards; nothing to do")
         return
@@ -564,6 +579,7 @@ def main() -> int:
     ap.add_argument("--grabs-only", action="store_true", help="make the frame grabs, write no batches")
     ap.add_argument("--merge", action="store_true", help="merge every response into transcribed.yaml")
     ap.add_argument("--second-pass", action="store_true", help="batch prompts for low-confidence cards")
+    ap.add_argument("--include-ocr", action="store_true", help="second pass also reads the cards OCR settled")
     ap.add_argument("--adjudicate", action="store_true", help="one prompt for pass-1/pass-2 disagreements")
     ap.add_argument("--commit", action="store_true", help="write transcribed.yaml into cards.yaml")
     ap.add_argument("--dry-run", action="store_true")
