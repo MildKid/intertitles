@@ -2,8 +2,42 @@
 <head>
 <title>The Intertitle Project - Bilingual Title Cards for Silent Films</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Volunteer project translating the title cards of public domain silent films into Spanish and other languages.">
 <link rel="canonical" href="https://intertitles.org/">
+<style>
+/* Phone rescue only. The desktop page is the 640-pixel table layout below;
+   these rules let it shrink, and nothing here fires above 700 pixels. */
+table[width="640"] { width: 100%; max-width: 640px; }
+hr[width="640"] { width: 100%; max-width: 640px; }
+img { max-width: 100%; }
+.board { overflow-x: auto; }
+
+@media (max-width: 700px) {
+  td { overflow-wrap: break-word; word-wrap: break-word; }
+  font[size="6"] { font-size: 20px; }
+  font[size="5"] { font-size: 19px; }
+  font[size="4"] { font-size: 17px; }
+  font[size="3"] { font-size: 16px; }
+  font[size="2"] { font-size: 13px; }
+  font[size="1"] { font-size: 13px; }
+  img[alt="film reel"] { width: 30px; height: 30px; }
+  img[alt="film reel"] + font[size="6"] { letter-spacing: -0.2px; }
+  td[width="100"] { width: 54px; padding-left: 2px; padding-right: 4px; }
+  td[width="100"] img { width: 50px; }
+  td[colspan="2"] { padding-left: 3px; padding-right: 3px; }
+  td[nowrap] { white-space: normal; }
+  .board table { font-size: 12px; }
+  .board td { padding: 1px 2px; }
+  ul { padding-left: 22px; margin-left: 0; }
+  li { line-height: 1.45; }
+}
+
+@media (max-width: 389px) {
+  font[size="6"] { font-size: 18px; }
+  img[alt="film reel"] { width: 26px; height: 26px; }
+}
+</style>
 <meta name="keywords" content="silent film, intertitles, title cards, translation, Spanish, Buster Keaton, Harold Lloyd, Charlie Chaplin, public domain">
 <script type="application/ld+json">
 {
@@ -28,28 +62,7 @@
      "@id": "https://intertitles.org/#number-please-1920"
     },
     {
-     "@id": "https://intertitles.org/#sherlock-jr-1924"
-    },
-    {
      "@id": "https://intertitles.org/#the-general-1926"
-    },
-    {
-     "@id": "https://intertitles.org/#don-juan-1926"
-    },
-    {
-     "@id": "https://intertitles.org/#faust-1926"
-    },
-    {
-     "@id": "https://intertitles.org/#the-kid-brother-1927"
-    },
-    {
-     "@id": "https://intertitles.org/#it-1927"
-    },
-    {
-     "@id": "https://intertitles.org/#seventh-heaven-1927"
-    },
-    {
-     "@id": "https://intertitles.org/#metropolis-1927"
     }
    ]
   },
@@ -126,29 +139,6 @@
   },
   {
    "@type": "Movie",
-   "@id": "https://intertitles.org/#sherlock-jr-1924",
-   "name": "Sherlock, Jr.",
-   "datePublished": "1924",
-   "director": {
-    "@type": "Person",
-    "name": "Buster Keaton"
-   },
-   "description": "A projectionist dreams himself into the picture he is showing and becomes the world's greatest detective.",
-   "inLanguage": "en",
-   "countryOfOrigin": {
-    "@type": "Country",
-    "name": "United States"
-   },
-   "isAccessibleForFree": true,
-   "license": "https://creativecommons.org/publicdomain/mark/1.0/",
-   "sameAs": "https://en.wikipedia.org/wiki/Sherlock_Jr.",
-   "actor": {
-    "@type": "Person",
-    "name": "Buster Keaton"
-   }
-  },
-  {
-   "@type": "Movie",
    "@id": "https://intertitles.org/#the-general-1926",
    "name": "The General",
    "datePublished": "1926",
@@ -175,150 +165,6 @@
    "isAccessibleForFree": true,
    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
    "sameAs": "https://en.wikipedia.org/wiki/The_General_(1926_film)"
-  },
-  {
-   "@type": "Movie",
-   "@id": "https://intertitles.org/#don-juan-1926",
-   "name": "Don Juan",
-   "datePublished": "1926",
-   "director": {
-    "@type": "Person",
-    "name": "Alan Crosland"
-   },
-   "actor": {
-    "@type": "Person",
-    "name": "John Barrymore"
-   },
-   "description": "The great lover of Renaissance Rome duels, schemes, and finally falls for the one woman who refuses him, while the Borgias plot around them.",
-   "inLanguage": "en",
-   "countryOfOrigin": {
-    "@type": "Country",
-    "name": "United States"
-   },
-   "isAccessibleForFree": true,
-   "license": "https://creativecommons.org/publicdomain/mark/1.0/",
-   "sameAs": "https://en.wikipedia.org/wiki/Don_Juan_(1926_film)"
-  },
-  {
-   "@type": "Movie",
-   "@id": "https://intertitles.org/#faust-1926",
-   "name": "Faust",
-   "datePublished": "1926",
-   "director": {
-    "@type": "Person",
-    "name": "F. W. Murnau"
-   },
-   "actor": {
-    "@type": "Person",
-    "name": "Emil Jannings"
-   },
-   "description": "Mephisto wagers with an archangel for the soul of the aged alchemist Faust, who trades his soul for youth and brings ruin on the girl he loves.",
-   "inLanguage": "de",
-   "countryOfOrigin": {
-    "@type": "Country",
-    "name": "Germany"
-   },
-   "isAccessibleForFree": true,
-   "license": "https://creativecommons.org/publicdomain/mark/1.0/",
-   "sameAs": "https://en.wikipedia.org/wiki/Faust_(1926_film)"
-  },
-  {
-   "@type": "Movie",
-   "@id": "https://intertitles.org/#the-kid-brother-1927",
-   "name": "The Kid Brother",
-   "datePublished": "1927",
-   "director": {
-    "@type": "Person",
-    "name": "Ted Wilde"
-   },
-   "actor": {
-    "@type": "Person",
-    "name": "Harold Lloyd"
-   },
-   "description": "The timid youngest son of a sheriff's family has to prove himself when a medicine show comes to town and its crooks make off with the county's money.",
-   "inLanguage": "en",
-   "countryOfOrigin": {
-    "@type": "Country",
-    "name": "United States"
-   },
-   "isAccessibleForFree": true,
-   "license": "https://creativecommons.org/publicdomain/mark/1.0/",
-   "sameAs": "https://en.wikipedia.org/wiki/The_Kid_Brother"
-  },
-  {
-   "@type": "Movie",
-   "@id": "https://intertitles.org/#it-1927",
-   "name": "It",
-   "datePublished": "1927",
-   "director": {
-    "@type": "Person",
-    "name": "Clarence G. Badger"
-   },
-   "actor": {
-    "@type": "Person",
-    "name": "Clara Bow"
-   },
-   "description": "A department-store shopgirl with that certain quality sets out to win the store's owner, and does, once a mix-up over a friend's baby is untangled.",
-   "inLanguage": "en",
-   "countryOfOrigin": {
-    "@type": "Country",
-    "name": "United States"
-   },
-   "isAccessibleForFree": true,
-   "license": "https://creativecommons.org/publicdomain/mark/1.0/",
-   "sameAs": "https://en.wikipedia.org/wiki/It_(1927_film)"
-  },
-  {
-   "@type": "Movie",
-   "@id": "https://intertitles.org/#seventh-heaven-1927",
-   "name": "7th Heaven",
-   "datePublished": "1927",
-   "director": {
-    "@type": "Person",
-    "name": "Frank Borzage"
-   },
-   "actor": [
-    {
-     "@type": "Person",
-     "name": "Janet Gaynor"
-    },
-    {
-     "@type": "Person",
-     "name": "Charles Farrell"
-    }
-   ],
-   "description": "A Paris sewer worker takes in a street girl to save her from the police; they fall in love in his garret, and the war takes him to the front.",
-   "inLanguage": "en",
-   "countryOfOrigin": {
-    "@type": "Country",
-    "name": "United States"
-   },
-   "isAccessibleForFree": true,
-   "license": "https://creativecommons.org/publicdomain/mark/1.0/",
-   "sameAs": "https://en.wikipedia.org/wiki/7th_Heaven_(1927_film)"
-  },
-  {
-   "@type": "Movie",
-   "@id": "https://intertitles.org/#metropolis-1927",
-   "name": "Metropolis",
-   "datePublished": "1927",
-   "director": {
-    "@type": "Person",
-    "name": "Fritz Lang"
-   },
-   "actor": {
-    "@type": "Person",
-    "name": "Brigitte Helm"
-   },
-   "description": "In a city split between the masters above and the workers below, the master's son follows a preacher of peace underground while his father builds a false copy of her to break the workers.",
-   "inLanguage": "de",
-   "countryOfOrigin": {
-    "@type": "Country",
-    "name": "Germany"
-   },
-   "isAccessibleForFree": true,
-   "license": "https://creativecommons.org/publicdomain/mark/1.0/",
-   "sameAs": "https://en.wikipedia.org/wiki/Metropolis_(1927_film)"
   },
   {
    "@type": "SoftwareSourceCode",
@@ -397,7 +243,7 @@ Translations are done by volunteers. Finished cards are made by designers, or ge
 <font face="Times New Roman, Times, serif" size="4"><b>The films</b></font>
 <img src="img/new.svg" align="absmiddle" width="48" alt="new">
 <br>
-<font face="Times New Roman, Times, serif" size="3">Three comedies first, then seven more. All are in the public domain in the United States.</font>
+<font face="Times New Roman, Times, serif" size="3">Three comedies to start. All are in the public domain in the United States.</font>
 </td>
 </tr>
 <tr>
@@ -413,51 +259,9 @@ Harold races the clock and a very busy telephone operator to win back the girl.<
 <i>Status: see the progress board below</i></font></td>
 </tr>
 <tr>
-<td width="100" align="center"><img src="img/magnifier.svg" width="70" alt="magnifying glass"></td>
-<td><font face="Times New Roman, Times, serif" size="3"><b>Sherlock, Jr.</b> (1924) - Buster Keaton<br>
-A projectionist dreams himself into the picture he is showing and becomes the world's greatest detective.<br>
-<i>Status: see the progress board below</i></font></td>
-</tr>
-<tr>
 <td width="100" align="center"><img src="img/filmstrip.svg" width="70" alt=""></td>
 <td><font face="Times New Roman, Times, serif" size="3"><b>The General</b> (1926) - Buster Keaton<br>
 A railroad engineer chases the spies who stole his locomotive, and his girl, across enemy lines.<br>
-<i>Status: see the progress board below</i></font></td>
-</tr>
-<tr>
-<td width="100" align="center"><img src="img/curtain.svg" width="70" alt=""></td>
-<td><font face="Times New Roman, Times, serif" size="3"><b>Don Juan</b> (1926) - John Barrymore<br>
-The great lover of Rome meets the Borgias, a hundred duels, and the one woman who says no.<br>
-<i>Status: see the progress board below</i></font></td>
-</tr>
-<tr>
-<td width="100" align="center"><img src="img/camera.svg" width="70" alt=""></td>
-<td><font face="Times New Roman, Times, serif" size="3"><b>Faust</b> (1926) - F. W. Murnau<br>
-Mephisto wagers for the soul of an old alchemist, who trades it for youth.<br>
-<i>Status: see the progress board below</i></font></td>
-</tr>
-<tr>
-<td width="100" align="center"><img src="img/bowler.svg" width="70" alt=""></td>
-<td><font face="Times New Roman, Times, serif" size="3"><b>The Kid Brother</b> (1927) - Harold Lloyd<br>
-The timid youngest son of the sheriff has to catch the medicine-show crooks who took the county's money.<br>
-<i>Status: see the progress board below</i></font></td>
-</tr>
-<tr>
-<td width="100" align="center"><img src="img/speech.svg" width="70" alt=""></td>
-<td><font face="Times New Roman, Times, serif" size="3"><b>It</b> (1927) - Clara Bow<br>
-A shopgirl with that certain quality sets out to win the man who owns the store.<br>
-<i>Status: see the progress board below</i></font></td>
-</tr>
-<tr>
-<td width="100" align="center"><img src="img/envelope.svg" width="70" alt=""></td>
-<td><font face="Times New Roman, Times, serif" size="3"><b>7th Heaven</b> (1927) - Janet Gaynor and Charles Farrell<br>
-A Paris sewer worker takes in a street girl, and the war takes him away from her.<br>
-<i>Status: see the progress board below</i></font></td>
-</tr>
-<tr>
-<td width="100" align="center"><img src="img/globe.svg" width="70" alt=""></td>
-<td><font face="Times New Roman, Times, serif" size="3"><b>Metropolis</b> (1927) - Fritz Lang<br>
-A city of masters above and workers below, and the machine-woman built to break them.<br>
 <i>Status: see the progress board below</i></font></td>
 </tr>
 </table>
@@ -475,6 +279,7 @@ A city of masters above and workers below, and the machine-woman built to break 
 <tr>
 <td colspan="2">
 <font face="Times New Roman, Times, serif" size="2">
+<div class="board">
 <table width="100%" border="1" cellpadding="4" cellspacing="0">
 <tr bgcolor="#332a1a">
 <td align="left" width="34%" nowrap><b>Film</b></td><td align="center" width="10%" nowrap><b>Cards</b></td><td align="center" width="12%" nowrap><b>Verified</b></td><td align="center" width="12%" nowrap><b>Spanish</b></td><td align="center" width="12%" nowrap><b>Designed</b></td><td align="center" width="20%" nowrap><b>Timing</b></td>
@@ -496,14 +301,6 @@ A city of masters above and workers below, and the machine-woman built to break 
 <td align="center" data-film="number-please-1920" data-field="timing">not timed</td>
 </tr>
 <tr>
-<td data-film="sherlock-jr-1924" data-field="title" nowrap>Sherlock, Jr. (1924)</td>
-<td align="center" data-film="sherlock-jr-1924" data-field="cards">&mdash;</td>
-<td align="center" data-film="sherlock-jr-1924" data-field="verified">&mdash;</td>
-<td align="center" data-film="sherlock-jr-1924" data-field="translated">&mdash;</td>
-<td align="center" data-film="sherlock-jr-1924" data-field="designed">&mdash;</td>
-<td align="center" data-film="sherlock-jr-1924" data-field="timing">not timed</td>
-</tr>
-<tr>
 <td data-film="the-general-1926" data-field="title" nowrap>The General (1926)</td>
 <td align="center" data-film="the-general-1926" data-field="cards">&mdash;</td>
 <td align="center" data-film="the-general-1926" data-field="verified">&mdash;</td>
@@ -511,55 +308,8 @@ A city of masters above and workers below, and the machine-woman built to break 
 <td align="center" data-film="the-general-1926" data-field="designed">&mdash;</td>
 <td align="center" data-film="the-general-1926" data-field="timing">not timed</td>
 </tr>
-<tr>
-<td data-film="don-juan-1926" data-field="title" nowrap>Don Juan (1926)</td>
-<td align="center" data-film="don-juan-1926" data-field="cards">&mdash;</td>
-<td align="center" data-film="don-juan-1926" data-field="verified">&mdash;</td>
-<td align="center" data-film="don-juan-1926" data-field="translated">&mdash;</td>
-<td align="center" data-film="don-juan-1926" data-field="designed">&mdash;</td>
-<td align="center" data-film="don-juan-1926" data-field="timing">not timed</td>
-</tr>
-<tr>
-<td data-film="faust-1926" data-field="title" nowrap>Faust (1926)</td>
-<td align="center" data-film="faust-1926" data-field="cards">&mdash;</td>
-<td align="center" data-film="faust-1926" data-field="verified">&mdash;</td>
-<td align="center" data-film="faust-1926" data-field="translated">&mdash;</td>
-<td align="center" data-film="faust-1926" data-field="designed">&mdash;</td>
-<td align="center" data-film="faust-1926" data-field="timing">not timed</td>
-</tr>
-<tr>
-<td data-film="the-kid-brother-1927" data-field="title" nowrap>The Kid Brother (1927)</td>
-<td align="center" data-film="the-kid-brother-1927" data-field="cards">&mdash;</td>
-<td align="center" data-film="the-kid-brother-1927" data-field="verified">&mdash;</td>
-<td align="center" data-film="the-kid-brother-1927" data-field="translated">&mdash;</td>
-<td align="center" data-film="the-kid-brother-1927" data-field="designed">&mdash;</td>
-<td align="center" data-film="the-kid-brother-1927" data-field="timing">not timed</td>
-</tr>
-<tr>
-<td data-film="it-1927" data-field="title" nowrap>It (1927)</td>
-<td align="center" data-film="it-1927" data-field="cards">&mdash;</td>
-<td align="center" data-film="it-1927" data-field="verified">&mdash;</td>
-<td align="center" data-film="it-1927" data-field="translated">&mdash;</td>
-<td align="center" data-film="it-1927" data-field="designed">&mdash;</td>
-<td align="center" data-film="it-1927" data-field="timing">not timed</td>
-</tr>
-<tr>
-<td data-film="seventh-heaven-1927" data-field="title" nowrap>7th Heaven (1927)</td>
-<td align="center" data-film="seventh-heaven-1927" data-field="cards">&mdash;</td>
-<td align="center" data-film="seventh-heaven-1927" data-field="verified">&mdash;</td>
-<td align="center" data-film="seventh-heaven-1927" data-field="translated">&mdash;</td>
-<td align="center" data-film="seventh-heaven-1927" data-field="designed">&mdash;</td>
-<td align="center" data-film="seventh-heaven-1927" data-field="timing">not timed</td>
-</tr>
-<tr>
-<td data-film="metropolis-1927" data-field="title" nowrap>Metropolis (1927)</td>
-<td align="center" data-film="metropolis-1927" data-field="cards">&mdash;</td>
-<td align="center" data-film="metropolis-1927" data-field="verified">&mdash;</td>
-<td align="center" data-film="metropolis-1927" data-field="translated">&mdash;</td>
-<td align="center" data-film="metropolis-1927" data-field="designed">&mdash;</td>
-<td align="center" data-film="metropolis-1927" data-field="timing">not timed</td>
-</tr>
 </table>
+</div>
 <p><i>Updated: <span id="status-updated">&mdash;</span></i></p>
 </font>
 </td>
