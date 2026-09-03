@@ -16,7 +16,7 @@ languages:
   targets: [es-MX]
 
 print:
-  status: UNKNOWN
+  status: none        # none | reference | projection (docs/design.md, Text first)
   source: ""
   file: ""
   sha256: ""

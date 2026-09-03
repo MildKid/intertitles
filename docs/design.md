@@ -64,7 +64,7 @@ A card:
 
 ```yaml
 - id: "042"                 # stable forever; insert later cards as "042a", never renumber
-  in: "00:07:12.500"        # timecode in the reference print
+  in: "00:07:12.500"        # timecode in the reference print; omit both until timed
   out: "00:07:16.250"
   type: dialogue            # title | narrative | dialogue | insert | credit
   speaker: The Girl's Father
@@ -84,6 +84,21 @@ The id is the msgctxt in the PO file, the filename of the rendered PNG, the file
 designer hands back, and the thing the assembler matches on. One key, no lookup tables.
 Two cards with identical text ("Come in.") stay separate strings in Crowdin because the
 context differs; translators can copy between them.
+
+### Text first, timing second
+
+Translation needs the text and the card order, and nothing else. So a film's cards can
+be transcribed from any public-domain copy and sent to Crowdin before anyone has the
+print that will be projected. `in` and `out` are optional until then; `lint.py` counts
+untimed cards, `export_po.py` tells translators the duration is not yet known, and
+`assemble.py` skips them. Timing against the projection print is a separate, later pass
+that touches only the timecodes and the `print:` block. Reading-speed checks switch on
+as cards get timed, and translations that turn out too long get flagged then rather
+than guessed at now.
+
+`print.status` records what the timecodes mean: `none` (untimed), `reference` (timed
+against some other copy; durations are close but the file differs), `projection` (timed
+against the file that will be shown).
 
 ### Why timecodes are tied to a specific print
 

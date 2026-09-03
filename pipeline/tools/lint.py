@@ -29,6 +29,7 @@ def lint_film(film: Film) -> tuple[list[str], list[str]]:
     warns: list[str] = []
     seen: set[str] = set()
     prev_out = -1.0
+    untimed = 0
     for c in film.cards:
         tag = f"{film.slug}#{c.id}"
         if c.id in seen:
@@ -36,15 +37,25 @@ def lint_film(film: Film) -> tuple[list[str], list[str]]:
         seen.add(c.id)
         if c.type not in CARD_TYPES:
             errors.append(f"{tag}: type {c.type!r} not in {CARD_TYPES}")
-        if c.tc_out <= c.tc_in:
-            errors.append(f"{tag}: out ({c.tc_out}) <= in ({c.tc_in})")
-        if c.tc_in < prev_out:
-            errors.append(f"{tag}: overlaps previous card (starts {c.tc_in:.2f} < prev out {prev_out:.2f})")
-        prev_out = max(prev_out, c.tc_out)
+        if c.timed:
+            if c.tc_out <= c.tc_in:
+                errors.append(f"{tag}: out ({c.tc_out}) <= in ({c.tc_in})")
+            if c.tc_in < prev_out:
+                errors.append(f"{tag}: overlaps previous card (starts {c.tc_in:.2f} < prev out {prev_out:.2f})")
+            prev_out = max(prev_out, c.tc_out)
+        elif (c.tc_in is None) != (c.tc_out is None):
+            errors.append(f"{tag}: has one of in/out but not both")
+        else:
+            untimed += 1
         if not c.text.strip():
             warns.append(f"{tag}: empty text (not exported)")
             continue
         check_text(tag, film.source_lang, c.text, c.duration, errors, warns)
+
+    if untimed:
+        warns.append(f"{film.slug}: {untimed} untimed cards (text-only; reading speed unchecked until timed)")
+    if film.cards and film.timing_status == "reference":
+        warns.append(f"{film.slug}: timecodes are against a reference copy, not the projection print")
 
     for lang in film.target_langs:
         tr = load_translations(film.slug, lang)
@@ -61,17 +72,18 @@ def lint_film(film: Film) -> tuple[list[str], list[str]]:
             tag = f"{film.slug}#{c.id} [{lang}]"
             check_text(tag, lang, t, c.duration, errors, warns)
             both = len(c.text.replace("\n", " ")) + len(t.replace("\n", " "))
-            if c.duration > 0 and both / c.duration > CPS_WARN * 1.6:
+            if c.duration and both / c.duration > CPS_WARN * 1.6:
                 warns.append(f"{tag}: dense bilingual card ({both} chars in {c.duration:.1f}s) — designer should weight one language")
     return errors, warns
 
 
-def check_text(tag: str, lang: str, text: str, seconds: float, errors: list[str], warns: list[str]) -> None:
-    rate = cps(text, seconds)
-    if rate > CPS_ERROR:
-        errors.append(f"{tag}: {rate:.0f} cps in {lang} (limit {CPS_ERROR:.0f}) — shorten or check timecodes")
-    elif rate > CPS_WARN:
-        warns.append(f"{tag}: {rate:.0f} cps in {lang} (comfortable ≤ {CPS_WARN:.0f})")
+def check_text(tag: str, lang: str, text: str, seconds: float | None, errors: list[str], warns: list[str]) -> None:
+    if seconds is not None:
+        rate = cps(text, seconds)
+        if rate > CPS_ERROR:
+            errors.append(f"{tag}: {rate:.0f} cps in {lang} (limit {CPS_ERROR:.0f}) — shorten or check timecodes")
+        elif rate > CPS_WARN:
+            warns.append(f"{tag}: {rate:.0f} cps in {lang} (comfortable ≤ {CPS_WARN:.0f})")
     lines = text.split("\n")
     if len(lines) > MAX_LINES:
         warns.append(f"{tag}: {len(lines)} lines in {lang} (stacked layout fits {MAX_LINES})")

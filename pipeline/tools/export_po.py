@@ -22,7 +22,7 @@ def translator_comment(film: Film, c: Card) -> str:
     bits = [f"Card {c.index} of {len(film.cards)}", c.type]
     if c.speaker:
         bits.append(f"speaker: {c.speaker}")
-    bits.append(f"{c.duration:.1f}s on screen")
+    bits.append(f"{c.duration:.1f}s on screen" if c.timed else "duration not yet timed")
     lines = [" · ".join(bits)]
     if c.context:
         lines.append(f"Context: {c.context}")

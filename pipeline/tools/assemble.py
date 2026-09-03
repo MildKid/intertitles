@@ -49,6 +49,9 @@ def collect_cards(film: Film, lang: str, layout: str) -> list[tuple[object, Path
     auto_dir = OUT / film.slug / lang / layout
     chosen = []
     for c in film.cards:
+        if not c.timed:
+            print(f"  {c.id}  untimed, skipped")
+            continue
         d = designer_card(film.slug, lang, c.id)
         if d:
             chosen.append((c, d, "designer"))

@@ -32,8 +32,10 @@ CARD_TYPES = ("title", "narrative", "dialogue", "insert", "credit")
 _TC = re.compile(r"^(?:(\d+):)?(\d{1,2}):(\d{1,2})(?:[.,](\d{1,3}))?$")
 
 
-def parse_tc(value: str | float | int) -> float:
-    """'HH:MM:SS.mmm' or 'MM:SS.mmm' (or a bare number of seconds) -> seconds."""
+def parse_tc(value: str | float | int | None) -> float | None:
+    """'HH:MM:SS.mmm' or 'MM:SS.mmm' (or a bare number of seconds) -> seconds. None/'' -> None."""
+    if value is None or (isinstance(value, str) and not value.strip()):
+        return None
     if isinstance(value, (int, float)):
         return float(value)
     m = _TC.match(str(value).strip())
@@ -53,8 +55,8 @@ def fmt_tc(seconds: float) -> str:
 @dataclass
 class Card:
     id: str
-    tc_in: float
-    tc_out: float
+    tc_in: float | None      # None = not yet timed against the print
+    tc_out: float | None
     text: str
     type: str = "dialogue"
     speaker: str = ""
@@ -63,8 +65,12 @@ class Card:
     index: int = 0
 
     @property
-    def duration(self) -> float:
-        return self.tc_out - self.tc_in
+    def timed(self) -> bool:
+        return self.tc_in is not None and self.tc_out is not None
+
+    @property
+    def duration(self) -> float | None:
+        return (self.tc_out - self.tc_in) if self.timed else None
 
     @property
     def key(self) -> str:
@@ -95,6 +101,12 @@ class Film:
         return list(self.meta.get("languages", {}).get("targets", []))
 
     @property
+    def timing_status(self) -> str:
+        """'projection' once cards are timed against the file that will be projected;
+        'reference' when timed against some other copy; 'none' when untimed."""
+        return (self.meta.get("print") or {}).get("status") or "none"
+
+    @property
     def frame(self) -> tuple[int, int]:
         f = self.meta.get("render", {}).get("frame", "1920x1080")
         w, h = f.lower().split("x")
@@ -117,8 +129,8 @@ def load_film(slug: str) -> Film:
         cards.append(
             Card(
                 id=str(raw["id"]),
-                tc_in=parse_tc(raw["in"]),
-                tc_out=parse_tc(raw["out"]),
+                tc_in=parse_tc(raw.get("in")),
+                tc_out=parse_tc(raw.get("out")),
                 text=str(raw.get("text", "")).rstrip("\n"),
                 type=raw.get("type", "dialogue"),
                 speaker=raw.get("speaker", "") or "",

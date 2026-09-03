@@ -19,7 +19,7 @@ languages:
 # The timecodes in cards.yaml belong to ONE specific file. Fill this in when the print is
 # chosen (the copy the Brook will actually project, if possible). Blank = unknown.
 print:
-  status: UNKNOWN
+  status: none        # none | reference | projection (docs/design.md, Text first)
   source: ""          # e.g. archive.org identifier, disc, or who supplied the file
   file: ""            # local path, outside the repo
   sha256: ""          # tools/assemble.py checks this (first 64 MB)

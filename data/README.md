@@ -14,6 +14,6 @@ locales/<lang>/<slug>.po      translations, written back by Crowdin
 fonts/                        OFL fonts referenced from style.css
 ```
 
-Languages use Crowdin locale codes (`es-MX`). Card ids are stable forever; insert later
+Languages use Crowdin locale codes (`es-MX`). `in`/`out` are optional until the film is timed; text and order are enough for translation. Card ids are stable forever; insert later
 cards as `042a`, never renumber. Guidelines for contributors: `docs/translating.md`,
 `docs/designing.md`. `_example` is a fixture used by the pipeline tests.

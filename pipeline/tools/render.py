@@ -107,6 +107,7 @@ def render(film: Film, lang: str | None, layout: str, only: set[str] | None) -> 
                 continue
             if not c.text.strip():
                 continue
+            # untimed cards still render: designers and translators can look at them
             tr = translations.get(c.id)
             if layout == "translation-only" and not tr:
                 print(f"  skip {c.id}: no {lang} translation")

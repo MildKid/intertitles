@@ -13,7 +13,7 @@ languages:
   source: en
   targets: [es-MX]
 print:
-  status: synthetic
+  status: projection   # the fixture clip is its own projection print
   source: pipeline/tests/make_clip.py
   file: ""
   sha256: ""
