@@ -1,4 +1,5 @@
 # Fixture cards. Timecodes match the synthetic clip from pipeline/tests/make_clip.py.
+# Schema: data/README.md. Every field a real film's cards.yaml carries appears here once.
 film: _example
 cards:
   - id: "001"
@@ -8,6 +9,14 @@ cards:
     text: |-
       The Example Reel
     context: Main title card.
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
 
   - id: "002"
     in: "00:00:04.000"
@@ -17,6 +26,14 @@ cards:
       Morning. The projectionist
       has fallen asleep again.
     context: Scene-setting card before the first shot of the booth.
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
 
   - id: "003"
     in: "00:00:08.000"
@@ -26,3 +43,11 @@ cards:
     text: |-
       "Wake up! The picture's on."
     context: Shouted; the manager is angry but not cruel. Keep it short, it's a 1.5-second card.
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high

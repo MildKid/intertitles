@@ -18,6 +18,15 @@ CLIP = OUT / "print.mp4"
 PY = sys.executable
 
 
+def font_arg() -> str:
+    """drawtext needs a font file where fontconfig is absent (Windows ffmpeg builds)."""
+    for f in (r"C:/Windows/Fonts/arial.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+              "/System/Library/Fonts/Supplemental/Arial.ttf"):
+        if Path(f).exists():
+            return "fontfile=" + f.replace(":", "\\\\:") + ":"   # a drive colon needs two escape levels in a filtergraph
+    return ""
+
+
 def make_clip() -> Path:
     OUT.mkdir(parents=True, exist_ok=True)
     # test pattern, with the card windows blacked out and labelled so a miss is obvious
@@ -25,7 +34,7 @@ def make_clip() -> Path:
         "drawbox=enable='between(t,1,3.5)':x=0:y=0:w=iw:h=ih:color=black:t=fill,"
         "drawbox=enable='between(t,4,7)':x=0:y=0:w=iw:h=ih:color=black:t=fill,"
         "drawbox=enable='between(t,8,9.5)':x=0:y=0:w=iw:h=ih:color=black:t=fill,"
-        "drawtext=enable='between(t,1,3.5)+between(t,4,7)+between(t,8,9.5)':"
+        "drawtext=enable='between(t,1,3.5)+between(t,4,7)+between(t,8,9.5)':" + font_arg() +
         "text='ORIGINAL CARD (should be covered)':fontcolor=white:fontsize=36:x=(w-tw)/2:y=h-80"
     )
     subprocess.run(
@@ -56,6 +65,7 @@ def main() -> int:
         subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", str(t), "-i",
                         str(OUT / "_example.es-MX.stacked.mp4"), "-frames:v", "1", str(png)], check=True)
         print(f"check -> {png}")
+    run("pipeline/tests/test_scrub.py")      # the card-verification server, on a temp copy of the data
     return 0
 
 

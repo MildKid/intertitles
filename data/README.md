@@ -14,6 +14,44 @@ locales/<lang>/<slug>.po      translations, written back by Crowdin
 fonts/                        OFL fonts referenced from style.css
 ```
 
-Languages use Crowdin locale codes (`es-MX`). `in`/`out` are optional until the film is timed; text and order are enough for translation. Card ids are stable forever; insert later
+Languages use Crowdin locale codes (`es-MX`). `in`/`out` are optional until the film is
+timed; text and order are enough for translation. Card ids are stable forever; insert later
 cards as `042a`, never renumber. Guidelines for contributors: `docs/translating.md`,
 `docs/designing.md`. `_example` is a fixture used by the pipeline tests.
+
+## Card schema
+
+```yaml
+- id: "042"                 # stable forever; insert later cards as "042a"
+  in: "00:07:12.500"        # timecode in the print named in film.yaml; omit both until timed
+  out: "00:07:16.250"
+  type: dialogue            # title | narrative | dialogue | insert | credit
+  speaker: The Girl's Father
+  text: |-
+    "You stole my watch."   # line breaks are the card's line breaks; sentence case even
+                            # when the card is set in capitals (see style.all_caps)
+  context: He is wrong, and the audience knows it.   # shown to translators
+  verified: false           # true only after a person checked the card against the frame
+  style:                    # how the original card looks; blank = unknown
+    frame: none             # none | rule | ornate | illustrated
+    align: center           # center | left
+    quote_style: double straight   # the marks used around speech, in words
+    emphasis: ""            # italics, a larger word, small caps; described
+    all_caps: false         # the card is set entirely in capitals
+  confidence: high          # high | medium | low, from the transcription pass
+  doubt: ""                 # one line on what the reading is unsure about; present only when not blank
+```
+
+`verified`, `style`, `confidence`, and `doubt` come from the transcription pass
+(`pipeline/tools/transcribe.py`) and the verification tool (`pipeline/tools/scrub.py`).
+Blank means unknown; nothing here is guessed. Tools that write `cards.yaml` keep this key
+order and the `|-` text blocks so the file stays hand-readable and diffs stay small.
+
+## The print block in film.yaml
+
+`print.status` says what the timecodes mean: `none` (untimed), `reference` (timed against
+some public copy; durations are close, the file differs), `projection` (timed against the
+file that will be shown). `print.source`, `source_file`, `file`, `sha256` (first 64 MB),
+`fps`, `width`, `height`, `duration`, `size_bytes`, and `why` record the copy actually
+used and the reason it was chosen. The file itself lives under `prints/` and is never
+committed.

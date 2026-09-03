@@ -21,7 +21,7 @@ Three parts, each self-contained, each with its own README:
 
 ```
 pipeline/   the toolchain: generic code that works for any silent film
-  tools/      extract -> export_po -> lint -> render -> assemble
+  tools/      extract -> transcribe -> scrub -> export_po -> lint -> render -> assemble; status
   templates/  the automatic card template (card.html)
   tests/      make_clip.py builds a synthetic print and runs the whole pipeline on it
 data/       the film data: what volunteers, designers, and transcribers touch
@@ -55,12 +55,15 @@ python pipeline/tests/make_clip.py        # end-to-end smoke test on the fixture
 
 ```
 python pipeline/tools/extract.py <slug> --print path/to/print.mp4   # candidate cards + thumbnails
-#   ... transcribe into data/films/<slug>/cards.yaml, fill film.yaml print: block ...
+python pipeline/tools/transcribe.py <slug> --prepare                 # grabs + reader prompts; then --merge, --commit
+#   ... fill the film.yaml print: block (source, sha256, fps) ...
+python pipeline/tools/scrub.py <slug>                                # check each card against the print, in the browser
 python pipeline/tools/export_po.py <slug>                            # POT + merge into each .po
 #   ... translations arrive from Crowdin into data/locales/<lang>/<slug>.po ...
 python pipeline/tools/lint.py <slug>                                 # reading speed, lines, missing
 python pipeline/tools/render.py <slug> --lang es-MX                  # automatic cards -> out/
 python pipeline/tools/assemble.py <slug> --lang es-MX --print path/to/print.mp4 --preview 00:02:00 00:03:00
+python pipeline/tools/status.py                                     # site/status.json for the progress board
 ```
 
 Prints are never committed. `docs/design.md` explains the data model, the pipeline, and

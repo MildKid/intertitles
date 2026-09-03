@@ -14,6 +14,7 @@ import re
 from dataclasses import dataclass, field
 from pathlib import Path
 
+import polib
 import yaml
 
 ROOT = Path(__file__).resolve().parents[2]          # repo root
@@ -26,8 +27,17 @@ FILMS = DATA / "films"
 LOCALES = DATA / "locales"
 TEMPLATES = PIPELINE / "templates"
 OUT = Path(os.environ.get("INTERTITLES_OUT", ROOT / "out")).resolve()
+PRINTS = Path(os.environ.get("INTERTITLES_PRINTS", ROOT / "prints")).resolve()   # never committed
+VIDEO_EXTS = (".mp4", ".mkv", ".webm", ".mov", ".avi", ".ogv", ".m4v")
 
 CARD_TYPES = ("title", "narrative", "dialogue", "insert", "credit")
+FRAME_STYLES = ("none", "rule", "ornate", "illustrated")
+ALIGNS = ("center", "left")
+CONFIDENCES = ("high", "medium", "low")
+STYLE_KEYS = ("frame", "align", "quote_style", "emphasis", "all_caps")
+# Key order used when a tool writes cards.yaml. Unknown keys follow, in the order found.
+CARD_KEY_ORDER = ("id", "in", "out", "type", "speaker", "text", "context", "notes",
+                  "verified", "style", "confidence", "doubt")
 
 _TC = re.compile(r"^(?:(\d+):)?(\d{1,2}):(\d{1,2})(?:[.,](\d{1,3}))?$")
 
@@ -63,6 +73,10 @@ class Card:
     context: str = ""
     notes: str = ""
     index: int = 0
+    verified: bool = False           # True only after a person checked the card against the frame
+    style: dict = field(default_factory=dict)   # frame, align, quote_style, emphasis, all_caps; blank = unknown
+    confidence: str = ""             # high | medium | low, from the transcription pass; blank = untranscribed
+    doubt: str = ""                  # one line on what the reading is unsure about
 
     @property
     def timed(self) -> bool:
@@ -137,40 +151,217 @@ def load_film(slug: str) -> Film:
                 context=(raw.get("context", "") or "").strip(),
                 notes=(raw.get("notes", "") or "").strip(),
                 index=i,
+                verified=bool(raw.get("verified", False)),
+                style=dict(raw.get("style") or {}),
+                confidence=str(raw.get("confidence") or ""),
+                doubt=str(raw.get("doubt") or "").strip(),
             )
         )
     return Film(slug=slug, meta=meta, cards=cards)
 
 
-def po_path(slug: str, lang: str) -> Path:
-    return LOCALES / lang / f"{slug}.po"
+def load_cards_doc(slug: str) -> dict:
+    """The raw cards.yaml document, for tools that edit it and write it back."""
+    p = FILMS / slug / "cards.yaml"
+    doc = yaml.safe_load(p.read_text(encoding="utf-8")) if p.exists() else None
+    doc = doc or {}
+    doc.setdefault("film", slug)
+    doc["cards"] = list(doc.get("cards") or [])
+    return doc
 
 
 def pot_path(slug: str) -> Path:
     return LOCALES / "templates" / f"{slug}.pot"
 
 
-def load_translations(slug: str, lang: str) -> dict[str, str]:
-    """msgctxt (card id) -> translated text. Missing file -> {}. Fuzzy entries are skipped."""
-    import polib
+def po_path(slug: str, lang: str) -> Path:
+    return LOCALES / lang / f"{slug}.po"
 
+
+def load_translations(slug: str, lang: str) -> dict[str, str]:
+    """Card id -> translated text for one target language: non-fuzzy, non-empty entries
+    only, keyed by msgctxt (the card id). {} when there is no .po file yet."""
     p = po_path(slug, lang)
     if not p.exists():
         return {}
     po = polib.pofile(str(p), encoding="utf-8")
     out: dict[str, str] = {}
     for e in po:
-        if e.obsolete or "fuzzy" in e.flags or not e.msgstr:
+        if e.obsolete or "fuzzy" in e.flags or not e.msgstr or not e.msgctxt:
             continue
-        if e.msgctxt:
-            out[e.msgctxt] = e.msgstr
+        out[e.msgctxt] = e.msgstr
     return out
 
 
+DESIGNER_EXTS = (".png", ".webp", ".jpg")
+
+
 def designer_card(slug: str, lang: str, card_id: str) -> Path | None:
-    """A hand-made card, if a designer has delivered one. Filename == card id."""
-    for ext in ("png", "webp", "jpg"):
-        p = FILMS / slug / "cards" / lang / f"{card_id}.{ext}"
+    """A designer's hand-made card for this id, if one has been dropped in
+    data/films/<slug>/cards/<lang>/. None if only the automatic render exists."""
+    d = FILMS / slug / "cards" / lang
+    for ext in DESIGNER_EXTS:
+        p = d / f"{card_id}{ext}"
         if p.exists():
             return p
     return None
+
+
+def id_sort_key(card_id: str) -> tuple[int, str]:
+    """'042' < '042a' < '043'. Non-numeric ids sort after numeric ones, alphabetically."""
+    m = re.match(r"^(\d+)(.*)$", str(card_id))
+    if not m:
+        return (10**9, str(card_id))
+    return (int(m.group(1)), m.group(2))
+
+
+def _scalar(value) -> str:
+    """One YAML scalar on one line, quoted only when YAML needs it."""
+    if value is None:
+        return ""
+    if isinstance(value, bool):
+        return "true" if value else "false"
+    if isinstance(value, (int, float)):
+        return str(value)
+    s = str(value)
+    if s == "":
+        return '""'
+    dumped = yaml.safe_dump(s, allow_unicode=True, width=10**6, default_style=None).rstrip("\n")
+    if dumped.endswith("\n..."):
+        dumped = dumped[: -len("\n...")]
+    return dumped
+
+
+def _quoted(value) -> str:
+    """Always double-quoted: ids and timecodes read as strings no matter what they look like."""
+    if value is None or value == "":
+        return '""'
+    return '"' + str(value).replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+
+def _emit_card(raw: dict, out: list[str]) -> None:
+    ind = "    "
+    first = True
+    keys = [k for k in CARD_KEY_ORDER if k in raw] + [k for k in raw if k not in CARD_KEY_ORDER]
+    for k in keys:
+        v = raw[k]
+        lead = "  - " if first else ind
+        if k in ("in", "out") and (v is None or v == ""):
+            continue                          # untimed card: omit in/out entirely
+        if k in ("speaker", "doubt", "notes") and (v is None or v == ""):
+            continue                          # blank optional line adds nothing
+        first = False
+        if k in ("id", "in", "out"):
+            out.append(f"{lead}{k}: {_quoted(v)}")
+        elif k == "text":
+            text = "" if v is None else str(v).rstrip("\n")
+            if text == "":
+                out.append(f'{lead}text: ""')
+            else:
+                out.append(f"{lead}text: |2-" if text[0] == " " else f"{lead}text: |-")  # leading space needs an indent indicator
+                for line in text.split("\n"):
+                    out.append(f"{ind}  {line}" if line.strip() else "")
+        elif k == "style":
+            st = dict(v or {})
+            out.append(f"{lead}style:")
+            for sk in list(STYLE_KEYS) + [x for x in st if x not in STYLE_KEYS]:
+                out.append(f"{ind}  {sk}: {_scalar(st.get(sk))}")
+        elif isinstance(v, (dict, list)):
+            block = yaml.safe_dump({k: v}, allow_unicode=True, sort_keys=False, width=10**6).rstrip("\n")
+            for j, line in enumerate(block.split("\n")):
+                out.append((lead if j == 0 else ind) + line)
+        else:
+            out.append(f"{lead}{k}: {_scalar(v)}")
+
+
+def dump_cards(doc: dict, header: str | None = None) -> str:
+    """cards.yaml text in the house layout: fixed key order, `|-` text blocks, one blank line
+    between cards. Round-trips through yaml.safe_load."""
+    out: list[str] = []
+    if header:
+        out.extend(f"# {line}".rstrip() for line in header.split("\n"))
+    out.append(f"film: {_scalar(doc.get('film'))}")
+    cards = list(doc.get("cards") or [])
+    for k, v in doc.items():
+        if k in ("film", "cards"):
+            continue
+        out.append(yaml.safe_dump({k: v}, allow_unicode=True, sort_keys=False, width=10**6).rstrip("\n"))
+    if not cards:
+        out.append("cards: []")
+        return "\n".join(out) + "\n"
+    out.append("cards:")
+    for i, raw in enumerate(cards):
+        if i:
+            out.append("")
+        _emit_card(raw, out)
+    return "\n".join(out) + "\n"
+
+
+CARDS_HEADER = ("Intertitle cards, in film order. Schema: data/README.md and films/_example/cards.yaml.\n"
+                "Written by the pipeline (transcribe.py, scrub.py); hand edits are fine, key order is kept.")
+
+
+def write_cards(slug: str, doc: dict, header: str | None = CARDS_HEADER) -> Path:
+    text = dump_cards(doc, header)
+    yaml.safe_load(text)                      # refuse to write something that does not parse
+    p = FILMS / slug / "cards.yaml"
+    p.parent.mkdir(parents=True, exist_ok=True)
+    tmp = p.with_suffix(".yaml.tmp")
+    tmp.write_text(text, encoding="utf-8", newline="\n")
+    tmp.replace(p)
+    return p
+
+
+def find_print(slug: str, meta: dict, override: str | None = None) -> Path | None:
+    """The local print to read: an explicit path, else film.yaml's print.file, else the first
+    video under prints/<slug>.* or prints/<slug>/. None when nothing is there."""
+    if override:
+        p = Path(override)
+        return p if p.exists() else None
+    rec = (meta.get("print") or {}).get("file") or ""
+    if rec:
+        p = Path(rec)
+        if not p.is_absolute():
+            p = ROOT / p
+        if p.exists():
+            return p
+    for ext in VIDEO_EXTS:
+        p = PRINTS / f"{slug}{ext}"
+        if p.exists():
+            return p
+    d = PRINTS / slug
+    if d.is_dir():
+        for p in sorted(d.iterdir()):
+            if p.suffix.lower() in VIDEO_EXTS:
+                return p
+    return None
+
+
+def sha256_head(path: Path, limit_mb: int = 64) -> str:
+    """Hash of the first N MB: identifies a print without reading a multi-GB file.
+    Same figure assemble.py checks against film.yaml."""
+    import hashlib
+
+    h = hashlib.sha256()
+    with path.open("rb") as f:
+        h.update(f.read(limit_mb * 1024 * 1024))
+    return h.hexdigest()
+
+
+def probe(path: Path) -> dict:
+    """ffprobe the first video stream: width, height, fps (float), duration (seconds)."""
+    import json
+    import subprocess
+
+    out = subprocess.run(
+        ["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
+         "stream=width,height,r_frame_rate,avg_frame_rate:format=duration", "-of", "json", str(path)],
+        check=True, capture_output=True, text=True,
+    ).stdout
+    j = json.loads(out)
+    st = (j.get("streams") or [{}])[0]
+    rate = st.get("avg_frame_rate") or st.get("r_frame_rate") or "0/1"
+    num, _, den = rate.partition("/")
+    fps = float(num) / float(den or 1) if float(den or 1) else 0.0
+    return {"width": st.get("width"), "height": st.get("height"), "fps": round(fps, 3),
+            "duration": float((j.get("format") or {}).get("duration") or 0)}
