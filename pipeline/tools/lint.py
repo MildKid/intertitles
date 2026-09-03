@@ -1,7 +1,7 @@
 """Sanity checks on cards and translations. Exit 1 on errors; warnings are advisory.
 
-    python tools/lint.py                    # every film, every target language
-    python tools/lint.py sherlock-jr-1924
+    python pipeline/tools/lint.py                    # every film, every target language
+    python pipeline/tools/lint.py sherlock-jr-1924
 
 Reading speed uses characters per second (cps), the same measure subtitlers use.
 Each viewer reads only their own language, so cps is checked per language, plus a

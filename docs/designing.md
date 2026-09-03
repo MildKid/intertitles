@@ -6,10 +6,10 @@ For the typographers and designers who turn a translation into a finished intert
 
 Per film, from the maintainer:
 
-- `films/<slug>/film.yaml`: frame size (`render.frame`, usually 1920x1080) and notes on
+- `data/films/<slug>/film.yaml`: frame size (`render.frame`, usually 1920x1080) and notes on
   the original card style.
-- `films/<slug>/cards.yaml`: every card with id, timecodes, type, speaker, English text.
-- `locales/<lang>/<slug>.po`: the translations, keyed by card id.
+- `data/films/<slug>/cards.yaml`: every card with id, timecodes, type, speaker, English text.
+- `data/locales/<lang>/<slug>.po`: the translations, keyed by card id.
 - Reference frames of the original cards from the print (`out/<slug>/extract/<id>.jpg`,
   or a folder the maintainer sends).
 - The automatic renders (`out/<slug>/<lang>/stacked/<id>.png`) as a starting point.
@@ -19,14 +19,14 @@ Per film, from the maintainer:
 PNG files, one per card, at the frame size, named by card id:
 
 ```
-films/<slug>/cards/<lang>/042.png
+data/films/<slug>/cards/<lang>/042.png
 ```
 
 That is the whole contract. The assembler uses your file for card 042 and the automatic
 render for every card you did not do. You can deliver ten cards or all of them.
 
-If you would rather work in CSS than in an image editor, edit `films/<slug>/style.css`
-and rerun `python tools/render.py <slug> --lang es-MX`. Fonts: put the file in `fonts/`
+If you would rather work in CSS than in an image editor, edit `data/films/<slug>/style.css`
+and rerun `python pipeline/tools/render.py <slug> --lang es-MX`. Fonts: put the file in `data/fonts/`
 and reference it with `@font-face`; free (OFL) fonts only, so the repo can stay public.
 
 ## Constraints
@@ -53,6 +53,6 @@ and reference it with `@font-face`; free (OFL) fonts only, so the repo can stay 
 ## Versions
 
 Keep your working files (Affinity, Illustrator, Photoshop, whatever) out of the repo or
-in `films/<slug>/cards/<lang>/src/`; only the PNGs are used. If the translation changes
+in `data/films/<slug>/cards/<lang>/src/`; only the PNGs are used. If the translation changes
 after you have made the card, the maintainer will tell you which ids; the PO file marks
 changed strings as fuzzy.

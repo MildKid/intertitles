@@ -12,7 +12,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "out" / "_example"
 CLIP = OUT / "print.mp4"
 PY = sys.executable
@@ -46,10 +46,10 @@ def main() -> int:
     make_clip()
     if "--clip" in sys.argv:
         return 0
-    run("tools/export_po.py", "_example")
-    run("tools/lint.py", "_example")
-    run("tools/render.py", "_example", "--lang", "es-MX")
-    run("tools/assemble.py", "_example", "--lang", "es-MX", "--print", str(CLIP))
+    run("pipeline/tools/export_po.py", "_example")
+    run("pipeline/tools/lint.py", "_example")
+    run("pipeline/tools/render.py", "_example", "--lang", "es-MX")
+    run("pipeline/tools/assemble.py", "_example", "--lang", "es-MX", "--print", str(CLIP))
     # frame grabs at the middle of each card for eyeballing
     for name, t in (("001", 2.2), ("002", 5.5), ("003", 8.7), ("gap", 3.75)):
         png = OUT / f"check-{name}.jpg"

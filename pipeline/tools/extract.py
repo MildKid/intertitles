@@ -1,6 +1,6 @@
 """First pass at finding the intertitle cards in a print.
 
-    python tools/extract.py <slug> --print "D:/prints/sherlock-jr.mp4"
+    python pipeline/tools/extract.py <slug> --print "D:/prints/sherlock-jr.mp4"
 
 Writes out/<slug>/extract/candidates.yaml (a cards.yaml-shaped list with empty text)
 and one thumbnail per candidate (out/<slug>/extract/<id>.jpg) for transcription.
@@ -11,7 +11,7 @@ Tinted or bordered cards (Sherlock Jr. has ornamented cards) may need the thresh
 loosened with --dark and --bright; check the thumbnails and rerun.
 
 What this does not do: read the text. Transcribe from the thumbnails (a human, or a
-vision model pass), paste into films/<slug>/cards.yaml, then run lint.py. Timecodes here
+vision model pass), paste into data/films/<slug>/cards.yaml, then run lint.py. Timecodes here
 are +/- one sample interval; tighten them against the print before locking the film.
 """
 from __future__ import annotations
@@ -103,7 +103,7 @@ def main() -> int:
 
     doc = {"film": film.slug, "print": str(print_path), "sampled_fps": a.fps,
            "note": "Candidate cards. Transcribe from the thumbnails, drop false positives, "
-                   "tighten timecodes, then move into films/<slug>/cards.yaml.",
+                   "tighten timecodes, then move into data/films/<slug>/cards.yaml.",
            "cards": cards}
     (out_dir / "candidates.yaml").write_text(yaml.safe_dump(doc, sort_keys=False, allow_unicode=True), encoding="utf-8")
     print(f"{len(cards)} candidates -> {out_dir / 'candidates.yaml'}")

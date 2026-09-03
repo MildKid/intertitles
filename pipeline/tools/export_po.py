@@ -1,12 +1,12 @@
-"""cards.yaml -> locales/templates/<slug>.pot, then merge into each target .po.
+"""cards.yaml -> data/locales/templates/<slug>.pot, then merge into each target .po.
 
 Run after any edit to cards.yaml. The POT is what Crowdin reads as the source file;
 the .po files are what Crowdin writes translations back into. Merging keeps existing
 translations whose card id + source text are unchanged and marks changed ones fuzzy,
 so translators see exactly what needs another look.
 
-    python tools/export_po.py                 # every film
-    python tools/export_po.py sherlock-jr-1924
+    python pipeline/tools/export_po.py                 # every film
+    python pipeline/tools/export_po.py sherlock-jr-1924
 """
 from __future__ import annotations
 
@@ -45,7 +45,7 @@ def build_pot(film: Film) -> polib.POFile:
     }
     pot.header = (
         f"{film.title} ({film.meta.get('year', '')}) — intertitles.\n"
-        "Generated from films/<slug>/cards.yaml by tools/export_po.py. Do not edit by hand."
+        "Generated from data/films/<slug>/cards.yaml by pipeline/tools/export_po.py. Do not edit by hand."
     )
     for c in film.cards:
         if not c.text.strip():
@@ -55,7 +55,7 @@ def build_pot(film: Film) -> polib.POFile:
             msgid=c.text,
             msgstr="",
             comment=translator_comment(film, c),
-            occurrences=[(f"films/{film.slug}/cards.yaml", str(c.index))],
+            occurrences=[(f"data/films/{film.slug}/cards.yaml", str(c.index))],
         )
         pot.append(e)
     return pot

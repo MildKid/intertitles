@@ -1,39 +1,41 @@
-# The Example Reel (1921) — intertitles.
-# Generated from films/<slug>/cards.yaml by tools/export_po.py. Do not edit by hand.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: intertitles _example\n"
-"POT-Creation-Date: 2026-09-03 03:17+0000\n"
-"Language: \n"
+"POT-Creation-Date: 2026-09-03 03:16+0000\n"
+"Language: es-MX\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Film-Title: The Example Reel\n"
 "X-Film-Year: 1921\n"
 
 #. Card 1 of 3 · title · 2.5s on screen
 #. Context: Main title card.
 #. Keep the line breaks: each newline is a line on the card.
-#: films/_example/cards.yaml:1
+#: data/films/_example/cards.yaml:1
 msgctxt "001"
 msgid "The Example Reel"
-msgstr ""
+msgstr "El rollo de ejemplo"
 
 #. Card 2 of 3 · narrative · 3.0s on screen
 #. Context: Scene-setting card before the first shot of the booth.
 #. Keep the line breaks: each newline is a line on the card.
-#: films/_example/cards.yaml:2
+#: data/films/_example/cards.yaml:2
 msgctxt "002"
 msgid ""
 "Morning. The projectionist\n"
 "has fallen asleep again."
 msgstr ""
+"Mañana. El proyeccionista\n"
+"se volvió a quedar dormido."
 
 #. Card 3 of 3 · dialogue · speaker: The Manager · 1.5s on screen
 #. Context: Shouted; the manager is angry but not cruel. Keep it short, it's a
 #. 1.5-second card.
 #. Keep the line breaks: each newline is a line on the card.
-#: films/_example/cards.yaml:3
+#: data/films/_example/cards.yaml:3
 msgctxt "003"
 msgid "\"Wake up! The picture's on.\""
-msgstr ""
+msgstr "\"¡Despierta! Ya empezó la película.\""

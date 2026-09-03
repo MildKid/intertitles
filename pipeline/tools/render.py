@@ -1,13 +1,13 @@
 """Render intertitle cards to PNG from an HTML template + the film's style.css.
 
-    python tools/render.py <slug> --lang es                 # bilingual, stacked (default)
-    python tools/render.py <slug> --lang es --layout translation-only
-    python tools/render.py <slug> --layout source-only      # clean reproduction of the originals
-    python tools/render.py <slug> --lang es --only 003 007  # a few cards
+    python pipeline/tools/render.py <slug> --lang es                 # bilingual, stacked (default)
+    python pipeline/tools/render.py <slug> --lang es --layout translation-only
+    python pipeline/tools/render.py <slug> --layout source-only      # clean reproduction of the originals
+    python pipeline/tools/render.py <slug> --lang es --only 003 007  # a few cards
 
 Output: out/<slug>/<lang>/<layout>/<card id>.png at the film's render frame size.
 
-This is the "automatic" path. A designer's hand-made card in films/<slug>/cards/<lang>/<id>.png
+This is the "automatic" path. A designer's hand-made card in data/films/<slug>/cards/<lang>/<id>.png
 always wins over this output when assembling (see assemble.py). The template and the
 per-film style.css are the surface designers can edit without touching Python.
 

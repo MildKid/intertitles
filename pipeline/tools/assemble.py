@@ -1,14 +1,14 @@
 """Burn rendered (or designer-made) cards into a copy of the reference print with ffmpeg.
 
-    python tools/assemble.py <slug> --lang es --print "D:/prints/sherlock-jr.mp4"
-    python tools/assemble.py <slug> --lang es --print ... --preview 00:03:00 00:04:30
-    python tools/assemble.py <slug> --lang es --print ... --layout translation-only
+    python pipeline/tools/assemble.py <slug> --lang es --print "D:/prints/sherlock-jr.mp4"
+    python pipeline/tools/assemble.py <slug> --lang es --print ... --preview 00:03:00 00:04:30
+    python pipeline/tools/assemble.py <slug> --lang es --print ... --layout translation-only
 
 For each card, the original frames between `in` and `out` are covered by the card image
 (full-frame overlay). Runtime is unchanged, which matters when the film is accompanied live.
 
 Card image priority per card id:
-  1. films/<slug>/cards/<lang>/<id>.png      designer's hand-made card
+  1. data/films/<slug>/cards/<lang>/<id>.png      designer's hand-made card
   2. out/<slug>/<lang>/<layout>/<id>.png      automatic render (run render.py first)
 Cards with neither are left as they are in the print.
 

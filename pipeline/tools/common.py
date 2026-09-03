@@ -1,9 +1,9 @@
 """Shared loaders for the intertitle toolchain.
 
 Source of truth:
-  films/<slug>/film.yaml   film metadata + the reference print the timecodes belong to
-  films/<slug>/cards.yaml  the ordered list of intertitle cards (source language)
-  locales/<lang>/<slug>.po translations, round-tripped through Crowdin
+  data/films/<slug>/film.yaml   film metadata + the reference print the timecodes belong to
+  data/films/<slug>/cards.yaml  the ordered list of intertitle cards (source language)
+  data/locales/<lang>/<slug>.po translations, round-tripped through Crowdin
 
 Everything else (POT files, rendered PNGs, assembled video) is derived.
 """
@@ -16,15 +16,16 @@ from pathlib import Path
 
 import yaml
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]          # repo root
+PIPELINE = ROOT / "pipeline"
 # The data root is where films/ and locales/ live. It defaults to this repo, but the
 # tools never assume it: set INTERTITLES_DATA to point at a separate data checkout
-# (the plan is to move film data into its own repo once a second program exists).
-DATA = Path(os.environ.get("INTERTITLES_DATA", ROOT)).resolve()
+# (data/ is the delineated film-data part of the repo).
+DATA = Path(os.environ.get("INTERTITLES_DATA", ROOT / "data")).resolve()
 FILMS = DATA / "films"
 LOCALES = DATA / "locales"
-TEMPLATES = ROOT / "templates"
-OUT = Path(os.environ.get("INTERTITLES_OUT", DATA / "out")).resolve()
+TEMPLATES = PIPELINE / "templates"
+OUT = Path(os.environ.get("INTERTITLES_OUT", ROOT / "out")).resolve()
 
 CARD_TYPES = ("title", "narrative", "dialogue", "insert", "credit")
 

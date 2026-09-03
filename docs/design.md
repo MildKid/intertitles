@@ -8,6 +8,25 @@ First program: the Brook Arts Center's Silent Movie Day screening, Sunday Septem
 (1917), *Number, Please?* (1920), *Sherlock, Jr.* (1924). First language pair: English
 to Mexican Spanish (`es-MX`).
 
+## Parts
+
+The project has three parts with different contributors and different lifecycles. They
+share one repo and are kept delineated at the top level; nothing crosses a boundary
+except through a documented file contract.
+
+| Part | Directory | What | Who touches it |
+|---|---|---|---|
+| Pipeline | `pipeline/` | generic code: works for any silent film | maintainer |
+| Film data | `data/` | transcriptions, timecodes, translations, designer cards, fonts | volunteers via Crowdin, designers, transcribers |
+| Website | `site/` | the public page | maintainer, later a designer |
+
+Contracts across the boundaries:
+- Pipeline reads data only through the data root in `pipeline/tools/common.py`
+  (`INTERTITLES_DATA`, default `data/`), so the data could be a separate checkout.
+- Pipeline writes only to `out/` (ignored) and to `data/locales/templates/` (the POTs).
+- Site reads nothing from `data/` by hand. The planned link is a status file per film
+  that the pipeline writes and the site includes.
+
 ## The one constraint that shapes everything
 
 The film is accompanied live. A card that stays on screen for 3.2 seconds in the print
@@ -16,7 +35,7 @@ bilingual approach (show the English card, then a Spanish card) because it chang
 running time and breaks the organist's cues. So:
 
 - Every bilingual card fits inside the original card's frame and duration.
-- Reading speed is the binding limit. `tools/lint.py` measures characters per second per
+- Reading speed is the binding limit. `pipeline/tools/lint.py` measures characters per second per
   language and flags cards over the comfortable ceiling. A viewer reads only one of the
   two languages, so the per-language figure is the real one; the combined figure is an
   advisory for the designer to weight one language visually.
@@ -32,13 +51,13 @@ Source of truth lives in the repo, in plain text, diffable:
 
 | File | Holds | Edited by |
 |---|---|---|
-| `films/<slug>/film.yaml` | metadata, rights note, the reference print, render frame size | maintainer |
-| `films/<slug>/cards.yaml` | ordered cards: id, in, out, type, speaker, text, translator context | maintainer, after extraction |
-| `locales/<lang>/<slug>.po` | translations keyed by card id | Crowdin (volunteers), synced back |
-| `films/<slug>/style.css` | the automatic card's look for that film | designers |
-| `films/<slug>/cards/<lang>/<id>.png` | hand-made cards, when a designer does one | designers |
+| `data/films/<slug>/film.yaml` | metadata, rights note, the reference print, render frame size | maintainer |
+| `data/films/<slug>/cards.yaml` | ordered cards: id, in, out, type, speaker, text, translator context | maintainer, after extraction |
+| `data/locales/<lang>/<slug>.po` | translations keyed by card id | Crowdin (volunteers), synced back |
+| `data/films/<slug>/style.css` | the automatic card's look for that film | designers |
+| `data/films/<slug>/cards/<lang>/<id>.png` | hand-made cards, when a designer does one | designers |
 
-Derived, never hand-edited: `locales/templates/<slug>.pot` (what Crowdin reads),
+Derived, never hand-edited: `data/locales/templates/<slug>.pot` (what Crowdin reads),
 everything under `out/`.
 
 A card:
@@ -81,7 +100,7 @@ print ──► extract.py ──► candidates + thumbnails ──► transcrib
                                                                                             │
                                                                             export_po.py ◄──┘
                                                                                  │
-                                        locales/templates/<slug>.pot ────► Crowdin ────► locales/<lang>/<slug>.po
+                                        data/locales/templates/<slug>.pot ────► Crowdin ────► data/locales/<lang>/<slug>.po
                                                                                                     │
                                                         ┌───────────────────────────────────────────┘
                                                         ▼
@@ -90,7 +109,7 @@ print ──► extract.py ──► candidates + thumbnails ──► transcrib
                        ┌────────────────────────────────┴──────────────────────────┐
                        ▼                                                           ▼
              render.py (automatic cards)                          designer package ──► designer
-             out/<slug>/<lang>/<layout>/<id>.png                  films/<slug>/cards/<lang>/<id>.png
+             out/<slug>/<lang>/<layout>/<id>.png                  data/films/<slug>/cards/<lang>/<id>.png
                        └────────────────────────────┬──────────────────────────────┘
                                                     ▼
                                     assemble.py (ffmpeg overlay on the print, runtime unchanged)
@@ -106,7 +125,7 @@ with the same PNGs and timecodes.
 
 ### Extraction
 
-`tools/extract.py` samples the print and flags runs of mostly-black frames with a little
+`pipeline/tools/extract.py` samples the print and flags runs of mostly-black frames with a little
 bright material. It writes candidate cards with timecodes and a thumbnail each. Someone
 then transcribes the thumbnails into `cards.yaml`, drops the false positives, and
 tightens the timecodes. A vision-model pass over the thumbnails can draft the
@@ -134,11 +153,11 @@ Setup steps, once the repo is public:
 1. Create the Crowdin project (source language English, target Mexican Spanish).
 2. Connect the GitHub repo; Crowdin reads `crowdin.yml`.
 3. Add `docs/translating.md` as the project's guidelines.
-4. Merge translation PRs into `main`, run `tools/lint.py`.
+4. Merge translation PRs into `main`, run `pipeline/tools/lint.py`.
 
 ### Rendering
 
-`tools/render.py` fills `templates/card.html` with a card and its translation, appends
+`pipeline/tools/render.py` fills `pipeline/templates/card.html` with a card and its translation, appends
 the film's `style.css`, and screenshots it with headless Chrome at the film's frame size.
 HTML/CSS rather than a drawing library because designers already know CSS, web fonts
 are free, and a film's original card frame can be dropped in as a background image.
@@ -151,24 +170,24 @@ original cards, useful for comparison and for prints with damaged titles).
 
 A designer gets, per film: the reference frames of the original cards, `cards.yaml`, the
 `.po`, the automatic renders as a starting point, and the frame size. They hand back
-PNGs named by card id into `films/<slug>/cards/<lang>/`. The assembler prefers those over
+PNGs named by card id into `data/films/<slug>/cards/<lang>/`. The assembler prefers those over
 automatic renders card by card, so a film can ship with ten hand-made cards and eighty
 automatic ones.
 
 ### Assembly
 
-`tools/assemble.py` overlays each card image on the print for the card's `in`..`out`
+`pipeline/tools/assemble.py` overlays each card image on the print for the card's `in`..`out`
 window and re-encodes. Runtime, frame rate, and audio (if any) are untouched. `--preview`
 encodes a short range for checking. For the Brook, the output file is what gets projected.
 
 ## Website
 
-Planned, not built beyond a placeholder. Hand-written HTML in `site/`, with the look of
-an early-2000s hobbyist page: table layout, system fonts, `<hr>`, a "last updated" line,
-clip art. Graphics come from openclipart.org (CC0, founded 2004, so period-correct);
-`site/img/SOURCES.md` lists each file. No build step, no framework, no JavaScript needed.
-The site should eventually list each film's progress (extracted, translated, designed,
-assembled) and link to the Crowdin project and the screening.
+`site/`. Hand-written HTML in the look of an early-2000s hobbyist page (table layout,
+`<font>`, `bgcolor`, a "last updated" line), CC0 clip art from openclipart.org (founded
+2004, so period-correct), no build step. The one planned link to the rest of the repo is
+a progress board: the pipeline will write a small status file (per film: extracted,
+translated, designed, assembled) that the site includes. Nothing on the site is
+maintained by hand from data that lives in `data/`.
 
 ## Licensing (proposed, not yet decided)
 
