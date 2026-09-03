@@ -17,7 +17,7 @@ languages:
   targets: [es-MX]
 
 # The timecodes in cards.yaml belong to ONE specific file. Fill this in when the print is
-# chosen (the copy the Brook will actually project, if possible). Blank = unknown.
+# chosen (the copy that will actually be projected, if possible). Blank = unknown.
 print:
   status: reference   # none | reference | projection (docs/design.md, Text first)
   source: https://archive.org/details/sherlockjr1924_201909

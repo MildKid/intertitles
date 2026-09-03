@@ -37,7 +37,7 @@ and reference it with `@font-face`; free (OFL) fonts only, so the repo can stay 
 - **Both languages on one card**, unless the film's maintainer says the version is
   translation-only.
 - **Safe area.** Keep text inside the middle 76% of the frame in both directions. The
-  projector at the Brook may crop; the original cards do too.
+  projectors crop; the original cards do too.
 - **Weight one language.** The film's original language is the primary; the translation
   is secondary in size or color but never below about 75% of the primary size. When the
   bilingual card is dense (lint says so), the secondary can go smaller, never the primary.

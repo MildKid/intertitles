@@ -3,10 +3,9 @@
 Bilingual and translated intertitles for public-domain silent films, with crowdsourced
 translation and a path from translation to finished card to re-edited film.
 
-First program: the Brook Arts Center's Silent Movie Day screening, Sunday September 27,
-2026, 7:00 PM, Bound Brook NJ, with Ian Fraser at the organ. Films: *The Adventurer*
-(1917), *Number, Please?* (1920), *Sherlock, Jr.* (1924). First language pair: English
-to Mexican Spanish (`es-MX`).
+The output is a file any theatre can project, with live accompaniment or without. First
+films: *The Adventurer* (1917), *Number, Please?* (1920), *Sherlock, Jr.* (1924). First
+language pair: English to Mexican Spanish (`es-MX`).
 
 ## Parts
 
@@ -140,7 +139,7 @@ print ──► extract.py ──► candidates + thumbnails ──► transcrib
 
 Every stage is a separate script with a plain-file contract on each side. A stage can be
 done by hand today and automated later without touching its neighbors: transcription is
-by hand now; card design is by hand for the Brook screening and automatic for anything
+by hand now; card design is by hand for the first films and automatic for anything
 that comes after; the final edit could go through a real NLE instead of `assemble.py`
 with the same PNGs and timecodes.
 
@@ -199,7 +198,7 @@ automatic ones.
 
 `pipeline/tools/assemble.py` overlays each card image on the print for the card's `in`..`out`
 window and re-encodes. Runtime, frame rate, and audio (if any) are untouched. `--preview`
-encodes a short range for checking. For the Brook, the output file is what gets projected.
+encodes a short range for checking. The output file is what a theatre projects.
 
 ## Website
 
@@ -224,9 +223,10 @@ description says so.
 
 ## Open decisions
 
-- Which print of each film the Brook will project, and whether the file is one this
-  project can burn cards into. Timecodes wait on this.
-- Whether the Sept 27 screening uses bilingual cards for all three films or starts with
+- Which print of each film a theatre will project, and whether the file is one this
+  project can burn cards into. Timecodes wait on this; a film can carry timecodes for
+  one print at a time.
+- Whether a first screening uses bilingual cards for all three films or starts with
   the shortest (*The Adventurer*, ~24 minutes, plain cards) as the proof.
 - Card typography per film: reproduce the original card style, or a house style across
   all three.

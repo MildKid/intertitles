@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="description" content="Volunteer project translating the title cards of public domain silent films into Spanish and other languages.">
 <link rel="canonical" href="https://intertitles.org/">
-<meta name="keywords" content="silent film, intertitles, title cards, translation, Spanish, Buster Keaton, Harold Lloyd, Charlie Chaplin, Bound Brook">
+<meta name="keywords" content="silent film, intertitles, title cards, translation, Spanish, Buster Keaton, Harold Lloyd, Charlie Chaplin, public domain">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -169,9 +169,9 @@
 <table width="640" border="0" cellpadding="6" cellspacing="0">
 <tr>
 <td align="center">
-<img src="img/reel.svg" width="64" height="64" alt="film reel">
+<img src="img/reel.svg" align="absmiddle" width="64" height="64" alt="film reel">
 <font face="Times New Roman, Times, serif" size="6"><b>THE INTERTITLE PROJECT</b></font>
-<img src="img/reel.svg" width="64" height="64" alt="film reel">
+<img src="img/reel.svg" align="absmiddle" width="64" height="64" alt="film reel">
 <br>
 <font face="Times New Roman, Times, serif" size="3"><i>Bilingual title cards for silent films</i></font>
 </td>
@@ -199,9 +199,9 @@ Translations are done by volunteers. Finished cards are made by designers, or ge
 <table width="640" border="0" cellpadding="8" cellspacing="0">
 <tr>
 <td colspan="2" align="center">
-<img src="img/new.svg" width="48" alt="new">
+<img src="img/new.svg" align="absmiddle" width="48" alt="new">
 <font face="Times New Roman, Times, serif" size="4"><b>The films</b></font>
-<img src="img/new.svg" width="48" alt="new">
+<img src="img/new.svg" align="absmiddle" width="48" alt="new">
 <br>
 <font face="Times New Roman, Times, serif" size="3">Three silent comedies, first up. All are in the public domain in the United States.</font>
 </td>
@@ -231,9 +231,9 @@ A projectionist dreams himself into the picture he is showing and becomes the wo
 <table width="640" border="0" cellpadding="8" cellspacing="0">
 <tr>
 <td colspan="2" align="center">
-<img src="img/filmstrip.svg" width="48" alt="progress board">
+<img src="img/filmstrip.svg" align="absmiddle" width="48" alt="progress board">
 <font face="Times New Roman, Times, serif" size="4"><b>Progress board</b></font>
-<img src="img/filmstrip.svg" width="48" alt="progress board">
+<img src="img/filmstrip.svg" align="absmiddle" width="48" alt="progress board">
 </td>
 </tr>
 <tr>
@@ -241,10 +241,10 @@ A projectionist dreams himself into the picture he is showing and becomes the wo
 <font face="Times New Roman, Times, serif" size="2">
 <table width="100%" border="1" cellpadding="4" cellspacing="0">
 <tr bgcolor="#332a1a">
-<td align="left"><b>Film</b></td><td align="center"><b>Cards</b></td><td align="center"><b>Verified</b></td><td align="center"><b>Translated (es-MX)</b></td><td align="center"><b>Designed</b></td><td align="center"><b>Timing</b></td>
+<td align="left" width="34%" nowrap><b>Film</b></td><td align="center" width="10%" nowrap><b>Cards</b></td><td align="center" width="12%" nowrap><b>Verified</b></td><td align="center" width="12%" nowrap><b>Spanish</b></td><td align="center" width="12%" nowrap><b>Designed</b></td><td align="center" width="20%" nowrap><b>Timing</b></td>
 </tr>
 <tr>
-<td data-film="the-adventurer-1917" data-field="title">The Adventurer (1917)</td>
+<td data-film="the-adventurer-1917" data-field="title" nowrap>The Adventurer (1917)</td>
 <td align="center" data-film="the-adventurer-1917" data-field="cards">&mdash;</td>
 <td align="center" data-film="the-adventurer-1917" data-field="verified">&mdash;</td>
 <td align="center" data-film="the-adventurer-1917" data-field="translated">&mdash;</td>
@@ -252,7 +252,7 @@ A projectionist dreams himself into the picture he is showing and becomes the wo
 <td align="center" data-film="the-adventurer-1917" data-field="timing">not timed</td>
 </tr>
 <tr>
-<td data-film="number-please-1920" data-field="title">Number, Please? (1920)</td>
+<td data-film="number-please-1920" data-field="title" nowrap>Number, Please? (1920)</td>
 <td align="center" data-film="number-please-1920" data-field="cards">&mdash;</td>
 <td align="center" data-film="number-please-1920" data-field="verified">&mdash;</td>
 <td align="center" data-film="number-please-1920" data-field="translated">&mdash;</td>
@@ -260,7 +260,7 @@ A projectionist dreams himself into the picture he is showing and becomes the wo
 <td align="center" data-film="number-please-1920" data-field="timing">not timed</td>
 </tr>
 <tr>
-<td data-film="sherlock-jr-1924" data-field="title">Sherlock, Jr. (1924)</td>
+<td data-film="sherlock-jr-1924" data-field="title" nowrap>Sherlock, Jr. (1924)</td>
 <td align="center" data-film="sherlock-jr-1924" data-field="cards">&mdash;</td>
 <td align="center" data-film="sherlock-jr-1924" data-field="verified">&mdash;</td>
 <td align="center" data-film="sherlock-jr-1924" data-field="translated">&mdash;</td>
@@ -277,7 +277,7 @@ A projectionist dreams himself into the picture he is showing and becomes the wo
 <script>
 try {
 fetch('status.json').then(function(r){ return r.json(); }).then(function(d){
-  var t = {none:'not timed', reference:'timed against a reference copy', projection:'timed against the projection print'};
+  var t = {none:'not timed', reference:'reference copy', projection:'projection print'};
   function set(s, f, v) { var td = document.querySelector('td[data-film="' + s + '"][data-field="' + f + '"]'); if (td) td.textContent = v; }
   d.films.forEach(function(f){
     set(f.slug, 'cards', f.cards);
@@ -332,16 +332,16 @@ fetch('status.json').then(function(r){ return r.json(); }).then(function(d){
 <table width="640" border="0" cellpadding="4" cellspacing="0">
 <tr>
 <td align="center">
-<img src="img/construction.svg" width="40" alt="under construction">
+<img src="img/construction.svg" align="absmiddle" width="40" alt="under construction">
 <font face="Times New Roman, Times, serif" size="2">
 This site is under construction. More films and the Crowdin link are coming.
 </font>
-<img src="img/construction.svg" width="40" alt="under construction">
+<img src="img/construction.svg" align="absmiddle" width="40" alt="under construction">
 </td>
 </tr>
 <tr>
 <td align="center">
-<img src="img/envelope.svg" width="24" alt="mail">
+<img src="img/envelope.svg" align="absmiddle" width="24" alt="mail">
 <font face="Times New Roman, Times, serif" size="2">
 Questions and offers of help: <a href="https://github.com/MildKid/intertitles/issues">open an issue on GitHub</a>
 </font>
@@ -350,8 +350,9 @@ Questions and offers of help: <a href="https://github.com/MildKid/intertitles/is
 <tr>
 <td align="center">
 <font face="Times New Roman, Times, serif" size="1">
-Last updated: September 3, 2026 &middot; Best viewed at 800x600 or larger &middot; Clip art from <a href="https://openclipart.org/">openclipart.org</a> (public domain) &middot; Films are in the public domain in the United States<br>
-Made by hand in Bound Brook, NJ. No frameworks were harmed.
+Last updated: September 3, 2026 &middot; Best viewed at 800x600 or larger &middot; Clip art from <a href="https://openclipart.org/">openclipart.org</a> (public domain)<br>
+Films are in the public domain in the United States &middot; 
+Made by hand. No frameworks were harmed.
 </font>
 </td>
 </tr>
