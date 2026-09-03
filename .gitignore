@@ -1,11 +1,11 @@
-out/
-prints/
-*.mp4
+*.avi
+*.filter
 *.mkv
 *.mov
-*.avi
-__pycache__/
+*.mp4
 *.pyc
 .venv/
+__pycache__/
 node_modules/
-*.filter
+out/
+prints/
