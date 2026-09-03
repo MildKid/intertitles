@@ -20,18 +20,18 @@ languages:
 # The timecodes in cards.yaml belong to ONE specific file. Fill this in when the print is
 # chosen (the copy that will actually be projected, if possible). Blank = unknown.
 print:
-  status: none   # none | reference | projection (docs/design.md, Text first)
-  source: ""
-  source_file: ""
-  file: ""
-  sha256: ""
-  fps:
-  width:
-  height:
-  duration: ""
-  size_bytes:
-  downloaded: ""
-  why: ""
+  status: reference   # none | reference | projection (docs/design.md, Text first)
+  source: https://archive.org/details/faust.-1926
+  source_file: https://archive.org/download/faust.-1926/Faust.1926.mp4
+  file: "prints/faust-1926/faust-1926.mp4"
+  sha256: "6286a377a9d4f61703c3df16ee4bfa2409c9f5b7a1f6f66cc50112488ef0f845"
+  fps: 23.976
+  width: 720
+  height: 536
+  duration: "01:46:25.170"
+  size_bytes: 1575553010
+  downloaded: "2026-09-03"
+  why: 'archive.org item faust.-1926: 720x536, 106 min, plain description with no restoration or rights claim. The higher-resolution Faust1926_201706 (768x576) was passed over because a thumbnail shows Polish subtitles burned in under the German cards. Three 1440x1072 uploads match a named YTS Blu-ray rip''s resolution and runtime and were passed over as the same restored master. Cards on this print: German (check the first card).'
 
 render:
   frame: 1920x1080

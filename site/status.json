@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-03T19:53:21Z",
+ "generated": "2026-09-03T20:25:05Z",
  "films": [
   {
    "slug": "don-juan-1926",
@@ -14,7 +14,7 @@
    "designed": {
     "es-MX": 0
    },
-   "timing": "none",
+   "timing": "reference",
    "extraction": "not-started"
   },
   {
@@ -30,7 +30,7 @@
    "designed": {
     "es-MX": 0
    },
-   "timing": "none",
+   "timing": "reference",
    "extraction": "not-started"
   },
   {
@@ -46,7 +46,7 @@
    "designed": {
     "es-MX": 0
    },
-   "timing": "none",
+   "timing": "reference",
    "extraction": "not-started"
   },
   {
@@ -62,7 +62,7 @@
    "designed": {
     "es-MX": 0
    },
-   "timing": "none",
+   "timing": "reference",
    "extraction": "not-started"
   },
   {
@@ -94,7 +94,7 @@
    "designed": {
     "es-MX": 0
    },
-   "timing": "none",
+   "timing": "reference",
    "extraction": "not-started"
   },
   {
@@ -133,8 +133,8 @@
    "slug": "the-general-1926",
    "title": "The General",
    "year": 1926,
-   "cards": 0,
-   "transcribed": 0,
+   "cards": 54,
+   "transcribed": 53,
    "verified": 0,
    "translated": {
     "es-MX": 0
@@ -142,8 +142,8 @@
    "designed": {
     "es-MX": 0
    },
-   "timing": "none",
-   "extraction": "not-started"
+   "timing": "reference",
+   "extraction": "transcribed"
   },
   {
    "slug": "the-kid-brother-1927",
@@ -158,7 +158,7 @@
    "designed": {
     "es-MX": 0
    },
-   "timing": "none",
+   "timing": "reference",
    "extraction": "not-started"
   }
  ]

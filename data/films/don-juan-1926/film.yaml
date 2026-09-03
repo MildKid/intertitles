@@ -16,18 +16,18 @@ languages:
 # The timecodes in cards.yaml belong to ONE specific file. Fill this in when the print is
 # chosen (the copy that will actually be projected, if possible). Blank = unknown.
 print:
-  status: none   # none | reference | projection (docs/design.md, Text first)
-  source: ""
-  source_file: ""
-  file: ""
-  sha256: ""
-  fps:
-  width:
-  height:
-  duration: ""
-  size_bytes:
-  downloaded: ""
-  why: ""
+  status: reference   # none | reference | projection (docs/design.md, Text first)
+  source: https://archive.org/details/don-juan-1926
+  source_file: https://archive.org/download/don-juan-1926/Don_Juan_%281926%29.webm
+  file: "prints/don-juan-1926/don-juan-1926.webm"
+  sha256: "47192bef4004bb25f5dd86735435f1ee0acfa7b069193266ff6c67f24f04e6a3"
+  fps: 30.0
+  width: 1264
+  height: 960
+  duration: "01:52:08.101"
+  size_bytes: 1078516141
+  downloaded: "2026-09-03"
+  why: 'archive.org item don-juan-1926: the highest-resolution claim-free copy (1264x960), 112 min, matching the known length. Its Vitaphone score is original to the 1926 release. Passed over an explicit DVD remux and a same-uploader copy at 640x480.'
 
 render:
   frame: 1920x1080

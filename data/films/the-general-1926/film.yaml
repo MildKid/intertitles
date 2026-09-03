@@ -16,24 +16,24 @@ languages:
 # The timecodes in cards.yaml belong to ONE specific file. Fill this in when the print is
 # chosen (the copy that will actually be projected, if possible). Blank = unknown.
 print:
-  status: none   # none | reference | projection (docs/design.md, Text first)
-  source: ""
-  source_file: ""
-  file: ""
-  sha256: ""
-  fps:
-  width:
-  height:
-  duration: ""
-  size_bytes:
-  downloaded: ""
-  why: ""
+  status: reference   # none | reference | projection (docs/design.md, Text first)
+  source: https://archive.org/details/The_General_Buster_Keaton
+  source_file: https://archive.org/download/The_General_Buster_Keaton/The_General.mp4
+  file: "prints/the-general-1926/the-general-1926.mp4"
+  sha256: "59a47f2ba35edab2f01f0d85b36cf9fabb94467207e90c91fe1f7927d652c1f6"
+  fps: 23.98
+  width: 640
+  height: 480
+  duration: "01:18:43.853"
+  size_bytes: 412400222
+  downloaded: "2026-09-03"
+  why: 'archive.org item The_General_Buster_Keaton: the plainest, claim-free description among full-length copies, and its 78m44s runtime matches the known length. Passed over three Blu-ray/remux rips labelled as such, a copy whose description carries a modern fair-use notice (TheGeneral_201312), and a same-resolution copy running 107 min, which matches no known cut.'
 
 render:
   frame: 1920x1080
 
 extraction:
-  status: not-started   # not-started | candidates | transcribed | timed | locked
+  status: transcribed   # not-started | candidates | transcribed | timed | locked
   notes: ""
 
 card_style_notes: >

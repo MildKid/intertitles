@@ -16,18 +16,18 @@ languages:
 # The timecodes in cards.yaml belong to ONE specific file. Fill this in when the print is
 # chosen (the copy that will actually be projected, if possible). Blank = unknown.
 print:
-  status: none   # none | reference | projection (docs/design.md, Text first)
-  source: ""
-  source_file: ""
-  file: ""
-  sha256: ""
-  fps:
-  width:
-  height:
-  duration: ""
-  size_bytes:
-  downloaded: ""
-  why: ""
+  status: reference   # none | reference | projection (docs/design.md, Text first)
+  source: https://archive.org/details/it-1927
+  source_file: https://archive.org/download/it-1927/It%20%20%281927%29.mkv
+  file: "prints/it-1927/it-1927.mkv"
+  sha256: "b91bb4760f737e496314f728f9372a78d3b79e5516122f9fd8fbfdc0a3fe7c72"
+  fps: 29.97
+  width: 928
+  height: 720
+  duration: "01:16:54.209"
+  size_bytes: 919691750
+  downloaded: "2026-09-03"
+  why: 'archive.org item it-1927: 928x720, 77 min, no restoration or rights claim; the uploader notes the print surfaced in Prague, which matches the film''s known rediscovery history. Runner-up it-comedy-1927 is the same file with less provenance. Passed over a 480x352 copy, a shorter 928x720 cut (4526 s), and a DVD rip.'
 
 render:
   frame: 1920x1080

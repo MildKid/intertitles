@@ -20,18 +20,18 @@ languages:
 # The timecodes in cards.yaml belong to ONE specific file. Fill this in when the print is
 # chosen (the copy that will actually be projected, if possible). Blank = unknown.
 print:
-  status: none   # none | reference | projection (docs/design.md, Text first)
-  source: ""
-  source_file: ""
-  file: ""
-  sha256: ""
-  fps:
-  width:
-  height:
-  duration: ""
-  size_bytes:
-  downloaded: ""
-  why: ""
+  status: reference   # none | reference | projection (docs/design.md, Text first)
+  source: https://archive.org/details/Metropolis1927EnglishVersion
+  source_file: https://archive.org/download/Metropolis1927EnglishVersion/Metropolis_1927_English_Version.mp4
+  file: "prints/metropolis-1927/metropolis-1927.mp4"
+  sha256: "04dd62d5e5a1af659e727a526edc6972cda3c7ce9539bfdd127ebc3a5d4d0fa9"
+  fps: 29.97
+  width: 640
+  height: 480
+  duration: "01:58:37.871"
+  size_bytes: 737006464
+  downloaded: "2026-09-03"
+  why: 'archive.org item Metropolis1927EnglishVersion: 640x480, 119 min, the historical US-release length, with English cards and no restoration or rights claim. Nearly every other upload is the 148-min 2010 Kino/Murnau-Stiftung restoration (copyrighted) or a Blu-ray rip; one same-length copy was self-licensed CC BY-NC by its uploader and passed over. Runner-up: MetropolisGriggsMoviedrome, a 95-min VHS transfer. Cards on this print: English, so the German-language open decision applies to this film''s source text.'
 
 render:
   frame: 1920x1080
