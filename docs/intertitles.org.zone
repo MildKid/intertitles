@@ -1,0 +1,22 @@
+; intertitles.org -> GitHub Pages (MildKid/intertitles, site/CNAME = intertitles.org)
+; BIND zone-file format: import at the registrar (Cloudflare, Namecheap, Porkbun, and
+; Squarespace all accept it). Addresses are GitHub's published Pages IPs; confirm at
+; https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+; If the registrar already serves its own NS/SOA records, import only the lines below them.
+$ORIGIN intertitles.org.
+$TTL 3600
+
+; apex -> GitHub Pages, IPv4
+@       IN  A       185.199.108.153
+@       IN  A       185.199.109.153
+@       IN  A       185.199.110.153
+@       IN  A       185.199.111.153
+
+; apex -> GitHub Pages, IPv6
+@       IN  AAAA    2606:50c0:8000::153
+@       IN  AAAA    2606:50c0:8001::153
+@       IN  AAAA    2606:50c0:8002::153
+@       IN  AAAA    2606:50c0:8003::153
+
+; www -> the Pages host; GitHub redirects www to the apex once the custom domain is set
+www     IN  CNAME   mildkid.github.io.

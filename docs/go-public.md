@@ -70,7 +70,8 @@ with `actions/deploy-pages`, under `permissions: pages: write, id-token: write` 
 ### Custom domain: intertitles.org
 
 `site/CNAME` holds `intertitles.org`, so the Pages artifact carries the domain with it.
-At the registrar, add these DNS records (GitHub's current Pages addresses; confirm at
+At the registrar, import `docs/intertitles.org.zone` (BIND format), or add these records
+by hand (GitHub's current Pages addresses; confirm at
 <https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site>):
 
 | Host | Type | Value |
