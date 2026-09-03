@@ -55,21 +55,86 @@ Brook Arts Center, 10 Hamilton Street, Bound Brook, New Jersey<br>
 <td width="100" align="center"><img src="img/bowler.svg" width="70" alt="bowler hat"></td>
 <td><font face="Times New Roman, Times, serif" size="3"><b>The Adventurer</b> (1917) - Charlie Chaplin<br>
 The Little Tramp escapes from prison, saves a young woman from drowning, and lands in high society.<br>
-<i>Status: waiting for the print</i></font></td>
+<i>Status: see the progress board below</i></font></td>
 </tr>
 <tr>
 <td width="100" align="center"><img src="img/telephone.svg" width="70" alt="antique telephone"></td>
 <td><font face="Times New Roman, Times, serif" size="3"><b>Number, Please?</b> (1920) - Harold Lloyd<br>
 Harold races the clock and a very busy telephone operator to win back the girl.<br>
-<i>Status: waiting for the print</i></font></td>
+<i>Status: see the progress board below</i></font></td>
 </tr>
 <tr>
 <td width="100" align="center"><img src="img/magnifier.svg" width="70" alt="magnifying glass"></td>
 <td><font face="Times New Roman, Times, serif" size="3"><b>Sherlock, Jr.</b> (1924) - Buster Keaton<br>
 A projectionist dreams himself into the picture he is showing and becomes the world's greatest detective.<br>
-<i>Status: waiting for the print</i></font></td>
+<i>Status: see the progress board below</i></font></td>
 </tr>
 </table>
+
+<hr width="640" size="1" noshade>
+
+<table width="640" border="0" cellpadding="8" cellspacing="0">
+<tr>
+<td colspan="2" align="center">
+<img src="img/filmstrip.svg" width="48" alt="progress board">
+<font face="Times New Roman, Times, serif" size="4"><b>Progress board</b></font>
+<img src="img/filmstrip.svg" width="48" alt="progress board">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<font face="Times New Roman, Times, serif" size="2">
+<table width="100%" border="1" cellpadding="4" cellspacing="0">
+<tr bgcolor="#332a1a">
+<td align="left"><b>Film</b></td><td align="center"><b>Cards</b></td><td align="center"><b>Verified</b></td><td align="center"><b>Translated (es-MX)</b></td><td align="center"><b>Designed</b></td><td align="center"><b>Timing</b></td>
+</tr>
+<tr>
+<td data-film="the-adventurer-1917" data-field="title">The Adventurer (1917)</td>
+<td align="center" data-film="the-adventurer-1917" data-field="cards">&mdash;</td>
+<td align="center" data-film="the-adventurer-1917" data-field="verified">&mdash;</td>
+<td align="center" data-film="the-adventurer-1917" data-field="translated">&mdash;</td>
+<td align="center" data-film="the-adventurer-1917" data-field="designed">&mdash;</td>
+<td align="center" data-film="the-adventurer-1917" data-field="timing">not timed</td>
+</tr>
+<tr>
+<td data-film="number-please-1920" data-field="title">Number, Please? (1920)</td>
+<td align="center" data-film="number-please-1920" data-field="cards">&mdash;</td>
+<td align="center" data-film="number-please-1920" data-field="verified">&mdash;</td>
+<td align="center" data-film="number-please-1920" data-field="translated">&mdash;</td>
+<td align="center" data-film="number-please-1920" data-field="designed">&mdash;</td>
+<td align="center" data-film="number-please-1920" data-field="timing">not timed</td>
+</tr>
+<tr>
+<td data-film="sherlock-jr-1924" data-field="title">Sherlock, Jr. (1924)</td>
+<td align="center" data-film="sherlock-jr-1924" data-field="cards">&mdash;</td>
+<td align="center" data-film="sherlock-jr-1924" data-field="verified">&mdash;</td>
+<td align="center" data-film="sherlock-jr-1924" data-field="translated">&mdash;</td>
+<td align="center" data-film="sherlock-jr-1924" data-field="designed">&mdash;</td>
+<td align="center" data-film="sherlock-jr-1924" data-field="timing">not timed</td>
+</tr>
+</table>
+<p><i>Updated: <span id="status-updated">&mdash;</span></i></p>
+</font>
+</td>
+</tr>
+</table>
+
+<script>
+try {
+fetch('status.json').then(function(r){ return r.json(); }).then(function(d){
+  var t = {none:'not timed', reference:'timed against a reference copy', projection:'timed against the projection print'};
+  function set(s, f, v) { var td = document.querySelector('td[data-film="' + s + '"][data-field="' + f + '"]'); if (td) td.textContent = v; }
+  d.films.forEach(function(f){
+    set(f.slug, 'cards', f.cards);
+    set(f.slug, 'verified', f.verified);
+    set(f.slug, 'translated', (f.translated || {})['es-MX'] || 0);
+    set(f.slug, 'designed', (f.designed || {})['es-MX'] || 0);
+    set(f.slug, 'timing', t[f.timing] || f.timing);
+  });
+  document.getElementById('status-updated').textContent = d.generated;
+}).catch(function(){});
+} catch (e) {}
+</script>
 
 <hr width="640" size="1" noshade>
 
@@ -114,7 +179,7 @@ A projectionist dreams himself into the picture he is showing and becomes the wo
 <td align="center">
 <img src="img/construction.svg" width="40" alt="under construction">
 <font face="Times New Roman, Times, serif" size="2">
-This site is under construction. More films, a progress board, and the Crowdin link are coming.
+This site is under construction. More films and the Crowdin link are coming.
 </font>
 <img src="img/construction.svg" width="40" alt="under construction">
 </td>
