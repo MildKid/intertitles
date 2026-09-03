@@ -1,0 +1,28 @@
+# Fixture cards. Timecodes match the synthetic clip from tests/make_clip.py.
+film: _example
+cards:
+  - id: "001"
+    in: "00:00:01.000"
+    out: "00:00:03.500"
+    type: title
+    text: |-
+      The Example Reel
+    context: Main title card.
+
+  - id: "002"
+    in: "00:00:04.000"
+    out: "00:00:07.000"
+    type: narrative
+    text: |-
+      Morning. The projectionist
+      has fallen asleep again.
+    context: Scene-setting card before the first shot of the booth.
+
+  - id: "003"
+    in: "00:00:08.000"
+    out: "00:00:09.500"
+    type: dialogue
+    speaker: The Manager
+    text: |-
+      "Wake up! The picture's on."
+    context: Shouted; the manager is angry but not cruel. Keep it short, it's a 1.5-second card.

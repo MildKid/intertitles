@@ -1,0 +1,2 @@
+pyyaml>=6
+polib>=1.2

@@ -1,0 +1,40 @@
+slug: sherlock-jr-1924
+title: Sherlock, Jr.
+year: 1924
+director: Buster Keaton
+production: Buster Keaton Productions; distributed by Metro Pictures
+runtime_min: 45
+rights: >
+  Public domain in the United States (published 1924). Specific restorations may add
+  copyrighted material (new scores, restoration credits); use a plain public-domain print.
+synopsis: >
+  A movie projectionist who studies to be a detective is framed for stealing a watch
+  from his girl's father. Asleep in the booth, he dreams himself into the film on
+  screen as the great detective Sherlock Jr. and solves the case there. Awake, the girl
+  has already cleared him.
+languages:
+  source: en
+  targets: [es-MX]
+
+# The timecodes in cards.yaml belong to ONE specific file. Fill this in when the print is
+# chosen (the copy the Brook will actually project, if possible). Blank = unknown.
+print:
+  status: UNKNOWN
+  source: ""          # e.g. archive.org identifier, disc, or who supplied the file
+  file: ""            # local path, outside the repo
+  sha256: ""          # tools/assemble.py checks this (first 64 MB)
+  fps:
+  width:
+  height:
+  duration: ""
+
+render:
+  frame: 1920x1080
+
+extraction:
+  status: not-started   # not-started | candidates | transcribed | timed | locked
+  notes: ""
+
+card_style_notes: >
+  Verify against the print before designing: card frame treatment, typeface, use of
+  quotation marks and dashes on dialogue cards, and whether any cards carry ornaments.

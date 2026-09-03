@@ -1,0 +1,38 @@
+slug: number-please-1920
+title: Number, Please?
+year: 1920
+director: Hal Roach and Fred C. Newmeyer
+production: Rolin Films; distributed by Pathé Exchange
+runtime_min: 25
+rights: >
+  Public domain in the United States (published 1920). Use a plain public-domain print;
+  restorations may add copyrighted scores or credits.
+synopsis: >
+  At an amusement park, Harold tries to win back the girl who has taken up with a rival.
+  Her mother must approve any outing by telephone, and the race to reach her through a
+  busy switchboard operator drives the second half of the film.
+languages:
+  source: en
+  targets: [es-MX]
+
+print:
+  status: UNKNOWN
+  source: ""
+  file: ""
+  sha256: ""
+  fps:
+  width:
+  height:
+  duration: ""
+
+render:
+  frame: 1920x1080
+
+extraction:
+  status: not-started
+  notes: ""
+
+card_style_notes: >
+  Verify against the print. Lloyd's Rolin/Pathé shorts of this period often used
+  illustrated "art titles"; if so, designers will want the original card as a background
+  layer rather than a plain black card.

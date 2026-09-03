@@ -1,0 +1,4 @@
+# Intertitle cards, in film order. Empty until extraction (see docs/design.md, "Extraction").
+# Schema: see films/_example/cards.yaml.
+film: sherlock-jr-1924
+cards: []

@@ -1,0 +1,4 @@
+# Intertitle cards, in film order. Empty until extraction (see docs/design.md, "Extraction").
+# Schema: see films/_example/cards.yaml.
+film: the-adventurer-1917
+cards: []

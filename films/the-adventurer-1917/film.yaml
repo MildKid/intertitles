@@ -1,0 +1,37 @@
+slug: the-adventurer-1917
+title: The Adventurer
+year: 1917
+director: Charlie Chaplin
+production: Lone Star Corporation; distributed by Mutual Film Corporation
+runtime_min: 24
+rights: >
+  Public domain in the United States (published 1917). Use a plain public-domain print;
+  restorations may add copyrighted scores or credits.
+synopsis: >
+  An escaped convict eludes the guards, rescues a young woman and her mother from
+  drowning, and is taken into the family's seaside mansion as a guest of honor, with his
+  rival and the police closing in.
+languages:
+  source: en
+  targets: [es-MX]
+
+print:
+  status: UNKNOWN
+  source: ""
+  file: ""
+  sha256: ""
+  fps:
+  width:
+  height:
+  duration: ""
+
+render:
+  frame: 1920x1080
+
+extraction:
+  status: not-started
+  notes: ""
+
+card_style_notes: >
+  Verify against the print. Mutual-period Chaplin cards are usually plain light serif
+  capitals on black; some prints carry a studio device on the card.

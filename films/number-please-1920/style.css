@@ -1,0 +1,9 @@
+/* Per-film card style. Overrides the base in templates/card.html.
+   Designers: this file is yours. Anything CSS can do is fair game, including a
+   background image of the original card frame (put it in this folder and reference it
+   as url("frame.png")). Keep --size-* in px; the frame is fixed at render.frame. */
+:root {
+  --font-source: "Old Standard TT", "Times New Roman", Georgia, serif;
+  --size-source: 56px;
+  --size-translation: 46px;
+}

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="$source_lang">
+<head>
+<meta charset="utf-8">
+<title>$card_id</title>
+<style>
+/* Base card. Films override anything here in films/<slug>/style.css (appended below).
+   Layout classes on <body>: stacked | side-by-side | translation-only | source-only
+   State classes: has-translation | no-translation. Card type class: type-dialogue, type-narrative, ... */
+:root {
+  --card-bg: #000;
+  --card-ink: #e9e4d6;
+  --translation-ink: #cfc8b4;
+  --font-source: "Old Standard TT", "Times New Roman", Georgia, serif;
+  --font-translation: var(--font-source);
+  --size-source: 64px;
+  --size-translation: 52px;
+  --leading: 1.25;
+  --tracking: 0.02em;
+  --safe-x: 12%;
+  --safe-y: 12%;
+  --gap: 0.6em;
+  --rule: 1px solid rgba(233, 228, 214, 0.35);
+  --rule-width: 22%;
+}
+html, body { margin: 0; padding: 0; width: ${width}px; height: ${height}px; overflow: hidden; }
+body {
+  background: var(--card-bg);
+  color: var(--card-ink);
+  font-family: var(--font-source);
+  letter-spacing: var(--tracking);
+  line-height: var(--leading);
+  display: flex; align-items: center; justify-content: center;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+.card { box-sizing: border-box; width: 100%; height: 100%; padding: var(--safe-y) var(--safe-x);
+        display: flex; flex-direction: column; align-items: center; justify-content: center; gap: var(--gap); }
+.source { font-size: var(--size-source); }
+.translation { font-size: var(--size-translation); color: var(--translation-ink); font-family: var(--font-translation); }
+.rule { width: var(--rule-width); border-top: var(--rule); height: 0; }
+/* Dialogue cards in the 1920s American style open with a quotation dash or quotes; leave that to the text itself. */
+.type-narrative .source { font-style: italic; }
+/* Layouts */
+.side-by-side .card { flex-direction: row; gap: 4%; }
+.side-by-side .source, .side-by-side .translation { flex: 1 1 0; }
+.side-by-side .rule { width: 0; height: 40%; border-top: 0; border-left: var(--rule); }
+.translation-only .source, .translation-only .rule { display: none; }
+.translation-only .translation { font-size: var(--size-source); color: var(--card-ink); }
+.source-only .translation, .source-only .rule, .no-translation .translation, .no-translation .rule { display: none; }
+</style>
+<style>
+/* films/<slug>/style.css */
+$film_style
+</style>
+</head>
+<body class="$layout $has_translation type-$card_type" data-card="$card_id" data-lang="$target_lang">
+  <div class="card">
+    <div class="source" lang="$source_lang">$source_html</div>
+    <div class="rule" aria-hidden="true"></div>
+    <div class="translation" lang="$target_lang">$translation_html</div>
+  </div>
+</body>
+</html>
