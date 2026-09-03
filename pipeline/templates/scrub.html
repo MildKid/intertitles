@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>scrub</title>
+<style>
+:root {
+  --bg: #121212; --panel: #1b1b1b; --line: #2e2e2e; --ink: #e6e2d8; --dim: #9a948a;
+  --accent: #d8b26a; --ok: #6fbf73; --warn: #d9a441; --bad: #d2685f;
+  --mono: ui-monospace, "Cascadia Mono", "Consolas", monospace;
+  --sans: system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body { background: var(--bg); color: var(--ink); font: 13px/1.45 var(--sans);
+       display: flex; flex-direction: column; overflow: hidden; }
+a { color: var(--accent); }
+
+header { display: flex; gap: 18px; align-items: baseline; padding: 8px 14px;
+         border-bottom: 1px solid var(--line); background: var(--panel); flex: none; }
+header .title { font-weight: 600; }
+header .sep { color: var(--line); }
+#counts { font-family: var(--mono); }
+#timing { color: var(--dim); }
+#timing .match { color: var(--ok); } #timing .differs { color: var(--bad); }
+#timing .none { color: var(--warn); }
+#save { margin-left: auto; font-family: var(--mono); color: var(--dim); }
+#save.saving { color: var(--warn); } #save.saved { color: var(--ok); } #save.error { color: var(--bad); }
+
+main { flex: 1; display: grid; grid-template-columns: 280px minmax(360px, 1fr) 380px;
+       min-height: 0; }
+main > * { min-height: 0; overflow: auto; }
+
+/* card list */
+#list { border-right: 1px solid var(--line); }
+.row { display: grid; grid-template-columns: 10px 3.2em 1fr; gap: 7px; align-items: baseline;
+       padding: 5px 8px; border-bottom: 1px solid #202020; cursor: pointer; }
+.row:hover { background: #1e1e1e; }
+.row.on { background: #2b2519; box-shadow: inset 3px 0 0 var(--accent); }
+.row .dot { width: 8px; height: 8px; border-radius: 50%; background: #4a4a4a; }
+.row .dot.high { background: var(--ok); } .row .dot.medium { background: var(--warn); }
+.row .dot.low { background: var(--bad); }
+.row .id { font-family: var(--mono); color: var(--dim); }
+.row.done .id { color: var(--ok); }
+.row .line { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.row .tc { grid-column: 2 / 4; font-family: var(--mono); font-size: 11px; color: #6f6a62; }
+.row .mark { color: var(--ok); }
+
+/* stage: video over frame grab, both fitted, no page scroll */
+#stage { padding: 10px; display: flex; flex-direction: column; gap: 6px; overflow: hidden; }
+video { width: 100%; flex: 1 1 55%; min-height: 180px; background: #000; object-fit: contain; }
+#grabwrap { flex: 1 1 45%; min-height: 90px; border: 1px solid var(--line); background: #000;
+            display: flex; align-items: center; justify-content: center; overflow: hidden; }
+#grab { max-width: 100%; max-height: 100%; display: block; }
+.caption { flex: none; color: var(--dim); font-family: var(--mono); font-size: 11px; }
+
+/* editor */
+#editor { border-left: 1px solid var(--line); padding: 10px 12px 40px; }
+fieldset { border: 1px solid var(--line); margin: 0 0 10px; padding: 8px 10px; }
+legend { color: var(--dim); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+label { display: block; color: var(--dim); font-size: 11px; margin: 6px 0 2px; }
+input, select, textarea, button {
+  font: 13px/1.4 var(--sans); color: var(--ink); background: #101010;
+  border: 1px solid var(--line); border-radius: 2px; padding: 4px 6px; width: 100%; }
+textarea { font-family: var(--mono); resize: vertical; min-height: 92px; white-space: pre; }
+input[type=checkbox] { width: auto; }
+button { width: auto; cursor: pointer; background: #232323; }
+button:hover { background: #2e2e2e; }
+button.primary { background: var(--accent); color: #1a1408; border-color: var(--accent); font-weight: 600; }
+button.danger { color: var(--bad); }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0 10px; }
+.tcrow { display: flex; align-items: center; gap: 4px; margin: 3px 0; flex-wrap: wrap; }
+.tcrow .tcval { font-family: var(--mono); min-width: 8.2em; }
+.tcrow button { padding: 2px 6px; font-family: var(--mono); font-size: 11px; }
+.bar { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+.keys { color: #6f6a62; font-size: 11px; line-height: 1.7; margin-top: 10px; }
+.keys kbd { font-family: var(--mono); background: #202020; border: 1px solid var(--line);
+            border-radius: 2px; padding: 0 4px; }
+.empty { color: var(--dim); padding: 20px; }
+</style>
+</head>
+<body>
+
+<header>
+  <span class="title" id="film">loading</span>
+  <span id="counts"></span>
+  <span id="timing"></span>
+  <span id="save" class="idle">ready</span>
+</header>
+
+<main>
+  <div id="list"></div>
+
+  <section id="stage">
+    <video id="v" controls preload="metadata" src="/video"></video>
+    <div class="caption" id="vcap"></div>
+    <div id="grabwrap"><img id="grab" alt="frame grab"></div>
+    <div class="caption" id="gcap"></div>
+  </section>
+
+  <section id="editor">
+    <div id="noselection" class="empty">No card selected.</div>
+    <div id="fields" hidden>
+      <fieldset>
+        <legend>Card <span id="cardid"></span></legend>
+        <label for="f-text">Transcript (line breaks are the card's line breaks)</label>
+        <textarea id="f-text" spellcheck="false"></textarea>
+        <div class="grid2">
+          <div><label for="f-type">Type</label>
+            <select id="f-type">
+              <option>title</option><option>narrative</option><option>dialogue</option>
+              <option>insert</option><option>credit</option>
+            </select></div>
+          <div><label for="f-speaker">Speaker</label><input id="f-speaker"></div>
+        </div>
+        <label for="f-context">Context for translators</label>
+        <input id="f-context">
+        <label for="f-notes">Notes</label>
+        <input id="f-notes">
+      </fieldset>
+
+      <fieldset>
+        <legend>Timing</legend>
+        <div class="tcrow">
+          <span class="tcval" id="tc-in">--</span>
+          <button data-nudge="in" data-by="-frame">-1f</button>
+          <button data-nudge="in" data-by="frame">+1f</button>
+          <button data-nudge="in" data-by="-0.5">-.5s</button>
+          <button data-nudge="in" data-by="0.5">+.5s</button>
+          <button id="set-in">set in from video</button>
+        </div>
+        <div class="tcrow">
+          <span class="tcval" id="tc-out">--</span>
+          <button data-nudge="out" data-by="-frame">-1f</button>
+          <button data-nudge="out" data-by="frame">+1f</button>
+          <button data-nudge="out" data-by="-0.5">-.5s</button>
+          <button data-nudge="out" data-by="0.5">+.5s</button>
+          <button id="set-out">set out from video</button>
+        </div>
+        <div class="tcrow">
+          <button id="play-card">play card</button>
+          <span class="caption" id="dur"></span>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Style</legend>
+        <div class="grid2">
+          <div><label for="f-frame">Frame</label>
+            <select id="f-frame"><option value="">(blank)</option><option>none</option>
+              <option>rule</option><option>ornate</option><option>illustrated</option></select></div>
+          <div><label for="f-align">Align</label>
+            <select id="f-align"><option value="">(blank)</option><option>center</option>
+              <option>left</option></select></div>
+          <div><label for="f-quote">Quote style</label><input id="f-quote"></div>
+          <div><label for="f-emph">Emphasis</label><input id="f-emph"></div>
+        </div>
+        <label><input type="checkbox" id="f-allcaps"> set in all capitals</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Reading</legend>
+        <div class="grid2">
+          <div><label for="f-conf">Confidence</label>
+            <select id="f-conf"><option value="">(blank)</option><option>high</option>
+              <option>medium</option><option>low</option></select></div>
+          <div><label for="f-verified">Verified</label>
+            <label><input type="checkbox" id="f-verified"> checked against the frame</label></div>
+        </div>
+        <label for="f-doubt">Doubt</label>
+        <input id="f-doubt">
+      </fieldset>
+
+      <div class="bar">
+        <button class="primary" id="verify">verify and next</button>
+        <button id="prev">prev</button>
+        <button id="next">next</button>
+      </div>
+      <div class="bar">
+        <button id="add">add card here</button>
+        <button class="danger" id="drop">drop card</button>
+      </div>
+
+      <div class="keys">
+        <kbd>j</kbd> <kbd>k</kbd> or <kbd>&darr;</kbd> <kbd>&uarr;</kbd> next / prev &nbsp;
+        <kbd>v</kbd> verify and advance &nbsp; <kbd>space</kbd> play / pause<br>
+        <kbd>i</kbd> <kbd>o</kbd> set in / out from the video &nbsp;
+        <kbd>[</kbd> <kbd>]</kbd> nudge in a frame &nbsp;
+        <kbd>{</kbd> <kbd>}</kbd> nudge out a frame &nbsp;
+        <kbd>Esc</kbd> leave the text field
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+"use strict";
+const $ = (id) => document.getElementById(id);
+const v = $("v");
+let S = null, cur = null, fps = 24;
+let pending = {}, pendingId = null, timer = null, stopAt = null;
+
+// ---------------------------------------------------------------- helpers
+
+function card(id) { return S ? S.cards.find(c => c.id === id) : null; }
+function idx(id) { return S ? S.cards.findIndex(c => c.id === id) : -1; }
+function pad(n, w) { return String(n).padStart(w, "0"); }
+function fmtTc(t) {
+  if (t === null || t === undefined) return "--";
+  t = Math.max(0, t);
+  const h = Math.floor(t / 3600), m = Math.floor((t % 3600) / 60), s = t % 60;
+  return pad(h, 2) + ":" + pad(m, 2) + ":" + (s < 10 ? "0" : "") + s.toFixed(3);
+}
+function firstLine(t) { const l = (t || "").split("\n")[0].trim(); return l || "(no text)"; }
+function setSave(state, msg) {
+  const el = $("save");
+  el.className = state;
+  el.textContent = state === "error" ? "error: " + (msg || "") : state;
+}
+
+// ---------------------------------------------------------------- loading
+
+async function load(keepSelection) {
+  const r = await fetch("/api/state");
+  S = await r.json();
+  fps = S.video.fps || 24;
+  document.title = "scrub " + S.slug;
+  $("film").textContent = S.title + (S.year ? " (" + S.year + ")" : "");
+  $("vcap").textContent = "playing " + S.video.name + "  ·  " + fps.toFixed(3) + " fps";
+  header();
+  list();
+  if (!keepSelection || !card(cur)) select(S.cards.length ? S.cards[0].id : null);
+  else fill();
+}
+
+function header() {
+  $("counts").textContent = S.counts.verified + " / " + S.counts.total + " verified";
+  $("timing").innerHTML = "timing: " + S.timing.status + " · " +
+    '<span class="' + S.timing.match + '">' + S.timing.note + "</span>";
+}
+
+function list() {
+  const box = $("list");
+  box.innerHTML = "";
+  for (const c of S.cards) box.appendChild(row(c));
+}
+
+function row(c) {
+  const el = document.createElement("div");
+  el.className = "row" + (c.verified ? " done" : "") + (c.id === cur ? " on" : "");
+  el.id = "row-" + c.id;
+  el.onclick = () => select(c.id);
+  el.innerHTML =
+    '<span class="dot ' + (c.confidence || "") + '"></span>' +
+    '<span class="id"></span><span class="line"></span>' +
+    '<span class="tc"></span>';
+  el.querySelector(".id").textContent = c.id;
+  el.querySelector(".line").textContent = firstLine(c.text);
+  el.querySelector(".tc").textContent = (c.in || "untimed") + (c.verified ? "  ✓" : "");
+  return el;
+}
+
+function redrawRow(c) {
+  const old = $("row-" + c.id);
+  if (old) old.replaceWith(row(c));
+}
+
+// ---------------------------------------------------------------- selection
+
+function select(id, noSeek) {
+  flush();
+  cur = id;
+  for (const el of document.querySelectorAll(".row.on")) el.classList.remove("on");
+  const el = $("row-" + id);
+  if (el) { el.classList.add("on"); el.scrollIntoView({ block: "nearest" }); }
+  fill();
+  const c = card(id);
+  if (c && c.in_s !== null && !noSeek) { stopAt = null; v.currentTime = c.in_s; }
+  if (c) {
+    $("grab").src = "/grab/" + encodeURIComponent(c.id);
+    $("gcap").textContent = "frame grab for " + c.id;
+  }
+}
+
+function fill() {
+  const c = card(cur);
+  $("fields").hidden = !c;
+  $("noselection").hidden = !!c;
+  if (!c) return;
+  $("cardid").textContent = c.id + "  (" + (c.index + 1) + " of " + S.cards.length + ")";
+  $("f-text").value = c.text || "";
+  $("f-type").value = c.type || "dialogue";
+  $("f-speaker").value = c.speaker || "";
+  $("f-context").value = c.context || "";
+  $("f-notes").value = c.notes || "";
+  $("f-frame").value = c.style.frame || "";
+  $("f-align").value = c.style.align || "";
+  $("f-quote").value = c.style.quote_style || "";
+  $("f-emph").value = c.style.emphasis || "";
+  $("f-allcaps").checked = !!c.style.all_caps;
+  $("f-conf").value = c.confidence || "";
+  $("f-verified").checked = !!c.verified;
+  $("f-doubt").value = c.doubt || "";
+  times();
+}
+
+function times() {
+  const c = card(cur);
+  if (!c) return;
+  $("tc-in").textContent = c.in || "untimed";
+  $("tc-out").textContent = c.out || "untimed";
+  const d = (c.in_s !== null && c.out_s !== null) ? (c.out_s - c.in_s) : null;
+  $("dur").textContent = d === null ? "" : d.toFixed(3) + " s on screen";
+}
+
+// ---------------------------------------------------------------- saving
+
+function queue(patch, delay) {
+  if (!cur) return;
+  if (pendingId && pendingId !== cur) flush();
+  pendingId = cur;
+  if (patch.style) patch.style = Object.assign({}, pending.style || {}, patch.style);
+  Object.assign(pending, patch);
+  setSave("saving");
+  clearTimeout(timer);
+  if (delay) timer = setTimeout(flush, delay);
+  else flush();
+}
+
+async function flush() {
+  clearTimeout(timer);
+  timer = null;
+  if (!pendingId || !Object.keys(pending).length) return;
+  const id = pendingId, patch = pending;
+  pending = {}; pendingId = null;
+  setSave("saving");
+  try {
+    const r = await fetch("/api/card/" + encodeURIComponent(id), {
+      method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(patch)
+    });
+    const j = await r.json();
+    if (!r.ok) throw new Error(j.error || r.statusText);
+    const i = idx(id);
+    if (i >= 0) S.cards[i] = j.card;
+    S.counts = j.counts;
+    header();
+    redrawRow(j.card);
+    if (id === cur) times();
+    setSave("saved");
+  } catch (e) {
+    setSave("error", e.message);
+  }
+}
+
+// ---------------------------------------------------------------- editing
+
+function bindText(id, field) {
+  const el = $(id);
+  el.addEventListener("input", () => queue(patchFor(field, el.value), 400));
+  el.addEventListener("blur", flush);
+}
+function bindChange(id, field, read) {
+  $(id).addEventListener("change", () => queue(patchFor(field, read($(id))), 0));
+}
+function patchFor(field, value) {
+  if (field.startsWith("style.")) { const p = { style: {} }; p.style[field.slice(6)] = value; return p; }
+  const p = {}; p[field] = value; return p;
+}
+
+bindText("f-text", "text");
+bindText("f-speaker", "speaker");
+bindText("f-context", "context");
+bindText("f-notes", "notes");
+bindText("f-doubt", "doubt");
+bindText("f-quote", "style.quote_style");
+bindText("f-emph", "style.emphasis");
+bindChange("f-type", "type", el => el.value);
+bindChange("f-frame", "style.frame", el => el.value);
+bindChange("f-align", "style.align", el => el.value);
+bindChange("f-allcaps", "style.all_caps", el => el.checked);
+bindChange("f-conf", "confidence", el => el.value);
+bindChange("f-verified", "verified", el => el.checked);
+
+// ---------------------------------------------------------------- timing
+
+function setTc(field, t, seek) {
+  const c = card(cur);
+  if (!c) return;
+  t = Math.max(0, t);
+  c[field + "_s"] = t;
+  c[field] = fmtTc(t);
+  times();
+  if (seek) { stopAt = null; v.currentTime = t; }
+  queue(patchFor(field, t), 0);
+}
+
+function nudge(field, by) {
+  const c = card(cur);
+  if (!c) return;
+  const step = by === "frame" ? 1 / fps : (by === "-frame" ? -1 / fps : parseFloat(by));
+  const base = c[field + "_s"] !== null && c[field + "_s"] !== undefined ? c[field + "_s"] : v.currentTime;
+  setTc(field, base + step, true);
+}
+
+for (const b of document.querySelectorAll("[data-nudge]"))
+  b.onclick = () => nudge(b.dataset.nudge, b.dataset.by);
+$("set-in").onclick = () => setTc("in", v.currentTime, false);
+$("set-out").onclick = () => setTc("out", v.currentTime, false);
+$("play-card").onclick = playCard;
+
+function playCard() {
+  const c = card(cur);
+  if (!c || c.in_s === null) return;
+  v.currentTime = c.in_s;
+  stopAt = c.out_s;
+  v.play();
+  watch();
+}
+function watch() {
+  if (stopAt !== null && !v.paused) {
+    if (v.currentTime >= stopAt) { v.pause(); stopAt = null; return; }
+    requestAnimationFrame(watch);
+  }
+}
+
+// ---------------------------------------------------------------- moving, adding, dropping
+
+function move(delta) {
+  const i = idx(cur);
+  if (i < 0) return;
+  const j = Math.min(S.cards.length - 1, Math.max(0, i + delta));
+  if (j !== i) select(S.cards[j].id);
+}
+
+async function verify() {
+  $("f-verified").checked = true;
+  queue({ verified: true }, 0);
+  await flush();
+  move(1);
+}
+
+async function post(url, body) {
+  const r = await fetch(url, {
+    method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body || {})
+  });
+  const j = await r.json();
+  if (!r.ok) throw new Error(j.error || r.statusText);
+  return j;
+}
+
+$("verify").onclick = verify;
+$("prev").onclick = () => move(-1);
+$("next").onclick = () => move(1);
+
+$("add").onclick = async () => {
+  await flush();
+  setSave("saving");
+  try {
+    const j = await post("/api/add", { at: v.currentTime, after: cur });
+    await load(true);
+    select(j.card.id, true);
+    setSave("saved");
+  } catch (e) { setSave("error", e.message); }
+};
+
+$("drop").onclick = async () => {
+  const c = card(cur);
+  if (!c) return;
+  if (!confirm("Drop card " + c.id + "? Its id is never reused.")) return;
+  await flush();
+  setSave("saving");
+  try {
+    const i = idx(c.id);
+    await post("/api/card/" + encodeURIComponent(c.id) + "/drop");
+    cur = null;
+    await load(false);
+    if (S.cards.length) select(S.cards[Math.min(i, S.cards.length - 1)].id);
+    setSave("saved");
+  } catch (e) { setSave("error", e.message); }
+};
+
+// ---------------------------------------------------------------- keys
+
+document.addEventListener("keydown", (e) => {
+  const el = document.activeElement;
+  const tag = el ? el.tagName : "";
+  if (e.key === "Escape") { if (el && el.blur) el.blur(); return; }
+  if (tag === "TEXTAREA" || tag === "INPUT" || tag === "SELECT" || (el && el.isContentEditable)) return;
+  if (e.ctrlKey || e.metaKey || e.altKey) return;
+  if (tag === "VIDEO" && (e.key === " " || e.key.startsWith("Arrow"))) return;
+  switch (e.key) {
+    case "j": case "ArrowDown": move(1); break;
+    case "k": case "ArrowUp": move(-1); break;
+    case "v": verify(); break;
+    case " ": if (v.paused) v.play(); else v.pause(); break;
+    case "i": setTc("in", v.currentTime, false); break;
+    case "o": setTc("out", v.currentTime, false); break;
+    case "[": nudge("in", "-frame"); break;
+    case "]": nudge("in", "frame"); break;
+    case "{": nudge("out", "-frame"); break;
+    case "}": nudge("out", "frame"); break;
+    default: return;
+  }
+  e.preventDefault();
+});
+
+window.addEventListener("beforeunload", flush);
+load(false).catch(e => setSave("error", e.message));
+</script>
+</body>
+</html>
