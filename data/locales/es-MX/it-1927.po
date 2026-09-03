@@ -1,0 +1,1921 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: intertitles it-1927\n"
+"POT-Creation-Date: 2026-09-03 21:01+0000\n"
+"Language: es-MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Film-Title: It\n"
+"X-Film-Year: 1927\n"
+
+#. Card 1 of 198 · credit · 36.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:1
+msgctxt "001"
+msgid ""
+"Photoplay Productions\n"
+"and\n"
+"Killiam Shows\n"
+"in association with\n"
+"Thames Television\n"
+"\n"
+"present"
+msgstr ""
+
+#. Card 2 of 198 · title · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:2
+msgctxt "002"
+msgid ""
+"Adolph Zukor and Jesse L. Lasky\n"
+"present\n"
+"CLARA BOW\n"
+"in\n"
+"An Elinor Glyn - Clarence Badger\n"
+"PRODUCTION\n"
+"\"it\"\n"
+"with ANTONIO MORENO\n"
+"B.F. Schulberg\n"
+"Associate Producer, West Coast Studios"
+msgstr ""
+
+#. Card 3 of 198 · narrative · 2.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:3
+msgctxt "004"
+msgid ""
+"Directed\n"
+"Clarence Badger\n"
+"Photographed\n"
+"H.Kinley Martin"
+msgstr ""
+
+#. Card 4 of 198 · credit · 1.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:4
+msgctxt "005"
+msgid ""
+"Story and Adaptation by\n"
+"ELINOR GLYN\n"
+"\n"
+"Screen play by\n"
+"Hope Loring and Louis D. Lighton\n"
+"\n"
+"Titles by\n"
+"George Marion, Jr.\n"
+"\n"
+"Editor-in-chief\n"
+"E. Lloyd Sheldon"
+msgstr ""
+
+#. Card 5 of 198 · credit · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:5
+msgctxt "010"
+msgid ""
+"THE PLAYERS\n"
+"Betty Lou - - - - - - - - - - - Clara Bow\n"
+"Cyrus Waltham - - - Antonio Moreno\n"
+"Monty - - - - - - - - - - - William Austin\n"
+"Molly - - - - - - - - - - - - Priscilla Bonner\n"
+"Adela Van Norman - Jacqueline Gadsdon\n"
+"Mrs. Van Norman - Julia Swayne Gordon\n"
+"and\n"
+"Madame Elinor Glyn"
+msgstr ""
+
+#. Card 6 of 198 · narrative · 1.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:6
+msgctxt "014"
+msgid ""
+"T'is that qualitypossessed by some\n"
+"whichdraws all others with its\n"
+"magnetic force.WithIT\"you win\n"
+"all menifyou areawomanandall\n"
+"women if you are a man.IT*can\n"
+"bea quality of the mind as well asa\n"
+"physicalattraction."
+msgstr ""
+
+#. Card 7 of 198 · narrative · 4.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:7
+msgctxt "016"
+msgid ""
+"eaving his department store\n"
+"to hisson,CyrusT.Waltham\n"
+"has gone to Herrin, Illinois, for\n"
+"the shooting"
+msgstr ""
+
+#. Card 8 of 198 · narrative · 2.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:8
+msgctxt "019"
+msgid ""
+"*A gentleman to see\n"
+"you, sir.\""
+msgstr ""
+
+#. Card 9 of 198 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:9
+msgctxt "024"
+msgid ""
+"\"For a good boy - on\n"
+"his first work day.\""
+msgstr ""
+
+#. Card 10 of 198 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:10
+msgctxt "025"
+msgid ""
+"\"If you ever go to work,\n"
+"Monty, I'll do as much\n"
+"for you.\""
+msgstr ""
+
+#. Card 11 of 198 · insert · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:11
+msgctxt "027"
+msgid ""
+"By\n"
+"Elinor Glyn\n"
+"\"IT\"\n"
+"Illustrations by\n"
+"W. Smithson Broadhead"
+msgstr ""
+
+#. Card 12 of 198 · narrative · 18.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:12
+msgctxt "028"
+msgid ""
+"whofsdivinelygood-looking has not\"iTat\n"
+"all.Do you gather whatI mean, Grannie?\n"
+"\"\"IT' is that peculiar quality which some\n"
+"persons possess, which attracts others of the\n"
+"opposite sex. The possessor of IT'must be\n"
+"absolutely un-selfconscious,and must have\n"
+"that magnetic “\"sex appeal\"which is irresis-\n"
+"tible.\n"
+"\"It is a magnetic and peculiar force, and\n"
+"you know itas soon as you come in contact"
+msgstr ""
+
+#. Card 13 of 198 · insert · 6.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:13
+msgctxt "029"
+msgid ""
+"and a fearless unconquerable flash in the eye\n"
+"which reveals that \"IT\" is part of his character.\n"
+"Mothers spoil boys with \"IT\" — women\n"
+"never refuse them favors!\n"
+"But the quality of \"IT\" is something that\n"
+"is never unrecognizable, even though its pos-"
+msgstr ""
+
+#. Card 14 of 198 · dialogue · 2.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:14
+msgctxt "031"
+msgid ""
+"\"Old fruit, you've\n"
+"got 'IT'!\""
+msgstr ""
+
+#. Card 15 of 198 · dialogue · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:15
+msgctxt "032"
+msgid ""
+"\"What the devil are you\n"
+"doing?*"
+msgstr ""
+
+#. Card 16 of 198 · dialogue · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:16
+msgctxt "034"
+msgid ""
+"\"No — too bad — but you\n"
+"haven't any 'IT'!\""
+msgstr ""
+
+#. Card 17 of 198 · dialogue · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:17
+msgctxt "035"
+msgid ""
+"\"Run away, Monty, the\n"
+"keepers are coming.\""
+msgstr ""
+
+#. Card 18 of 198 · dialogue · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:18
+msgctxt "037"
+msgid ""
+"\"I'mtolookover the\n"
+"store. Come along."
+msgstr ""
+
+#. Card 19 of 198 · dialogue · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:19
+msgctxt "038"
+msgid "\"Hot socks — the new boss!\""
+msgstr ""
+
+#. Card 20 of 198 · dialogue · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:20
+msgctxt "039"
+msgid ""
+"\"Sweet Santa Claus,\n"
+"give me him!\""
+msgstr ""
+
+#. Card 21 of 198 · dialogue · 2.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:21
+msgctxt "040"
+msgid ""
+"\"Let's have a double wedding — you and him — and me and the Prince of "
+"Wales!\""
+msgstr ""
+
+#. Card 22 of 198 · dialogue · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:22
+msgctxt "042"
+msgid "\"Where do you figure? The Prince is going to be our best man!\""
+msgstr ""
+
+#. Card 23 of 198 · dialogue · 1.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:23
+msgctxt "043"
+msgid "\"I've inspected all the lady employees — and not one of them has 'IT'!\""
+msgstr ""
+
+#. Card 24 of 198 · dialogue · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:24
+msgctxt "045"
+msgid "\"You went over big, dearie!\""
+msgstr ""
+
+#. Card 25 of 198 · narrative · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:25
+msgctxt "046"
+msgid ""
+"Justyouwait-I'lltake\n"
+"the snap out of your\n"
+"garters yet!'"
+msgstr ""
+
+#. Card 26 of 198 · dialogue · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:26
+msgctxt "049"
+msgid "\"Look! If I ever saw 'IT', that's 'IT'!\""
+msgstr ""
+
+#. Card 27 of 198 · dialogue · 3.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:27
+msgctxt "050"
+msgid ""
+"\"Shall we gnaw achop\n"
+"at the club tonight?\""
+msgstr ""
+
+#. Card 28 of 198 · dialogue · 3.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:28
+msgctxt "051"
+msgid ""
+"\"Thanks,but I have an\n"
+"engagementat theRitz."
+msgstr ""
+
+#. Card 29 of 198 · dialogue · 2.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:29
+msgctxt "053"
+msgid ""
+"\"CouldI-is it asking\n"
+"toomuch-wouldit be\n"
+"possible for me to-to\n"
+"drive you home?\""
+msgstr ""
+
+#. Card 30 of 198 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:30
+msgctxt "056"
+msgid ""
+"\"I'd be very glad to go\n"
+"with you - if you'd\n"
+"ride in my car."
+msgstr ""
+
+#. Card 31 of 198 · narrative · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:31
+msgctxt "059"
+msgid ""
+"etty lived in that\n"
+"fashionabledown\n"
+"townsuburb-Gas-\n"
+"house Gables-"
+msgstr ""
+
+#. Card 32 of 198 · dialogue · 2.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:32
+msgctxt "062"
+msgid "\"Would — could — do you ever dine?\""
+msgstr ""
+
+#. Card 33 of 198 · dialogue · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:33
+msgctxt "064"
+msgid "'I'd love to -"
+msgstr ""
+
+#. Card 34 of 198 · dialogue · 1.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:34
+msgctxt "065"
+msgid "\"Of course — how absurd!\""
+msgstr ""
+
+#. Card 35 of 198 · dialogue · 1.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:35
+msgctxt "066"
+msgid "\"Then I'll pop around at eight?\""
+msgstr ""
+
+#. Card 36 of 198 · dialogue · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:36
+msgctxt "069"
+msgid "\"Toodles is hungry."
+msgstr ""
+
+#. Card 37 of 198 · dialogue · 4.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:37
+msgctxt "070"
+msgid ""
+"\"The doctor says I can't\n"
+"go back to the store for\n"
+"a month — and I can't\n"
+"let you do any more\n"
+"for me.\""
+msgstr ""
+
+#. Card 38 of 198 · dialogue · 4.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:38
+msgctxt "072"
+msgid ""
+"\"Don't be sill, Molly \n"
+"won't go back on a pal!\""
+msgstr ""
+
+#. Card 39 of 198 · dialogue · 7.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:39
+msgctxt "073"
+msgid ""
+"'That pest of a landlady\n"
+"and her friend just left.\n"
+"The baby shouldn't do\n"
+"this—and I shouldn't do\n"
+"that—'"
+msgstr ""
+
+#. Card 40 of 198 · dialogue · 4.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:40
+msgctxt "074"
+msgid ""
+"\"If this was my baby,\n"
+"I'd tell 'em where to\n"
+"head in!\""
+msgstr ""
+
+#. Card 41 of 198 · dialogue · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:41
+msgctxt "075"
+msgid ""
+"\"I'm dining out tonight\n"
+"— at the Ritz!\""
+msgstr ""
+
+#. Card 42 of 198 · narrative · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:42
+msgctxt "079"
+msgid ""
+"very evening,in America,\n"
+"eighteenmillionblondes\n"
+"prepare to dine with gentle-\n"
+"men.One of the eighteen\n"
+"million一"
+msgstr ""
+
+#. Card 43 of 198 · dialogue · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:43
+msgctxt "081"
+msgid ""
+"\"Mother, would you\n"
+"approve of my being\n"
+"Mrs.CyrusT.Waltham?\""
+msgstr ""
+
+#. Card 44 of 198 · dialogue · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:44
+msgctxt "085"
+msgid ""
+"\"He hasn't proposed yet\n"
+"- but he's going to!\""
+msgstr ""
+
+#. Card 45 of 198 · dialogue · 1.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:45
+msgctxt "087"
+msgid ""
+"\"Mademoiselle's car\n"
+"is without.\""
+msgstr ""
+
+#. Card 46 of 198 · dialogue · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:46
+msgctxt "094"
+msgid ""
+"\"A nice, quiet table-\n"
+"in the corner, Mr.\n"
+"Montgomery?\""
+msgstr ""
+
+#. Card 47 of 198 · dialogue · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:47
+msgctxt "095"
+msgid ""
+"\"I don't crave this table.\n"
+"WhenI'm intheswim,\n"
+"I want to be with the\n"
+"goldfish!\""
+msgstr ""
+
+#. Card 48 of 198 · insert · 4.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:48
+msgctxt "099"
+msgid ""
+"POTAGES\n"
+"Soupe cressonnière 2.00\n"
+"Perles lu Japon 2.00\n"
+"Consommé, Croûte au pot 2.00\n"
+"Fromage râpé 2.25\n"
+"HORS-D'ŒUVRES\n"
+"Salade de concombres 4.50\n"
+"Salade de Museau de bœuf 4.00\n"
+"Harengs, rolmopps 4.00\n"
+"Saucisson de ménage 3.00\n"
+"Radis roses au beurre 3.00\n"
+"Olives au beurre 3.00\n"
+"Andouille fumée 3.00\n"
+"Anchois de Norvège 3.00"
+msgstr ""
+
+#. Card 49 of 198 · dialogue · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:49
+msgctxt "100"
+msgid "\"I'll take the same!\""
+msgstr ""
+
+#. Card 50 of 198 · dialogue · 1.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:50
+msgctxt "101"
+msgid ""
+"\"Who is the girl with\n"
+"Monty?\""
+msgstr ""
+
+#. Card 51 of 198 · dialogue · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:51
+msgctxt "102"
+msgid ""
+"\"I don't know-but isn't\n"
+"she attractive?\""
+msgstr ""
+
+#. Card 52 of 198 · dialogue · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:52
+msgctxt "103"
+msgid ""
+"\"Who's the blonde with\n"
+"Mr.Waltham?\""
+msgstr ""
+
+#. Card 53 of 198 · dialogue · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:53
+msgctxt "104"
+msgid ""
+"\"AdelaVan Norman-\n"
+"they've been friends for\n"
+"years. Some day they'll\n"
+"marry and end it all.\""
+msgstr ""
+
+#. Card 54 of 198 · dialogue · 4.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:54
+msgctxt "106"
+msgid ""
+"\"Of course you're reading\n"
+"Elinor Glyn's latest story,\n"
+"'IT'?\""
+msgstr ""
+
+#. Card 55 of 198 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:55
+msgctxt "107"
+msgid ""
+"\"Monty was raving about\n"
+"it today. What is 'IT'?\""
+msgstr ""
+
+#. Card 56 of 198 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:56
+msgctxt "108"
+msgid ""
+"\"Here's ElinorGlynherself!\n"
+"Let's ask her to tell us\n"
+"something aboutIT\""
+msgstr ""
+
+#. Card 57 of 198 · dialogue · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:57
+msgctxt "109"
+msgid ""
+"\"Madame Glyn,we've\n"
+"been talking about your\n"
+"latest story.Just what\n"
+"is thisIT'?\""
+msgstr ""
+
+#. Card 58 of 198 · dialogue · 4.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:58
+msgctxt "110"
+msgid ""
+"\"Self-confidenceandindifference\n"
+"astowhetheryouarepleasing\n"
+"ornot-andsomethinginyou\n"
+"thatgivesthe impression that\n"
+"you are not all cold.That's'IT'I\""
+msgstr ""
+
+#. Card 59 of 198 · dialogue · 3.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:59
+msgctxt "112"
+msgid ""
+"\"If you have IT', you\n"
+"will win the girl you\n"
+"love.\""
+msgstr ""
+
+#. Card 60 of 198 · dialogue · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:60
+msgctxt "113"
+msgid ""
+"\"Cyrus, do you believe\n"
+"in 'IT'?\""
+msgstr ""
+
+#. Card 61 of 198 · dialogue · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:61
+msgctxt "114"
+msgid "\"I certainly do!\""
+msgstr ""
+
+#. Card 62 of 198 · dialogue · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:62
+msgctxt "115"
+msgid ""
+"\"I'm going to get my\n"
+"wish!\""
+msgstr ""
+
+#. Card 63 of 198 · dialogue · 1.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:63
+msgctxt "117"
+msgid "\"Oh,I musttelephone!"
+msgstr ""
+
+#. Card 64 of 198 · dialogue · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:64
+msgctxt "118"
+msgid ""
+"\"Who is that charming\n"
+"girl with you?\""
+msgstr ""
+
+#. Card 65 of 198 · dialogue · 1.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:65
+msgctxt "120"
+msgid "\"This is a great pleasure."
+msgstr ""
+
+#. Card 66 of 198 · dialogue · 2.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:66
+msgctxt "121"
+msgid ""
+"\"I'll bet you won't even\n"
+"recognize me,the next\n"
+"time we meet.\""
+msgstr ""
+
+#. Card 67 of 198 · dialogue · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:67
+msgctxt "123"
+msgid ""
+"\"I'll take the bet\n"
+"and you can name\n"
+"the stakes.\""
+msgstr ""
+
+#. Card 68 of 198 · narrative · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:68
+msgctxt "125"
+msgid ""
+"In a shopgirl's day,\n"
+"the first thousand\n"
+"customers are the\n"
+"crabbiest."
+msgstr ""
+
+#. Card 69 of 198 · dialogue · 7.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:69
+msgctxt "127"
+msgid ""
+"\"She always takes goods on\n"
+"approval一wears them around\n"
+"forsixmonths-andthenfinds\n"
+"she doesn't approvel\""
+msgstr ""
+
+#. Card 70 of 198 · dialogue · 1.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:70
+msgctxt "128"
+msgid ""
+"\"—and the girl insulted\n"
+"me!\""
+msgstr ""
+
+#. Card 71 of 198 · dialogue · 1.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:71
+msgctxt "129"
+msgid ""
+"\"See that the garment is\n"
+"replaced - and send the\n"
+"salesgirl to my office.\""
+msgstr ""
+
+#. Card 72 of 198 · dialogue · 2.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:72
+msgctxt "134"
+msgid ""
+"\"Young lady, in this store\n"
+"the customer is always\n"
+"right一\""
+msgstr ""
+
+#. Card 73 of 198 · dialogue · 4.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:73
+msgctxt "143"
+msgid ""
+"\"I'm the salesgirll Go\n"
+"on - bawl me out!\""
+msgstr ""
+
+#. Card 74 of 198 · dialogue · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:74
+msgctxt "145"
+msgid ""
+"\"Well, anyway, I lose the\n"
+"bet for not recognizing\n"
+"you. What's the forfeit?\""
+msgstr ""
+
+#. Card 75 of 198 · dialogue · 1.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:75
+msgctxt "147"
+msgid ""
+"\"Oh, that wasn't a\n"
+"real bet. I don't want\n"
+"anything 一"
+msgstr ""
+
+#. Card 76 of 198 · dialogue · 3.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:76
+msgctxt "149"
+msgid ""
+"\"Thanks, Adela, I'll be\n"
+"very happy to dine\n"
+"with you tonight.\""
+msgstr ""
+
+#. Card 77 of 198 · dialogue · 4.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:77
+msgctxt "153"
+msgid ""
+"\"If you insist on paying\n"
+"your bet, you can take\n"
+"me out tonight.\""
+msgstr ""
+
+#. Card 78 of 198 · dialogue · 1.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:78
+msgctxt "154"
+msgid "\"All right!  Where?\""
+msgstr ""
+
+#. Card 79 of 198 · dialogue · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:79
+msgctxt "155"
+msgid ""
+"\"Let's go to the beach -\n"
+"and do it up right!\""
+msgstr ""
+
+#. Card 80 of 198 · insert · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:80
+msgctxt "158"
+msgid "Fun House"
+msgstr ""
+
+#. Card 81 of 198 · dialogue · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:81
+msgctxt "159"
+msgid ""
+"\"Hold me tight, Mr\n"
+"Waltham."
+msgstr ""
+
+#. Card 82 of 198 · dialogue · 6.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:82
+msgctxt "163"
+msgid ""
+"\"So you're one of those\n"
+"MinuteMen-the minute\n"
+"you know a girl you\n"
+"think you can kiss herl\""
+msgstr ""
+
+#. Card 83 of 198 · narrative · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:83
+msgctxt "172"
+msgid ""
+"overty is no disgrace\n"
+"-一until meddling\n"
+"neighbors hear of it."
+msgstr ""
+
+#. Card 84 of 198 · dialogue · 5.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:84
+msgctxt "174"
+msgid ""
+"\"There's no use arguing!\n"
+"We're going to take that\n"
+"baby to the Home, until\n"
+"you're well!\""
+msgstr ""
+
+#. Card 85 of 198 · narrative · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:85
+msgctxt "175"
+msgid "*Get that story."
+msgstr ""
+
+#. Card 86 of 198 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:86
+msgctxt "176"
+msgid ""
+"\"If women like you would\n"
+"stay home and have babies\n"
+"of your own, we'd all be\n"
+"better offi\""
+msgstr ""
+
+#. Card 87 of 198 · narrative · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:87
+msgctxt "178"
+msgid ""
+"We're doing our duty.\n"
+"The mother is ill - and\n"
+"she has no means of\n"
+"support.\""
+msgstr ""
+
+#. Card 88 of 198 · narrative · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:88
+msgctxt "180"
+msgid "*This is my baby!\""
+msgstr ""
+
+#. Card 89 of 198 · dialogue · 1.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:89
+msgctxt "181"
+msgid "\"I don't believe it.\""
+msgstr ""
+
+#. Card 90 of 198 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:90
+msgctxt "182"
+msgid ""
+"\"I'm the baby's mother\n"
+"— I'm not sick — and\n"
+"I've got a job!  Laugh\n"
+"that off!\""
+msgstr ""
+
+#. Card 91 of 198 · dialogue · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:91
+msgctxt "184"
+msgid ""
+"\"Haven't I a job,Monty-\n"
+"at Waltham's? Tell 'em!\""
+msgstr ""
+
+#. Card 92 of 198 · dialogue · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:92
+msgctxt "185"
+msgid ""
+"\"Is that the baby's\n"
+"father?\""
+msgstr ""
+
+#. Card 93 of 198 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:93
+msgctxt "186"
+msgid ""
+"\"Him? He couldn't\n"
+"even give birth to\n"
+"a suspicionl\""
+msgstr ""
+
+#. Card 94 of 198 · dialogue · 3.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:94
+msgctxt "187"
+msgid ""
+"\"Who is your husband?\n"
+"Have you a husband?\""
+msgstr ""
+
+#. Card 95 of 198 · dialogue · 1.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:95
+msgctxt "188"
+msgid "\"None of your business!"
+msgstr ""
+
+#. Card 96 of 198 · dialogue · 3.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:96
+msgctxt "189"
+msgid ""
+"\"I say,Betty, this isn't\n"
+"really your child, is it?\""
+msgstr ""
+
+#. Card 97 of 198 · narrative · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:97
+msgctxt "191"
+msgid ""
+"Are you blind? Can't you\n"
+"see the resemblance?\""
+msgstr ""
+
+#. Card 98 of 198 · insert · 12.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:98
+msgctxt "194"
+msgid ""
+"and I was not able to leave.\n"
+"Will you forgive me for the\n"
+"other night, Betty, and go to\n"
+"the theatre this evening? I\n"
+"promise not to misunderstand\n"
+"again.\n"
+"so do see me in any case."
+msgstr ""
+
+#. Card 99 of 198 · dialogue · 4.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:99
+msgctxt "196"
+msgid ""
+"\"Ihave tashted the milk\n"
+"of human kindnesh-\n"
+"an'it'salotofFermillacl\""
+msgstr ""
+
+#. Card 100 of 198 · narrative · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:100
+msgctxt "197"
+msgid ""
+"B'lieveitornot-my\n"
+"baby is its mother!*"
+msgstr ""
+
+#. Card 101 of 198 · insert · 1.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:101
+msgctxt "198"
+msgid ""
+"Girl mother battles bitterly for babe\n"
+"Like tigress at bay, routs welfare workers\n"
+"Within the drab walls of a second-floor flat on Nolan Street,"
+msgstr ""
+
+#. Card 102 of 198 · insert · 5.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:102
+msgctxt "199"
+msgid ""
+"session of the tiny child.\n"
+"A man about town, clad in\n"
+"the height of fashion, testi-\n"
+"fied that the girl had ample\n"
+"means and was able to meet\n"
+"all obligations in connection"
+msgstr ""
+
+#. Card 103 of 198 · dialogue · 2.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:103
+msgctxt "201"
+msgid ""
+"\"I'm the chappie-the\n"
+"manabouttown-I'm\n"
+"the amplemeans!\""
+msgstr ""
+
+#. Card 104 of 198 · dialogue · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:104
+msgctxt "202"
+msgid ""
+"\"We are investigating the\n"
+"case of a girl who says\n"
+"she's employed here-"
+msgstr ""
+
+#. Card 105 of 198 · dialogue · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:105
+msgctxt "204"
+msgid ""
+"—sheshe-there's\n"
+"a baby.\""
+msgstr ""
+
+#. Card 106 of 198 · dialogue · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:106
+msgctxt "205"
+msgid ""
+"'She gave the name\n"
+"of Betty Lou Spence."
+msgstr ""
+
+#. Card 107 of 198 · insert · 10.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:107
+msgctxt "207"
+msgid ""
+"floor flat on Nolan Street,\n"
+"the young mother clasped her\n"
+"babe to her bosom and defied\n"
+"all who sought to gain posses-\n"
+"sion of the tiny child.\n"
+"A man about town, clad in"
+msgstr ""
+
+#. Card 108 of 198 · dialogue · 3.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:108
+msgctxt "208"
+msgid ""
+"\"Thank you. You see, we\n"
+"had to verify her story.\""
+msgstr ""
+
+#. Card 109 of 198 · dialogue · 3.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:109
+msgctxt "209"
+msgid ""
+"\"She's the one. She told\n"
+"me it's her baby-told\n"
+"mewithher ownlipsh!\""
+msgstr ""
+
+#. Card 110 of 198 · dialogue · 6.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:110
+msgctxt "211"
+msgid ""
+"\"Will you issue the\n"
+"bonus checks now,\n"
+"Mr. Waltham?\""
+msgstr ""
+
+#. Card 111 of 198 · narrative · 5.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:111
+msgctxt "213"
+msgid "Betty Lou Spence"
+msgstr ""
+
+#. Card 112 of 198 · narrative · 5.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:112
+msgctxt "218"
+msgid ""
+"Areyou mad at me\n"
+"because I slapped you?"
+msgstr ""
+
+#. Card 113 of 198 · dialogue · 10.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:113
+msgctxt "220"
+msgid ""
+"\"I'm sorry — but a girl\n"
+"has to do that.  You\n"
+"know how those things\n"
+"are!\""
+msgstr ""
+
+#. Card 114 of 198 · dialogue · 7.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:114
+msgctxt "221"
+msgid ""
+"\"Let's forget it.We've\n"
+"got each other straight\n"
+"now,haven't we?\""
+msgstr ""
+
+#. Card 115 of 198 · dialogue · 5.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:115
+msgctxt "224"
+msgid "'Yes -we have!\""
+msgstr ""
+
+#. Card 116 of 198 · dialogue · 3.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:116
+msgctxt "226"
+msgid "\"It's a star sapphire."
+msgstr ""
+
+#. Card 117 of 198 · narrative · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:117
+msgctxt "227"
+msgid ""
+"It'spretty-butIlike\n"
+"diamonds better."
+msgstr ""
+
+#. Card 118 of 198 · narrative · 5.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:118
+msgctxt "230"
+msgid ""
+"*Would you like some\n"
+"diamonds for yourself?*"
+msgstr ""
+
+#. Card 119 of 198 · dialogue · 2.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:119
+msgctxt "235"
+msgid ""
+"\"Betty, I'm crazy\n"
+"about you -"
+msgstr ""
+
+#. Card 120 of 198 · dialogue · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:120
+msgctxt "238"
+msgid "'I love you, too."
+msgstr ""
+
+#. Card 121 of 198 · dialogue · 5.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:121
+msgctxt "239"
+msgid ""
+"\"'ll buy you diamonds -\n"
+"clothes-everything\n"
+"you want-"
+msgstr ""
+
+#. Card 122 of 198 · dialogue · 9.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:122
+msgctxt "241"
+msgid ""
+"\"What are you trying\n"
+"to do?  Offer me\n"
+"one of those left-hand\n"
+"arrangements?\""
+msgstr ""
+
+#. Card 123 of 198 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:123
+msgctxt "243"
+msgid ""
+"\"I'm crazy about you!\n"
+"Isn't that enough?"
+msgstr ""
+
+#. Card 124 of 198 · dialogue · 5.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:124
+msgctxt "244"
+msgid ""
+"\"I suppose that's what\n"
+"you men call love!\""
+msgstr ""
+
+#. Card 125 of 198 · dialogue · 7.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:125
+msgctxt "245"
+msgid ""
+"\"Cancel my appointments,\n"
+"please. I'm leaving town\n"
+"for a week."
+msgstr ""
+
+#. Card 126 of 198 · narrative · 10.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:126
+msgctxt "247"
+msgid ""
+"Betty was too poor to\n"
+"quit her job — and too\n"
+"proud to stay.  So she\n"
+"quit!"
+msgstr ""
+
+#. Card 127 of 198 · narrative · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:127
+msgctxt "251"
+msgid ""
+"neDaily NewsDispate\n"
+"FEMALE HELP WANTED\n"
+"Must beexperienced, neat appe\n"
+"Dispatch\n"
+"emanent position:salary $15"
+msgstr ""
+
+#. Card 128 of 198 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:128
+msgctxt "255"
+msgid ""
+"\"I - I've come to\n"
+"forgive you."
+msgstr ""
+
+#. Card 129 of 198 · dialogue · 6.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:129
+msgctxt "257"
+msgid ""
+"\"You don't mean you\n"
+"thought the baby was\n"
+"really mine?\""
+msgstr ""
+
+#. Card 130 of 198 · narrative · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:130
+msgctxt "258"
+msgid ""
+"There's its mother!\n"
+"Can't you see the\n"
+"resemblance?\""
+msgstr ""
+
+#. Card 131 of 198 · dialogue · 8.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:131
+msgctxt "259"
+msgid ""
+"\"What a joke on Waltham\n"
+"— I told him it was your\n"
+"baby!\""
+msgstr ""
+
+#. Card 132 of 198 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:132
+msgctxt "260"
+msgid "\"He thought it was mine?\""
+msgstr ""
+
+#. Card 133 of 198 · dialogue · 7.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:133
+msgctxt "261"
+msgid ""
+"\"And he wouldn't even\n"
+"give me the benefit of\n"
+"the doubt!\""
+msgstr ""
+
+#. Card 134 of 198 · dialogue · 11.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:134
+msgctxt "262"
+msgid ""
+"\"I'll make him propose to\n"
+"me — and when he does,\n"
+"I'll laugh in his face!\n"
+"And you're going to help\n"
+"me do it!\""
+msgstr ""
+
+#. Card 135 of 198 · dialogue · 8.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:135
+msgctxt "263"
+msgid ""
+"\"But- he's going on a\n"
+"yachting cruise and-\n"
+"and I'm going with him!\""
+msgstr ""
+
+#. Card 136 of 198 · dialogue · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:136
+msgctxt "264"
+msgid ""
+"\"Fine! I'll yacht\n"
+"with you."
+msgstr ""
+
+#. Card 137 of 198 · dialogue · 5.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:137
+msgctxt "265"
+msgid ""
+"\"But, I say — what about\n"
+"your clothes?\""
+msgstr ""
+
+#. Card 138 of 198 · dialogue · 8.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:138
+msgctxt "266"
+msgid ""
+"\"That's the joke on you\n"
+"-you're going to buy\n"
+"them for me."
+msgstr ""
+
+#. Card 139 of 198 · dialogue · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:139
+msgctxt "267"
+msgid ""
+"\"Give me your word\n"
+"you won't tell him -\n"
+"anything!\""
+msgstr ""
+
+#. Card 140 of 198 · narrative · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:140
+msgctxt "269"
+msgid "*Is Mr. Waltham aboard?\""
+msgstr ""
+
+#. Card 141 of 198 · dialogue · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:141
+msgctxt "270"
+msgid "'Not yet, sir."
+msgstr ""
+
+#. Card 142 of 198 · dialogue · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:142
+msgctxt "271"
+msgid ""
+"\"The party's off. We\n"
+"might as well go back."
+msgstr ""
+
+#. Card 143 of 198 · dialogue · 8.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:143
+msgctxt "272"
+msgid ""
+"\"Ohno,sir!Mr.Waltham's\n"
+"expecting you - he'll be\n"
+"here any minute."
+msgstr ""
+
+#. Card 144 of 198 · narrative · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:144
+msgctxt "273"
+msgid ""
+"Shall I show you to\n"
+"your cabins?\""
+msgstr ""
+
+#. Card 145 of 198 · narrative · 5.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:145
+msgctxt "274"
+msgid ""
+"Something I can get for\n"
+"you, Mr. Montgomery?\""
+msgstr ""
+
+#. Card 146 of 198 · narrative · 3.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:146
+msgctxt "275"
+msgid ""
+"No,thanks-I'mjust\n"
+"prowling about.\""
+msgstr ""
+
+#. Card 147 of 198 · dialogue · 3.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:147
+msgctxt "276"
+msgid ""
+"\"Just going for some -\n"
+"some 一 cigars."
+msgstr ""
+
+#. Card 148 of 198 · narrative · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:148
+msgctxt "277"
+msgid ""
+"*Everything ready\n"
+"Captain?\""
+msgstr ""
+
+#. Card 149 of 198 · dialogue · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:149
+msgctxt "278"
+msgid "\"Let's get under way."
+msgstr ""
+
+#. Card 150 of 198 · dialogue · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:150
+msgctxt "279"
+msgid "\"I'm not feeling so well.\""
+msgstr ""
+
+#. Card 151 of 198 · dialogue · 1.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:151
+msgctxt "281"
+msgid "\"Tea, sir?*"
+msgstr ""
+
+#. Card 152 of 198 · narrative · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:152
+msgctxt "282"
+msgid "*Feeling better, Monty?\""
+msgstr ""
+
+#. Card 153 of 198 · dialogue · 10.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:153
+msgctxt "284"
+msgid ""
+"\"I feel so low,old chap,\n"
+"that I could get on\n"
+"stilts and walk under\n"
+"a dachshundi\""
+msgstr ""
+
+#. Card 154 of 198 · narrative · 7.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:154
+msgctxt "285"
+msgid ""
+"ShallIcallMissVan\n"
+"Cortland, sir? She's\n"
+"in her cabin."
+msgstr ""
+
+#. Card 155 of 198 · dialogue · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:155
+msgctxt "286"
+msgid ""
+"\"I say, I almost forgot\n"
+"about Miss Van Cortland."
+msgstr ""
+
+#. Card 156 of 198 · narrative · 10.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:156
+msgctxt "287"
+msgid ""
+"MissVanCortland-the\n"
+"-the girl I asked when\n"
+"you asked me to ask\n"
+"someone."
+msgstr ""
+
+#. Card 157 of 198 · narrative · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:157
+msgctxt "288"
+msgid ""
+"*Monty,who is Miss\n"
+"Van Cortland?\""
+msgstr ""
+
+#. Card 158 of 198 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:158
+msgctxt "289"
+msgid ""
+"\"You - you tell them,\n"
+"old thing.\""
+msgstr ""
+
+#. Card 159 of 198 · dialogue · 8.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:159
+msgctxt "290"
+msgid ""
+"\"She's a very nice girl. I\n"
+"-Ibelieve Monty met\n"
+"her in Paris last summer."
+msgstr ""
+
+#. Card 160 of 198 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:160
+msgctxt "292"
+msgid ""
+"\"You idiot! Who is\n"
+"this girl?\""
+msgstr ""
+
+#. Card 161 of 198 · dialogue · 6.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:161
+msgctxt "293"
+msgid ""
+"\"She's a ripping sort,\n"
+"really! She's positively\n"
+"topheavy with 'IT'.\""
+msgstr ""
+
+#. Card 162 of 198 · narrative · 6.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:162
+msgctxt "294"
+msgid ""
+"*Oh, Monty, am I late for\n"
+"tea? I'm so sorry.\""
+msgstr ""
+
+#. Card 163 of 198 · dialogue · 4.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:163
+msgctxt "298"
+msgid ""
+"\"Mr.Waltham!It'sbeen\n"
+"years,hasn't it?\""
+msgstr ""
+
+#. Card 164 of 198 · dialogue · 2.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:164
+msgctxt "299"
+msgid ""
+"\"Won't you have\n"
+"some tea?\""
+msgstr ""
+
+#. Card 165 of 198 · dialogue · 2.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:165
+msgctxt "300"
+msgid ""
+"\"Haven't I seen you\n"
+"some place?\""
+msgstr ""
+
+#. Card 166 of 198 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:166
+msgctxt "301"
+msgid ""
+"\"In Paris, perhaps. I'm\n"
+"there so often.\""
+msgstr ""
+
+#. Card 167 of 198 · dialogue · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:167
+msgctxt "304"
+msgid "\"Desirez-vous du sucre?\""
+msgstr ""
+
+#. Card 168 of 198 · dialogue · 4.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:168
+msgctxt "311"
+msgid ""
+"\"What do you mean by\n"
+"bringing her?\""
+msgstr ""
+
+#. Card 169 of 198 · dialogue · 6.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:169
+msgctxt "312"
+msgid ""
+"\"You know what sort\n"
+"she is-with her father-\n"
+"less childi\""
+msgstr ""
+
+#. Card 170 of 198 · narrative · 3.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:170
+msgctxt "313"
+msgid ""
+"But, I say -it isn't\n"
+"fatherless-\""
+msgstr ""
+
+#. Card 171 of 198 · dialogue · 7.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:171
+msgctxt "314"
+msgid ""
+"\"I won't have her. on\n"
+"boardl We'll put back\n"
+"to port.\""
+msgstr ""
+
+#. Card 172 of 198 · dialogue · 9.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:172
+msgctxt "315"
+msgid ""
+"\"Do you think we'll have\n"
+"as nice a day as this\n"
+"all day, Captain?\""
+msgstr ""
+
+#. Card 173 of 198 · dialogue · 7.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:173
+msgctxt "316"
+msgid ""
+"\"That's the last time I'll\n"
+"get you out of a scrape!\""
+msgstr ""
+
+#. Card 174 of 198 · narrative · 7.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:174
+msgctxt "318"
+msgid ""
+"MissVanCortlandseems\n"
+"to be rather lacking in\n"
+"reserve, doesn't she?\""
+msgstr ""
+
+#. Card 175 of 198 · dialogue · 5.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:175
+msgctxt "319"
+msgid ""
+"\"Personally, I think she\n"
+"has plenty 一 in reserve!\""
+msgstr ""
+
+#. Card 176 of 198 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:176
+msgctxt "320"
+msgid ""
+"\"Betty, I've something to\n"
+"say to you."
+msgstr ""
+
+#. Card 177 of 198 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:177
+msgctxt "321"
+msgid ""
+"\"Won't it wait until\n"
+"morning?\""
+msgstr ""
+
+#. Card 178 of 198 · dialogue · 7.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:178
+msgctxt "322"
+msgid ""
+"\"I'vebeen thinking things\n"
+"over, Betty. I want to\n"
+"talk to you- seriously."
+msgstr ""
+
+#. Card 179 of 198 · dialogue · 3.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:179
+msgctxt "323"
+msgid ""
+"\"Be serious — with you?\n"
+"How silly!\""
+msgstr ""
+
+#. Card 180 of 198 · dialogue · 7.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:180
+msgctxt "324"
+msgid ""
+"\" don't care what you've\n"
+"been - I want you to\n"
+"marry me!"
+msgstr ""
+
+#. Card 181 of 198 · dialogue · 4.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:181
+msgctxt "325"
+msgid ""
+"\"I'd rather marry your\n"
+"office boy!\""
+msgstr ""
+
+#. Card 182 of 198 · dialogue · 13.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:182
+msgctxt "326"
+msgid ""
+"\"He asked me — and I\n"
+"laughed at him — and\n"
+"now it doesn't seem so\n"
+"darned funny, after all!\""
+msgstr ""
+
+#. Card 183 of 198 · dialogue · 11.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:183
+msgctxt "327"
+msgid ""
+"\"It was all a ghastly joke,\n"
+"old man — her baby's\n"
+"just a moth — I mean\n"
+"a myth!\""
+msgstr ""
+
+#. Card 184 of 198 · dialogue · 5.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:184
+msgctxt "328"
+msgid ""
+"\"It'sher friend's baby\n"
+"And she's crying for\n"
+"you - I mean Betty,\n"
+"not the baby -"
+msgstr ""
+
+#. Card 185 of 198 · dialogue · 5.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:185
+msgctxt "329"
+msgid ""
+"\"But you said yourself\n"
+"it was her baby -"
+msgstr ""
+
+#. Card 186 of 198 · dialogue · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:186
+msgctxt "330"
+msgid ""
+"\"Take the wheel, Monty\n"
+"- I'm going to find her.'"
+msgstr ""
+
+#. Card 187 of 198 · dialogue · 5.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:187
+msgctxt "331"
+msgid ""
+"\"The ballast has shifted\n"
+"to port, sir — but there's\n"
+"no danger!\""
+msgstr ""
+
+#. Card 188 of 198 · dialogue · 8.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:188
+msgctxt "332"
+msgid ""
+"\"Silly of me, but I'm afraid I\n"
+"overdid itmade a left-hand\n"
+"turn and what not "
+msgstr ""
+
+#. Card 189 of 198 · dialogue · 8.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:189
+msgctxt "333"
+msgid ""
+"\"Take your girl friend.\n"
+"I had to knock her\n"
+"cold - but maybe it'll\n"
+"do her good.\""
+msgstr ""
+
+#. Card 190 of 198 · dialogue · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:190
+msgctxt "334"
+msgid ""
+"\"Betty, where are\n"
+"you going?"
+msgstr ""
+
+#. Card 191 of 198 · dialogue · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:191
+msgctxt "335"
+msgid "\"I'm going home!\""
+msgstr ""
+
+#. Card 192 of 198 · narrative · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:192
+msgctxt "336"
+msgid "Monty will get you."
+msgstr ""
+
+#. Card 193 of 198 · narrative · 5.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:193
+msgctxt "337"
+msgid ""
+"Monty, I wonder if there's\n"
+"anything between them?\""
+msgstr ""
+
+#. Card 194 of 198 · dialogue · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:194
+msgctxt "338"
+msgid "\"I'm afraid there is."
+msgstr ""
+
+#. Card 195 of 198 · dialogue · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:195
+msgctxt "339"
+msgid ""
+"\"We're just a couple of\n"
+"It-less 'ITS'!\""
+msgstr ""
+
+#. Card 196 of 198 · narrative · 42.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:196
+msgctxt "340"
+msgid ""
+"Manager\n"
+"PAULWING\n"
+"Recording\n"
+"RICHARDBRADFORD"
+msgstr ""
+
+#. Card 197 of 198 · credit · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:197
+msgctxt "341"
+msgid ""
+"A Photoplay Production\n"
+"in association with\n"
+"Killiam Shows Inc\n"
+"and\n"
+"Thames Television PLC\n"
+"for Channel Four\n"
+"© Killiam Shows Inc / Photoplay Productions Ltd MCMXCII"
+msgstr ""
+
+#. Card 198 of 198 · credit · 13.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/it-1927/cards.yaml:198
+msgctxt "343"
+msgid ""
+"Picture Restoration by Karl Malkames\n"
+"© MCMXXVII\n"
+"Famous Players Lasky Corparation\n"
+"renewed MCMLIV\n"
+"Paramount Pictures Corparation\n"
+"Sound Version © MCMLXXVIII\n"
+"by Killiam Shows Inc all rights reserved"
+msgstr ""

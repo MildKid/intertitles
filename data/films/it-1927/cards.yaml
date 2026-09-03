@@ -1,0 +1,3680 @@
+# Intertitle cards, in film order. Schema: data/README.md and films/_example/cards.yaml.
+# Written by the pipeline (transcribe.py, scrub.py); hand edits are fine, key order is kept.
+film: it-1927
+cards:
+  - id: "001"
+    in: "00:00:00.000"
+    out: "00:00:36.250"
+    type: credit
+    text: |-
+      Photoplay Productions
+      and
+      Killiam Shows
+      in association with
+      Thames Television
+
+      present
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: company names set larger than connecting words
+      all_caps: false
+    confidence: high
+
+  - id: "002"
+    in: "00:00:41.250"
+    out: "00:00:42.000"
+    type: title
+    text: |-
+      Adolph Zukor and Jesse L. Lasky
+      present
+      CLARA BOW
+      in
+      An Elinor Glyn - Clarence Badger
+      PRODUCTION
+      "it"
+      with ANTONIO MORENO
+      B.F. Schulberg
+      Associate Producer, West Coast Studios
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: center
+      quote_style: double curly
+      emphasis: title word "it" in large italic script; other lines vary in size and case
+      all_caps: false
+    confidence: medium
+    doubt: producer's initials read as B.F. Schulberg but may be B.P. Schulberg; tiny copyright line at the very bottom of the card is illegible and not transcribed
+
+  - id: "004"
+    in: "00:00:53.750"
+    out: "00:00:56.250"
+    type: narrative
+    text: |-
+      Directed
+      Clarence Badger
+      Photographed
+      H.Kinley Martin
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "005"
+    in: "00:01:00.250"
+    out: "00:01:01.250"
+    type: credit
+    text: |-
+      Story and Adaptation by
+      ELINOR GLYN
+
+      Screen play by
+      Hope Loring and Louis D. Lighton
+
+      Titles by
+      George Marion, Jr.
+
+      Editor-in-chief
+      E. Lloyd Sheldon
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: center
+      quote_style: ""
+      emphasis: credited names set larger than role labels
+      all_caps: false
+    confidence: high
+
+  - id: "010"
+    in: "00:01:16.250"
+    out: "00:01:18.500"
+    type: credit
+    text: |-
+      THE PLAYERS
+      Betty Lou - - - - - - - - - - - Clara Bow
+      Cyrus Waltham - - - Antonio Moreno
+      Monty - - - - - - - - - - - William Austin
+      Molly - - - - - - - - - - - - Priscilla Bonner
+      Adela Van Norman - Jacqueline Gadsdon
+      Mrs. Van Norman - Julia Swayne Gordon
+      and
+      Madame Elinor Glyn
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: actor names in italic script, character names upright; heading centered
+      all_caps: false
+    confidence: high
+
+  - id: "014"
+    in: "00:01:41.000"
+    out: "00:01:42.750"
+    type: narrative
+    text: |-
+      T'is that qualitypossessed by some
+      whichdraws all others with its
+      magnetic force.WithIT"you win
+      all menifyou areawomanandall
+      women if you are a man.IT*can
+      bea quality of the mind as well asa
+      physicalattraction.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "016"
+    in: "00:02:35.250"
+    out: "00:02:39.500"
+    type: narrative
+    text: |-
+      eaving his department store
+      to hisson,CyrusT.Waltham
+      has gone to Herrin, Illinois, for
+      the shooting
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "019"
+    in: "00:02:46.750"
+    out: "00:02:49.250"
+    type: narrative
+    text: |-
+      *A gentleman to see
+      you, sir."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "024"
+    in: "00:03:23.250"
+    out: "00:03:26.750"
+    type: dialogue
+    text: |-
+      "For a good boy - on
+      his first work day."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "025"
+    in: "00:03:28.500"
+    out: "00:03:33.000"
+    type: dialogue
+    text: |-
+      "If you ever go to work,
+      Monty, I'll do as much
+      for you."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "027"
+    in: "00:03:53.750"
+    out: "00:03:55.750"
+    type: insert
+    text: |-
+      By
+      Elinor Glyn
+      "IT"
+      Illustrations by
+      W. Smithson Broadhead
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: double straight
+      emphasis: title word IT in large bold display type
+      all_caps: false
+    confidence: medium
+    doubt: left-hand column of magazine body text is out of focus and not transcribed
+
+  - id: "028"
+    in: "00:04:00.250"
+    out: "00:04:19.000"
+    type: narrative
+    text: |-
+      whofsdivinelygood-looking has not"iTat
+      all.Do you gather whatI mean, Grannie?
+      ""IT' is that peculiar quality which some
+      persons possess, which attracts others of the
+      opposite sex. The possessor of IT'must be
+      absolutely un-selfconscious,and must have
+      that magnetic “"sex appeal"which is irresis-
+      tible.
+      "It is a magnetic and peculiar force, and
+      you know itas soon as you come in contact
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "029"
+    in: "00:04:22.500"
+    out: "00:04:29.000"
+    type: insert
+    text: |-
+      and a fearless unconquerable flash in the eye
+      which reveals that "IT" is part of his character.
+      Mothers spoil boys with "IT" — women
+      never refuse them favors!
+      But the quality of "IT" is something that
+      is never unrecognizable, even though its pos-
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: double straight
+      emphasis: word IT set off in quotation marks
+      all_caps: false
+    confidence: medium
+    doubt: top and bottom lines are cut by the frame edge; final word is cut off at "pos-"
+
+  - id: "031"
+    in: "00:04:51.750"
+    out: "00:04:54.250"
+    type: dialogue
+    text: |-
+      "Old fruit, you've
+      got 'IT'!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: word IT in single quotes and capitals
+      all_caps: false
+    confidence: high
+
+  - id: "032"
+    in: "00:05:25.500"
+    out: "00:05:27.500"
+    type: dialogue
+    text: |-
+      "What the devil are you
+      doing?*
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "034"
+    in: "00:05:36.500"
+    out: "00:05:39.500"
+    type: dialogue
+    text: |-
+      "No — too bad — but you
+      haven't any 'IT'!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: word IT in single quotes and capitals
+      all_caps: false
+    confidence: high
+
+  - id: "035"
+    in: "00:05:45.750"
+    out: "00:05:46.500"
+    type: dialogue
+    text: |-
+      "Run away, Monty, the
+      keepers are coming."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "037"
+    in: "00:05:56.500"
+    out: "00:05:58.500"
+    type: dialogue
+    text: |-
+      "I'mtolookover the
+      store. Come along.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "038"
+    in: "00:06:40.500"
+    out: "00:06:42.500"
+    type: dialogue
+    text: |-
+      "Hot socks — the new boss!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "039"
+    in: "00:07:02.500"
+    out: "00:07:05.500"
+    type: dialogue
+    text: |-
+      "Sweet Santa Claus,
+      give me him!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: italic on "him"
+      all_caps: false
+    confidence: high
+
+  - id: "040"
+    in: "00:07:08.500"
+    out: "00:07:11.250"
+    type: dialogue
+    text: |-
+      "Let's have a double wedding — you and him — and me and the Prince of Wales!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "042"
+    in: "00:07:19.000"
+    out: "00:07:24.750"
+    type: dialogue
+    text: |-
+      "Where do you figure? The Prince is going to be our best man!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: italic on "you"
+      all_caps: false
+    confidence: high
+
+  - id: "043"
+    in: "00:07:30.750"
+    out: "00:07:32.500"
+    type: dialogue
+    text: |-
+      "I've inspected all the lady employees — and not one of them has 'IT'!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: single quotes around IT
+      all_caps: false
+    confidence: high
+
+  - id: "045"
+    in: "00:08:07.500"
+    out: "00:08:09.500"
+    type: dialogue
+    text: |-
+      "You went over big, dearie!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "046"
+    in: "00:08:12.500"
+    out: "00:08:17.000"
+    type: narrative
+    text: |-
+      Justyouwait-I'lltake
+      the snap out of your
+      garters yet!'
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "049"
+    in: "00:09:14.500"
+    out: "00:09:17.500"
+    type: dialogue
+    text: |-
+      "Look! If I ever saw 'IT', that's 'IT'!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: single quotes around IT
+      all_caps: false
+    confidence: high
+
+  - id: "050"
+    in: "00:10:19.750"
+    out: "00:10:23.000"
+    type: dialogue
+    text: |-
+      "Shall we gnaw achop
+      at the club tonight?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "051"
+    in: "00:10:25.750"
+    out: "00:10:29.000"
+    type: dialogue
+    text: |-
+      "Thanks,but I have an
+      engagementat theRitz.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "053"
+    in: "00:11:27.500"
+    out: "00:11:30.250"
+    type: dialogue
+    text: |-
+      "CouldI-is it asking
+      toomuch-wouldit be
+      possible for me to-to
+      drive you home?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "056"
+    in: "00:11:40.750"
+    out: "00:11:44.250"
+    type: dialogue
+    text: |-
+      "I'd be very glad to go
+      with you - if you'd
+      ride in my car.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "059"
+    in: "00:12:19.000"
+    out: "00:12:22.000"
+    type: narrative
+    text: |-
+      etty lived in that
+      fashionabledown
+      townsuburb-Gas-
+      house Gables-
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "062"
+    in: "00:12:41.750"
+    out: "00:12:44.250"
+    type: dialogue
+    text: |-
+      "Would — could — do you ever dine?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "064"
+    in: "00:12:51.000"
+    out: "00:12:51.750"
+    type: dialogue
+    text: |-
+      'I'd love to -
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "065"
+    in: "00:13:05.500"
+    out: "00:13:06.500"
+    type: dialogue
+    text: |-
+      "Of course — how absurd!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "066"
+    in: "00:13:11.500"
+    out: "00:13:13.250"
+    type: dialogue
+    text: |-
+      "Then I'll pop around at eight?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "069"
+    in: "00:14:39.750"
+    out: "00:14:40.500"
+    type: dialogue
+    text: |-
+      "Toodles is hungry.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "070"
+    in: "00:14:49.750"
+    out: "00:14:54.500"
+    type: dialogue
+    text: |-
+      "The doctor says I can't
+      go back to the store for
+      a month — and I can't
+      let you do any more
+      for me."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "072"
+    in: "00:15:05.250"
+    out: "00:15:10.000"
+    type: dialogue
+    text: |-
+      "Don't be sill, Molly 
+      won't go back on a pal!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "073"
+    in: "00:15:12.250"
+    out: "00:15:19.500"
+    type: dialogue
+    text: |-
+      'That pest of a landlady
+      and her friend just left.
+      The baby shouldn't do
+      this—and I shouldn't do
+      that—'
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "074"
+    in: "00:15:25.250"
+    out: "00:15:29.250"
+    type: dialogue
+    text: |-
+      "If this was my baby,
+      I'd tell 'em where to
+      head in!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "075"
+    in: "00:15:35.000"
+    out: "00:15:36.500"
+    type: dialogue
+    text: |-
+      "I'm dining out tonight
+      — at the Ritz!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "079"
+    in: "00:17:09.000"
+    out: "00:17:14.750"
+    type: narrative
+    text: |-
+      very evening,in America,
+      eighteenmillionblondes
+      prepare to dine with gentle-
+      men.One of the eighteen
+      million一
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "081"
+    in: "00:17:42.750"
+    out: "00:17:43.500"
+    type: dialogue
+    text: |-
+      "Mother, would you
+      approve of my being
+      Mrs.CyrusT.Waltham?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "085"
+    in: "00:17:53.500"
+    out: "00:17:55.500"
+    type: dialogue
+    text: |-
+      "He hasn't proposed yet
+      - but he's going to!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "087"
+    in: "00:19:47.500"
+    out: "00:19:48.750"
+    type: dialogue
+    text: |-
+      "Mademoiselle's car
+      is without."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "094"
+    in: "00:20:32.250"
+    out: "00:20:34.500"
+    type: dialogue
+    text: |-
+      "A nice, quiet table-
+      in the corner, Mr.
+      Montgomery?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "095"
+    in: "00:21:33.750"
+    out: "00:21:35.250"
+    type: dialogue
+    text: |-
+      "I don't crave this table.
+      WhenI'm intheswim,
+      I want to be with the
+      goldfish!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "099"
+    in: "00:22:28.250"
+    out: "00:22:32.250"
+    type: insert
+    text: |-
+      POTAGES
+      Soupe cressonnière 2.00
+      Perles lu Japon 2.00
+      Consommé, Croûte au pot 2.00
+      Fromage râpé 2.25
+      HORS-D'ŒUVRES
+      Salade de concombres 4.50
+      Salade de Museau de bœuf 4.00
+      Harengs, rolmopps 4.00
+      Saucisson de ménage 3.00
+      Radis roses au beurre 3.00
+      Olives au beurre 3.00
+      Andouille fumée 3.00
+      Anchois de Norvège 3.00
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: left
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: low
+    doubt: menu header cut off at top right ("MEN..."); "Perles lu Japon" item name uncertain
+
+  - id: "100"
+    in: "00:22:45.250"
+    out: "00:22:46.750"
+    type: dialogue
+    text: |-
+      "I'll take the same!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "101"
+    in: "00:22:59.250"
+    out: "00:23:01.000"
+    type: dialogue
+    text: |-
+      "Who is the girl with
+      Monty?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "102"
+    in: "00:23:05.500"
+    out: "00:23:07.500"
+    type: dialogue
+    text: |-
+      "I don't know-but isn't
+      she attractive?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "103"
+    in: "00:23:17.500"
+    out: "00:23:19.500"
+    type: dialogue
+    text: |-
+      "Who's the blonde with
+      Mr.Waltham?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "104"
+    in: "00:23:23.500"
+    out: "00:23:29.250"
+    type: dialogue
+    text: |-
+      "AdelaVan Norman-
+      they've been friends for
+      years. Some day they'll
+      marry and end it all."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "106"
+    in: "00:23:58.000"
+    out: "00:24:02.250"
+    type: dialogue
+    text: |-
+      "Of course you're reading
+      Elinor Glyn's latest story,
+      'IT'?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "107"
+    in: "00:24:05.750"
+    out: "00:24:09.250"
+    type: dialogue
+    text: |-
+      "Monty was raving about
+      it today. What is 'IT'?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "108"
+    in: "00:24:20.750"
+    out: "00:24:25.250"
+    type: dialogue
+    text: |-
+      "Here's ElinorGlynherself!
+      Let's ask her to tell us
+      something aboutIT"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "109"
+    in: "00:24:43.000"
+    out: "00:24:48.750"
+    type: dialogue
+    text: |-
+      "Madame Glyn,we've
+      been talking about your
+      latest story.Just what
+      is thisIT'?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "110"
+    in: "00:24:53.750"
+    out: "00:24:58.500"
+    type: dialogue
+    text: |-
+      "Self-confidenceandindifference
+      astowhetheryouarepleasing
+      ornot-andsomethinginyou
+      thatgivesthe impression that
+      you are not all cold.That's'IT'I"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "112"
+    in: "00:25:05.500"
+    out: "00:25:08.750"
+    type: dialogue
+    text: |-
+      "If you have IT', you
+      will win the girl you
+      love."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "113"
+    in: "00:25:16.500"
+    out: "00:25:18.750"
+    type: dialogue
+    text: |-
+      "Cyrus, do you believe
+      in 'IT'?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: italic on "you"
+      all_caps: false
+    confidence: high
+
+  - id: "114"
+    in: "00:25:29.000"
+    out: "00:25:29.750"
+    type: dialogue
+    text: |-
+      "I certainly do!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "115"
+    in: "00:25:55.750"
+    out: "00:25:57.250"
+    type: dialogue
+    text: |-
+      "I'm going to get my
+      wish!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "117"
+    in: "00:26:11.250"
+    out: "00:26:13.000"
+    type: dialogue
+    text: |-
+      "Oh,I musttelephone!
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "118"
+    in: "00:26:42.250"
+    out: "00:26:43.000"
+    type: dialogue
+    text: |-
+      "Who is that charming
+      girl with you?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "120"
+    in: "00:27:11.000"
+    out: "00:27:12.250"
+    type: dialogue
+    text: |-
+      "This is a great pleasure.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "121"
+    in: "00:27:19.500"
+    out: "00:27:22.250"
+    type: dialogue
+    text: |-
+      "I'll bet you won't even
+      recognize me,the next
+      time we meet."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "123"
+    in: "00:27:31.000"
+    out: "00:27:33.250"
+    type: dialogue
+    text: |-
+      "I'll take the bet
+      and you can name
+      the stakes."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "125"
+    in: "00:28:06.000"
+    out: "00:28:08.250"
+    type: narrative
+    text: |-
+      In a shopgirl's day,
+      the first thousand
+      customers are the
+      crabbiest.
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: center
+      quote_style: none
+      emphasis: decorative drop-cap initial "I"
+      all_caps: false
+    confidence: high
+
+  - id: "127"
+    in: "00:28:24.000"
+    out: "00:28:31.750"
+    type: dialogue
+    text: |-
+      "She always takes goods on
+      approval一wears them around
+      forsixmonths-andthenfinds
+      she doesn't approvel"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "128"
+    in: "00:28:48.250"
+    out: "00:28:50.000"
+    type: dialogue
+    text: |-
+      "—and the girl insulted
+      me!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "129"
+    in: "00:29:04.000"
+    out: "00:29:05.000"
+    type: dialogue
+    text: |-
+      "See that the garment is
+      replaced - and send the
+      salesgirl to my office."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "134"
+    in: "00:30:02.500"
+    out: "00:30:05.000"
+    type: dialogue
+    text: |-
+      "Young lady, in this store
+      the customer is always
+      right一"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "143"
+    in: "00:30:34.750"
+    out: "00:30:38.750"
+    type: dialogue
+    text: |-
+      "I'm the salesgirll Go
+      on - bawl me out!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "145"
+    in: "00:30:51.500"
+    out: "00:30:53.500"
+    type: dialogue
+    text: |-
+      "Well, anyway, I lose the
+      bet for not recognizing
+      you. What's the forfeit?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "147"
+    in: "00:30:58.750"
+    out: "00:31:00.000"
+    type: dialogue
+    text: |-
+      "Oh, that wasn't a
+      real bet. I don't want
+      anything 一
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "149"
+    in: "00:31:13.750"
+    out: "00:31:17.500"
+    type: dialogue
+    text: |-
+      "Thanks, Adela, I'll be
+      very happy to dine
+      with you tonight."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "153"
+    in: "00:31:37.250"
+    out: "00:31:41.500"
+    type: dialogue
+    text: |-
+      "If you insist on paying
+      your bet, you can take
+      me out tonight."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "154"
+    in: "00:31:44.500"
+    out: "00:31:45.500"
+    type: dialogue
+    text: |-
+      "All right!  Where?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "155"
+    in: "00:31:49.000"
+    out: "00:31:50.500"
+    type: dialogue
+    text: |-
+      "Let's go to the beach -
+      and do it up right!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "158"
+    in: "00:33:02.000"
+    out: "00:33:03.500"
+    type: insert
+    text: |-
+      Fun House
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: true
+    confidence: high
+
+  - id: "159"
+    in: "00:34:07.000"
+    out: "00:34:08.500"
+    type: dialogue
+    text: |-
+      "Hold me tight, Mr
+      Waltham.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "163"
+    in: "00:35:14.500"
+    out: "00:35:21.250"
+    type: dialogue
+    text: |-
+      "So you're one of those
+      MinuteMen-the minute
+      you know a girl you
+      think you can kiss herl"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "172"
+    in: "00:36:19.750"
+    out: "00:36:24.250"
+    type: narrative
+    text: |-
+      overty is no disgrace
+      -一until meddling
+      neighbors hear of it.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "174"
+    in: "00:36:35.500"
+    out: "00:36:41.000"
+    type: dialogue
+    text: |-
+      "There's no use arguing!
+      We're going to take that
+      baby to the Home, until
+      you're well!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "175"
+    in: "00:37:17.750"
+    out: "00:37:18.500"
+    type: narrative
+    text: |-
+      *Get that story.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "176"
+    in: "00:37:40.000"
+    out: "00:37:43.500"
+    type: dialogue
+    text: |-
+      "If women like you would
+      stay home and have babies
+      of your own, we'd all be
+      better offi"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "178"
+    in: "00:37:49.500"
+    out: "00:37:51.750"
+    type: narrative
+    text: |-
+      We're doing our duty.
+      The mother is ill - and
+      she has no means of
+      support."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "180"
+    in: "00:38:01.000"
+    out: "00:38:01.750"
+    type: narrative
+    text: |-
+      *This is my baby!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "181"
+    in: "00:38:07.000"
+    out: "00:38:08.000"
+    type: dialogue
+    text: |-
+      "I don't believe it."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "182"
+    in: "00:38:10.500"
+    out: "00:38:14.000"
+    type: dialogue
+    text: |-
+      "I'm the baby's mother
+      — I'm not sick — and
+      I've got a job!  Laugh
+      that off!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: italic "that"
+      all_caps: false
+    confidence: high
+
+  - id: "184"
+    in: "00:38:31.250"
+    out: "00:38:34.250"
+    type: dialogue
+    text: |-
+      "Haven't I a job,Monty-
+      at Waltham's? Tell 'em!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "185"
+    in: "00:38:48.000"
+    out: "00:38:48.750"
+    type: dialogue
+    text: |-
+      "Is that the baby's
+      father?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "186"
+    in: "00:38:53.000"
+    out: "00:38:56.500"
+    type: dialogue
+    text: |-
+      "Him? He couldn't
+      even give birth to
+      a suspicionl"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "187"
+    in: "00:39:01.250"
+    out: "00:39:04.500"
+    type: dialogue
+    text: |-
+      "Who is your husband?
+      Have you a husband?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "188"
+    in: "00:39:10.750"
+    out: "00:39:12.000"
+    type: dialogue
+    text: |-
+      "None of your business!
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "189"
+    in: "00:39:34.250"
+    out: "00:39:38.000"
+    type: dialogue
+    text: |-
+      "I say,Betty, this isn't
+      really your child, is it?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "191"
+    in: "00:39:45.500"
+    out: "00:39:48.500"
+    type: narrative
+    text: |-
+      Are you blind? Can't you
+      see the resemblance?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "194"
+    in: "00:40:19.500"
+    out: "00:40:32.250"
+    type: insert
+    text: |-
+      and I was not able to leave.
+      Will you forgive me for the
+      other night, Betty, and go to
+      the theatre this evening? I
+      promise not to misunderstand
+      again.
+      so do see me in any case.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: none
+      emphasis: ""
+      all_caps: false
+    confidence: low
+    doubt: first line and last line cropped at frame edge; last line partly illegible, 'so do see me in any case' is a best guess
+
+  - id: "196"
+    in: "00:40:43.000"
+    out: "00:40:47.750"
+    type: dialogue
+    text: |-
+      "Ihave tashted the milk
+      of human kindnesh-
+      an'it'salotofFermillacl"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "197"
+    in: "00:40:55.250"
+    out: "00:40:58.250"
+    type: narrative
+    text: |-
+      B'lieveitornot-my
+      baby is its mother!*
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "198"
+    in: "00:41:02.500"
+    out: "00:41:03.500"
+    type: insert
+    text: |-
+      Girl mother battles bitterly for babe
+      Like tigress at bay, routs welfare workers
+      Within the drab walls of a second-floor flat on Nolan Street,
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: italic subhead
+      all_caps: false
+    confidence: low
+    doubt: last visible line of body text is cut off at frame edge and partly illegible
+
+  - id: "199"
+    in: "00:41:15.500"
+    out: "00:41:20.750"
+    type: insert
+    text: |-
+      session of the tiny child.
+      A man about town, clad in
+      the height of fashion, testi-
+      fied that the girl had ample
+      means and was able to meet
+      all obligations in connection
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: top line is a continuation cut off at frame top, partly obscured
+
+  - id: "201"
+    in: "00:41:28.750"
+    out: "00:41:31.500"
+    type: dialogue
+    text: |-
+      "I'm the chappie-the
+      manabouttown-I'm
+      the amplemeans!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "202"
+    in: "00:41:54.000"
+    out: "00:41:54.750"
+    type: dialogue
+    text: |-
+      "We are investigating the
+      case of a girl who says
+      she's employed here-
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "204"
+    in: "00:42:00.250"
+    out: "00:42:02.250"
+    type: dialogue
+    text: |-
+      —sheshe-there's
+      a baby."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "205"
+    in: "00:42:08.250"
+    out: "00:42:10.250"
+    type: dialogue
+    text: |-
+      'She gave the name
+      of Betty Lou Spence.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "207"
+    in: "00:42:26.250"
+    out: "00:42:36.750"
+    type: insert
+    text: |-
+      floor flat on Nolan Street,
+      the young mother clasped her
+      babe to her bosom and defied
+      all who sought to gain posses-
+      sion of the tiny child.
+      A man about town, clad in
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "208"
+    in: "00:42:58.000"
+    out: "00:43:01.250"
+    type: dialogue
+    text: |-
+      "Thank you. You see, we
+      had to verify her story."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "209"
+    in: "00:43:13.000"
+    out: "00:43:16.750"
+    type: dialogue
+    text: |-
+      "She's the one. She told
+      me it's her baby-told
+      mewithher ownlipsh!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "211"
+    in: "00:43:34.750"
+    out: "00:43:41.000"
+    type: dialogue
+    text: |-
+      "Will you issue the
+      bonus checks now,
+      Mr. Waltham?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "213"
+    in: "00:44:21.250"
+    out: "00:44:26.750"
+    type: narrative
+    text: |-
+      Betty Lou Spence
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "218"
+    in: "00:45:46.000"
+    out: "00:45:51.250"
+    type: narrative
+    text: |-
+      Areyou mad at me
+      because I slapped you?
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "220"
+    in: "00:46:08.500"
+    out: "00:46:18.750"
+    type: dialogue
+    text: |-
+      "I'm sorry — but a girl
+      has to do that.  You
+      know how those things
+      are!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: italic on "has"
+      all_caps: false
+    confidence: high
+
+  - id: "221"
+    in: "00:46:25.250"
+    out: "00:46:32.750"
+    type: dialogue
+    text: |-
+      "Let's forget it.We've
+      got each other straight
+      now,haven't we?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "224"
+    in: "00:46:37.000"
+    out: "00:46:42.000"
+    type: dialogue
+    text: |-
+      'Yes -we have!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "226"
+    in: "00:47:00.000"
+    out: "00:47:03.750"
+    type: dialogue
+    text: |-
+      "It's a star sapphire.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "227"
+    in: "00:47:10.250"
+    out: "00:47:14.750"
+    type: narrative
+    text: |-
+      It'spretty-butIlike
+      diamonds better.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "230"
+    in: "00:47:20.250"
+    out: "00:47:25.750"
+    type: narrative
+    text: |-
+      *Would you like some
+      diamonds for yourself?*
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "235"
+    in: "00:47:48.750"
+    out: "00:47:51.500"
+    type: dialogue
+    text: |-
+      "Betty, I'm crazy
+      about you -
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "238"
+    in: "00:48:07.500"
+    out: "00:48:10.500"
+    type: dialogue
+    text: |-
+      'I love you, too.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "239"
+    in: "00:48:34.000"
+    out: "00:48:39.000"
+    type: dialogue
+    text: |-
+      "'ll buy you diamonds -
+      clothes-everything
+      you want-
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "241"
+    in: "00:49:02.250"
+    out: "00:49:11.500"
+    type: dialogue
+    text: |-
+      "What are you trying
+      to do?  Offer me
+      one of those left-hand
+      arrangements?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "243"
+    in: "00:49:16.250"
+    out: "00:49:20.750"
+    type: dialogue
+    text: |-
+      "I'm crazy about you!
+      Isn't that enough?
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "244"
+    in: "00:49:33.750"
+    out: "00:49:38.750"
+    type: dialogue
+    text: |-
+      "I suppose that's what
+      you men call love!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "245"
+    in: "00:49:55.500"
+    out: "00:50:02.750"
+    type: dialogue
+    text: |-
+      "Cancel my appointments,
+      please. I'm leaving town
+      for a week.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "247"
+    in: "00:50:20.250"
+    out: "00:50:30.500"
+    type: narrative
+    text: |-
+      Betty was too poor to
+      quit her job — and too
+      proud to stay.  So she
+      quit!
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: center
+      quote_style: ""
+      emphasis: large decorative drop-cap initial "B"
+      all_caps: false
+    confidence: high
+
+  - id: "251"
+    in: "00:50:46.750"
+    out: "00:50:50.250"
+    type: narrative
+    text: |-
+      neDaily NewsDispate
+      FEMALE HELP WANTED
+      Must beexperienced, neat appe
+      Dispatch
+      emanent position:salary $15
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "255"
+    in: "00:51:56.000"
+    out: "00:51:59.500"
+    type: dialogue
+    text: |-
+      "I - I've come to
+      forgive you.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "257"
+    in: "00:52:17.750"
+    out: "00:52:24.250"
+    type: dialogue
+    text: |-
+      "You don't mean you
+      thought the baby was
+      really mine?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "258"
+    in: "00:52:29.250"
+    out: "00:52:33.750"
+    type: narrative
+    text: |-
+      There's its mother!
+      Can't you see the
+      resemblance?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "259"
+    in: "00:52:54.750"
+    out: "00:53:02.750"
+    type: dialogue
+    text: |-
+      "What a joke on Waltham
+      — I told him it was your
+      baby!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: italic on "your"
+      all_caps: false
+    confidence: high
+
+  - id: "260"
+    in: "00:53:11.250"
+    out: "00:53:14.750"
+    type: dialogue
+    text: |-
+      "He thought it was mine?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "261"
+    in: "00:53:25.250"
+    out: "00:53:32.500"
+    type: dialogue
+    text: |-
+      "And he wouldn't even
+      give me the benefit of
+      the doubt!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "262"
+    in: "00:53:46.250"
+    out: "00:53:57.250"
+    type: dialogue
+    text: |-
+      "I'll make him propose to
+      me — and when he does,
+      I'll laugh in his face!
+      And you're going to help
+      me do it!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: italic on "you're"
+      all_caps: false
+    confidence: high
+
+  - id: "263"
+    in: "00:54:00.500"
+    out: "00:54:09.250"
+    type: dialogue
+    text: |-
+      "But- he's going on a
+      yachting cruise and-
+      and I'm going with him!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "264"
+    in: "00:54:15.750"
+    out: "00:54:18.750"
+    type: dialogue
+    text: |-
+      "Fine! I'll yacht
+      with you.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "265"
+    in: "00:54:27.250"
+    out: "00:54:32.500"
+    type: dialogue
+    text: |-
+      "But, I say — what about
+      your clothes?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "266"
+    in: "00:54:34.500"
+    out: "00:54:42.500"
+    type: dialogue
+    text: |-
+      "That's the joke on you
+      -you're going to buy
+      them for me.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "267"
+    in: "00:54:51.500"
+    out: "00:54:57.250"
+    type: dialogue
+    text: |-
+      "Give me your word
+      you won't tell him -
+      anything!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "269"
+    in: "00:55:54.500"
+    out: "00:55:56.500"
+    type: narrative
+    text: |-
+      *Is Mr. Waltham aboard?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "270"
+    in: "00:55:57.750"
+    out: "00:55:59.250"
+    type: dialogue
+    text: |-
+      'Not yet, sir.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "271"
+    in: "00:56:03.000"
+    out: "00:56:08.750"
+    type: dialogue
+    text: |-
+      "The party's off. We
+      might as well go back.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "272"
+    in: "00:56:11.750"
+    out: "00:56:19.750"
+    type: dialogue
+    text: |-
+      "Ohno,sir!Mr.Waltham's
+      expecting you - he'll be
+      here any minute.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "273"
+    in: "00:56:24.000"
+    out: "00:56:28.500"
+    type: narrative
+    text: |-
+      Shall I show you to
+      your cabins?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "274"
+    in: "00:56:58.250"
+    out: "00:57:03.500"
+    type: narrative
+    text: |-
+      Something I can get for
+      you, Mr. Montgomery?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "275"
+    in: "00:57:05.500"
+    out: "00:57:09.250"
+    type: narrative
+    text: |-
+      No,thanks-I'mjust
+      prowling about."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "276"
+    in: "00:57:24.500"
+    out: "00:57:28.250"
+    type: dialogue
+    text: |-
+      "Just going for some -
+      some 一 cigars.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "277"
+    in: "00:57:47.250"
+    out: "00:57:48.750"
+    type: narrative
+    text: |-
+      *Everything ready
+      Captain?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "278"
+    in: "00:57:58.250"
+    out: "00:58:00.250"
+    type: dialogue
+    text: |-
+      "Let's get under way.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "279"
+    in: "00:58:18.250"
+    out: "00:58:21.250"
+    type: dialogue
+    text: |-
+      "I'm not feeling so well."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "281"
+    in: "00:58:55.000"
+    out: "00:58:56.250"
+    type: dialogue
+    text: |-
+      "Tea, sir?*
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "282"
+    in: "00:59:08.000"
+    out: "00:59:10.000"
+    type: narrative
+    text: |-
+      *Feeling better, Monty?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "284"
+    in: "00:59:12.750"
+    out: "00:59:23.500"
+    type: dialogue
+    text: |-
+      "I feel so low,old chap,
+      that I could get on
+      stilts and walk under
+      a dachshundi"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "285"
+    in: "00:59:28.000"
+    out: "00:59:35.250"
+    type: narrative
+    text: |-
+      ShallIcallMissVan
+      Cortland, sir? She's
+      in her cabin.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "286"
+    in: "00:59:46.000"
+    out: "00:59:51.750"
+    type: dialogue
+    text: |-
+      "I say, I almost forgot
+      about Miss Van Cortland.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "287"
+    in: "00:59:55.500"
+    out: "01:00:05.500"
+    type: narrative
+    text: |-
+      MissVanCortland-the
+      -the girl I asked when
+      you asked me to ask
+      someone.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "288"
+    in: "01:00:15.500"
+    out: "01:00:19.000"
+    type: narrative
+    text: |-
+      *Monty,who is Miss
+      Van Cortland?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "289"
+    in: "01:00:23.500"
+    out: "01:00:27.000"
+    type: dialogue
+    text: |-
+      "You - you tell them,
+      old thing."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "290"
+    in: "01:00:33.500"
+    out: "01:00:42.000"
+    type: dialogue
+    text: |-
+      "She's a very nice girl. I
+      -Ibelieve Monty met
+      her in Paris last summer.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "292"
+    in: "01:00:54.500"
+    out: "01:00:58.000"
+    type: dialogue
+    text: |-
+      "You idiot! Who is
+      this girl?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: '"is" in italics'
+      all_caps: false
+    confidence: high
+
+  - id: "293"
+    in: "01:01:01.500"
+    out: "01:01:08.000"
+    type: dialogue
+    text: |-
+      "She's a ripping sort,
+      really! She's positively
+      topheavy with 'IT'."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "294"
+    in: "01:01:24.750"
+    out: "01:01:31.000"
+    type: narrative
+    text: |-
+      *Oh, Monty, am I late for
+      tea? I'm so sorry."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "298"
+    in: "01:01:58.250"
+    out: "01:02:02.500"
+    type: dialogue
+    text: |-
+      "Mr.Waltham!It'sbeen
+      years,hasn't it?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "299"
+    in: "01:02:13.000"
+    out: "01:02:15.750"
+    type: dialogue
+    text: |-
+      "Won't you have
+      some tea?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "300"
+    in: "01:02:50.250"
+    out: "01:02:53.000"
+    type: dialogue
+    text: |-
+      "Haven't I seen you
+      some place?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "301"
+    in: "01:02:57.250"
+    out: "01:03:01.750"
+    type: dialogue
+    text: |-
+      "In Paris, perhaps. I'm
+      there so often."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "304"
+    in: "01:03:10.750"
+    out: "01:03:13.000"
+    type: dialogue
+    text: |-
+      "Desirez-vous du sucre?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "311"
+    in: "01:04:02.500"
+    out: "01:04:06.750"
+    type: dialogue
+    text: |-
+      "What do you mean by
+      bringing her?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "312"
+    in: "01:04:18.500"
+    out: "01:04:25.000"
+    type: dialogue
+    text: |-
+      "You know what sort
+      she is-with her father-
+      less childi"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "313"
+    in: "01:04:26.750"
+    out: "01:04:30.500"
+    type: narrative
+    text: |-
+      But, I say -it isn't
+      fatherless-"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "314"
+    in: "01:04:39.000"
+    out: "01:04:46.250"
+    type: dialogue
+    text: |-
+      "I won't have her. on
+      boardl We'll put back
+      to port."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "315"
+    in: "01:05:18.250"
+    out: "01:05:27.250"
+    type: dialogue
+    text: |-
+      "Do you think we'll have
+      as nice a day as this
+      all day, Captain?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "316"
+    in: "01:05:39.500"
+    out: "01:05:46.500"
+    type: dialogue
+    text: |-
+      "That's the last time I'll
+      get you out of a scrape!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "318"
+    in: "01:06:31.500"
+    out: "01:06:38.750"
+    type: narrative
+    text: |-
+      MissVanCortlandseems
+      to be rather lacking in
+      reserve, doesn't she?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "319"
+    in: "01:06:42.250"
+    out: "01:06:47.750"
+    type: dialogue
+    text: |-
+      "Personally, I think she
+      has plenty 一 in reserve!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "320"
+    in: "01:07:15.750"
+    out: "01:07:20.250"
+    type: dialogue
+    text: |-
+      "Betty, I've something to
+      say to you.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "321"
+    in: "01:07:25.000"
+    out: "01:07:28.500"
+    type: dialogue
+    text: |-
+      "Won't it wait until
+      morning?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "322"
+    in: "01:07:34.000"
+    out: "01:07:41.750"
+    type: dialogue
+    text: |-
+      "I'vebeen thinking things
+      over, Betty. I want to
+      talk to you- seriously.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "323"
+    in: "01:07:43.250"
+    out: "01:07:47.000"
+    type: dialogue
+    text: |-
+      "Be serious — with you?
+      How silly!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: '"you" in italics'
+      all_caps: false
+    confidence: high
+
+  - id: "324"
+    in: "01:07:59.500"
+    out: "01:08:07.250"
+    type: dialogue
+    text: |-
+      " don't care what you've
+      been - I want you to
+      marry me!
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "325"
+    in: "01:08:13.750"
+    out: "01:08:18.000"
+    type: dialogue
+    text: |-
+      "I'd rather marry your
+      office boy!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "326"
+    in: "01:09:03.000"
+    out: "01:09:16.000"
+    type: dialogue
+    text: |-
+      "He asked me — and I
+      laughed at him — and
+      now it doesn't seem so
+      darned funny, after all!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "327"
+    in: "01:09:51.250"
+    out: "01:10:02.250"
+    type: dialogue
+    text: |-
+      "It was all a ghastly joke,
+      old man — her baby's
+      just a moth — I mean
+      a myth!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "328"
+    in: "01:10:05.750"
+    out: "01:10:11.250"
+    type: dialogue
+    text: |-
+      "It'sher friend's baby
+      And she's crying for
+      you - I mean Betty,
+      not the baby -
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "329"
+    in: "01:10:14.250"
+    out: "01:10:19.250"
+    type: dialogue
+    text: |-
+      "But you said yourself
+      it was her baby -
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "330"
+    in: "01:10:25.750"
+    out: "01:10:31.500"
+    type: dialogue
+    text: |-
+      "Take the wheel, Monty
+      - I'm going to find her.'
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "331"
+    in: "01:11:39.000"
+    out: "01:11:44.250"
+    type: dialogue
+    text: |-
+      "The ballast has shifted
+      to port, sir — but there's
+      no danger!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "332"
+    in: "01:12:02.500"
+    out: "01:12:10.500"
+    type: dialogue
+    text: |-
+      "Silly of me, but I'm afraid I
+      overdid itmade a left-hand
+      turn and what not 
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "333"
+    in: "01:12:41.250"
+    out: "01:12:50.000"
+    type: dialogue
+    text: |-
+      "Take your girl friend.
+      I had to knock her
+      cold - but maybe it'll
+      do her good."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "334"
+    in: "01:13:03.750"
+    out: "01:13:06.750"
+    type: dialogue
+    text: |-
+      "Betty, where are
+      you going?
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "335"
+    in: "01:13:09.750"
+    out: "01:13:12.000"
+    type: dialogue
+    text: |-
+      "I'm going home!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "336"
+    in: "01:13:33.500"
+    out: "01:13:35.750"
+    type: narrative
+    text: |-
+      Monty will get you.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "337"
+    in: "01:15:12.250"
+    out: "01:15:17.250"
+    type: narrative
+    text: |-
+      Monty, I wonder if there's
+      anything between them?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "338"
+    in: "01:15:27.500"
+    out: "01:15:29.750"
+    type: dialogue
+    text: |-
+      "I'm afraid there is.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "339"
+    in: "01:15:36.750"
+    out: "01:15:42.500"
+    type: dialogue
+    text: |-
+      "We're just a couple of
+      It-less 'ITS'!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: '''ITS'' in single quotes, all caps'
+      all_caps: false
+    confidence: high
+
+  - id: "340"
+    in: "01:15:51.750"
+    out: "01:16:33.750"
+    type: narrative
+    text: |-
+      Manager
+      PAULWING
+      Recording
+      RICHARDBRADFORD
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "341"
+    in: "01:16:34.500"
+    out: "01:16:39.000"
+    type: credit
+    text: |-
+      A Photoplay Production
+      in association with
+      Killiam Shows Inc
+      and
+      Thames Television PLC
+      for Channel Four
+      © Killiam Shows Inc / Photoplay Productions Ltd MCMXCII
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "343"
+    in: "01:16:40.750"
+    out: "01:16:54.250"
+    type: credit
+    text: |-
+      Picture Restoration by Karl Malkames
+      © MCMXXVII
+      Famous Players Lasky Corparation
+      renewed MCMLIV
+      Paramount Pictures Corparation
+      Sound Version © MCMLXXVIII
+      by Killiam Shows Inc all rights reserved
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
