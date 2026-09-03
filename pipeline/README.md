@@ -15,7 +15,7 @@ Stages, each a script with a plain-file contract on both sides (run from the rep
 | `tools/extract.py` | a print | `out/<slug>/extract/` candidates + thumbnails |
 | `tools/export_po.py` | `data/films/<slug>/cards.yaml` | `data/locales/templates/<slug>.pot`, merges into `data/locales/<lang>/<slug>.po` |
 | `tools/lint.py` | cards + translations | report; exit 1 on errors |
-| `tools/render.py` | cards, translations, `templates/card.html`, the film's `style.css` | `out/<slug>/<lang>/<layout>/<id>.png` |
+| `tools/render.py` | cards, translations, `pipeline/templates/card.html`, the film's `style.css` | `out/<slug>/<lang>/<layout>/<id>.png` |
 | `tools/assemble.py` | a print, designer cards, rendered cards | `out/<slug>/<slug>.<lang>.<layout>.mp4` |
 
 Requires Python 3.11+, ffmpeg/ffprobe on PATH, Google Chrome (set `CHROME` if not in

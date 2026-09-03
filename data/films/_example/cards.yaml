@@ -1,4 +1,4 @@
-# Fixture cards. Timecodes match the synthetic clip from tests/make_clip.py.
+# Fixture cards. Timecodes match the synthetic clip from pipeline/tests/make_clip.py.
 film: _example
 cards:
   - id: "001"

@@ -1,7 +1,7 @@
-"""Generate the synthetic 10-second print for films/_example, then run the whole pipeline on it.
+"""Generate the synthetic 10-second print for data/films/_example, then run the whole pipeline on it.
 
-    python tests/make_clip.py          # builds out/_example/print.mp4 and runs export/lint/render/assemble
-    python tests/make_clip.py --clip   # only the clip
+    python pipeline/tests/make_clip.py          # builds out/_example/print.mp4 and runs export/lint/render/assemble
+    python pipeline/tests/make_clip.py --clip   # only the clip
 
 The clip is an ffmpeg test pattern with three black "cards" at the fixture's timecodes,
 so a rendered card that lands anywhere else is visible as a bug.
