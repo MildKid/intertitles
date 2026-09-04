@@ -1,0 +1,2428 @@
+# Intertitle cards, in film order. Schema: data/README.md and films/_example/cards.yaml.
+# Written by the pipeline (transcribe.py, scrub.py); hand edits are fine, key order is kept.
+film: metropolis-1927
+cards:
+  - id: "002"
+    in: "00:00:02.250"
+    out: "00:00:05.250"
+    type: credit
+    text: |-
+      Transit Film
+      Friedrich Wilhelm Murnau Stiftung
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: true
+    confidence: high
+
+  - id: "004"
+    in: "00:00:10.000"
+    out: "00:02:12.500"
+    type: credit
+    text: |-
+      Set Design:
+      Otto Hunte, Erich Kettelhut,
+      Karl Vollbrecht.
+      Camera:
+      Karl Freund, Gunther Rittau.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "005"
+    in: "00:02:15.500"
+    out: "00:02:16.250"
+    type: title
+    text: |-
+      Metropolis
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: large stylized display lettering
+      all_caps: true
+    confidence: high
+
+  - id: "016"
+    in: "00:03:13.750"
+    out: "00:03:19.250"
+    type: narrative
+    text: |-
+      Shift change.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "027"
+    in: "00:04:21.000"
+    out: "00:04:47.750"
+    type: narrative
+    text: |-
+      the earth's surface lay
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "031"
+    in: "00:05:32.250"
+    out: "00:06:02.750"
+    type: narrative
+    text: |-
+      As
+      deep as
+      lay the workers'
+      city below the earth,
+      so high above it towered
+      the complex named the "Club
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: low
+    doubt: final line is cut off at the bottom of the frame and unreadable, likely continuing "of the Sons" or similar
+
+  - id: "040"
+    in: "00:06:33.500"
+    out: "00:06:43.250"
+    type: narrative
+    text: |-
+      Fathers for whom every
+      revolution of a machine wheel
+      meant gold had created for
+      their sons the miracle of the
+      Eternal Gardens.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "043"
+    in: "00:06:57.500"
+    out: "00:07:05.500"
+    type: dialogue
+    text: |-
+      "Which of you ladies
+      shall today have the honor
+      of entertaining Master Freder,
+      Joh Fredersen's son?
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "050"
+    in: "00:07:59.750"
+    out: "00:08:02.750"
+    type: dialogue
+    text: |-
+      "Freder -! Freder -!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "055"
+    in: "00:09:18.500"
+    out: "00:09:22.500"
+    type: narrative
+    text: |-
+      These are your brothers!
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "056"
+    in: "00:09:25.000"
+    out: "00:09:30.250"
+    type: dialogue
+    text: |-
+      "Look--!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: letter-spaced
+      all_caps: false
+    confidence: high
+
+  - id: "057"
+    in: "00:09:34.750"
+    out: "00:09:39.250"
+    type: dialogue
+    text: |-
+      "These are your brothers!
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "067"
+    in: "00:11:03.250"
+    out: "00:11:07.000"
+    type: dialogue
+    text: |-
+      "Who -- was that?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "071"
+    in: "00:11:54.000"
+    out: "00:12:03.250"
+    type: narrative
+    text: |-
+      But this is what happened to
+      Freder - son o of Joh Fredersen,
+      master of Metropolis -- when he
+      went in search of the girl:
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "093"
+    in: "00:15:58.500"
+    out: "00:16:03.500"
+    type: dialogue
+    text: |-
+      "o the new Tower of Babel -
+      to my father -!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "131"
+    in: "00:19:32.250"
+    out: "00:19:57.250"
+    type: dialogue
+    text: |-
+      "Why is it, Josaphat,
+      that I learn of the explosion
+      from my son,
+      and not from you -- --!
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "138"
+    in: "00:20:59.500"
+    out: "00:21:10.250"
+    type: dialogue
+    text: |-
+      "What were you doing
+      in the machine halls,
+      Freder?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "139"
+    in: "00:21:12.500"
+    out: "00:21:23.250"
+    type: dialogue
+    text: |-
+      "I wanted to look into
+      the faces of the people
+      whose little children are
+      my brothers, my sisters...
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "142"
+    in: "00:21:43.500"
+    out: "00:21:51.000"
+    type: dialogue
+    text: |-
+      "Yur magnificent city, Father --
+      and you the brain of this city -
+      and all of us
+      in the city's light... -- .
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "149"
+    in: "00:22:46.500"
+    out: "00:22:55.500"
+    type: dialogue
+    text: |-
+      "What if one day
+      those in the depths
+      rise up against you?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "157"
+    in: "00:23:23.250"
+    out: "00:23:34.250"
+    type: dialogue
+    text: |-
+      "The chief foreman
+      of the Heart Machine, Grot -
+      with an important message.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "166"
+    in: "00:24:27.250"
+    out: "00:24:46.250"
+    type: narrative
+    text: |-
+      ..in the pockets of two men
+      involved in today's accident
+      at the M-Machine.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "171"
+    in: "00:25:22.000"
+    out: "00:25:27.000"
+    type: dialogue
+    text: |-
+      "Apply to the G-Bank
+      for your remaining wages.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "189"
+    in: "00:27:29.750"
+    out: "00:27:36.250"
+    type: dialogue
+    text: |-
+      "Do you know
+      what it means
+      to be dismissed like that
+      by Joh Fredersen?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "193"
+    in: "00:28:02.250"
+    out: "00:28:08.000"
+    type: dialogue
+    text: |-
+      "Do you want to work for me,
+      Josaphat?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "198"
+    in: "00:28:32.000"
+    out: "00:28:44.000"
+    type: dialogue
+    text: |-
+      "Where do you live, Josaphat?"
+      Freder asked, and noted:
+      Block99,House7,7thFloor.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "212"
+    in: "00:30:34.750"
+    out: "00:30:38.000"
+    type: dialogue
+    text: |-
+      "Brother..."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "213"
+    in: "00:30:53.250"
+    out: "00:30:58.000"
+    type: dialogue
+    text: |-
+      "...the machine!...
+      Someone has to stay
+      at the machine!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: letter-spaced words "has" and "to"
+      all_caps: false
+    confidence: high
+
+  - id: "214"
+    in: "00:31:02.250"
+    out: "00:31:09.250"
+    type: dialogue
+    text: |-
+      "Someone will stay
+      at the machine..."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: letter-spaced word "will"
+      all_caps: false
+    confidence: high
+
+  - id: "215"
+    in: "00:31:16.000"
+    out: "00:31:21.000"
+    type: dialogue
+    text: |-
+      "Listen to me...
+      I want to trade lives
+      with you!
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "216"
+    in: "00:31:22.750"
+    out: "00:31:33.000"
+    type: narrative
+    text: |-
+      Meanwhile,theThin Man,
+      JohFredersen'sspy,iswatching
+      the spot where Freder's chauffeur
+      hasparkedhiscar.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "217"
+    in: "00:31:48.500"
+    out: "00:31:52.500"
+    type: dialogue
+    text: |-
+      "Wait for me --
+      both of you...
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "221"
+    in: "00:32:15.750"
+    out: "00:33:19.750"
+    type: narrative
+    text: |-
+      In the middle of Metropolis
+      there was a strange house,
+      overlooked by the centuries.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "222"
+    in: "00:33:20.250"
+    out: "00:34:10.000"
+    type: narrative
+    text: |-
+      There,ona pedestal as wide
+      asawall and astallas aman,
+      he sees the stone head of a woman.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "223"
+    in: "00:34:10.500"
+    out: "00:34:42.000"
+    type: narrative
+    text: |-
+      The angier Rawang becomes,
+      the calmer grows Joh Fredersen,
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "224"
+    in: "00:34:44.500"
+    out: "00:34:49.500"
+    type: narrative
+    text: |-
+      Let the dead rest in peace,
+      Rotwang...
+      For you, as for me, she is dead.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "225"
+    in: "00:34:55.000"
+    out: "00:35:02.000"
+    type: dialogue
+    text: |-
+      "For me, she is not dead,
+      Joh Fredersen, --
+      forme, she lives --!
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "226"
+    in: "00:35:03.750"
+    out: "00:35:15.500"
+    type: dialogue
+    text: |-
+      "Do you think
+      that losing a hand
+      is too high a price to pay
+      for re-creating Hel -?!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "234"
+    in: "00:37:18.500"
+    out: "00:37:27.750"
+    type: dialogue
+    text: |-
+      "So, Joh Fredersen—?!
+      Isn't it worth
+      the loss of a hand to have
+      created the man of the future,
+      the
+      Machine-Man—?!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: underlined "Machine-Man"
+      all_caps: false
+    confidence: high
+
+  - id: "236"
+    in: "00:37:33.000"
+    out: "00:37:45.500"
+    type: dialogue
+    text: |-
+      “Give me another 24 hours --
+      and no one, Joh Fredersen,
+      no one will be able
+      to tell a Machine-Man
+      from a mortal - -!'
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "239"
+    in: "00:37:54.750"
+    out: "00:38:03.500"
+    type: dialogue
+    text: |-
+      "The woman is m i n e ,
+      Joh Fredersen!
+      The son of Hel  was yours!
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "241"
+    in: "00:38:13.250"
+    out: "00:38:18.000"
+    type: dialogue
+    text: |-
+      "And what brings you to me,
+      Joh Fredersen?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "242"
+    in: "00:38:18.500"
+    out: "00:38:34.750"
+    type: dialogue
+    text: |-
+      "As usual.
+      when my experts fail me,
+      I come to you for advice...
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "244"
+    in: "00:38:39.750"
+    out: "00:38:48.000"
+    type: dialogue
+    text: |-
+      "For months now,
+      we have been finding
+      these plans
+      in my workers' clothes.
+      What do they mean?
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "251"
+    in: "00:39:21.750"
+    out: "00:39:26.750"
+    type: narrative
+    text: |-
+      ...at two...
+      at the end of the shift!
+      Sh e has summoned us again..
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "257"
+    in: "00:40:49.500"
+    out: "00:40:56.000"
+    type: dialogue
+    text: |-
+      "Father—! Father—!
+      Will ten hours
+      never end——??!!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: letter-spaced word "never"
+      all_caps: false
+    confidence: high
+
+  - id: "259"
+    in: "00:41:18.500"
+    out: "00:41:45.250"
+    type: dialogue
+    text: |-
+      "-it is a plan of the
+      2000-year-old catacombs
+      deep below the lowest levels
+      of your Metropolis...
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "260"
+    in: "00:42:01.000"
+    out: "00:42:14.250"
+    type: dialogue
+    text: |-
+      "I should like
+      to know what
+      my workers are doing
+      in the catacombs...
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "273"
+    in: "00:45:24.000"
+    out: "00:45:42.250"
+    type: dialogue
+    text: |-
+      "Today I will tell you
+      the legend of
+      THE TOWER
+      OF BABEL..."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: '"THE TOWER OF BABEL" set larger, in a heavier block capital face'
+      all_caps: false
+    confidence: high
+
+  - id: "274"
+    in: "00:45:43.250"
+    out: "00:45:55.250"
+    type: dialogue
+    text: |-
+      "Come, let us
+      build us a tower
+      whose top may reach
+      unto the stars!"
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "278"
+    in: "00:46:26.750"
+    out: "00:46:37.500"
+    type: narrative
+    text: |-
+      ...but the minds that had
+      conceived the Tower of Babel
+      could not build it.
+      The task was too great.
+      So they hired hands
+      for wages.
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "279"
+    in: "00:46:54.000"
+    out: "00:47:04.000"
+    type: narrative
+    text: |-
+      But the h a n d s that
+      built the Tower of Babel
+      knew nothing of the dream
+      of the b r a i n that had
+      conceived it.
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: center
+      quote_style: none
+      emphasis: letter-spaced words "hands" and "brain"
+      all_caps: false
+    confidence: high
+
+  - id: "280"
+    in: "00:47:10.750"
+    out: "00:47:13.750"
+    type: title
+    text: |-
+      Babel
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: true
+    confidence: high
+
+  - id: "282"
+    in: "00:47:24.750"
+    out: "00:47:35.500"
+    type: title
+    text: |-
+      Babel
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: true
+    confidence: high
+
+  - id: "283"
+    in: "00:47:48.250"
+    out: "00:47:54.250"
+    type: narrative
+    text: |-
+      People spoke the same language,
+      but could not understand
+      each other...
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "284"
+    in: "00:48:01.000"
+    out: "00:48:08.500"
+    type: narrative
+    text: |-
+      Great is the world and its creator
+      and great is man
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: none
+      emphasis: text arches over the tower image, following its curve
+      all_caps: true
+    confidence: high
+
+  - id: "289"
+    in: "00:48:24.250"
+    out: "00:48:38.000"
+    type: dialogue
+    text: |-
+      "The mediator
+      between head and hands
+      must be the heart!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: true
+    confidence: high
+
+  - id: "306"
+    in: "00:51:25.250"
+    out: "00:51:33.250"
+    type: dialogue
+    text: |-
+      "Oh mediator,
+      have you finally come?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "307"
+    in: "00:51:35.000"
+    out: "00:51:41.250"
+    type: dialogue
+    text: |-
+      “Yu called me -- --
+      here I am!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "315"
+    in: "00:54:00.250"
+    out: "00:54:05.250"
+    type: dialogue
+    text: |-
+      "Until tomorrow,
+      in the cathedral!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "342"
+    in: "00:58:17.250"
+    out: "01:00:02.750"
+    type: narrative
+    text: |-
+      Feder seesamonkinthepulpit
+      who preaches:"Verily,I say unto you,
+      the days spoken of in the Apocalypse
+      arenigh!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "346"
+    in: "01:00:43.000"
+    out: "01:01:48.500"
+    type: narrative
+    text: |-
+      Disappointed that Maria has
+      not come,Freder goesto
+      Josaphat's home, where he
+      hopestofindWorker11811.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "356"
+    in: "01:02:46.500"
+    out: "01:03:01.500"
+    type: dialogue
+    text: |-
+      "Come! It is time
+      to give the Machine-Man
+      your face!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "414"
+    in: "01:10:22.750"
+    out: "01:10:49.000"
+    type: dialogue
+    text: |-
+      "She is
+      with your father...
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "418"
+    in: "01:11:21.750"
+    out: "01:11:34.000"
+    type: dialogue
+    text: |-
+      “I want you
+      to visit those in the depths,
+      in order to destroy
+      the work of the woman
+      in whose image you were created!”
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: letter-spacing on ‘want’
+      all_caps: false
+    confidence: high
+
+  - id: "424"
+    in: "01:11:53.250"
+    out: "01:11:55.250"
+    type: dialogue
+    text: |-
+      “Maria—!”
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: letter-spacing on ‘Maria’
+      all_caps: false
+    confidence: high
+
+  - id: "435"
+    in: "01:13:17.750"
+    out: "01:13:20.500"
+    type: insert
+    text: |-
+      Mr. C. A. Rotwang
+      Requests the pleasure
+      of
+      Your company at dinner
+      and to see a new Erotic
+      Dancer.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "447"
+    in: "01:14:57.500"
+    out: "01:15:13.250"
+    type: narrative
+    text: |-
+      TheThinMan in theform
+      ofamonkpreaches:
+      "Verily,I sayuntoyou,
+      thedays spoken of in the Apocalypse
+      are nigh...!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "456"
+    in: "01:15:50.250"
+    out: "01:16:00.750"
+    type: dialogue
+    text: |-
+      "And thewoman was arrayed
+      in purple and scarlet color,
+      having a golden cup in her hand...
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "457"
+    in: "01:16:02.750"
+    out: "01:16:09.500"
+    type: dialogue
+    text: |-
+      “For her –
+      all seven deadly sins!”
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "466"
+    in: "01:16:55.500"
+    out: "01:17:00.500"
+    type: dialogue
+    text: |-
+      “Death descends
+      upon the city – – –!”
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "471"
+    in: "01:17:52.000"
+    out: "01:18:01.250"
+    type: dialogue
+    text: |-
+      "I put on this disguise
+      to escape from the Thin Man.
+      But for ten days your father's spy
+      has been making
+      even the workers' city risky..
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "472"
+    in: "01:18:03.500"
+    out: "01:18:20.000"
+    type: narrative
+    text: |-
+      JosaphatrelatestoFreder
+      more of the strangeevents
+      afterhiscollapse:
+      "On the evening you fell sick...
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "475"
+    in: "01:18:32.250"
+    out: "01:18:37.000"
+    type: narrative
+    text: |-
+      ..once the best of friends
+      because of that woman.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "476"
+    in: "01:18:42.500"
+    out: "01:18:48.000"
+    type: narrative
+    text: |-
+      ...the other man.
+      the same evening..
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "478"
+    in: "01:18:54.000"
+    out: "01:19:00.750"
+    type: dialogue
+    text: |-
+      "The Eternal Gardens
+      lie abandoned..
+      but night after night in Xshiwara.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "481"
+    in: "01:19:42.250"
+    out: "01:19:55.750"
+    type: narrative
+    text: |-
+      ..s also named Maria.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "483"
+    in: "01:20:01.750"
+    out: "01:20:27.250"
+    type: narrative
+    text: |-
+      Frederreminds Josaphat:
+      "Many now go to the city of the dead,
+      toawomanwhohasproven
+      herself as true as gold...
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "488"
+    in: "01:21:47.750"
+    out: "01:21:52.750"
+    type: dialogue
+    text: |-
+      "She will destroy
+      their belief in a mediator!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "491"
+    in: "01:22:14.500"
+    out: "01:22:22.250"
+    type: narrative
+    text: |-
+      ou know that I have
+      always spoken of peace..
+      but your mediator has not come.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "494"
+    in: "01:22:47.000"
+    out: "01:22:53.750"
+    type: dialogue
+    text: |-
+      “You have waited long enough!
+      Your time has come –!”
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "495"
+    in: "01:22:55.000"
+    out: "01:23:08.250"
+    type: narrative
+    text: |-
+      ..but I have tricked Joh Fredersen!
+      Xur double does not
+      obey h i s will --
+      only min e!
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "496"
+    in: "01:23:14.750"
+    out: "01:23:21.250"
+    type: dialogue
+    text: |-
+      "Who is the living food
+      for the machines in Metropolis -?!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "497"
+    in: "01:23:25.500"
+    out: "01:23:32.000"
+    type: dialogue
+    text: |-
+      "Who lubricates
+      the machine joints
+      with their own  n blood-?!
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "498"
+    in: "01:23:46.250"
+    out: "01:23:51.000"
+    type: narrative
+    text: |-
+      Who feeds the machines
+      with their own flesh - --?!'
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "499"
+    in: "01:23:57.500"
+    out: "01:24:04.000"
+    type: dialogue
+    text: |-
+      "Let the machines starve,
+      you fools–!
+      Let them die–!!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "500"
+    in: "01:24:07.000"
+    out: "01:24:11.750"
+    type: narrative
+    text: |-
+      Kill them -
+      the machines-!!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "501"
+    in: "01:24:25.000"
+    out: "01:24:29.750"
+    type: dialogue
+    text: |-
+      "Yu are not Maria -!!!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "502"
+    in: "01:24:33.250"
+    out: "01:24:37.500"
+    type: dialogue
+    text: |-
+      "You are not Maria–!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: true
+    confidence: high
+
+  - id: "503"
+    in: "01:24:51.000"
+    out: "01:24:56.000"
+    type: dialogue
+    text: |-
+      “Maria speaks of peace,
+      not killing -!
+      This is not Maria -!!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "504"
+    in: "01:24:59.500"
+    out: "01:25:04.500"
+    type: narrative
+    text: |-
+      Joh Fredersen's son -!!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "505"
+    in: "01:25:06.750"
+    out: "01:25:13.250"
+    type: dialogue
+    text: |-
+      "Kill him, the dog,
+      in his white siken fur-!!!
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "509"
+    in: "01:25:43.000"
+    out: "01:25:51.000"
+    type: narrative
+    text: |-
+      Get your women, your sons,
+      from the workers' city!
+      Let no one stay behind!
+      Death to the machines -!!!
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "510"
+    in: "01:26:01.000"
+    out: "01:26:24.500"
+    type: narrative
+    text: |-
+      ...andItrickedJohFredersen
+      twiceover-!ForIconcealed
+      fromhimthathis sonwants
+      tobeyourbrothers'mediator
+      -andlovesyou-!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "513"
+    in: "01:26:49.000"
+    out: "01:26:53.000"
+    type: dialogue
+    text: |-
+      "...faithful after all..."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "514"
+    in: "01:26:56.750"
+    out: "01:27:14.000"
+    type: narrative
+    text: |-
+      JohFredersenbreaksinto
+      Rotwang's attic.Hebattles
+      withhisoldrival,
+      overcominghim.Maria is free
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "515"
+    in: "01:27:42.000"
+    out: "01:27:46.750"
+    type: dialogue
+    text: |-
+      "Women and men,
+      let no one miss today-!
+      Death to the machines --!!'
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "521"
+    in: "01:29:28.750"
+    out: "01:29:33.750"
+    type: dialogue
+    text: |-
+      "Not one man –
+      or woman
+      remained behind–!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "525"
+    in: "01:30:00.250"
+    out: "01:30:14.500"
+    type: narrative
+    text: |-
+      ThemobstormstheM-Machine
+      and rushes toward the Heart Machine,
+      thepowerhouseofMetropolis.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "535"
+    in: "01:30:57.250"
+    out: "01:31:02.000"
+    type: dialogue
+    text: |-
+      "Open the gates!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "536"
+    in: "01:31:06.750"
+    out: "01:31:11.750"
+    type: dialogue
+    text: |-
+      "Open the gates, I said!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "537"
+    in: "01:31:12.750"
+    out: "01:31:18.750"
+    type: narrative
+    text: |-
+      GrotwarnsFredersen:
+      "If the HeartMachineis
+      destroyed, the entire machine
+      district will end up in ruins.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "538"
+    in: "01:31:20.250"
+    out: "01:31:28.500"
+    type: narrative
+    text: |-
+      FinallyGrotobeysJohFredersen's
+      orderandopensthegates.
+      The workers race to the Heart Machine.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "540"
+    in: "01:31:44.000"
+    out: "01:31:53.000"
+    type: dialogue
+    text: |-
+      "Have you gone mad -??
+      If the Heart Machine is destroyed,
+      the entire workers' city
+      will be flooded -!!'
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "565"
+    in: "01:37:27.500"
+    out: "01:37:33.250"
+    type: dialogue
+    text: |-
+      "Do you know
+      that your son
+      is among the workers?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "571"
+    in: "01:38:32.000"
+    out: "01:38:37.000"
+    type: dialogue
+    text: |-
+      "Yes -- you!
+      Yu are Maria -!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "572"
+    in: "01:38:43.250"
+    out: "01:38:49.750"
+    type: dialogue
+    text: |-
+      "To the air shafts --
+      quickly! Quickly!
+      The reservoirs have burst!
+      The city is flooding-!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "574"
+    in: "01:39:50.000"
+    out: "01:39:54.000"
+    type: narrative
+    text: |-
+      FinallyFreder and Josaphat
+      succeedinbreakingdown
+      themetal gate.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "575"
+    in: "01:39:58.500"
+    out: "01:40:03.500"
+    type: narrative
+    text: |-
+      Frederclimbsbackdowm
+      to get Maria and the last
+      ofthechildren.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "577"
+    in: "01:41:12.500"
+    out: "01:41:17.250"
+    type: dialogue
+    text: |-
+      "We'll take the children
+      to the Club of the Sons!'
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "578"
+    in: "01:41:28.000"
+    out: "01:41:33.000"
+    type: dialogue
+    text: |-
+      "Why are all the lights out?"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "586"
+    in: "01:42:52.000"
+    out: "01:42:56.000"
+    type: dialogue
+    text: |-
+      "Where are your children??!
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "587"
+    in: "01:43:04.000"
+    out: "01:43:10.500"
+    type: dialogue
+    text: |-
+      "The city lies underwater,
+      the shafts are
+      completely flooded -!!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "588"
+    in: "01:43:17.000"
+    out: "01:43:25.750"
+    type: dialogue
+    text: |-
+      "Who told you
+      to attack the machines,
+      you idiots?
+      Without them you'll all die!!'
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "589"
+    in: "01:43:31.750"
+    out: "01:43:36.500"
+    type: dialogue
+    text: |-
+      "It's the witch's fault-!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "590"
+    in: "01:43:46.000"
+    out: "01:43:52.500"
+    type: dialogue
+    text: |-
+      “Let's all watch
+      as the world goes to the devil!'
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "592"
+    in: "01:44:17.500"
+    out: "01:44:23.750"
+    type: dialogue
+    text: |-
+      "Find the witch,
+      this is all her fault-!
+      Strike her dead-!!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "598"
+    in: "01:45:14.500"
+    out: "01:45:25.250"
+    type: narrative
+    text: |-
+      In frontof Hel'smonument
+      Rotwangdecides:"NowI'm
+      going to take you home, my Hel!
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "600"
+    in: "01:45:41.750"
+    out: "01:45:48.000"
+    type: narrative
+    text: |-
+      Marialeadsthelast ofthe
+      childrento safetyinthe
+      CluboftheSons.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "601"
+    in: "01:45:49.000"
+    out: "01:45:53.000"
+    type: narrative
+    text: |-
+      Then she is spotted by Grot
+      andthemob.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "602"
+    in: "01:45:55.750"
+    out: "01:46:02.250"
+    type: dialogue
+    text: |-
+      "The witch-! the witch-!
+      here she is-! there she is-!
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "603"
+    in: "01:46:04.750"
+    out: "01:46:11.250"
+    type: dialogue
+    text: |-
+      "Where are our dhildren,
+      you with-??!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "604"
+    in: "01:46:18.250"
+    out: "01:46:37.000"
+    type: narrative
+    text: |-
+      Suspecting nothing,Maria tries
+      to speak.But the mob roars
+      and throws hammers ather.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "608"
+    in: "01:47:00.250"
+    out: "01:47:05.250"
+    type: narrative
+    text: |-
+      Maria,pursued bythemob
+      runs headlong intothe
+      revellers from Yoshiwara.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "611"
+    in: "01:47:24.250"
+    out: "01:47:29.000"
+    type: dialogue
+    text: |-
+      "To the stake with her -!
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "616"
+    in: "01:48:57.250"
+    out: "01:49:01.500"
+    type: dialogue
+    text: |-
+      "Maria--!!!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: wide letter-spacing on "Maria"
+      all_caps: false
+    confidence: high
+
+  - id: "620"
+    in: "01:49:35.500"
+    out: "01:49:44.000"
+    type: dialogue
+    text: |-
+      “Hel-! My Hel-!!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "644"
+    in: "01:52:48.250"
+    out: "01:52:53.250"
+    type: dialogue
+    text: |-
+      "Your children...
+      saved--!!!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "676"
+    in: "01:56:34.250"
+    out: "01:56:44.000"
+    type: dialogue
+    text: |-
+      “Head and hands
+      want to join together,
+      but they don't have the heart
+      to do it....
+      Oh mediator,
+      show them the way to each other.
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "684"
+    in: "01:57:20.000"
+    out: "01:58:37.750"
+    type: credit
+    text: |-
+      Other contributors to this version
+      Cinémathèque Française, Paris
+      Fondazione Cineteca Italiana, Milan
+      George Eastman House, Rochester
+      Gosfilmofond, Moscow
+      The Museum of Modern Art, New York
+      National Film and Television Archive, London
+      Screensound Australia, Canberra
+
+      Edition
+
+      Enno Patalas
+
+      Martin Koerber
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: none
+      emphasis: smaller heading text for "Other contributors to this version" and "Edition"
+      all_caps: false
+    confidence: high

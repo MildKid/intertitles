@@ -37,7 +37,7 @@ render:
   frame: 1920x1080
 
 extraction:
-  status: not-started   # not-started | candidates | transcribed | timed | locked
+  status: transcribed   # not-started | candidates | transcribed | timed | locked
   notes: ""
 
 card_style_notes: >

@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: intertitles seventh-heaven-1927\n"
-"POT-Creation-Date: 2026-09-04 01:28+0000\n"
+"POT-Creation-Date: 2026-09-04 03:56+0000\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -102,7 +102,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:6
 msgctxt "020"
-msgid "'Look, Chicol\""
+msgid "Look, Chico!"
 msgstr ""
 
 #. Card 7 of 142 · dialogue · 3.5s on screen
@@ -131,8 +131,8 @@ msgstr ""
 #: data/films/seventh-heaven-1927/cards.yaml:9
 msgctxt "028"
 msgid ""
-"\"After all, you know, I'm\n"
-"a very remarkable fellow!\""
+"After all, you know, I'm\n"
+"a very remarkable fellow!"
 msgstr ""
 
 #. Card 10 of 142 · dialogue · 5.5s on screen
@@ -374,14 +374,14 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:37
 msgctxt "132"
-msgid "\"Welcome, Comrade!\""
+msgid "Welcome, Comrade!"
 msgstr ""
 
 #. Card 38 of 142 · dialogue · 2.2s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:38
 msgctxt "133"
-msgid "\"I thank you, Comrade.\""
+msgid "I thank you, Comrade."
 msgstr ""
 
 #. Card 39 of 142 · dialogue · 5.2s on screen
@@ -443,7 +443,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:46
 msgctxt "170"
-msgid "\"Crank up Eloise!\""
+msgid "Crank up Eloise!"
 msgstr ""
 
 #. Card 47 of 142 · dialogue · 7.2s on screen
@@ -550,13 +550,13 @@ msgctxt "291"
 msgid "\"I didn't mean it! Don't think you can stay!\""
 msgstr ""
 
-#. Card 59 of 142 · narrative · 7.8s on screen
+#. Card 59 of 142 · dialogue · 7.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:59
 msgctxt "316"
 msgid ""
-"am a police\n"
-"detective-"
+"I am a police\n"
+"detective—"
 msgstr ""
 
 #. Card 60 of 142 · dialogue · 7.5s on screen

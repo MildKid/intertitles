@@ -98,13 +98,6 @@ msgid ""
 "the heights—from the sewer to the stars——the ladder of Courage."
 msgstr ""
 
-#. Card 6 of 142 · dialogue · 13.8s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:6
-msgctxt "020"
-msgid "'Look, Chicol\""
-msgstr ""
-
 #. Card 7 of 142 · dialogue · 3.5s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:7
@@ -124,15 +117,6 @@ msgid ""
 "washer! Up there in\n"
 "the sunshine—among\n"
 "people——"
-msgstr ""
-
-#. Card 9 of 142 · dialogue · 4.5s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:9
-msgctxt "028"
-msgid ""
-"\"After all, you know, I'm\n"
-"a very remarkable fellow!\""
 msgstr ""
 
 #. Card 10 of 142 · dialogue · 5.5s on screen
@@ -370,20 +354,6 @@ msgid ""
 "celebrate!\""
 msgstr ""
 
-#. Card 37 of 142 · dialogue · 2.2s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:37
-msgctxt "132"
-msgid "\"Welcome, Comrade!\""
-msgstr ""
-
-#. Card 38 of 142 · dialogue · 2.2s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:38
-msgctxt "133"
-msgid "\"I thank you, Comrade.\""
-msgstr ""
-
 #. Card 39 of 142 · dialogue · 5.2s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:39
@@ -437,13 +407,6 @@ msgstr ""
 #: data/films/seventh-heaven-1927/cards.yaml:45
 msgctxt "164"
 msgid "\"You have a great head!\""
-msgstr ""
-
-#. Card 46 of 142 · dialogue · 2.5s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:46
-msgctxt "170"
-msgid "\"Crank up Eloise!\""
 msgstr ""
 
 #. Card 47 of 142 · dialogue · 7.2s on screen
@@ -548,15 +511,6 @@ msgstr ""
 #: data/films/seventh-heaven-1927/cards.yaml:58
 msgctxt "291"
 msgid "\"I didn't mean it! Don't think you can stay!\""
-msgstr ""
-
-#. Card 59 of 142 · narrative · 7.8s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:59
-msgctxt "316"
-msgid ""
-"am a police\n"
-"detective-"
 msgstr ""
 
 #. Card 60 of 142 · dialogue · 7.5s on screen
@@ -1229,6 +1183,80 @@ msgid ""
 "\"It isn't true—Chico\n"
 "is alive! I know!\""
 msgstr ""
+
+#. Card 6 of 142 · dialogue · 13.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:6
+msgctxt "020"
+msgid "Look, Chico!"
+msgstr ""
+
+#. Card 9 of 142 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:9
+msgctxt "028"
+msgid ""
+"After all, you know, I'm\n"
+"a very remarkable fellow!"
+msgstr ""
+
+#. Card 37 of 142 · dialogue · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:37
+msgctxt "132"
+msgid "Welcome, Comrade!"
+msgstr ""
+
+#. Card 38 of 142 · dialogue · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:38
+msgctxt "133"
+msgid "I thank you, Comrade."
+msgstr ""
+
+#. Card 46 of 142 · dialogue · 2.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:46
+msgctxt "170"
+msgid "Crank up Eloise!"
+msgstr ""
+
+#. Card 59 of 142 · dialogue · 7.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:59
+msgctxt "316"
+msgid ""
+"I am a police\n"
+"detective—"
+msgstr ""
+
+#~ msgctxt "020"
+#~ msgid "'Look, Chicol\""
+#~ msgstr ""
+
+#~ msgctxt "028"
+#~ msgid ""
+#~ "\"After all, you know, I'm\n"
+#~ "a very remarkable fellow!\""
+#~ msgstr ""
+
+#~ msgctxt "132"
+#~ msgid "\"Welcome, Comrade!\""
+#~ msgstr ""
+
+#~ msgctxt "133"
+#~ msgid "\"I thank you, Comrade.\""
+#~ msgstr ""
+
+#~ msgctxt "170"
+#~ msgid "\"Crank up Eloise!\""
+#~ msgstr ""
+
+#~ msgctxt "316"
+#~ msgid ""
+#~ "am a police\n"
+#~ "detective-"
+#~ msgstr ""
 
 #~ msgctxt "399"
 #~ msgid "*Say it again!\""

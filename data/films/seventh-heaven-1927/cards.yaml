@@ -135,17 +135,17 @@ cards:
     out: "00:03:31.750"
     type: dialogue
     text: |-
-      'Look, Chicol"
+      Look, Chico!
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '\'Look, Chicol"'
 
   - id: "025"
     in: "00:04:09.750"
@@ -189,18 +189,18 @@ cards:
     out: "00:04:38.750"
     type: dialogue
     text: |-
-      "After all, you know, I'm
-      a very remarkable fellow!"
+      After all, you know, I'm
+      a very remarkable fellow!
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"After all, you know, I\'m\na very remarkable fellow!"'
 
   - id: "034"
     in: "00:05:28.500"
@@ -666,34 +666,34 @@ cards:
     out: "00:24:34.750"
     type: dialogue
     text: |-
-      "Welcome, Comrade!"
+      Welcome, Comrade!
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Welcome, Comrade!"'
 
   - id: "133"
     in: "00:24:37.000"
     out: "00:24:39.250"
     type: dialogue
     text: |-
-      "I thank you, Comrade."
+      I thank you, Comrade.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I thank you, Comrade."'
 
   - id: "138"
     in: "00:26:31.750"
@@ -813,17 +813,17 @@ cards:
     out: "00:31:50.000"
     type: dialogue
     text: |-
-      "Crank up Eloise!"
+      Crank up Eloise!
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: double curly
+      emphasis: '"Eloise!" set in italic script'
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Crank up Eloise!"'
 
   - id: "175"
     in: "00:32:35.750"
@@ -1032,20 +1032,20 @@ cards:
   - id: "316"
     in: "00:54:34.250"
     out: "00:54:42.000"
-    type: narrative
+    type: dialogue
     text: |-
-      am a police
-      detective-
+      I am a police
+      detective—
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'am a police\ndetective-'
 
   - id: "317"
     in: "00:54:42.500"
@@ -1206,7 +1206,7 @@ cards:
       emphasis: ""
       all_caps: false
     confidence: low
-    doubt: frame is badly damaged/degraded (heavy print artifacts); only "Chico—" legible, closing quote and any further text uncertain
+    doubt: 'pass 1: ''"Chico—'' | pass 2: ''Chico—'' | frame is badly damaged/degraded (heavy print artifacts); only "Chico—" legible, closing quote and any further text uncertain'
 
   - id: "394"
     in: "01:03:01.750"
@@ -1222,8 +1222,7 @@ cards:
       quote_style: ""
       emphasis: ""
       all_caps: false
-    confidence: low
-    doubt: frame is badly damaged/degraded (heavy print artifacts); opening quote mark not visible, only "—Diane—" legible
+    confidence: high
 
   - id: "395"
     in: "01:03:06.250"
@@ -1240,7 +1239,7 @@ cards:
       emphasis: ""
       all_caps: false
     confidence: low
-    doubt: frame is badly damaged/degraded (heavy print artifacts); only "—Heaven!" legible, likely continuation of a card split across 393-395
+    doubt: 'pass 1: ''—Heaven!"'' | pass 2: ''—Heaven!'' | frame is badly damaged/degraded (heavy print artifacts); only "—Heaven!" legible, likely continuation of a card split across 393-395'
 
   - id: "399"
     in: "01:03:27.000"

@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-04T01:28:58Z",
+ "generated": "2026-09-04T03:56:38Z",
  "films": [
   {
    "slug": "don-juan-1926",
@@ -53,8 +53,8 @@
    "slug": "metropolis-1927",
    "title": "Metropolis",
    "year": 1927,
-   "cards": 0,
-   "transcribed": 0,
+   "cards": 130,
+   "transcribed": 130,
    "verified": 0,
    "translated": {
     "es-MX": 0
@@ -63,7 +63,7 @@
     "es-MX": 0
    },
    "timing": "reference",
-   "extraction": "not-started"
+   "extraction": "transcribed"
   },
   {
    "slug": "number-please-1920",
