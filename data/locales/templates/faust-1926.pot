@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: intertitles faust-1926\n"
-"POT-Creation-Date: 2026-09-04 03:58+0000\n"
+"POT-Creation-Date: 2026-09-04 04:02+0000\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -310,11 +310,11 @@ msgid ""
 "zerschmettern!“"
 msgstr ""
 
-#. Card 30 of 134 · narrative · 2.2s on screen
+#. Card 30 of 134 · dialogue · 2.2s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/faust-1926/cards.yaml:30
 msgctxt "090"
-msgid "The Plague!! The Plague!!"
+msgid "„Die Pest!! Die Pest!!“"
 msgstr ""
 
 #. Card 31 of 134 · dialogue · 41.5s on screen
@@ -513,13 +513,11 @@ msgid ""
 "eingefangen!“"
 msgstr ""
 
-#. Card 52 of 134 · narrative · 28.0s on screen
+#. Card 52 of 134 · dialogue · 28.0s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/faust-1926/cards.yaml:52
 msgctxt "178"
-msgid ""
-"Auf meinen antel tritt\n"
-"Step upon my cloak.."
+msgid "„Auf meinen Mantel tritt . . .“"
 msgstr ""
 
 #. Card 53 of 134 · dialogue · 18.8s on screen

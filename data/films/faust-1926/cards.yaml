@@ -225,7 +225,7 @@ cards:
       emphasis: blackletter type
       all_caps: false
     confidence: low
-    doubt: card is cut off after "Zu wählen zwischen"; the closing line (likely "Gut und Böse." plus closing quote) is not visible in this frame
+    doubt: 'pass 1: ''„Wunderbar\nsind alle Dinge Himmels\nund der Erde!\nDoch der Wunder Größtes\nist die Freiheit des Menschen:\nZu wählen zwischen'' | pass 2: ''Wunderbar\nsind alle Dinge Himmels\nund der Erde!\nDoch der Wunder Größtes\nist die Freiheit des Menschen:\nZu wählen zwischen\nGut und Böse!'' | card is cut off after "Zu wählen zwischen"; the closing line (likely "Gut und Böse." plus closing quote) is not visible in this frame | last line is cut off by a burned-in caption overlay; ending reconstructed as ''Gut und Böse'' from context and is not fully visible'
 
   - id: "023"
     in: "00:03:19.250"
@@ -380,7 +380,7 @@ cards:
       emphasis: ""
       all_caps: false
     confidence: low
-    doubt: last line partly obscured by a burned-in English subtitle; read as 'zu finden' from the visible partial strokes
+    doubt: 'pass 1: ''Tag und Nacht\nrang Faust\nim Gebet mit Gott,\num ein Heilmittel\ngegen die Pest\nzu finden'' | pass 2: ''Tag und Nacht\nrang Faust\nim Gebet mit Gott,\num ein Heilmittel\ngegen die Pest\nzu finden.'' | last line partly obscured by a burned-in English subtitle; read as ''zu finden'' from the visible partial strokes | last line is partly obscured by a burned-in caption overlay; ''zu finden'' reconstructed from context'
 
   - id: "056"
     in: "00:08:30.250"
@@ -413,8 +413,8 @@ cards:
       quote_style: ""
       emphasis: ""
       all_caps: false
-    confidence: low
-    doubt: final word 'lag' is cut off at the bottom frame edge; last word of the prior line read as 'Toter', could be 'Totes'
+    confidence: medium
+    doubt: final word 'lag' is cut off at the bottom frame edge; last word of the prior line read as 'Toter', could be 'Totes'; right edge of the frame is cropped; final word 'lag' is partly cut off
 
   - id: "060"
     in: "00:08:51.750"
@@ -434,8 +434,8 @@ cards:
       quote_style: double curly
       emphasis: ""
       all_caps: false
-    confidence: low
-    doubt: last line partly obscured by a burned-in English subtitle; read as 'Jammer helfen!' with a closing quote assumed but not clearly visible
+    confidence: medium
+    doubt: last line partly obscured by a burned-in English subtitle; read as 'Jammer helfen!' with a closing quote assumed but not clearly visible; last line is partly obscured by a burned-in caption overlay; 'helfen' reconstructed from visible strokes and context
 
   - id: "063"
     in: "00:09:20.000"
@@ -551,19 +551,19 @@ cards:
   - id: "090"
     in: "00:14:11.000"
     out: "00:14:13.250"
-    type: narrative
+    type: dialogue
     text: |-
-      The Plague!! The Plague!!
+      „Die Pest!! Die Pest!!“
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'The Plague!! The Plague!!'
 
   - id: "093"
     in: "00:15:02.000"
@@ -678,7 +678,7 @@ cards:
       emphasis: ""
       all_caps: false
     confidence: low
-    doubt: Cursive handwriting hard to read; "entsage" and "Heerscharen" uncertain letter by letter
+    doubt: 'pass 1: ''Ich entsage Gott und\nseinen himmlischen\nHeerscharen. Und dafür\nsoll mein sein alle Macht\nund Herrlichkeit der\nWelt.'' | pass 2: ''Ich entsage Gott und\nseinen himmlischen\nHeerscharen. Und dafür\nsoll mein sein alle Macht\nund Herrlichkeit der …'' | Cursive handwriting hard to read; "entsage" and "Heerscharen" uncertain letter by letter | bottom of the handwritten text is obscured by a burned-in caption overlay; word(s) after ''der'' are not legible'
 
   - id: "125"
     in: "00:22:43.750"
@@ -711,7 +711,7 @@ cards:
       emphasis: ""
       all_caps: false
     confidence: low
-    doubt: faint additional text lower-left, possibly the end of another word ('...lichkeit'), obscured by the smoke effect and not clearly part of this card
+    doubt: 'pass 1: ''Macht'' | pass 2: ''…lichkeit … Macht'' | faint additional text lower-left, possibly the end of another word (''...lichkeit''), obscured by the smoke effect and not clearly part of this card | extreme close-up of handwritten cursive text; only fragments are legible (''...lichkeit'', and a word read as ''Macht'', possibly ''Nacht''); most of the card is not readable'
 
   - id: "134"
     in: "00:25:40.250"
@@ -810,8 +810,8 @@ cards:
       quote_style: double curly
       emphasis: ""
       all_caps: false
-    confidence: low
-    doubt: unclear phrase 'wenn Dusie heißt' — possibly 'wie Du heißt' (whatever you're called)
+    confidence: medium
+    doubt: unclear phrase 'wenn Dusie heißt' — possibly 'wie Du heißt' (whatever you're called); word after 'Du' is unclear, reads as 'Dusie'; possibly two words 'Du sie' or a name; reading uncertain
 
   - id: "153"
     in: "00:28:45.250"
@@ -944,20 +944,19 @@ cards:
   - id: "178"
     in: "00:34:42.250"
     out: "00:35:10.250"
-    type: narrative
+    type: dialogue
     text: |-
-      Auf meinen antel tritt
-      Step upon my cloak..
+      „Auf meinen Mantel tritt . . .“
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Auf meinen antel tritt\nStep upon my cloak..'
 
   - id: "189"
     in: "00:37:38.250"
@@ -1051,7 +1050,7 @@ cards:
       emphasis: ""
       all_caps: false
     confidence: low
-    doubt: Final line of the card ('Doch nichts befriedigt Dich!') is obscured by a burned-in caption in this frame and not transcribed
+    doubt: 'pass 1: ''„Du hast das Leben\ngründlich durchgekostet,\nFaust!\nVon Rausch zu Rausch . . .\nein Taumel ohnegleichen!'' | pass 2: ''„Du hast das Leben\ngründlich durchgekostet,\nFaust!\nVon Rausch zu Rausch . . .\nein Taumel ohnegleichen!\nDoch nichts befriedigt Dich!“'' | Final line of the card (''Doch nichts befriedigt Dich!'') is obscured by a burned-in caption in this frame and not transcribed | last line is partly obscured by a burned-in caption overlay; first word reconstructed as ''Doch'' from the visible fragment'
 
   - id: "233"
     in: "00:44:41.250"
@@ -2193,8 +2192,8 @@ cards:
       quote_style: double curly
       emphasis: ""
       all_caps: false
-    confidence: low
-    doubt: last word 'gebrochen' is obscured on this frame by a burned-in English subtitle box; read from context and the overlaid translation, not directly legible
+    confidence: medium
+    doubt: last word 'gebrochen' is obscured on this frame by a burned-in English subtitle box; read from context and the overlaid translation, not directly legible; final word 'gebrochen' is partly obscured by a burned-in caption overlay; reading inferred from visible strokes and context
 
   - id: "537"
     in: "01:37:43.000"
@@ -2229,8 +2228,8 @@ cards:
       quote_style: double curly
       emphasis: ""
       all_caps: false
-    confidence: low
-    doubt: Right side of card is faded/cropped; the second "schneller" and closing punctuation are partly illegible, no closing quote mark visible
+    confidence: medium
+    doubt: Right side of card is faded/cropped; the second "schneller" and closing punctuation are partly illegible, no closing quote mark visible; left edge and top of frame are cropped/damaged; closing quotation mark is not visible
 
   - id: "549"
     in: "01:41:00.250"
