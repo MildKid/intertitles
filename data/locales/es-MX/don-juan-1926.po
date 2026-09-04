@@ -1,22 +1,29 @@
-#
+# Don Juan (1926) — intertitles.
+# Generated from data/films/<slug>/cards.yaml by pipeline/tools/export_po.py. Do not edit by hand.
 msgid ""
 msgstr ""
-"Project-Id-Version: intertitles don-juan-1926\n"
+"Project-Id-Version: intertitles\n"
 "POT-Creation-Date: 2026-09-04 00:10+0000\n"
-"Language: es-MX\n"
+"Language: es_MX\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Film-Title: Don Juan\n"
 "X-Film-Year: 1926\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: intertitles\n"
+"X-Crowdin-Project-ID: 925929\n"
+"X-Crowdin-Language: es-MX\n"
+"X-Crowdin-File: /main/data/locales/templates/don-juan-1926.pot\n"
+"X-Crowdin-File-ID: 17\n"
+"Language-Team: Spanish, Mexico\n"
+"PO-Revision-Date: 2026-09-04 17:54\n"
 
 #. Card 1 of 184 · credit · 4.5s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:1
 msgctxt "002"
-msgid ""
-"a WARNER BROTHERS\n"
+msgid "a WARNER BROTHERS\n"
 "PRODUCTION"
 msgstr ""
 
@@ -24,8 +31,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:2
 msgctxt "003"
-msgid ""
-"THE PLAYERS\n"
+msgid "THE PLAYERS\n"
 "Donna Isobel .... JANE WINTON\n"
 "Leandro .... JOHN ROCHE\n"
 "Cesare Borgia .... WARNER OLAND\n"
@@ -45,8 +51,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:3
 msgctxt "004"
-msgid ""
-"THE PLAYERS\n"
+msgid "THE PLAYERS\n"
 "Donna Isobel .... JANE WINTON\n"
 "Leandro .... JOHN ROCHE\n"
 "Cesare Borgia .... WARNER OLAND\n"
@@ -66,8 +71,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:4
 msgctxt "006"
-msgid ""
-"A WARNER BROTHERS\n"
+msgid "A WARNER BROTHERS\n"
 "CLASSIC OF THE SCREEN\n"
 "Directed by\n"
 "ALAN CROSLAND"
@@ -77,8 +81,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:5
 msgctxt "007"
-msgid ""
-"Musical Accompaniment to\n"
+msgid "Musical Accompaniment to\n"
 "\"DON JUAN\"\n"
 "Played on\n"
 "VITAPHONE\n"
@@ -92,11 +95,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:6
 msgctxt "008"
-msgid ""
-"The tale they tell of Don Juan, immortal lover and doubter of woman, is bold"
-" with life and color — — a merry, insolent tale slashed with intrigue — — "
-"yet its beginning is as gray as the old Spanish castle of Juan's earliest "
-"memory."
+msgid "The tale they tell of Don Juan, immortal lover and doubter of woman, is bold with life and color — — a merry, insolent tale slashed with intrigue — — yet its beginning is as gray as the old Spanish castle of Juan's earliest memory."
 msgstr ""
 
 #. Card 7 of 184 · narrative · 2.8s on screen
@@ -110,8 +109,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:8
 msgctxt "013"
-msgid ""
-"Don Jose de Marana—\n"
+msgid "Don Jose de Marana—\n"
 "father of Don Juan.\n"
 "- - - John Barrymore."
 msgstr ""
@@ -120,8 +118,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:9
 msgctxt "014"
-msgid ""
-"His beautiful and\n"
+msgid "His beautiful and\n"
 "beloved lady——the\n"
 "Donna Isobel."
 msgstr ""
@@ -130,8 +127,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:10
 msgctxt "015"
-msgid ""
-"From the shadows of\n"
+msgid "From the shadows of\n"
 "this Gothic world\n"
 "strange creatures\n"
 "emerged—souls curiously\n"
@@ -142,8 +138,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:11
 msgctxt "017"
-msgid ""
-"\"Not long will you suffer\n"
+msgid "\"Not long will you suffer\n"
 "loneliness—the King shall\n"
 "have his treasure, and\n"
 "I'll return straight to—\n"
@@ -161,8 +156,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:13
 msgctxt "044"
-msgid ""
-"\"I find I have left\n"
+msgid "\"I find I have left\n"
 "unguarded, the thing\n"
 "I valued most.\""
 msgstr ""
@@ -171,8 +165,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:14
 msgctxt "053"
-msgid ""
-"\"In the haste of departure, the\n"
+msgid "\"In the haste of departure, the\n"
 "wall was left unmended.\""
 msgstr ""
 
@@ -180,8 +173,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:15
 msgctxt "069"
-msgid ""
-"\"Think you of any reason\n"
+msgid "\"Think you of any reason\n"
 "why they should not seal\n"
 "the wall?\""
 msgstr ""
@@ -190,8 +182,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:16
 msgctxt "070"
-msgid ""
-"\"There is nothing of value\n"
+msgid "\"There is nothing of value\n"
 "there—now—is there?\""
 msgstr ""
 
@@ -199,8 +190,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:17
 msgctxt "078"
-msgid ""
-"\"Snivel, you lying wretch—\n"
+msgid "\"Snivel, you lying wretch—\n"
 "you betrayer of men and\n"
 "the honor of men!\""
 msgstr ""
@@ -216,8 +206,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:19
 msgctxt "082"
-msgid ""
-"\"Yonder goes your mother—\n"
+msgid "\"Yonder goes your mother—\n"
 "and with her goes my\n"
 "faith in women!\""
 msgstr ""
@@ -226,8 +215,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:20
 msgctxt "085"
-msgid ""
-"In the years that followed,\n"
+msgid "In the years that followed,\n"
 "Don Jose kept his\n"
 "bitterness alive after a\n"
 "curiously sardonic fashion\n"
@@ -241,8 +229,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:21
 msgctxt "102"
-msgid ""
-"The jealous Donna\n"
+msgid "The jealous Donna\n"
 "Elvira had enjoyed\n"
 "the unique honor of\n"
 "Don Jose's exclusive\n"
@@ -253,8 +240,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:22
 msgctxt "122"
-msgid ""
-"\"Is not one member of\n"
+msgid "\"Is not one member of\n"
 "the family enough to\n"
 "contaminate?\""
 msgstr ""
@@ -263,8 +249,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:23
 msgctxt "125"
-msgid ""
-"\"My three-fold debt to\n"
+msgid "\"My three-fold debt to\n"
 "woman is now complete\n"
 "—life—disillusionment—\n"
 "death!\""
@@ -274,8 +259,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:24
 msgctxt "127"
-msgid ""
-"\"This is my legacy to\n"
+msgid "\"This is my legacy to\n"
 "you—beware of giving\n"
 "your love to women.\""
 msgstr ""
@@ -284,8 +268,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:25
 msgctxt "128"
-msgid ""
-"\"Go out into the world and\n"
+msgid "\"Go out into the world and\n"
 "take their love when it\n"
 "please you--smile--and\n"
 "forget!\""
@@ -295,8 +278,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:26
 msgctxt "130"
-msgid ""
-"ROME - - - the mighty\n"
+msgid "ROME - - - the mighty\n"
 "Vatican towering heavenward\n"
 "above a seethe of\n"
 "corruption—scented velvets\n"
@@ -309,8 +291,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:27
 msgctxt "134"
-msgid ""
-"\"God help us—\n"
+msgid "\"God help us—\n"
 "The Borgia!\""
 msgstr ""
 
@@ -318,8 +299,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:28
 msgctxt "135"
-msgid ""
-"The Borgia tyranny over\n"
+msgid "The Borgia tyranny over\n"
 "Rome and its subjects,\n"
 "was one of ceaseless\n"
 "cruelty — torturing and\n"
@@ -331,8 +311,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:29
 msgctxt "137"
-msgid ""
-"Head of the House of\n"
+msgid "Head of the House of\n"
 "the Crimson Bull— —\n"
 "and the secret ruler of\n"
 "Rome— — Cesare Borgia."
@@ -342,8 +321,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:30
 msgctxt "139"
-msgid ""
-"His sister—the inspiration\n"
+msgid "His sister—the inspiration\n"
 "of his vicious crimes—\n"
 "beauty without pity—\n"
 "ambition without remorse\n"
@@ -354,8 +332,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:31
 msgctxt "141"
-msgid ""
-"Count Giano Donati—\n"
+msgid "Count Giano Donati—\n"
 "a kinsman of the Borgia—\n"
 "with a roving eye as\n"
 "keen as his sword."
@@ -365,8 +342,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:32
 msgctxt "147"
-msgid ""
-"\"It is the daughter of the\n"
+msgid "\"It is the daughter of the\n"
 "Duke della Varnese—a\n"
 "follower of our enemy,\n"
 "the Orsini.\""
@@ -376,8 +352,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:33
 msgctxt "149"
-msgid ""
-"\"Giano dear, your little\n"
+msgid "\"Giano dear, your little\n"
 "whims must be gratified.\n"
 "We will include the Duke\n"
 "and his daughter among\n"
@@ -388,8 +363,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:34
 msgctxt "153"
-msgid ""
-"\"It is the home of Don\n"
+msgid "\"It is the home of Don\n"
 "Juan—a young Spanish\n"
 "grandee, lately arrived\n"
 "from the University\n"
@@ -400,8 +374,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:35
 msgctxt "154"
-msgid ""
-"\"He is handsome and rich,\n"
+msgid "\"He is handsome and rich,\n"
 "illustrious lady, and of\n"
 "most exquisite manners.\""
 msgstr ""
@@ -410,8 +383,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:36
 msgctxt "155"
-msgid ""
-"\"And if rumor does not lie—\n"
+msgid "\"And if rumor does not lie—\n"
 "half the fair ones of Rome\n"
 "have already succumbed to\n"
 "his charm.\""
@@ -421,8 +393,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:37
 msgctxt "156"
-msgid ""
-"\"Ah, he is the one they\n"
+msgid "\"Ah, he is the one they\n"
 "call the great lover!\""
 msgstr ""
 
@@ -430,8 +401,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:38
 msgctxt "157"
-msgid ""
-"\"The great forgetful\n"
+msgid "\"The great forgetful\n"
 "lover!\""
 msgstr ""
 
@@ -439,8 +409,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:39
 msgctxt "158"
-msgid ""
-"\"There might be one\n"
+msgid "\"There might be one\n"
 "he could not forget.\""
 msgstr ""
 
@@ -448,8 +417,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:40
 msgctxt "159"
-msgid ""
-"\"Only your illustrious\n"
+msgid "\"Only your illustrious\n"
 "highness would dare\n"
 "such a challenge.\""
 msgstr ""
@@ -458,8 +426,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:41
 msgctxt "160"
-msgid ""
-"\"See that a messenger is\n"
+msgid "\"See that a messenger is\n"
 "dispatched to this Don\n"
 "Juan—our evening ball\n"
 "will be more interesting\n"
@@ -470,8 +437,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:42
 msgctxt "162"
-msgid ""
-"Don Juan's home—where\n"
+msgid "Don Juan's home—where\n"
 "innocence might enter—\n"
 "but never depart."
 msgstr ""
@@ -480,8 +446,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:43
 msgctxt "163"
-msgid ""
-"Don Juan's home—where\n"
+msgid "Don Juan's home—where\n"
 "innocence might enter—\n"
 "but never depart."
 msgstr ""
@@ -490,8 +455,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:44
 msgctxt "164"
-msgid ""
-"Don Juan's faithful\n"
+msgid "Don Juan's faithful\n"
 "attendant and imitator—\n"
 "—Pedrillo."
 msgstr ""
@@ -500,8 +464,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:45
 msgctxt "165"
-msgid ""
-"My Juan\n"
+msgid "My Juan\n"
 "Accept, I pray you, this small\n"
 "jewel as a seal upon our love.\n"
 "Milord, my husband remains in\n"
@@ -513,8 +476,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:46
 msgctxt "166"
-msgid ""
-"My Juan\n"
+msgid "My Juan\n"
 "Accept, I pray you, this small\n"
 "jewel as a seal upon our love.\n"
 "Milord, my husband remains in\n"
@@ -526,8 +488,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:47
 msgctxt "167"
-msgid ""
-"Little Trusia had\n"
+msgid "Little Trusia had\n"
 "managed to elude her\n"
 "watchful uncle, the\n"
 "Duke Margoni—and\n"
@@ -538,8 +499,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:48
 msgctxt "174"
-msgid ""
-"\"A sick friend doubtless\n"
+msgid "\"A sick friend doubtless\n"
 "detains him, Milady.\""
 msgstr ""
 
@@ -554,8 +514,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:50
 msgctxt "176"
-msgid ""
-"\"Madonna, you are the\n"
+msgid "\"Madonna, you are the\n"
 "one love of his life.\""
 msgstr ""
 
@@ -563,8 +522,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:51
 msgctxt "177"
-msgid ""
-"Imperia, a famous\n"
+msgid "Imperia, a famous\n"
 "frailty, had managed\n"
 "to elude her jealous\n"
 "admirer, the Duke\n"
@@ -575,8 +533,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:52
 msgctxt "179"
-msgid ""
-"\"Why wait? It may be\n"
+msgid "\"Why wait? It may be\n"
 "a matter of hours.\""
 msgstr ""
 
@@ -584,9 +541,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:53
 msgctxt "181"
-msgid ""
-"\"Where is he? For an hour I have awaited your master in the blistering sun "
-"on the Palatine Hill!\""
+msgid "\"Where is he? For an hour I have awaited your master in the blistering sun on the Palatine Hill!\""
 msgstr ""
 
 #. Card 54 of 184 · dialogue · 4.5s on screen
@@ -635,9 +590,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:60
 msgctxt "200"
-msgid ""
-"The Duchess Margoni had also managed to elude her vigilant husband, the Duke"
-" Margoni."
+msgid "The Duchess Margoni had also managed to elude her vigilant husband, the Duke Margoni."
 msgstr ""
 
 #. Card 61 of 184 · dialogue · 6.0s on screen
@@ -700,8 +653,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:69
 msgctxt "227"
-msgid ""
-"\"I have been told that\n"
+msgid "\"I have been told that\n"
 "the Duchess, my wife,\n"
 "is here!\""
 msgstr ""
@@ -717,8 +669,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:71
 msgctxt "231"
-msgid ""
-"\"Your lovely wife suspects\n"
+msgid "\"Your lovely wife suspects\n"
 "your affair with Imperia—\n"
 "and sent messages to bring\n"
 "you both here—\""
@@ -728,8 +679,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:72
 msgctxt "232"
-msgid ""
-"\"—she came herself to catch\n"
+msgid "\"—she came herself to catch\n"
 "you together—I've done my\n"
 "poor best to protect you!\""
 msgstr ""
@@ -738,8 +688,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:73
 msgctxt "233"
-msgid ""
-"\"Splendid! Some day I may\n"
+msgid "\"Splendid! Some day I may\n"
 "be of service to you!\""
 msgstr ""
 
@@ -761,8 +710,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:76
 msgctxt "242"
-msgid ""
-"\"Borgia parchment is\n"
+msgid "\"Borgia parchment is\n"
 "oftimes poisoned!\""
 msgstr ""
 
@@ -770,8 +718,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:77
 msgctxt "244"
-msgid ""
-"Faciet vobis gratum si\n"
+msgid "Faciet vobis gratum si\n"
 "venire hac nocte ad\n"
 "Palatium Sanctae Mariae...\n"
 "Lucrezia Borgia\n"
@@ -782,13 +729,10 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:78
 msgctxt "245"
-msgid ""
-"It is our pleasure that you\n"
+msgid "It is our pleasure that you\n"
 "present yourself this eve at the\n"
-"Palazzo Santa Maria—\n"
-"\n"
-"Lucrezia Borgia\n"
-"\n"
+"Palazzo Santa Maria—\n\n"
+"Lucrezia Borgia\n\n"
 "Cesare Borgia"
 msgstr ""
 
@@ -796,13 +740,10 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:79
 msgctxt "246"
-msgid ""
-"It is our pleasure that you\n"
+msgid "It is our pleasure that you\n"
 "present yourself this eve at the\n"
-"Palazzo Santa Maria—\n"
-"\n"
-"Lucrezia Borgia\n"
-"\n"
+"Palazzo Santa Maria—\n\n"
+"Lucrezia Borgia\n\n"
 "Cesare Borgia"
 msgstr ""
 
@@ -810,13 +751,10 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:80
 msgctxt "247"
-msgid ""
-"It is our pleasure that you\n"
+msgid "It is our pleasure that you\n"
 "present yourself this eve at the\n"
-"Palazzo Santa Maria—\n"
-"\n"
-"Lucrezia Borgia\n"
-"\n"
+"Palazzo Santa Maria—\n\n"
+"Lucrezia Borgia\n\n"
 "Cesare Borgia"
 msgstr ""
 
@@ -824,8 +762,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:81
 msgctxt "248"
-msgid ""
-"\"What are my engagements\n"
+msgid "\"What are my engagements\n"
 "tonight?\""
 msgstr ""
 
@@ -833,8 +770,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:82
 msgctxt "249"
-msgid ""
-"Rendezvous\n"
+msgid "Rendezvous\n"
 "Wednesday.\n"
 "Niki .................. 23rd hour.\n"
 "Drusilla .................. 24th hour.\n"
@@ -848,8 +784,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:83
 msgctxt "250"
-msgid ""
-"Rendezvous\n"
+msgid "Rendezvous\n"
 "Wednesday.\n"
 "Niki .................. 23rd hour.\n"
 "Drusilla .................. 24th hour.\n"
@@ -863,8 +798,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:84
 msgctxt "251"
-msgid ""
-"Rendezvous\n"
+msgid "Rendezvous\n"
 "Wednesday.\n"
 "Niki .................. 23rd hour.\n"
 "Drusilla .................. 24th hour.\n"
@@ -878,8 +812,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:85
 msgctxt "253"
-msgid ""
-"The glory of the\n"
+msgid "The glory of the\n"
 "Borgia——the Palazzo\n"
 "Santa Maria."
 msgstr ""
@@ -888,8 +821,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:86
 msgctxt "255"
-msgid ""
-"\"The Duke della Varnese—\n"
+msgid "\"The Duke della Varnese—\n"
 "the Lady Adriana della\n"
 "Varnese.\""
 msgstr ""
@@ -898,8 +830,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:87
 msgctxt "259"
-msgid ""
-"\"A little flat, perhaps, but\n"
+msgid "\"A little flat, perhaps, but\n"
 "you'll console yourself\n"
 "with the ample figure\n"
 "of her father's fortune—\n"
@@ -911,8 +842,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:88
 msgctxt "260"
-msgid ""
-"\"Why did we come, father,\n"
+msgid "\"Why did we come, father,\n"
 "when we know how they\n"
 "hate us and all the Orsini?\""
 msgstr ""
@@ -921,8 +851,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:89
 msgctxt "261"
-msgid ""
-"\"The invitation was a\n"
+msgid "\"The invitation was a\n"
 "command. It is death to\n"
 "defy the Borgia, even\n"
 "though it may be fatal\n"
@@ -933,8 +862,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:90
 msgctxt "262"
-msgid ""
-"\"My kinsman, Count\n"
+msgid "\"My kinsman, Count\n"
 "Donati—a true Borgia\n"
 "and our closest friend.\""
 msgstr ""
@@ -943,8 +871,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:91
 msgctxt "263"
-msgid ""
-"\"Inform me the instant\n"
+msgid "\"Inform me the instant\n"
 "Don Juan arrives.\""
 msgstr ""
 
@@ -952,8 +879,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:92
 msgctxt "267"
-msgid ""
-"\"Quickly, Excellency! Her\n"
+msgid "\"Quickly, Excellency! Her\n"
 "Highness awaits you!\""
 msgstr ""
 
@@ -961,8 +887,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:93
 msgctxt "269"
-msgid ""
-"\"If her face matches her\n"
+msgid "\"If her face matches her\n"
 "feet—God help us both!\""
 msgstr ""
 
@@ -977,8 +902,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:95
 msgctxt "281"
-msgid ""
-"\"While the mistress waits—\n"
+msgid "\"While the mistress waits—\n"
 "our Spaniard dallies with\n"
 "the maid.\""
 msgstr ""
@@ -987,8 +911,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:96
 msgctxt "282"
-msgid ""
-"\"We shall see if the Lady\n"
+msgid "\"We shall see if the Lady\n"
 "Lucrezia's sense of humor,\n"
 "is equal to this occasion!\""
 msgstr ""
@@ -997,9 +920,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:97
 msgctxt "284"
-msgid ""
-"\"You are very sure of yourself—but you will believe the tale when all Rome "
-"laughs.\""
+msgid "\"You are very sure of yourself—but you will believe the tale when all Rome laughs.\""
 msgstr ""
 
 #. Card 98 of 184 · dialogue · 8.2s on screen
@@ -1013,18 +934,14 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:99
 msgctxt "295"
-msgid ""
-"\"My apologies for the wretch, gracious lady—I had hoped to improve his "
-"morals by my own example.\""
+msgid "\"My apologies for the wretch, gracious lady—I had hoped to improve his morals by my own example.\""
 msgstr ""
 
 #. Card 100 of 184 · dialogue · 6.0s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:100
 msgctxt "299"
-msgid ""
-"\"May a simple Spaniard pay his respects to the illustrious flower of "
-"Europe?\""
+msgid "\"May a simple Spaniard pay his respects to the illustrious flower of Europe?\""
 msgstr ""
 
 #. Card 101 of 184 · dialogue · 7.0s on screen
@@ -1045,27 +962,21 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:103
 msgctxt "314"
-msgid ""
-"\"Perhaps you are not aware that Donati is our best swordsman. He may resent"
-" your interest in his lady.\""
+msgid "\"Perhaps you are not aware that Donati is our best swordsman. He may resent your interest in his lady.\""
 msgstr ""
 
 #. Card 104 of 184 · narrative · 2.0s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:104
 msgctxt "324"
-msgid ""
-"None so dreaded as Neri, the sorcerer, whose rare and subtle poisons were "
-"distilled in a secret room of the Borgia palace."
+msgid "None so dreaded as Neri, the sorcerer, whose rare and subtle poisons were distilled in a secret room of the Borgia palace."
 msgstr ""
 
 #. Card 105 of 184 · dialogue · 17.5s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:105
 msgctxt "329"
-msgid ""
-"\"A pity that the Duke della Varnese—worthy gentleman!—will suffer a heart "
-"attack before dawn.\""
+msgid "\"A pity that the Duke della Varnese—worthy gentleman!—will suffer a heart attack before dawn.\""
 msgstr ""
 
 #. Card 106 of 184 · dialogue · 6.5s on screen
@@ -1114,9 +1025,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:112
 msgctxt "362"
-msgid ""
-"\"We Borgia approve of cleverness in our friends—we have no clever "
-"enemies!\""
+msgid "\"We Borgia approve of cleverness in our friends—we have no clever enemies!\""
 msgstr ""
 
 #. Card 113 of 184 · dialogue · 7.2s on screen
@@ -1144,9 +1053,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:116
 msgctxt "376"
-msgid ""
-"\"Tonight you saved my father's life—what can I do to prove my heart's "
-"gratitude?\""
+msgid "\"Tonight you saved my father's life—what can I do to prove my heart's gratitude?\""
 msgstr ""
 
 #. Card 117 of 184 · dialogue · 28.2s on screen
@@ -1202,8 +1109,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:124
 msgctxt "393"
-msgid ""
-"\"If I am late—a thousand\n"
+msgid "\"If I am late—a thousand\n"
 "pardons!\""
 msgstr ""
 
@@ -1211,8 +1117,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:125
 msgctxt "405"
-msgid ""
-"\"You promised to reward\n"
+msgid "\"You promised to reward\n"
 "me—but perhaps you fear\n"
 "Donati, your swordsman\n"
 "friend.\""
@@ -1222,8 +1127,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:126
 msgctxt "408"
-msgid ""
-"\"You are a charming\n"
+msgid "\"You are a charming\n"
 "actress, Madonna.\""
 msgstr ""
 
@@ -1231,8 +1135,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:127
 msgctxt "422"
-msgid ""
-"Days passed slowly\n"
+msgid "Days passed slowly\n"
 "for Juan."
 msgstr ""
 
@@ -1240,8 +1143,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:128
 msgctxt "427"
-msgid ""
-"\"For three days at this\n"
+msgid "\"For three days at this\n"
 "same hour I have\n"
 "waited here.\""
 msgstr ""
@@ -1250,8 +1152,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:129
 msgctxt "429"
-msgid ""
-"\"My soul has been asleep—\n"
+msgid "\"My soul has been asleep—\n"
 "you have awakened it—\""
 msgstr ""
 
@@ -1259,8 +1160,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:130
 msgctxt "433"
-msgid ""
-"\"You have given me a new\n"
+msgid "\"You have given me a new\n"
 "faith—faith in the goodness\n"
 "of women—teach me—help\n"
 "me—so that I may never\n"
@@ -1271,8 +1171,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:131
 msgctxt "435"
-msgid ""
-"\"What did I tell you,\n"
+msgid "\"What did I tell you,\n"
 "milady? The chapel\n"
 "garden holds more\n"
 "allure for him than\n"
@@ -1283,8 +1182,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:132
 msgctxt "444"
-msgid ""
-"The home of the\n"
+msgid "The home of the\n"
 "Duke della Varnese--\n"
 "the secret object of the\n"
 "Borgia's unprovoked\n"
@@ -1295,8 +1193,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:133
 msgctxt "445"
-msgid ""
-"\"You are under arrest—\n"
+msgid "\"You are under arrest—\n"
 "as an Orsini you know\n"
 "your fate.\""
 msgstr ""
@@ -1305,8 +1202,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:134
 msgctxt "448"
-msgid ""
-"\"But a Borgia is nothing\n"
+msgid "\"But a Borgia is nothing\n"
 "if not merciful—a pardon\n"
 "is still possible.\""
 msgstr ""
@@ -1315,8 +1211,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:135
 msgctxt "449"
-msgid ""
-"\"My kinsman, Count Donati,\n"
+msgid "\"My kinsman, Count Donati,\n"
 "desires your daughter in\n"
 "marriage--consent and\n"
 "become our loyal follower.\""
@@ -1326,8 +1221,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:136
 msgctxt "451"
-msgid ""
-"\"Take him to St. Angelo—\n"
+msgid "\"Take him to St. Angelo—\n"
 "and behead him!\""
 msgstr ""
 
@@ -1335,8 +1229,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:137
 msgctxt "454"
-msgid ""
-"\"What chance have we?\n"
+msgid "\"What chance have we?\n"
 "If I refuse it means death\n"
 "to you—and a worse fate\n"
 "for me.\""
@@ -1353,8 +1246,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:139
 msgctxt "463"
-msgid ""
-"\"It is true, Master—the Orsini\n"
+msgid "\"It is true, Master—the Orsini\n"
 "are attacked without provo-\n"
 "cation—their followers killed\n"
 "or imprisoned in St. Angelo—\n"
@@ -1366,8 +1258,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:140
 msgctxt "472"
-msgid ""
-"\"Twice I summoned you\n"
+msgid "\"Twice I summoned you\n"
 "and you ignored me—\n"
 "tonight I lay aside my\n"
 "pride and come to you.\""
@@ -1377,8 +1268,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:141
 msgctxt "478"
-msgid ""
-"\"You fool! Do you think\n"
+msgid "\"You fool! Do you think\n"
 "Donati will allow any\n"
 "harm to come to—her?\""
 msgstr ""
@@ -1387,8 +1277,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:142
 msgctxt "479"
-msgid ""
-"\"The wisest man is the\n"
+msgid "\"The wisest man is the\n"
 "easiest to deceive.\""
 msgstr ""
 
@@ -1396,8 +1285,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:143
 msgctxt "481"
-msgid ""
-"\"Rome is laughing at you!\n"
+msgid "\"Rome is laughing at you!\n"
 "When you have learned\n"
 "what we all knew long\n"
 "ago—come to me, and\n"
@@ -1409,8 +1297,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:144
 msgctxt "488"
-msgid ""
-"\"Adriana della Varnese is\n"
+msgid "\"Adriana della Varnese is\n"
 "safe with her father—at\n"
 "the Vatican.\""
 msgstr ""
@@ -1419,8 +1306,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:145
 msgctxt "498"
-msgid ""
-"\"If you betray me by a look\n"
+msgid "\"If you betray me by a look\n"
 "or sign — I will run this\n"
 "intruder through!\""
 msgstr ""
@@ -1429,8 +1315,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:146
 msgctxt "501"
-msgid ""
-"\"There is no one here—\n"
+msgid "\"There is no one here—\n"
 "please go!\""
 msgstr ""
 
@@ -1438,8 +1323,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:147
 msgctxt "508"
-msgid ""
-"\"Your pardon, signor—\n"
+msgid "\"Your pardon, signor—\n"
 "for trespassing ever so\n"
 "slightly in your garden.\""
 msgstr ""
@@ -1448,8 +1332,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:148
 msgctxt "522"
-msgid ""
-"Rome celebrated, on a\n"
+msgid "Rome celebrated, on a\n"
 "certain evening a month\n"
 "later, the marriage of\n"
 "Adriana della Varnese to\n"
@@ -1463,8 +1346,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:149
 msgctxt "542"
-msgid ""
-"\"Your repetition forces\n"
+msgid "\"Your repetition forces\n"
 "me to believe you.\""
 msgstr ""
 
@@ -1479,8 +1361,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:151
 msgctxt "551"
-msgid ""
-"\"My husband suspects—\n"
+msgid "\"My husband suspects—\n"
 "I rushed here to warn\n"
 "you!\""
 msgstr ""
@@ -1489,8 +1370,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:152
 msgctxt "552"
-msgid ""
-"\"Help me, Juan! If he\n"
+msgid "\"Help me, Juan! If he\n"
 "finds me out it will\n"
 "end everything for me—\n"
 "honor—happiness—my\n"
@@ -1501,8 +1381,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:153
 msgctxt "554"
-msgid ""
-"\"If my husband finds me\n"
+msgid "\"If my husband finds me\n"
 "here—I'll kill myself.\""
 msgstr ""
 
@@ -1517,8 +1396,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:155
 msgctxt "581"
-msgid ""
-"\"A tragedy, gentlemen,\n"
+msgid "\"A tragedy, gentlemen,\n"
 "in place of the usual\n"
 "comedy! The husband—\n"
 "as it happens—has killed\n"
@@ -1529,8 +1407,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:156
 msgctxt "584"
-msgid ""
-"\"Look—his hands drip\n"
+msgid "\"Look—his hands drip\n"
 "with blood!\""
 msgstr ""
 
@@ -1538,8 +1415,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:157
 msgctxt "586"
-msgid ""
-"\"Be lenient—the man\n"
+msgid "\"Be lenient—the man\n"
 "is mad.\""
 msgstr ""
 
@@ -1547,8 +1423,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:158
 msgctxt "590"
-msgid ""
-"\"Will those bells never\n"
+msgid "\"Will those bells never\n"
 "stop?\""
 msgstr ""
 
@@ -1556,8 +1431,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:159
 msgctxt "591"
-msgid ""
-"\"Not until the banquet is\n"
+msgid "\"Not until the banquet is\n"
 "over and Donati escorts\n"
 "his bride to their nuptial\n"
 "chamber.\""
@@ -1567,8 +1441,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:160
 msgctxt "608"
-msgid ""
-"\"Go—prepare yourself\n"
+msgid "\"Go—prepare yourself\n"
 "for the nuptials.\""
 msgstr ""
 
@@ -1576,8 +1449,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:161
 msgctxt "610"
-msgid ""
-"\"The Lady Adriana defies\n"
+msgid "\"The Lady Adriana defies\n"
 "your command.\""
 msgstr ""
 
@@ -1585,8 +1457,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:162
 msgctxt "612"
-msgid ""
-"\"You are too impetuous, my\n"
+msgid "\"You are too impetuous, my\n"
 "Giano——a haughty bride\n"
 "makes a stubborn wife. She\n"
 "must come to you.\""
@@ -1596,8 +1467,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:163
 msgctxt "619"
-msgid ""
-"\"Your bride is here—\n"
+msgid "\"Your bride is here—\n"
 "come and get her!\""
 msgstr ""
 
@@ -1605,8 +1475,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:164
 msgctxt "623"
-msgid ""
-"\"You must believe in me,\n"
+msgid "\"You must believe in me,\n"
 "Juan—my marriage was\n"
 "plotted by the Borgia.\n"
 "I swear I am innocent.\""
@@ -1623,8 +1492,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:166
 msgctxt "625"
-msgid ""
-"\"With your permission,\n"
+msgid "\"With your permission,\n"
 "sire, we fight to the\n"
 "death!\""
 msgstr ""
@@ -1633,8 +1501,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:167
 msgctxt "631"
-msgid ""
-"\"Arrest him for the murder\n"
+msgid "\"Arrest him for the murder\n"
 "of Count Donati!\""
 msgstr ""
 
@@ -1642,8 +1509,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:168
 msgctxt "632"
-msgid ""
-"\"Throw him into the\n"
+msgid "\"Throw him into the\n"
 "dungeon of St. Angelo!\""
 msgstr ""
 
@@ -1651,8 +1517,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:169
 msgctxt "635"
-msgid ""
-"\"Arrest her as an accomplice\n"
+msgid "\"Arrest her as an accomplice\n"
 "in the murder of her\n"
 "husband!\""
 msgstr ""
@@ -1661,8 +1526,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:170
 msgctxt "636"
-msgid ""
-"\"Neri will be delighted.\n"
+msgid "\"Neri will be delighted.\n"
 "Take her to the tower.\""
 msgstr ""
 
@@ -1670,8 +1534,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:171
 msgctxt "638"
-msgid ""
-"When the gates of\n"
+msgid "When the gates of\n"
 "St. Angelo clanged shut\n"
 "upon a prisoner he was\n"
 "never heard of again--\n"
@@ -1685,8 +1548,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:172
 msgctxt "656"
-msgid ""
-"\"Your quarters, rash\n"
+msgid "\"Your quarters, rash\n"
 "Spaniard, are none\n"
 "too tidy.\""
 msgstr ""
@@ -1695,8 +1557,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:173
 msgctxt "657"
-msgid ""
-"\"They will serve, I\n"
+msgid "\"They will serve, I\n"
 "think—for the brief\n"
 "time I remain here.\""
 msgstr ""
@@ -1705,8 +1566,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:174
 msgctxt "662"
-msgid ""
-"\"Your freedom shall be\n"
+msgid "\"Your freedom shall be\n"
 "a gift from me—if\n"
 "you are capable of\n"
 "appreciating it.\""
@@ -1716,8 +1576,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:175
 msgctxt "668"
-msgid ""
-"\"As this is your last hour it\n"
+msgid "\"As this is your last hour it\n"
 "will comfort you to know\n"
 "that Adriana was faithful to\n"
 "you. It served our purpose to\n"
@@ -1728,8 +1587,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:176
 msgctxt "670"
-msgid ""
-"\"It will amuse us to place\n"
+msgid "\"It will amuse us to place\n"
 "Adriana at Neri's disposal—\n"
 "on the rack.\""
 msgstr ""
@@ -1738,8 +1596,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:177
 msgctxt "673"
-msgid ""
-"\"Prepare the block—in\n"
+msgid "\"Prepare the block—in\n"
 "an hour I shall return\n"
 "to see how a Spaniard\n"
 "dies.\""
@@ -1749,8 +1606,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:178
 msgctxt "692"
-msgid ""
-"\"I see! God's will is deeper\n"
+msgid "\"I see! God's will is deeper\n"
 "than a river—He would\n"
 "have thee live, for He\n"
 "has shown a way—!\""
@@ -1760,8 +1616,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:179
 msgctxt "696"
-msgid ""
-"\"My wronged wife agonizes\n"
+msgid "\"My wronged wife agonizes\n"
 "in hell—thou shalt not\n"
 "join her there!\""
 msgstr ""
@@ -1770,8 +1625,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:180
 msgctxt "698"
-msgid ""
-"\"Go—and begin thy\n"
+msgid "\"Go—and begin thy\n"
 "living hell!\""
 msgstr ""
 
@@ -1779,8 +1633,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:181
 msgctxt "700"
-msgid ""
-"The tower of the Borgia\n"
+msgid "The tower of the Borgia\n"
 "Palace——A room of\n"
 "horrors—Neri's workshop."
 msgstr ""
@@ -1789,8 +1642,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:182
 msgctxt "714"
-msgid ""
-"\"Such a lovely subject\n"
+msgid "\"Such a lovely subject\n"
 "should give us an amusing\n"
 "transformation. Prolong our\n"
 "diversion to the utmost!\""
@@ -1800,8 +1652,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:183
 msgctxt "723"
-msgid ""
-"\"Don Juan shall be disposed\n"
+msgid "\"Don Juan shall be disposed\n"
 "of—then we shall return—\n"
 "to watch——\""
 msgstr ""
@@ -1810,8 +1661,8 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/don-juan-1926/cards.yaml:184
 msgctxt "761"
-msgid ""
-"\"Before us, beloved,\n"
+msgid "\"Before us, beloved,\n"
 "is Spain — — and\n"
 "happiness—\""
 msgstr ""
+
