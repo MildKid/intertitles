@@ -1,0 +1,1181 @@
+# The Kid Brother (1927) — intertitles.
+# Generated from data/films/<slug>/cards.yaml by pipeline/tools/export_po.py. Do not edit by hand.
+msgid ""
+msgstr ""
+"Project-Id-Version: intertitles the-kid-brother-1927\n"
+"POT-Creation-Date: 2026-09-04 00:01+0000\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Film-Title: The Kid Brother\n"
+"X-Film-Year: 1927\n"
+
+#. Card 1 of 115 · credit · 19.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:1
+msgctxt "002"
+msgid ""
+"Harold Lloyd Entertainment\n"
+"Presents\n"
+"THE HAROLD LLOYD CLASSIC COMEDIES\n"
+"SUZANNE LLOYD\n"
+"Executive Producer"
+msgstr ""
+
+#. Card 2 of 115 · credit · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:2
+msgctxt "003"
+msgid ""
+"A\n"
+"Paramount\n"
+"Release\n"
+"Passed by the National Board of Review\n"
+"Copyright, 1927, by Harold Lloyd Corporation"
+msgstr ""
+
+#. Card 3 of 115 · title · 4.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:3
+msgctxt "004"
+msgid ""
+"A\n"
+"HAROLD LLOYD\n"
+"in\n"
+"\"THE KID BROTHER\"\n"
+"Passed by the National Board of Review\n"
+"Copyright, 1927, by Harold Lloyd Corporation"
+msgstr ""
+
+#. Card 4 of 115 · title · 1.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:4
+msgctxt "005"
+msgid ""
+"HAROLD LLOYD\n"
+"in\n"
+"\"THE KID BROTHER\""
+msgstr ""
+
+#. Card 5 of 115 · credit · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:5
+msgctxt "006"
+msgid ""
+"Directed\n"
+"by\n"
+"TED WILDE\n"
+"\n"
+"Co-directed by\n"
+"J. A. HOWE"
+msgstr ""
+
+#. Card 6 of 115 · credit · 11.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:6
+msgctxt "007"
+msgid ""
+"Story by\n"
+"JOHN GREY  TED WILDE\n"
+"TOM CRIZER\n"
+"Scenario by\n"
+"JOHN GREY  LEX NEAL\n"
+"HOWARD GREEN\n"
+"Photographed by\n"
+"WALTER LUNDIN\n"
+"(A.S.C.)\n"
+"Assisted by\n"
+"HENRY N. KOHLER"
+msgstr ""
+
+#. Card 7 of 115 · credit · 12.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:7
+msgctxt "008"
+msgid ""
+"Production Manager\n"
+"JOHN L. MURPHY\n"
+"\n"
+"Film Editor  Assistant Director\n"
+"ALLEN McNEIL  GAYLORD F. LLOYD\n"
+"\n"
+"Art Director  Technical Director\n"
+"LIELL K. VEDDER  WM. MacDONALD\n"
+"\n"
+"Produced by HAROLD LLOYD Corporation\n"
+"WILLIAM R. FRASER\n"
+"General Manager"
+msgstr ""
+
+#. Card 8 of 115 · credit · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:8
+msgctxt "010"
+msgid ""
+"CAST\n"
+"Harold Hickory . . HAROLD LLOYD\n"
+"Mary Powers . . . . . .Jobyna Ralston\n"
+"Jim Hickory . . . . . Walter James\n"
+"Leo Hickory . . . . . . . .Leo Willis\n"
+"Olin Hickory . . . . . . .Olin Francis\n"
+"Sandoni . . . . . . . . . .C. Romanoff\n"
+"'Flash\" Farrell . . . . . .Eddie Boland\n"
+"Sam Hooper . . . . . .Frank Lanning\n"
+"Hank Hooper . . . . . . . .R. Yearsley"
+msgstr ""
+
+#. Card 9 of 115 · narrative · 7.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:9
+msgctxt "013"
+msgid ""
+"The recent death of\n"
+"\"Prof.\" Powers has\n"
+"left his daughter Mary\n"
+"with the problem of\n"
+"carrying on the medicine\n"
+"show."
+msgstr ""
+
+#. Card 10 of 115 · dialogue · 5.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:10
+msgctxt "015"
+msgid ""
+"\"'Flash', I'm sorry I let\n"
+"you persuade me to\n"
+"keep on with the show.\""
+msgstr ""
+
+#. Card 11 of 115 · dialogue · 5.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:11
+msgctxt "016"
+msgid ""
+"\"Forget it, Mary.  It wouldn't\n"
+"be a show without you.\n"
+"Besides, everything's going\n"
+"to be O.K.\""
+msgstr ""
+
+#. Card 12 of 115 · narrative · 6.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:12
+msgctxt "018"
+msgid ""
+"Sheriff Jim Hickory and\n"
+"his two oldest sons\n"
+"have made the family name\n"
+"famous throughout the\n"
+"county."
+msgstr ""
+
+#. Card 13 of 115 · narrative · 6.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:13
+msgctxt "020"
+msgid ""
+"Harold, the youngest\n"
+"Hickory, was born\n"
+"on April Fool's Day. The\n"
+"stork that brought him\n"
+"could hardly fly for\n"
+"laughing."
+msgstr ""
+
+#. Card 14 of 115 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:14
+msgctxt "022"
+msgid ""
+"\"We'll be leaving for\n"
+"the meeting directly\n"
+"-- how about my\n"
+"Sunday shirt?\""
+msgstr ""
+
+#. Card 15 of 115 · dialogue · 7.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:15
+msgctxt "023"
+msgid ""
+"\"If anything happens to\n"
+"that shirt, young man,\n"
+"I'll whale the life out\n"
+"of you.\""
+msgstr ""
+
+#. Card 16 of 115 · narrative · 8.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:16
+msgctxt "024"
+msgid ""
+"Hank Hooper, Harold's sworn enemy ever since Harold sold him a dozen door "
+"knobs for fresh eggs in the dark."
+msgstr ""
+
+#. Card 17 of 115 · dialogue · 4.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:17
+msgctxt "029"
+msgid "\"Well, I see the town raised the money for the dam all right.\""
+msgstr ""
+
+#. Card 18 of 115 · dialogue · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:18
+msgctxt "031"
+msgid ""
+"\"It will be a big thing\n"
+"for Hickoryville.\""
+msgstr ""
+
+#. Card 19 of 115 · dialogue · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:19
+msgctxt "033"
+msgid "\"And a bigger thing for you—eh, Sheriff?\""
+msgstr ""
+
+#. Card 20 of 115 · dialogue · 8.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:20
+msgctxt "034"
+msgid ""
+"\"Son, how many times have I told you we don't want any more trouble with "
+"these Hickorys.\""
+msgstr ""
+
+#. Card 21 of 115 · dialogue · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:21
+msgctxt "035"
+msgid ""
+"\"Where is this metropolis of Hickoryville—and who signs the permits for the"
+" shows there?\""
+msgstr ""
+
+#. Card 22 of 115 · dialogue · 8.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:22
+msgctxt "036"
+msgid ""
+"\"Sheriff Jim Hickory—but he ain't got any use for medicine shows——he run "
+"the last one out of town.\""
+msgstr ""
+
+#. Card 23 of 115 · dialogue · 4.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:23
+msgctxt "039"
+msgid "\"You stay here, son—the town meeting's no place for boys.\""
+msgstr ""
+
+#. Card 24 of 115 · dialogue · 1.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:24
+msgctxt "057"
+msgid "\"Hi, Sheriff!\""
+msgstr ""
+
+#. Card 25 of 115 · dialogue · 6.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:25
+msgctxt "059"
+msgid ""
+"\"I've brought this show all the way from New York just to play your "
+"wonderful city.\""
+msgstr ""
+
+#. Card 26 of 115 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:26
+msgctxt "060"
+msgid "\"Sheriff, I'd like you to autograph this little permit.\""
+msgstr ""
+
+#. Card 27 of 115 · insert · 1.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:27
+msgctxt "062"
+msgid ""
+"Subscribers to County Dam\n"
+"\n"
+"The undersigned citizens of\n"
+"Hickoryville have paid\n"
+"their share for the new dam.\n"
+"\n"
+"Jim Hickory          Joe Ryan\n"
+"Frank Lanning          Jim McIntyre\n"
+"Lem Hardy          Frank Mitchel\n"
+"George Turner          Joe Young\n"
+"Fred Brown          Clyde Snyder\n"
+"Peter Toole          L. K. Cole\n"
+"Frank Nelson          George Reddy\n"
+"Amos Parker          A.J. Milhen"
+msgstr ""
+
+#. Card 28 of 115 · dialogue · 9.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:28
+msgctxt "063"
+msgid ""
+"\"I move we give Sheriff Hickory a vote of thanks and place the money in his"
+" keeping until it is time to turn it over.\""
+msgstr ""
+
+#. Card 29 of 115 · dialogue · 6.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:29
+msgctxt "064"
+msgid ""
+"\"I appreciate your confidence,\n"
+"Mr. Chairman—and I'll write\n"
+"the State Treasurer tonight.\""
+msgstr ""
+
+#. Card 30 of 115 · dialogue · 5.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:30
+msgctxt "065"
+msgid "\"I'd rather see that much money in a real safe place.\""
+msgstr ""
+
+#. Card 31 of 115 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:31
+msgctxt "066"
+msgid ""
+"\"You're hinting that\n"
+"it won't be safe with\n"
+"me?\""
+msgstr ""
+
+#. Card 32 of 115 · dialogue · 5.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:32
+msgctxt "067"
+msgid ""
+"\"I got some money in\n"
+"there — — and I don't\n"
+"want to see it — —\n"
+"mislaid!\""
+msgstr ""
+
+#. Card 33 of 115 · dialogue · 3.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:33
+msgctxt "076"
+msgid ""
+"\"Keep back — or some-\n"
+"one might get hurt.\""
+msgstr ""
+
+#. Card 34 of 115 · dialogue · 5.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:34
+msgctxt "081"
+msgid ""
+"\"Mr. Hickory, I—I don't\n"
+"know how to thank\n"
+"you — \""
+msgstr ""
+
+#. Card 35 of 115 · dialogue · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:35
+msgctxt "083"
+msgid ""
+"\"Who told you my\n"
+"name?\""
+msgstr ""
+
+#. Card 36 of 115 · dialogue · 3.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:36
+msgctxt "084"
+msgid ""
+"\"Everyone in this state\n"
+"knows the Hickorys — \""
+msgstr ""
+
+#. Card 37 of 115 · dialogue · 7.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:37
+msgctxt "085"
+msgid ""
+"\" — and I'm proud to\n"
+"have met the man\n"
+"who made the Hickory\n"
+"name famous.\""
+msgstr ""
+
+#. Card 38 of 115 · dialogue · 2.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:38
+msgctxt "087"
+msgid ""
+"\"You mean my father\n"
+"and brothers.\""
+msgstr ""
+
+#. Card 39 of 115 · dialogue · 4.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:39
+msgctxt "088"
+msgid ""
+"\"You're too modest —\n"
+"but I like you for it.\""
+msgstr ""
+
+#. Card 40 of 115 · dialogue · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:40
+msgctxt "089"
+msgid "\"What's your name?\""
+msgstr ""
+
+#. Card 41 of 115 · dialogue · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:41
+msgctxt "090"
+msgid "'Mary!'"
+msgstr ""
+
+#. Card 42 of 115 · dialogue · 1.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:42
+msgctxt "093"
+msgid "\"Where do you live?\""
+msgstr ""
+
+#. Card 43 of 115 · dialogue · 3.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:43
+msgctxt "094"
+msgid ""
+"\"With the Medicine\n"
+"Show — — down by\n"
+"the river.\""
+msgstr ""
+
+#. Card 44 of 115 · dialogue · 1.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:44
+msgctxt "096"
+msgid "\"Goodbye!\""
+msgstr ""
+
+#. Card 45 of 115 · dialogue · 5.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:45
+msgctxt "103"
+msgid ""
+"\"This is a great day for\n"
+"Hickoryville—and we\n"
+"Hickorys have some-\n"
+"thing to be proud of.\""
+msgstr ""
+
+#. Card 46 of 115 · dialogue · 6.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:46
+msgctxt "104"
+msgid ""
+"\"Never mind the letter\n"
+"——do those supper\n"
+"dishes.\""
+msgstr ""
+
+#. Card 47 of 115 · insert · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:47
+msgctxt "118"
+msgid ""
+"Hickoryville\n"
+"May 6.\n"
+"State Treasurer.\n"
+"Dear Sir:\n"
+"The Hickoryville\n"
+"citizens have collected their\n"
+"share for the dam and\n"
+"it is now in my keeping.\n"
+"We are now waiting\n"
+"further instructions from\n"
+"you regarding the dam money.\n"
+"Respectfully,\n"
+"Sheriff Jim Hickory"
+msgstr ""
+
+#. Card 48 of 115 · dialogue · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:48
+msgctxt "119"
+msgid ""
+"\"How does that sound\n"
+"to you?\""
+msgstr ""
+
+#. Card 49 of 115 · dialogue · 2.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:49
+msgctxt "124"
+msgid ""
+"\"Now you boys can\n"
+"sign it.\""
+msgstr ""
+
+#. Card 50 of 115 · dialogue · 1.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:50
+msgctxt "132"
+msgid "'Goin' to the show?'"
+msgstr ""
+
+#. Card 51 of 115 · dialogue · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:51
+msgctxt "133"
+msgid ""
+"\"That big medicine show\n"
+"in the village.\""
+msgstr ""
+
+#. Card 52 of 115 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:52
+msgctxt "135"
+msgid ""
+"\"Who gave them permission\n"
+"to play here?\""
+msgstr ""
+
+#. Card 53 of 115 · dialogue · 2.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:53
+msgctxt "142"
+msgid ""
+"\"I thought I'd mail\n"
+"our letter.\""
+msgstr ""
+
+#. Card 54 of 115 · dialogue · 20.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:54
+msgctxt "144"
+msgid ""
+"\"As you seem to be taking\n"
+"over the duties of sheriff\n"
+"—go down and stop the\n"
+"show.\""
+msgstr ""
+
+#. Card 55 of 115 · dialogue · 15.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:55
+msgctxt "158"
+msgid ""
+"\"This medicine is not only\n"
+"good for man and beast\n"
+"but is recommended as a\n"
+"furniture polish and for\n"
+"cleaning harness.\""
+msgstr ""
+
+#. Card 56 of 115 · dialogue · 9.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:56
+msgctxt "161"
+msgid ""
+"\"My father sent me\n"
+"down to stop the\n"
+"show—if you don't\n"
+"mind.\""
+msgstr ""
+
+#. Card 57 of 115 · dialogue · 20.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:57
+msgctxt "164"
+msgid ""
+"\"Now, folks, on the count of\n"
+"three, this trick will prove\n"
+"that the little sheriff is out\n"
+"of sight.\""
+msgstr ""
+
+#. Card 58 of 115 · dialogue · 11.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:58
+msgctxt "167"
+msgid ""
+"\"Now, folks, we will\n"
+"again be entertained\n"
+"by our little beauty!\""
+msgstr ""
+
+#. Card 59 of 115 · dialogue · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:59
+msgctxt "170"
+msgid "\"Where's your authority?\""
+msgstr ""
+
+#. Card 60 of 115 · dialogue · 5.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:60
+msgctxt "178"
+msgid ""
+"\"I'll attend to him\n"
+"when we get home.\""
+msgstr ""
+
+#. Card 61 of 115 · dialogue · 14.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:61
+msgctxt "207"
+msgid ""
+"\"Wouldn't you rather\n"
+"have some hot coffee?\""
+msgstr ""
+
+#. Card 62 of 115 · dialogue · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:62
+msgctxt "208"
+msgid ""
+"\"Will these do for\n"
+"tonight?\""
+msgstr ""
+
+#. Card 63 of 115 · dialogue · 2.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:63
+msgctxt "209"
+msgid ""
+"\"Would you get me a\n"
+"glass of water, please?\""
+msgstr ""
+
+#. Card 64 of 115 · dialogue · 19.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:64
+msgctxt "233"
+msgid ""
+"\"Me and ma have come\n"
+"to take the girl home.\""
+msgstr ""
+
+#. Card 65 of 115 · dialogue · 6.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:65
+msgctxt "234"
+msgid ""
+"\"I suppose I'd better\n"
+"go.\""
+msgstr ""
+
+#. Card 66 of 115 · dialogue · 5.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:66
+msgctxt "236"
+msgid ""
+"\"Will you go with me\n"
+"to the celebration for\n"
+"the dam tomorrow?\""
+msgstr ""
+
+#. Card 67 of 115 · dialogue · 10.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:67
+msgctxt "240"
+msgid ""
+"\"Good night, Mary—I'm\n"
+"going to sleep in the\n"
+"barn.\""
+msgstr ""
+
+#. Card 68 of 115 · narrative · 4.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:68
+msgctxt "242"
+msgid "Next morning—"
+msgstr ""
+
+#. Card 69 of 115 · insert · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:69
+msgctxt "243"
+msgid ""
+"HICKORYVILLE CLARION\n"
+"Vol. IX. No. 44   Hickoryville, May 7, 1927   Published Weekly\n"
+"MONEY COLLECTED FOR COUNTY DAM\n"
+"SHERIFF JIM HICKORY REALIZES LIFE-LONG AMBITION\n"
+"At a mass meeting held at Town Hall today, Hickoryville officially turned over to Sheriff Hickory the money that has been collected from the townspeople for the building of the new dam.\n"
+"The money will now remain in the Sheriff's keeping until the celebration tomorrow when he will turn it over to the State officials who will be present.\n"
+"This is a big movement for Hickoryville as the hopes for a county dam are now to be realized and the much needed water supply will make our"
+msgstr ""
+
+#. Card 70 of 115 · insert · 3.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:70
+msgctxt "244"
+msgid ""
+"The money will now remain in the Sheriff's keeping until the celebration "
+"tomorrow when he will turn it over to the State officials who will be "
+"present."
+msgstr ""
+
+#. Card 71 of 115 · dialogue · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:71
+msgctxt "248"
+msgid "\"Where's that Harold?\""
+msgstr ""
+
+#. Card 72 of 115 · narrative · 1.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:72
+msgctxt "250"
+msgid "\"Sleeping in the barn.\""
+msgstr ""
+
+#. Card 73 of 115 · dialogue · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:73
+msgctxt "251"
+msgid ""
+"\"The girl from the medicine\n"
+"show came home with\n"
+"him. She's asleep in the\n"
+"parlor.\""
+msgstr ""
+
+#. Card 74 of 115 · dialogue · 2.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:74
+msgctxt "256"
+msgid ""
+"\"Miss—I'm going to fetch\n"
+"you some breakfast.\""
+msgstr ""
+
+#. Card 75 of 115 · dialogue · 1.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:75
+msgctxt "258"
+msgid ""
+"\"Everything all right,\n"
+"miss?\""
+msgstr ""
+
+#. Card 76 of 115 · dialogue · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:76
+msgctxt "261"
+msgid ""
+"\"Here's your breakfast,\n"
+"Miss.\""
+msgstr ""
+
+#. Card 77 of 115 · dialogue · 4.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:77
+msgctxt "267"
+msgid ""
+"\"Get to work—that boy\n"
+"Harold does more work\n"
+"than both of you.\""
+msgstr ""
+
+#. Card 78 of 115 · dialogue · 6.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:78
+msgctxt "274"
+msgid ""
+"\"—and if you fellows\n"
+"ever try anything like\n"
+"that again, I won't let\n"
+"you off so easy.\""
+msgstr ""
+
+#. Card 79 of 115 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:79
+msgctxt "275"
+msgid ""
+"\"I'm earning my board\n"
+"at the Hoopers' by\n"
+"helping with the house-\n"
+"work.\""
+msgstr ""
+
+#. Card 80 of 115 · dialogue · 1.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:80
+msgctxt "277"
+msgid "\"I'll get my wraps.\""
+msgstr ""
+
+#. Card 81 of 115 · dialogue · 4.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:81
+msgctxt "278"
+msgid ""
+"\"You go in and get her\n"
+"wraps—I want to speak\n"
+"to her a moment.\""
+msgstr ""
+
+#. Card 82 of 115 · dialogue · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:82
+msgctxt "282"
+msgid ""
+"\"The older he grows,\n"
+"the worse he gets.\""
+msgstr ""
+
+#. Card 83 of 115 · dialogue · 2.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:83
+msgctxt "286"
+msgid ""
+"\"You boys better get\n"
+"dressed for the\n"
+"celebration.\""
+msgstr ""
+
+#. Card 84 of 115 · dialogue · 3.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:84
+msgctxt "288"
+msgid ""
+"\"Come on, you're\n"
+"going with me to\n"
+"the celebration.\""
+msgstr ""
+
+#. Card 85 of 115 · dialogue · 3.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:85
+msgctxt "290"
+msgid ""
+"\"If you don't go with\n"
+"me, you won't go with\n"
+"anybody.\""
+msgstr ""
+
+#. Card 86 of 115 · dialogue · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:86
+msgctxt "293"
+msgid ""
+"\"The money for the dam\n"
+"has been stolen!\""
+msgstr ""
+
+#. Card 87 of 115 · dialogue · 5.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:87
+msgctxt "294"
+msgid ""
+"\"All I know is—I found\n"
+"the strong box open\n"
+"and the money gone.\""
+msgstr ""
+
+#. Card 88 of 115 · dialogue · 7.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:88
+msgctxt "295"
+msgid ""
+"\"Some one broke into\n"
+"your house, opened\n"
+"the box——and you\n"
+"didn't hear nothing?\""
+msgstr ""
+
+#. Card 89 of 115 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:89
+msgctxt "298"
+msgid ""
+"\"It sounds funny\n"
+"to me—\""
+msgstr ""
+
+#. Card 90 of 115 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:90
+msgctxt "299"
+msgid ""
+"\"Haven't you any\n"
+"clue, Jim?\""
+msgstr ""
+
+#. Card 91 of 115 · insert · 3.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:91
+msgctxt "300"
+msgid ""
+"STOP! LOOK! LISTEN!\n"
+"DR. POWER'S\n"
+"MAMMOTH\n"
+"MEDICINE SHOW\n"
+"FREE\n"
+"CONSULTATION - ADVICE - ENTERTAINMENT\n"
+"SEE\n"
+"The Marvelous Basket Mystery\n"
+"Sandow, World's Strongest Man\n"
+"& Many Other Extraordinary Features!\n"
+"TO-NIGHT ONLY!\n"
+"Remember It's All Free!"
+msgstr ""
+
+#. Card 92 of 115 · dialogue · 7.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:92
+msgctxt "301"
+msgid ""
+"\"I just got an idea who\n"
+"did this and I'm going\n"
+"out and get them.\""
+msgstr ""
+
+#. Card 93 of 115 · dialogue · 7.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:93
+msgctxt "302"
+msgid ""
+"\"We ain't satisfied with\n"
+"your goin' and I reckon\n"
+"you better stay here till\n"
+"we are.\""
+msgstr ""
+
+#. Card 94 of 115 · dialogue · 5.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:94
+msgctxt "305"
+msgid ""
+"\"Boys, it's those two fellows\n"
+"with the medicine show.\n"
+"Bring them back here.\""
+msgstr ""
+
+#. Card 95 of 115 · dialogue · 3.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:95
+msgctxt "306"
+msgid ""
+"\"Son, you might get hurt.\n"
+"This is a man's job.\""
+msgstr ""
+
+#. Card 96 of 115 · dialogue · 3.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:96
+msgctxt "310"
+msgid ""
+"\"Harold, aren't you going\n"
+"with your brothers?\""
+msgstr ""
+
+#. Card 97 of 115 · dialogue · 7.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:97
+msgctxt "311"
+msgid ""
+"\"You see——my father\n"
+"and brothers don't\n"
+"reckon much on me—\n"
+"and I guess they're\n"
+"right.\""
+msgstr ""
+
+#. Card 98 of 115 · dialogue · 6.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:98
+msgctxt "313"
+msgid ""
+"\"I'm not what you\n"
+"think I am. I was\n"
+"just pretending.\""
+msgstr ""
+
+#. Card 99 of 115 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:99
+msgctxt "314"
+msgid ""
+"\"But you can be what\n"
+"I think you are—with-\n"
+"out pretending.\""
+msgstr ""
+
+#. Card 100 of 115 · dialogue · 6.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:100
+msgctxt "315"
+msgid ""
+"\"—and no matter what\n"
+"anybody else thinks,\n"
+"have confidence in your-\n"
+"self and you can't lose.\""
+msgstr ""
+
+#. Card 101 of 115 · dialogue · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:101
+msgctxt "316"
+msgid ""
+"\"Do you really believe\n"
+"in me?\""
+msgstr ""
+
+#. Card 102 of 115 · dialogue · 4.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:102
+msgctxt "317"
+msgid ""
+"\"There's that girl from\n"
+"the medicine show——\n"
+"and he's helping her to\n"
+"get away.\""
+msgstr ""
+
+#. Card 103 of 115 · dialogue · 2.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:103
+msgctxt "319"
+msgid ""
+"\"Pop, I reckon they\n"
+"got away.\""
+msgstr ""
+
+#. Card 104 of 115 · insert · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:104
+msgctxt "320"
+msgid "Black Ghost"
+msgstr ""
+
+#. Card 105 of 115 · insert · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:105
+msgctxt "321"
+msgid ""
+"Subscribers to County Dam\n"
+"\n"
+"The undersigned citizens of\n"
+"Hickoryville have paid\n"
+"their share for the new dam.\n"
+"\n"
+"Jim Hickory  Joe Ryan\n"
+"Frank Landrum  Jim McIntyre\n"
+"Lem Hardy  Frank Mitchell\n"
+"George Turner  Joe Young\n"
+"Fred Brown  [illegible] Snyder\n"
+"Peter Todd  J.K. Cole\n"
+"George Riddle"
+msgstr ""
+
+#. Card 106 of 115 · insert · 1.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:106
+msgctxt "322"
+msgid ""
+"Subscribers to County Dam\n"
+"\n"
+"The undersigned citizens of\n"
+"Hickoryville have paid\n"
+"their share for the new dam.\n"
+"\n"
+"Jim Hickory  Joe Ryan\n"
+"Frank Landrum  Jim McIntyre\n"
+"Lem Hardy  Frank Mitchell\n"
+"George Turner  Joe Young\n"
+"Fred Brown  [illegible] Snyder\n"
+"Peter Todd  J.K. Cole\n"
+"George Riddle"
+msgstr ""
+
+#. Card 107 of 115 · dialogue · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:107
+msgctxt "360"
+msgid "\"Hello, SHERIFF—\""
+msgstr ""
+
+#. Card 108 of 115 · dialogue · 4.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:108
+msgctxt "363"
+msgid ""
+"\"You keep him covered,\n"
+"Sheriff, while I get the\n"
+"money.\""
+msgstr ""
+
+#. Card 109 of 115 · dialogue · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:109
+msgctxt "386"
+msgid "\"Help! Help! I can't swim!\""
+msgstr ""
+
+#. Card 110 of 115 · dialogue · 4.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:110
+msgctxt "406"
+msgid ""
+"\"I went clear beyond\n"
+"the county line but\n"
+"not a trace of them.\""
+msgstr ""
+
+#. Card 111 of 115 · dialogue · 2.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:111
+msgctxt "407"
+msgid ""
+"\"Jim Hickory, I believe\n"
+"you stole that money!\""
+msgstr ""
+
+#. Card 112 of 115 · dialogue · 4.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:112
+msgctxt "416"
+msgid "\"Let's put him under arrest and take the law in our own hands.\""
+msgstr ""
+
+#. Card 113 of 115 · dialogue · 5.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:113
+msgctxt "419"
+msgid ""
+"\"The leading citizen of Hickoryville may soon find himself at the end of "
+"his rope.\""
+msgstr ""
+
+#. Card 114 of 115 · dialogue · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:114
+msgctxt "423"
+msgid ""
+"\"Son, you're a real\n"
+"Hickory!\""
+msgstr ""
+
+#. Card 115 of 115 · credit · 19.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:115
+msgctxt "424"
+msgid ""
+"Music Composed and Conducted by Carl Davis\n"
+"Orchestration: Nic Raine\n"
+"Orchestra of Radio-Television Luxembourg"
+msgstr ""

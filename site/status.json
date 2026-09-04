@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-03T23:59:58Z",
+ "generated": "2026-09-04T00:01:28Z",
  "films": [
   {
    "slug": "don-juan-1926",
@@ -149,8 +149,8 @@
    "slug": "the-kid-brother-1927",
    "title": "The Kid Brother",
    "year": 1927,
-   "cards": 0,
-   "transcribed": 0,
+   "cards": 115,
+   "transcribed": 115,
    "verified": 0,
    "translated": {
     "es-MX": 0
@@ -159,7 +159,7 @@
     "es-MX": 0
    },
    "timing": "reference",
-   "extraction": "not-started"
+   "extraction": "transcribed"
   }
  ]
 }

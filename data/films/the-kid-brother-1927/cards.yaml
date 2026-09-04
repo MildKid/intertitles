@@ -1,0 +1,2150 @@
+# Intertitle cards, in film order. Schema: data/README.md and films/_example/cards.yaml.
+# Written by the pipeline (transcribe.py, scrub.py); hand edits are fine, key order is kept.
+film: the-kid-brother-1927
+cards:
+  - id: "002"
+    in: "00:00:15.250"
+    out: "00:00:34.500"
+    type: credit
+    text: |-
+      Harold Lloyd Entertainment
+      Presents
+      THE HAROLD LLOYD CLASSIC COMEDIES
+      SUZANNE LLOYD
+      Executive Producer
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: center
+      quote_style: ""
+      emphasis: glasses logo above text; title and Suzanne Lloyd's name set larger/bolder
+      all_caps: false
+    confidence: high
+
+  - id: "003"
+    in: "00:00:35.000"
+    out: "00:00:38.500"
+    type: credit
+    text: |-
+      A
+      Paramount
+      Release
+      Passed by the National Board of Review
+      Copyright, 1927, by Harold Lloyd Corporation
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: '"A Paramount Release" in cursive script within a star wreath over a mountain photograph'
+      all_caps: false
+    confidence: high
+
+  - id: "004"
+    in: "00:00:39.000"
+    out: "00:00:43.000"
+    type: title
+    text: |-
+      A
+      HAROLD LLOYD
+      in
+      "THE KID BROTHER"
+      Passed by the National Board of Review
+      Copyright, 1927, by Harold Lloyd Corporation
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: double straight
+      emphasis: star wreath over a wooded night scene; title lettering large and outlined
+      all_caps: false
+    confidence: high
+
+  - id: "005"
+    in: "00:00:44.250"
+    out: "00:00:46.000"
+    type: title
+    text: |-
+      HAROLD LLOYD
+      in
+      "THE KID BROTHER"
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: double straight
+      emphasis: outlined display caps for name and title, small script "in"
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'HAROLD LLOYD\nTHE KID BROTHER'
+
+  - id: "006"
+    in: "00:00:47.000"
+    out: "00:00:52.750"
+    type: credit
+    text: |-
+      Directed
+      by
+      TED WILDE
+
+      Co-directed by
+      J. A. HOWE
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: none
+      emphasis: script for "Directed by"/"Co-directed by", small caps for names
+      all_caps: false
+    confidence: medium
+    doubt: '"J. A. HOWE" letterforms are small and slightly soft-focus against the painted background; replaced ocr reading ''Directed\nTED WILDE\nCo-directed by\nJ.A.HowE'''
+
+  - id: "007"
+    in: "00:00:53.250"
+    out: "00:01:04.500"
+    type: credit
+    text: |-
+      Story by
+      JOHN GREY  TED WILDE
+      TOM CRIZER
+      Scenario by
+      JOHN GREY  LEX NEAL
+      HOWARD GREEN
+      Photographed by
+      WALTER LUNDIN
+      (A.S.C.)
+      Assisted by
+      HENRY N. KOHLER
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: names set in capitals below each lower-case role heading
+      all_caps: false
+    confidence: high
+
+  - id: "008"
+    in: "00:01:06.000"
+    out: "00:01:18.250"
+    type: credit
+    text: |-
+      Production Manager
+      JOHN L. MURPHY
+
+      Film Editor  Assistant Director
+      ALLEN McNEIL  GAYLORD F. LLOYD
+
+      Art Director  Technical Director
+      LIELL K. VEDDER  WM. MacDONALD
+
+      Produced by HAROLD LLOYD Corporation
+      WILLIAM R. FRASER
+      General Manager
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: none
+      emphasis: role labels in title case, names in small caps
+      all_caps: false
+    confidence: medium
+    doubt: two-column layout condensed to single lines with double-space between columns; exact spacing on the print is uncertain; replaced ocr reading 'Production Manager\nJOHN L.MURPHY\nFilm Editor Assistant Director\nALLEN MCNEIL GAYLORDF.LLOYD\nArt Director Technical Director\nLIELL K.VEDDER WM.MACDONALD\nProduced byHAROLD LLOYD Corporation\nWILLIAMR.FRASER\nGeneral Manager'
+
+  - id: "010"
+    in: "00:01:22.000"
+    out: "00:01:27.750"
+    type: credit
+    text: |-
+      CAST
+      Harold Hickory . . HAROLD LLOYD
+      Mary Powers . . . . . .Jobyna Ralston
+      Jim Hickory . . . . . Walter James
+      Leo Hickory . . . . . . . .Leo Willis
+      Olin Hickory . . . . . . .Olin Francis
+      Sandoni . . . . . . . . . .C. Romanoff
+      'Flash" Farrell . . . . . .Eddie Boland
+      Sam Hooper . . . . . .Frank Lanning
+      Hank Hooper . . . . . . . .R. Yearsley
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: actor names in italic; Harold Lloyd's name set in capitals
+      all_caps: false
+    confidence: medium
+    doubt: exact dot-leader spacing between names and actors approximated
+
+  - id: "013"
+    in: "00:02:00.000"
+    out: "00:02:07.500"
+    type: narrative
+    text: |-
+      The recent death of
+      "Prof." Powers has
+      left his daughter Mary
+      with the problem of
+      carrying on the medicine
+      show.
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: left
+      quote_style: double straight
+      emphasis: large decorative drop-cap "T"
+      all_caps: false
+    confidence: high
+
+  - id: "015"
+    in: "00:02:27.750"
+    out: "00:02:32.750"
+    type: dialogue
+    text: |-
+      "'Flash', I'm sorry I let
+      you persuade me to
+      keep on with the show."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: double straight
+      emphasis: single quotes nested around 'Flash'
+      all_caps: false
+    confidence: high
+
+  - id: "016"
+    in: "00:02:35.000"
+    out: "00:02:40.500"
+    type: dialogue
+    text: |-
+      "Forget it, Mary.  It wouldn't
+      be a show without you.
+      Besides, everything's going
+      to be O.K."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "018"
+    in: "00:02:52.750"
+    out: "00:02:59.500"
+    type: narrative
+    text: |-
+      Sheriff Jim Hickory and
+      his two oldest sons
+      have made the family name
+      famous throughout the
+      county.
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: left
+      quote_style: ""
+      emphasis: large decorative drop-cap "S"
+      all_caps: false
+    confidence: high
+
+  - id: "020"
+    in: "00:03:40.750"
+    out: "00:03:47.000"
+    type: narrative
+    text: |-
+      Harold, the youngest
+      Hickory, was born
+      on April Fool's Day. The
+      stork that brought him
+      could hardly fly for
+      laughing.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: none
+      emphasis: large decorative drop-cap H
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "arold, the youngest\nHickory, was born\non April Fool's Day. The\nstork that brought him\ncould hardly fly for\nlaughing."
+
+  - id: "022"
+    in: "00:05:02.750"
+    out: "00:05:07.250"
+    type: dialogue
+    text: |-
+      "We'll be leaving for
+      the meeting directly
+      -- how about my
+      Sunday shirt?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: double straight
+      emphasis: em dash before final clause
+      all_caps: false
+    confidence: high
+
+  - id: "023"
+    in: "00:05:12.500"
+    out: "00:05:19.750"
+    type: dialogue
+    text: |-
+      "If anything happens to
+      that shirt, young man,
+      I'll whale the life out
+      of you."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "024"
+    in: "00:06:15.000"
+    out: "00:06:23.500"
+    type: narrative
+    text: |-
+      Hank Hooper, Harold's sworn enemy ever since Harold sold him a dozen door knobs for fresh eggs in the dark.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: none
+      emphasis: decorative twig-style drop cap "H"
+      all_caps: false
+    confidence: high
+
+  - id: "029"
+    in: "00:08:33.250"
+    out: "00:08:38.000"
+    type: dialogue
+    text: |-
+      "Well, I see the town raised the money for the dam all right."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "031"
+    in: "00:08:40.500"
+    out: "00:08:43.500"
+    type: dialogue
+    text: |-
+      "It will be a big thing
+      for Hickoryville."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
+
+  - id: "033"
+    in: "00:08:46.500"
+    out: "00:08:49.500"
+    type: dialogue
+    text: |-
+      "And a bigger thing for you—eh, Sheriff?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "034"
+    in: "00:08:58.500"
+    out: "00:09:06.750"
+    type: dialogue
+    text: |-
+      "Son, how many times have I told you we don't want any more trouble with these Hickorys."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "035"
+    in: "00:09:22.750"
+    out: "00:09:28.500"
+    type: dialogue
+    text: |-
+      "Where is this metropolis of Hickoryville—and who signs the permits for the shows there?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "036"
+    in: "00:09:29.750"
+    out: "00:09:37.750"
+    type: dialogue
+    text: |-
+      "Sheriff Jim Hickory—but he ain't got any use for medicine shows——he run the last one out of town."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "039"
+    in: "00:10:27.250"
+    out: "00:10:31.500"
+    type: dialogue
+    text: |-
+      "You stay here, son—the town meeting's no place for boys."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "057"
+    in: "00:13:25.000"
+    out: "00:13:26.250"
+    type: dialogue
+    text: |-
+      "Hi, Sheriff!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
+
+  - id: "059"
+    in: "00:13:50.000"
+    out: "00:13:56.000"
+    type: dialogue
+    text: |-
+      "I've brought this show all the way from New York just to play your wonderful city."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "060"
+    in: "00:14:01.250"
+    out: "00:14:04.750"
+    type: dialogue
+    text: |-
+      "Sheriff, I'd like you to autograph this little permit."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "062"
+    in: "00:14:42.000"
+    out: "00:14:43.000"
+    type: insert
+    text: |-
+      Subscribers to County Dam
+
+      The undersigned citizens of
+      Hickoryville have paid
+      their share for the new dam.
+
+      Jim Hickory          Joe Ryan
+      Frank Lanning          Jim McIntyre
+      Lem Hardy          Frank Mitchel
+      George Turner          Joe Young
+      Fred Brown          Clyde Snyder
+      Peter Toole          L. K. Cole
+      Frank Nelson          George Reddy
+      Amos Parker          A.J. Milhen
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: none
+      emphasis: handwritten cursive document
+      all_caps: false
+    confidence: low
+    doubt: 'pass 1: ''Subscribers to County Dam\n\nThe undersigned citizens of\nHickoryville have paid\ntheir share for the new dam.\n\nJim Hickory          Joe Ryan\nFrank Lanning          Jim McIntyre\nLem Hardy          Frank Mitchel\nGeorge Turner          Joe Young\nFred Brown          Clyde Snyder\nPeter Toole          L. K. Cole\nFrank Nelson          George Reddy\nAmos Parker          A.J. Milhen'' | pass 2: ''Subscribers to County Dam\n\nThe undersigned citizens of\nHickoryville have paid\ntheir share for the new dam.\n\nJim Hickory\nFrank Lanning\nHem Hardy\nGeorge Turner\nFred Brown\nPeter Toole\nFrank Nelson\nAmos Parker\nJoe Ryan\nJim McIntyre\nFrank Mitchel\nJoe Young\nClyde Snyder\nL.K. Cole\nGeorge Reddy\nA.J. Milhen'' | several handwritten names uncertain: "Lem Hardy" could read "Hem Hardy"; "Frank Lanning" could read "Frank Lansing"; bottom-right surname is cut off/unclear, read as "A.J. Milhen" | several handwritten names uncertain: "Frank Lanning" (could be Fanning/Manning), "Hem Hardy" (could be Sem/Lem Hardy), "Jim McIntyre" (could be McIntire), "L.K. Cole" (could be I.K./L.R. Cole), "A.J. Milhen" (could be Millen), last row partly cut off at bottom of frame'
+
+  - id: "063"
+    in: "00:14:52.000"
+    out: "00:15:01.000"
+    type: dialogue
+    text: |-
+      "I move we give Sheriff Hickory a vote of thanks and place the money in his keeping until it is time to turn it over."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "064"
+    in: "00:15:11.000"
+    out: "00:15:17.000"
+    type: dialogue
+    text: |-
+      "I appreciate your confidence,
+      Mr. Chairman—and I'll write
+      the State Treasurer tonight."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I appreciate your confidence,\nMr. Chairman -and I\'ll write\nthe State Treasurer tonight.'
+
+  - id: "065"
+    in: "00:15:19.000"
+    out: "00:15:24.000"
+    type: dialogue
+    text: |-
+      "I'd rather see that much money in a real safe place."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "066"
+    in: "00:15:31.000"
+    out: "00:15:35.500"
+    type: dialogue
+    text: |-
+      "You're hinting that
+      it won't be safe with
+      me?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "067"
+    in: "00:15:37.000"
+    out: "00:15:42.000"
+    type: dialogue
+    text: |-
+      "I got some money in
+      there — — and I don't
+      want to see it — —
+      mislaid!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "076"
+    in: "00:17:29.000"
+    out: "00:17:32.250"
+    type: dialogue
+    text: |-
+      "Keep back — or some-
+      one might get hurt."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "081"
+    in: "00:18:30.500"
+    out: "00:18:35.750"
+    type: dialogue
+    text: |-
+      "Mr. Hickory, I—I don't
+      know how to thank
+      you — "
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "083"
+    in: "00:18:39.250"
+    out: "00:18:41.500"
+    type: dialogue
+    text: |-
+      "Who told you my
+      name?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "084"
+    in: "00:18:44.500"
+    out: "00:18:47.750"
+    type: dialogue
+    text: |-
+      "Everyone in this state
+      knows the Hickorys — "
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "085"
+    in: "00:18:49.750"
+    out: "00:18:56.750"
+    type: dialogue
+    text: |-
+      " — and I'm proud to
+      have met the man
+      who made the Hickory
+      name famous."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "087"
+    in: "00:19:07.000"
+    out: "00:19:09.500"
+    type: dialogue
+    text: |-
+      "You mean my father
+      and brothers."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "088"
+    in: "00:19:14.500"
+    out: "00:19:18.500"
+    type: dialogue
+    text: |-
+      "You're too modest —
+      but I like you for it."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "089"
+    in: "00:19:55.750"
+    out: "00:19:57.750"
+    type: dialogue
+    text: |-
+      "What's your name?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
+
+  - id: "090"
+    in: "00:19:59.750"
+    out: "00:20:00.500"
+    type: dialogue
+    text: |-
+      'Mary!'
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "093"
+    in: "00:20:23.500"
+    out: "00:20:25.250"
+    type: dialogue
+    text: |-
+      "Where do you live?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
+
+  - id: "094"
+    in: "00:20:28.000"
+    out: "00:20:31.250"
+    type: dialogue
+    text: |-
+      "With the Medicine
+      Show — — down by
+      the river."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "096"
+    in: "00:20:53.000"
+    out: "00:20:54.000"
+    type: dialogue
+    text: |-
+      "Goodbye!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: italic script font
+      all_caps: false
+    confidence: high
+
+  - id: "103"
+    in: "00:21:35.500"
+    out: "00:21:41.000"
+    type: dialogue
+    text: |-
+      "This is a great day for
+      Hickoryville—and we
+      Hickorys have some-
+      thing to be proud of."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "104"
+    in: "00:21:44.500"
+    out: "00:21:50.500"
+    type: dialogue
+    text: |-
+      "Never mind the letter
+      ——do those supper
+      dishes."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "118"
+    in: "00:23:44.000"
+    out: "00:23:44.750"
+    type: insert
+    text: |-
+      Hickoryville
+      May 6.
+      State Treasurer.
+      Dear Sir:
+      The Hickoryville
+      citizens have collected their
+      share for the dam and
+      it is now in my keeping.
+      We are now waiting
+      further instructions from
+      you regarding the dam money.
+      Respectfully,
+      Sheriff Jim Hickory
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "119"
+    in: "00:23:47.750"
+    out: "00:23:50.000"
+    type: dialogue
+    text: |-
+      "How does that sound
+      to you?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"How does that sound\nto you?!'
+
+  - id: "124"
+    in: "00:24:11.500"
+    out: "00:24:14.000"
+    type: dialogue
+    text: |-
+      "Now you boys can
+      sign it."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
+
+  - id: "132"
+    in: "00:24:58.250"
+    out: "00:25:00.000"
+    type: dialogue
+    text: |-
+      'Goin' to the show?'
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Goin\' to the show?!'
+
+  - id: "133"
+    in: "00:25:02.000"
+    out: "00:25:07.750"
+    type: dialogue
+    text: |-
+      "That big medicine show
+      in the village."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"That big medicine show\nin the village.'
+
+  - id: "135"
+    in: "00:25:12.000"
+    out: "00:25:15.500"
+    type: dialogue
+    text: |-
+      "Who gave them permission
+      to play here?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Who gave them permission\nto play here?!'
+
+  - id: "142"
+    in: "00:25:55.000"
+    out: "00:25:57.500"
+    type: dialogue
+    text: |-
+      "I thought I'd mail
+      our letter."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "144"
+    in: "00:26:15.000"
+    out: "00:26:35.000"
+    type: dialogue
+    text: |-
+      "As you seem to be taking
+      over the duties of sheriff
+      —go down and stop the
+      show."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "158"
+    in: "00:28:01.500"
+    out: "00:28:17.000"
+    type: dialogue
+    text: |-
+      "This medicine is not only
+      good for man and beast
+      but is recommended as a
+      furniture polish and for
+      cleaning harness."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"This medicine is not only\ngood for man and beast\nbut is recommended as a\nfurniture polish and for\ncleaning harness.'
+
+  - id: "161"
+    in: "00:28:30.000"
+    out: "00:28:39.750"
+    type: dialogue
+    text: |-
+      "My father sent me
+      down to stop the
+      show—if you don't
+      mind."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "164"
+    in: "00:28:52.000"
+    out: "00:29:12.750"
+    type: dialogue
+    text: |-
+      "Now, folks, on the count of
+      three, this trick will prove
+      that the little sheriff is out
+      of sight."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "167"
+    in: "00:29:30.750"
+    out: "00:29:41.750"
+    type: dialogue
+    text: |-
+      "Now, folks, we will
+      again be entertained
+      by our little beauty!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Now, folks, we will\nagain be entertained\nby our little beauty!'
+
+  - id: "170"
+    in: "00:30:04.500"
+    out: "00:30:06.000"
+    type: dialogue
+    text: |-
+      "Where's your authority?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
+
+  - id: "178"
+    in: "00:32:23.500"
+    out: "00:32:29.000"
+    type: dialogue
+    text: |-
+      "I'll attend to him
+      when we get home."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"\'ll attend to him\nwhen we get home!'
+
+  - id: "207"
+    in: "00:36:13.250"
+    out: "00:36:27.500"
+    type: dialogue
+    text: |-
+      "Wouldn't you rather
+      have some hot coffee?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "208"
+    in: "00:36:46.000"
+    out: "00:36:48.000"
+    type: dialogue
+    text: |-
+      "Will these do for
+      tonight?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
+
+  - id: "209"
+    in: "00:37:23.750"
+    out: "00:37:26.500"
+    type: dialogue
+    text: |-
+      "Would you get me a
+      glass of water, please?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
+
+  - id: "233"
+    in: "00:40:45.500"
+    out: "00:41:05.000"
+    type: dialogue
+    text: |-
+      "Me and ma have come
+      to take the girl home."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
+
+  - id: "234"
+    in: "00:41:05.500"
+    out: "00:41:11.500"
+    type: dialogue
+    text: |-
+      "I suppose I'd better
+      go."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "236"
+    in: "00:41:21.500"
+    out: "00:41:26.500"
+    type: dialogue
+    text: |-
+      "Will you go with me
+      to the celebration for
+      the dam tomorrow?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Will you go with me\nto the celebration for\nthe dam tomorrow?'
+
+  - id: "240"
+    in: "00:41:56.750"
+    out: "00:42:06.750"
+    type: dialogue
+    text: |-
+      "Good night, Mary—I'm
+      going to sleep in the
+      barn."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "242"
+    in: "00:42:19.000"
+    out: "00:42:23.000"
+    type: narrative
+    text: |-
+      Next morning—
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: left
+      quote_style: ""
+      emphasis: large decorative initial letter (N)
+      all_caps: false
+    confidence: high
+
+  - id: "243"
+    in: "00:42:33.750"
+    out: "00:42:35.250"
+    type: insert
+    text: |-
+      HICKORYVILLE CLARION
+      Vol. IX. No. 44   Hickoryville, May 7, 1927   Published Weekly
+      MONEY COLLECTED FOR COUNTY DAM
+      SHERIFF JIM HICKORY REALIZES LIFE-LONG AMBITION
+      At a mass meeting held at Town Hall today, Hickoryville officially turned over to Sheriff Hickory the money that has been collected from the townspeople for the building of the new dam.
+      The money will now remain in the Sheriff's keeping until the celebration tomorrow when he will turn it over to the State officials who will be present.
+      This is a big movement for Hickoryville as the hopes for a county dam are now to be realized and the much needed water supply will make our
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: bold headline type
+      all_caps: false
+    confidence: low
+    doubt: 'pass 1: "HICKORYVILLE CLARION\nVol. IX. No. 44   Hickoryville, May 7, 1927   Published Weekly\nMONEY COLLECTED FOR COUNTY DAM\nSHERIFF JIM HICKORY REALIZES LIFE-LONG AMBITION\nAt a mass meeting held at Town Hall today, Hickoryville officially turned over to Sheriff Hickory the money that has been collected from the townspeople for the building of the new dam.\nThe money will now remain in the Sheriff''s keeping until the celebration tomorrow when he will turn it over to the State officials who will be present.\nThis is a big movement for Hickoryville as the hopes for a county dam are now to be realized and the much needed water supply will make our" | pass 2: "HICKORYVILLE CLARION\nVOL. IX No. 44          HICKORYVILLE, MAY 7, 1927          Published Weekly\nMONEY COLLECTED FOR COUNTY DAM\nSHERIFF JIM HICKORY\nREALIZES LIFE-LONG\nAMBITION\nAt a mass meeting held at Town Hall today, Hickoryville officially turned over to Sheriff Hickory the money that has been collected from the townspeople for the building of the new dam.\nThe money will now remain in the Sheriff''s keeping until the celebration tomorrow when he will turn it over to the State officials who will be present.\nThis is a big movement for Hickoryville as the hopes for a county dam are now to be realized and the much needed water supply will make our" | final line of body text is cut off at the bottom frame edge (''will make our...''); some small print may be misread | bottom paragraph is cut off mid-sentence after ''make our''; some small print (vol/date line, byline text) is faint and partly uncertain'
+
+  - id: "244"
+    in: "00:42:39.500"
+    out: "00:42:43.250"
+    type: insert
+    text: |-
+      The money will now remain in the Sheriff's keeping until the celebration tomorrow when he will turn it over to the State officials who will be present.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: none
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
+
+  - id: "248"
+    in: "00:42:58.000"
+    out: "00:42:59.500"
+    type: dialogue
+    text: |-
+      "Where's that Harold?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
+
+  - id: "250"
+    in: "00:43:02.250"
+    out: "00:43:04.000"
+    type: narrative
+    text: |-
+      "Sleeping in the barn."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Sleeping in the barn.'
+
+  - id: "251"
+    in: "00:43:06.500"
+    out: "00:43:12.250"
+    type: dialogue
+    text: |-
+      "The girl from the medicine
+      show came home with
+      him. She's asleep in the
+      parlor."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "256"
+    in: "00:44:16.750"
+    out: "00:44:19.250"
+    type: dialogue
+    text: |-
+      "Miss—I'm going to fetch
+      you some breakfast."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Miss-I\'m going to fetch\nyou some breakfast.'
+
+  - id: "258"
+    in: "00:45:33.000"
+    out: "00:45:34.250"
+    type: dialogue
+    text: |-
+      "Everything all right,
+      miss?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "261"
+    in: "00:46:00.500"
+    out: "00:46:02.000"
+    type: dialogue
+    text: |-
+      "Here's your breakfast,
+      Miss."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "267"
+    in: "00:48:33.500"
+    out: "00:48:37.750"
+    type: dialogue
+    text: |-
+      "Get to work—that boy
+      Harold does more work
+      than both of you."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Get to work -that boy\nHarold does more work\nthan both of you.'
+
+  - id: "274"
+    in: "00:50:07.750"
+    out: "00:50:14.500"
+    type: dialogue
+    text: |-
+      "—and if you fellows
+      ever try anything like
+      that again, I won't let
+      you off so easy."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "-and if you fellows\never try anything like\nthat again, I won't let\nyou off so easy."
+
+  - id: "275"
+    in: "00:50:42.750"
+    out: "00:50:47.250"
+    type: dialogue
+    text: |-
+      "I'm earning my board
+      at the Hoopers' by
+      helping with the house-
+      work."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "277"
+    in: "00:51:07.000"
+    out: "00:51:08.250"
+    type: dialogue
+    text: |-
+      "I'll get my wraps."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I\'ll get my wraps'
+
+  - id: "278"
+    in: "00:51:14.000"
+    out: "00:51:18.750"
+    type: dialogue
+    text: |-
+      "You go in and get her
+      wraps—I want to speak
+      to her a moment."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"You go in and get her\nwraps-I want to speak\nto her a moment.'
+
+  - id: "282"
+    in: "00:52:04.000"
+    out: "00:52:07.000"
+    type: dialogue
+    text: |-
+      "The older he grows,
+      the worse he gets."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "286"
+    in: "00:54:18.000"
+    out: "00:54:20.750"
+    type: dialogue
+    text: |-
+      "You boys better get
+      dressed for the
+      celebration."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: letter-spacing on "dressed for the"
+      all_caps: false
+    confidence: high
+
+  - id: "288"
+    in: "00:54:37.500"
+    out: "00:54:41.250"
+    type: dialogue
+    text: |-
+      "Come on, you're
+      going with me to
+      the celebration."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "290"
+    in: "00:55:03.750"
+    out: "00:55:07.500"
+    type: dialogue
+    text: |-
+      "If you don't go with
+      me, you won't go with
+      anybody."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"If you don\'t go with\nme, you won\'t go with\nanybody.'
+
+  - id: "293"
+    in: "00:56:05.250"
+    out: "00:56:07.250"
+    type: dialogue
+    text: |-
+      "The money for the dam
+      has been stolen!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
+
+  - id: "294"
+    in: "00:56:36.500"
+    out: "00:56:41.500"
+    type: dialogue
+    text: |-
+      "All I know is—I found
+      the strong box open
+      and the money gone."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "295"
+    in: "00:56:46.000"
+    out: "00:56:53.500"
+    type: dialogue
+    text: |-
+      "Some one broke into
+      your house, opened
+      the box——and you
+      didn't hear nothing?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "298"
+    in: "00:57:04.500"
+    out: "00:57:08.000"
+    type: dialogue
+    text: |-
+      "It sounds funny
+      to me—"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "299"
+    in: "00:57:14.250"
+    out: "00:57:17.750"
+    type: dialogue
+    text: |-
+      "Haven't you any
+      clue, Jim?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
+
+  - id: "300"
+    in: "00:57:26.000"
+    out: "00:57:29.250"
+    type: insert
+    text: |-
+      STOP! LOOK! LISTEN!
+      DR. POWER'S
+      MAMMOTH
+      MEDICINE SHOW
+      FREE
+      CONSULTATION - ADVICE - ENTERTAINMENT
+      SEE
+      The Marvelous Basket Mystery
+      Sandow, World's Strongest Man
+      & Many Other Extraordinary Features!
+      TO-NIGHT ONLY!
+      Remember It's All Free!
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: none
+      emphasis: mixed sizes and weights, headline in large bold caps
+      all_caps: false
+    confidence: medium
+    doubt: 'small print in the middle of the flyer (consultation line, feature list) is hard to resolve at this resolution; small print hard to read exactly: ''Consultation - Advice - Entertainment'' separators and ''& Many Other Extraordinary Features!'' wording uncertain'
+
+  - id: "301"
+    in: "00:57:37.250"
+    out: "00:57:44.750"
+    type: dialogue
+    text: |-
+      "I just got an idea who
+      did this and I'm going
+      out and get them."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "302"
+    in: "00:57:50.500"
+    out: "00:57:57.750"
+    type: dialogue
+    text: |-
+      "We ain't satisfied with
+      your goin' and I reckon
+      you better stay here till
+      we are."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "305"
+    in: "00:58:13.750"
+    out: "00:58:19.250"
+    type: dialogue
+    text: |-
+      "Boys, it's those two fellows
+      with the medicine show.
+      Bring them back here."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Boys, it\'s those two fellows\nwith the medicine show.\nBring them back here.'
+
+  - id: "306"
+    in: "00:58:28.250"
+    out: "00:58:32.000"
+    type: dialogue
+    text: |-
+      "Son, you might get hurt.
+      This is a man's job."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
+
+  - id: "310"
+    in: "00:59:05.250"
+    out: "00:59:08.500"
+    type: dialogue
+    text: |-
+      "Harold, aren't you going
+      with your brothers?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "311"
+    in: "00:59:20.000"
+    out: "00:59:27.750"
+    type: dialogue
+    text: |-
+      "You see——my father
+      and brothers don't
+      reckon much on me—
+      and I guess they're
+      right."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "313"
+    in: "00:59:32.000"
+    out: "00:59:38.000"
+    type: dialogue
+    text: |-
+      "I'm not what you
+      think I am. I was
+      just pretending."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "314"
+    in: "00:59:43.500"
+    out: "00:59:48.000"
+    type: dialogue
+    text: |-
+      "But you can be what
+      I think you are—with-
+      out pretending."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "315"
+    in: "00:59:52.500"
+    out: "00:59:59.250"
+    type: dialogue
+    text: |-
+      "—and no matter what
+      anybody else thinks,
+      have confidence in your-
+      self and you can't lose."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "316"
+    in: "01:00:05.000"
+    out: "01:00:07.250"
+    type: dialogue
+    text: |-
+      "Do you really believe
+      in me?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Do you really believe\nin me?'
+
+  - id: "317"
+    in: "01:00:16.000"
+    out: "01:00:20.750"
+    type: dialogue
+    text: |-
+      "There's that girl from
+      the medicine show——
+      and he's helping her to
+      get away."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "319"
+    in: "01:01:03.000"
+    out: "01:01:05.500"
+    type: dialogue
+    text: |-
+      "Pop, I reckon they
+      got away."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "320"
+    in: "01:01:33.750"
+    out: "01:01:35.750"
+    type: insert
+    text: |-
+      Black Ghost
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: true
+    confidence: high
+
+  - id: "321"
+    in: "01:01:53.000"
+    out: "01:01:54.500"
+    type: insert
+    text: |-
+      Subscribers to County Dam
+
+      The undersigned citizens of
+      Hickoryville have paid
+      their share for the new dam.
+
+      Jim Hickory  Joe Ryan
+      Frank Landrum  Jim McIntyre
+      Lem Hardy  Frank Mitchell
+      George Turner  Joe Young
+      Fred Brown  [illegible] Snyder
+      Peter Todd  J.K. Cole
+      George Riddle
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: low
+    doubt: 'pass 1: ''Subscribers to County Dam\n\nThe undersigned citizens of\nHickoryville have paid\ntheir share for the new dam.\n\nJim Hickory  Joe Ryan\nFrank Landrum  Jim McIntyre\nLem Hardy  Frank Mitchell\nGeorge Turner  Joe Young\nFred Brown  [illegible] Snyder\nPeter Todd  J.K. Cole\nGeorge Riddle'' | pass 2: ''Subscribers to County Dam\nThe undersigned citizens of\nHickoryville have paid\ntheir share for the new dam.\nJim Hickory\nFrank Lanning\nLem Hardy\nGeorge Turner\nFred Brown\nPeter Todd\nJoe Ryan\nJim McIntyre\nFrank Mitchel\nJoe Young\nJ. Snyder\nJ.K. Cole\nGeorge Riddle'' | handwritten signatures partly illegible: Frank Landrum, Jim McIntyre, the name before Snyder, Peter Todd, and George Riddle are uncertain readings; more names may continue below the visible edge | signature list is small cursive and partly obscured; several surnames uncertain, including Lanning, McIntyre, Snyder, Todd, and Riddle'
+
+  - id: "322"
+    in: "01:01:55.500"
+    out: "01:01:56.750"
+    type: insert
+    text: |-
+      Subscribers to County Dam
+
+      The undersigned citizens of
+      Hickoryville have paid
+      their share for the new dam.
+
+      Jim Hickory  Joe Ryan
+      Frank Landrum  Jim McIntyre
+      Lem Hardy  Frank Mitchell
+      George Turner  Joe Young
+      Fred Brown  [illegible] Snyder
+      Peter Todd  J.K. Cole
+      George Riddle
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: low
+    doubt: 'pass 1: ''Subscribers to County Dam\n\nThe undersigned citizens of\nHickoryville have paid\ntheir share for the new dam.\n\nJim Hickory  Joe Ryan\nFrank Landrum  Jim McIntyre\nLem Hardy  Frank Mitchell\nGeorge Turner  Joe Young\nFred Brown  [illegible] Snyder\nPeter Todd  J.K. Cole\nGeorge Riddle'' | pass 2: ''Subscribers to County Dam\nThe undersigned citizens of\nHickoryville have paid\ntheir share for the new dam.\nJim Hickory\nFrank Lanning\nLem Hardy\nGeorge Turner\nFred Brown\nPeter Todd\nJoe Ryan\nJim McIntyre\nFrank Mitchel\nJoe Young\nJ. Snyder\nJ.K. Cole\nGeorge Riddle'' | handwritten signatures partly illegible: Frank Landrum, Jim McIntyre, the name before Snyder, Peter Todd, and George Riddle are uncertain readings; more names may continue below the visible edge | signature list is small cursive and partly obscured; several surnames uncertain, including Lanning, McIntyre, Snyder, Todd, and Riddle'
+
+  - id: "360"
+    in: "01:09:00.750"
+    out: "01:09:01.500"
+    type: dialogue
+    text: |-
+      "Hello, SHERIFF—"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: SHERIFF set larger, in full capitals
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Hello, SHERIFF -'
+
+  - id: "363"
+    in: "01:09:10.250"
+    out: "01:09:15.000"
+    type: dialogue
+    text: |-
+      "You keep him covered,
+      Sheriff, while I get the
+      money."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "386"
+    in: "01:11:45.250"
+    out: "01:11:47.250"
+    type: dialogue
+    text: |-
+      "Help! Help! I can't swim!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "406"
+    in: "01:14:37.750"
+    out: "01:14:41.750"
+    type: dialogue
+    text: |-
+      "I went clear beyond
+      the county line but
+      not a trace of them."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '\'"I went clear beyond\nthe county line but\nnot a trace of them.'
+
+  - id: "407"
+    in: "01:14:45.000"
+    out: "01:14:47.750"
+    type: dialogue
+    text: |-
+      "Jim Hickory, I believe
+      you stole that money!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
+
+  - id: "416"
+    in: "01:17:46.000"
+    out: "01:17:50.750"
+    type: dialogue
+    text: |-
+      "Let's put him under arrest and take the law in our own hands."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "419"
+    in: "01:18:09.750"
+    out: "01:18:14.750"
+    type: dialogue
+    text: |-
+      "The leading citizen of Hickoryville may soon find himself at the end of his rope."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "423"
+    in: "01:20:16.750"
+    out: "01:20:18.750"
+    type: dialogue
+    text: |-
+      "Son, you're a real
+      Hickory!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
+
+  - id: "424"
+    in: "01:21:57.250"
+    out: "01:22:17.000"
+    type: credit
+    text: |-
+      Music Composed and Conducted by Carl Davis
+      Orchestration: Nic Raine
+      Orchestra of Radio-Television Luxembourg
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Music Composed and Conducted by Carl Davis\nOrchestration:NicRaine\nOrchestra of Radio-Television Luxembourg'
