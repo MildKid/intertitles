@@ -1,22 +1,29 @@
-#
+# The Adventurer (1917) — intertitles.
+# Generated from data/films/<slug>/cards.yaml by pipeline/tools/export_po.py. Do not edit by hand.
 msgid ""
 msgstr ""
-"Project-Id-Version: intertitles the-adventurer-1917\n"
-"POT-Creation-Date: 2026-09-03 05:36+0000\n"
-"Language: es-MX\n"
+"Project-Id-Version: intertitles\n"
+"POT-Creation-Date: 2026-09-03 13:45+0000\n"
+"Language: es_MX\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Film-Title: The Adventurer\n"
 "X-Film-Year: 1917\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: intertitles\n"
+"X-Crowdin-Project-ID: 925929\n"
+"X-Crowdin-Language: es-MX\n"
+"X-Crowdin-File: /main/data/locales/templates/the-adventurer-1917.pot\n"
+"X-Crowdin-File-ID: 31\n"
+"Language-Team: Spanish, Mexico\n"
+"PO-Revision-Date: 2026-09-04 17:54\n"
 
 #. Card 1 of 14 · credit · 15.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-adventurer-1917/cards.yaml:1
 msgctxt "001"
-msgid ""
-"Cast\n"
+msgid "Cast\n"
 "The Convict\n"
 "Charlie Chaplin\n"
 "The Girl\n"
@@ -48,8 +55,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-adventurer-1917/cards.yaml:5
 msgctxt "029"
-msgid ""
-"\"I heard your cries\n"
+msgid "\"I heard your cries\n"
 "from my yacht!\""
 msgstr ""
 
@@ -71,8 +77,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-adventurer-1917/cards.yaml:8
 msgctxt "040"
-msgid ""
-"CRIMINAL ESCAPES\n"
+msgid "CRIMINAL ESCAPES\n"
 "CONVICT AT LARGE\n"
 "Officials Completely Baffled\n"
 "Rain of Bullets Fail to Stop Convict No. 23\n"
@@ -91,8 +96,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-adventurer-1917/cards.yaml:10
 msgctxt "042"
-msgid ""
-"\"My rescuer, Commodore\n"
+msgid "\"My rescuer, Commodore\n"
 "Slick.\""
 msgstr ""
 
@@ -100,8 +104,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-adventurer-1917/cards.yaml:11
 msgctxt "043"
-msgid ""
-"\"Your face is familiar,\n"
+msgid "\"Your face is familiar,\n"
 "Commodore!\""
 msgstr ""
 
@@ -125,3 +128,4 @@ msgstr ""
 msgctxt "054"
 msgid "The end"
 msgstr ""
+
