@@ -7,4 +7,6 @@
 files:
   - source: /data/locales/templates/*.pot
     translation: /data/locales/%locale%/%file_name%.po
+    ignore:
+      - /data/locales/templates/_example.pot   # test fixture, not a film
     # Crowdin locale codes: es-MX for Mexican Spanish. %locale% keeps the region.
