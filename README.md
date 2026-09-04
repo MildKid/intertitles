@@ -20,7 +20,8 @@ Site: <https://intertitles.org/>. The films:
 | 7th Heaven (Borzage) | 1927 | `data/films/seventh-heaven-1927/` | print not chosen |
 | Metropolis (Lang) | 1927 | `data/films/metropolis-1927/` | print not chosen |
 
-First language pair: English to Mexican Spanish (`es-MX`).
+First language pair: English to Mexican Spanish (`es-MX`). Translate at
+<https://crowdin.com/project/intertitles>.
 
 ## Layout
 
