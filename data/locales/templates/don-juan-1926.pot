@@ -1,0 +1,1817 @@
+# Don Juan (1926) — intertitles.
+# Generated from data/films/<slug>/cards.yaml by pipeline/tools/export_po.py. Do not edit by hand.
+msgid ""
+msgstr ""
+"Project-Id-Version: intertitles don-juan-1926\n"
+"POT-Creation-Date: 2026-09-04 00:10+0000\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Film-Title: Don Juan\n"
+"X-Film-Year: 1926\n"
+
+#. Card 1 of 184 · credit · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:1
+msgctxt "002"
+msgid ""
+"a WARNER BROTHERS\n"
+"PRODUCTION"
+msgstr ""
+
+#. Card 2 of 184 · credit · 23.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:2
+msgctxt "003"
+msgid ""
+"THE PLAYERS\n"
+"Donna Isobel .... JANE WINTON\n"
+"Leandro .... JOHN ROCHE\n"
+"Cesare Borgia .... WARNER OLAND\n"
+"Lucrezia Borgia .... ESTELLE TAYLOR\n"
+"Count Giano Donati .... MONTAGUE LOVE\n"
+"Duke della Varnese .... JOSEPH SWICKARD\n"
+"Pedrillo .... WILLARD LOUIS\n"
+"Marchese Rinaldo .... NIGEL DE BRULIER\n"
+"Marchesa Rinaldo .... HEDDA HOPPER\n"
+"Mai, Lady in Waiting .... MYRNA LOY\n"
+"Adriana della Varnese .... MARY ASTOR\n"
+"Don Jose de Marana\n"
+"Don Juan de Marana } JOHN BARRYMORE"
+msgstr ""
+
+#. Card 3 of 184 · credit · 5.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:3
+msgctxt "004"
+msgid ""
+"THE PLAYERS\n"
+"Donna Isobel .... JANE WINTON\n"
+"Leandro .... JOHN ROCHE\n"
+"Cesare Borgia .... WARNER OLAND\n"
+"Lucrezia Borgia .... ESTELLE TAYLOR\n"
+"Count Giano Donati .... MONTAGUE LOVE\n"
+"Duke della Varnese .... JOSEPH SWICKARD\n"
+"Pedrillo .... WILLARD LOUIS\n"
+"Marchese Rinaldo .... NIGEL DE BRULIER\n"
+"Marchesa Rinaldo .... HEDDA HOPPER\n"
+"Mai, Lady in Waiting .... MYRNA LOY\n"
+"Adriana della Varnese .... MARY ASTOR\n"
+"Don Jose de Marana\n"
+"Don Juan de Marana } JOHN BARRYMORE"
+msgstr ""
+
+#. Card 4 of 184 · credit · 8.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:4
+msgctxt "006"
+msgid ""
+"A WARNER BROTHERS\n"
+"CLASSIC OF THE SCREEN\n"
+"Directed by\n"
+"ALAN CROSLAND"
+msgstr ""
+
+#. Card 5 of 184 · credit · 8.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:5
+msgctxt "007"
+msgid ""
+"Musical Accompaniment to\n"
+"\"DON JUAN\"\n"
+"Played on\n"
+"VITAPHONE\n"
+"by\n"
+"THE NEW YORK\n"
+"PHILHARMONIC ORCHESTRA\n"
+"Passed by The National Board of Review – Copyright MCMXXVI by Warner Bros. Pictures, Inc."
+msgstr ""
+
+#. Card 6 of 184 · narrative · 22.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:6
+msgctxt "008"
+msgid ""
+"The tale they tell of Don Juan, immortal lover and doubter of woman, is bold"
+" with life and color — — a merry, insolent tale slashed with intrigue — — "
+"yet its beginning is as gray as the old Spanish castle of Juan's earliest "
+"memory."
+msgstr ""
+
+#. Card 7 of 184 · narrative · 2.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:7
+msgctxt "011"
+msgid "Don Juan de Marana."
+msgstr ""
+
+#. Card 8 of 184 · credit · 9.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:8
+msgctxt "013"
+msgid ""
+"Don Jose de Marana—\n"
+"father of Don Juan.\n"
+"- - - John Barrymore."
+msgstr ""
+
+#. Card 9 of 184 · narrative · 14.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:9
+msgctxt "014"
+msgid ""
+"His beautiful and\n"
+"beloved lady——the\n"
+"Donna Isobel."
+msgstr ""
+
+#. Card 10 of 184 · narrative · 10.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:10
+msgctxt "015"
+msgid ""
+"From the shadows of\n"
+"this Gothic world\n"
+"strange creatures\n"
+"emerged—souls curiously\n"
+"warped with hate."
+msgstr ""
+
+#. Card 11 of 184 · dialogue · 8.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:11
+msgctxt "017"
+msgid ""
+"\"Not long will you suffer\n"
+"loneliness—the King shall\n"
+"have his treasure, and\n"
+"I'll return straight to—\n"
+"mine.\""
+msgstr ""
+
+#. Card 12 of 184 · dialogue · 2.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:12
+msgctxt "037"
+msgid "\"If you have lied—\""
+msgstr ""
+
+#. Card 13 of 184 · dialogue · 10.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:13
+msgctxt "044"
+msgid ""
+"\"I find I have left\n"
+"unguarded, the thing\n"
+"I valued most.\""
+msgstr ""
+
+#. Card 14 of 184 · dialogue · 5.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:14
+msgctxt "053"
+msgid ""
+"\"In the haste of departure, the\n"
+"wall was left unmended.\""
+msgstr ""
+
+#. Card 15 of 184 · dialogue · 8.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:15
+msgctxt "069"
+msgid ""
+"\"Think you of any reason\n"
+"why they should not seal\n"
+"the wall?\""
+msgstr ""
+
+#. Card 16 of 184 · dialogue · 7.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:16
+msgctxt "070"
+msgid ""
+"\"There is nothing of value\n"
+"there—now—is there?\""
+msgstr ""
+
+#. Card 17 of 184 · dialogue · 6.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:17
+msgctxt "078"
+msgid ""
+"\"Snivel, you lying wretch—\n"
+"you betrayer of men and\n"
+"the honor of men!\""
+msgstr ""
+
+#. Card 18 of 184 · dialogue · 2.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:18
+msgctxt "080"
+msgid "\"Out—before I kill you!\""
+msgstr ""
+
+#. Card 19 of 184 · dialogue · 8.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:19
+msgctxt "082"
+msgid ""
+"\"Yonder goes your mother—\n"
+"and with her goes my\n"
+"faith in women!\""
+msgstr ""
+
+#. Card 20 of 184 · narrative · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:20
+msgctxt "085"
+msgid ""
+"In the years that followed,\n"
+"Don Jose kept his\n"
+"bitterness alive after a\n"
+"curiously sardonic fashion\n"
+"-- and banquet torches\n"
+"flared nightly in the\n"
+"gaunt halls of the\n"
+"Marana castle."
+msgstr ""
+
+#. Card 21 of 184 · narrative · 7.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:21
+msgctxt "102"
+msgid ""
+"The jealous Donna\n"
+"Elvira had enjoyed\n"
+"the unique honor of\n"
+"Don Jose's exclusive\n"
+"favor for two months—"
+msgstr ""
+
+#. Card 22 of 184 · dialogue · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:22
+msgctxt "122"
+msgid ""
+"\"Is not one member of\n"
+"the family enough to\n"
+"contaminate?\""
+msgstr ""
+
+#. Card 23 of 184 · dialogue · 6.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:23
+msgctxt "125"
+msgid ""
+"\"My three-fold debt to\n"
+"woman is now complete\n"
+"—life—disillusionment—\n"
+"death!\""
+msgstr ""
+
+#. Card 24 of 184 · dialogue · 7.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:24
+msgctxt "127"
+msgid ""
+"\"This is my legacy to\n"
+"you—beware of giving\n"
+"your love to women.\""
+msgstr ""
+
+#. Card 25 of 184 · dialogue · 9.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:25
+msgctxt "128"
+msgid ""
+"\"Go out into the world and\n"
+"take their love when it\n"
+"please you--smile--and\n"
+"forget!\""
+msgstr ""
+
+#. Card 26 of 184 · narrative · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:26
+msgctxt "130"
+msgid ""
+"ROME - - - the mighty\n"
+"Vatican towering heavenward\n"
+"above a seethe of\n"
+"corruption—scented velvets\n"
+"brushing against the plague\n"
+"sores of the wretched\n"
+"—incense—purple wine—gold—"
+msgstr ""
+
+#. Card 27 of 184 · dialogue · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:27
+msgctxt "134"
+msgid ""
+"\"God help us—\n"
+"The Borgia!\""
+msgstr ""
+
+#. Card 28 of 184 · narrative · 10.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:28
+msgctxt "135"
+msgid ""
+"The Borgia tyranny over\n"
+"Rome and its subjects,\n"
+"was one of ceaseless\n"
+"cruelty — torturing and\n"
+"crushing those who\n"
+"opposed their regime."
+msgstr ""
+
+#. Card 29 of 184 · narrative · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:29
+msgctxt "137"
+msgid ""
+"Head of the House of\n"
+"the Crimson Bull— —\n"
+"and the secret ruler of\n"
+"Rome— — Cesare Borgia."
+msgstr ""
+
+#. Card 30 of 184 · narrative · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:30
+msgctxt "139"
+msgid ""
+"His sister—the inspiration\n"
+"of his vicious crimes—\n"
+"beauty without pity—\n"
+"ambition without remorse\n"
+"— —Lucrezia Borgia."
+msgstr ""
+
+#. Card 31 of 184 · narrative · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:31
+msgctxt "141"
+msgid ""
+"Count Giano Donati—\n"
+"a kinsman of the Borgia—\n"
+"with a roving eye as\n"
+"keen as his sword."
+msgstr ""
+
+#. Card 32 of 184 · dialogue · 8.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:32
+msgctxt "147"
+msgid ""
+"\"It is the daughter of the\n"
+"Duke della Varnese—a\n"
+"follower of our enemy,\n"
+"the Orsini.\""
+msgstr ""
+
+#. Card 33 of 184 · dialogue · 9.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:33
+msgctxt "149"
+msgid ""
+"\"Giano dear, your little\n"
+"whims must be gratified.\n"
+"We will include the Duke\n"
+"and his daughter among\n"
+"our guests tonight.\""
+msgstr ""
+
+#. Card 34 of 184 · dialogue · 9.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:34
+msgctxt "153"
+msgid ""
+"\"It is the home of Don\n"
+"Juan—a young Spanish\n"
+"grandee, lately arrived\n"
+"from the University\n"
+"of Pisa.\""
+msgstr ""
+
+#. Card 35 of 184 · dialogue · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:35
+msgctxt "154"
+msgid ""
+"\"He is handsome and rich,\n"
+"illustrious lady, and of\n"
+"most exquisite manners.\""
+msgstr ""
+
+#. Card 36 of 184 · dialogue · 7.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:36
+msgctxt "155"
+msgid ""
+"\"And if rumor does not lie—\n"
+"half the fair ones of Rome\n"
+"have already succumbed to\n"
+"his charm.\""
+msgstr ""
+
+#. Card 37 of 184 · dialogue · 4.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:37
+msgctxt "156"
+msgid ""
+"\"Ah, he is the one they\n"
+"call the great lover!\""
+msgstr ""
+
+#. Card 38 of 184 · dialogue · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:38
+msgctxt "157"
+msgid ""
+"\"The great forgetful\n"
+"lover!\""
+msgstr ""
+
+#. Card 39 of 184 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:39
+msgctxt "158"
+msgid ""
+"\"There might be one\n"
+"he could not forget.\""
+msgstr ""
+
+#. Card 40 of 184 · dialogue · 4.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:40
+msgctxt "159"
+msgid ""
+"\"Only your illustrious\n"
+"highness would dare\n"
+"such a challenge.\""
+msgstr ""
+
+#. Card 41 of 184 · dialogue · 9.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:41
+msgctxt "160"
+msgid ""
+"\"See that a messenger is\n"
+"dispatched to this Don\n"
+"Juan—our evening ball\n"
+"will be more interesting\n"
+"for his presence.\""
+msgstr ""
+
+#. Card 42 of 184 · narrative · 4.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:42
+msgctxt "162"
+msgid ""
+"Don Juan's home—where\n"
+"innocence might enter—\n"
+"but never depart."
+msgstr ""
+
+#. Card 43 of 184 · narrative · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:43
+msgctxt "163"
+msgid ""
+"Don Juan's home—where\n"
+"innocence might enter—\n"
+"but never depart."
+msgstr ""
+
+#. Card 44 of 184 · narrative · 4.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:44
+msgctxt "164"
+msgid ""
+"Don Juan's faithful\n"
+"attendant and imitator—\n"
+"—Pedrillo."
+msgstr ""
+
+#. Card 45 of 184 · insert · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:45
+msgctxt "165"
+msgid ""
+"My Juan\n"
+"Accept, I pray you, this small\n"
+"jewel as a seal upon our love.\n"
+"Milord, my husband remains in\n"
+"Venice for another night.\n"
+"Maria"
+msgstr ""
+
+#. Card 46 of 184 · insert · 11.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:46
+msgctxt "166"
+msgid ""
+"My Juan\n"
+"Accept, I pray you, this small\n"
+"jewel as a seal upon our love.\n"
+"Milord, my husband remains in\n"
+"Venice for another night.\n"
+"Maria"
+msgstr ""
+
+#. Card 47 of 184 · narrative · 1.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:47
+msgctxt "167"
+msgid ""
+"Little Trusia had\n"
+"managed to elude her\n"
+"watchful uncle, the\n"
+"Duke Margoni—and\n"
+"awaited the tardy Don Juan."
+msgstr ""
+
+#. Card 48 of 184 · dialogue · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:48
+msgctxt "174"
+msgid ""
+"\"A sick friend doubtless\n"
+"detains him, Milady.\""
+msgstr ""
+
+#. Card 49 of 184 · dialogue · 1.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:49
+msgctxt "175"
+msgid "\"A woman?\""
+msgstr ""
+
+#. Card 50 of 184 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:50
+msgctxt "176"
+msgid ""
+"\"Madonna, you are the\n"
+"one love of his life.\""
+msgstr ""
+
+#. Card 51 of 184 · narrative · 4.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:51
+msgctxt "177"
+msgid ""
+"Imperia, a famous\n"
+"frailty, had managed\n"
+"to elude her jealous\n"
+"admirer, the Duke\n"
+"Margoni."
+msgstr ""
+
+#. Card 52 of 184 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:52
+msgctxt "179"
+msgid ""
+"\"Why wait? It may be\n"
+"a matter of hours.\""
+msgstr ""
+
+#. Card 53 of 184 · dialogue · 8.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:53
+msgctxt "181"
+msgid ""
+"\"Where is he? For an hour I have awaited your master in the blistering sun "
+"on the Palatine Hill!\""
+msgstr ""
+
+#. Card 54 of 184 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:54
+msgctxt "182"
+msgid "\"A sick friend doubtless detains him, Milady.\""
+msgstr ""
+
+#. Card 55 of 184 · dialogue · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:55
+msgctxt "184"
+msgid "\"A woman?\""
+msgstr ""
+
+#. Card 56 of 184 · dialogue · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:56
+msgctxt "185"
+msgid "\"Madonna, you are the one love of his life.\""
+msgstr ""
+
+#. Card 57 of 184 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:57
+msgctxt "186"
+msgid "\"Why wait? It may be a matter of hours.\""
+msgstr ""
+
+#. Card 58 of 184 · title · 5.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:58
+msgctxt "190"
+msgid "Don Juan de Marana."
+msgstr ""
+
+#. Card 59 of 184 · dialogue · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:59
+msgctxt "197"
+msgid "\"Love lent my feet wings.\""
+msgstr ""
+
+#. Card 60 of 184 · narrative · 4.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:60
+msgctxt "200"
+msgid ""
+"The Duchess Margoni had also managed to elude her vigilant husband, the Duke"
+" Margoni."
+msgstr ""
+
+#. Card 61 of 184 · dialogue · 6.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:61
+msgctxt "205"
+msgid "\"You must hasten! Your uncle Margoni suspects—he is coming here!\""
+msgstr ""
+
+#. Card 62 of 184 · dialogue · 6.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:62
+msgctxt "210"
+msgid "\"You must hasten! Your admirer Margoni suspects—he is coming here!\""
+msgstr ""
+
+#. Card 63 of 184 · dialogue · 1.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:63
+msgctxt "212"
+msgid "\"Tomorrow?\""
+msgstr ""
+
+#. Card 64 of 184 · dialogue · 6.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:64
+msgctxt "216"
+msgid "\"Is there a woman on earth who knows just when to leave?\""
+msgstr ""
+
+#. Card 65 of 184 · dialogue · 6.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:65
+msgctxt "217"
+msgid "\"You must hasten! Your husband Margoni suspects—he is coming here!\""
+msgstr ""
+
+#. Card 66 of 184 · dialogue · 1.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:66
+msgctxt "220"
+msgid "\"My husband!\""
+msgstr ""
+
+#. Card 67 of 184 · dialogue · 4.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:67
+msgctxt "221"
+msgid "\"Margoni—without knowing it—served us well!\""
+msgstr ""
+
+#. Card 68 of 184 · dialogue · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:68
+msgctxt "224"
+msgid "\"Pompous old ass!\""
+msgstr ""
+
+#. Card 69 of 184 · dialogue · 5.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:69
+msgctxt "227"
+msgid ""
+"\"I have been told that\n"
+"the Duchess, my wife,\n"
+"is here!\""
+msgstr ""
+
+#. Card 70 of 184 · dialogue · 3.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:70
+msgctxt "230"
+msgid "\"Do not let her see you!\""
+msgstr ""
+
+#. Card 71 of 184 · dialogue · 8.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:71
+msgctxt "231"
+msgid ""
+"\"Your lovely wife suspects\n"
+"your affair with Imperia—\n"
+"and sent messages to bring\n"
+"you both here—\""
+msgstr ""
+
+#. Card 72 of 184 · dialogue · 8.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:72
+msgctxt "232"
+msgid ""
+"\"—she came herself to catch\n"
+"you together—I've done my\n"
+"poor best to protect you!\""
+msgstr ""
+
+#. Card 73 of 184 · dialogue · 5.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:73
+msgctxt "233"
+msgid ""
+"\"Splendid! Some day I may\n"
+"be of service to you!\""
+msgstr ""
+
+#. Card 74 of 184 · dialogue · 2.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:74
+msgctxt "234"
+msgid "\"I'm sure of it!\""
+msgstr ""
+
+#. Card 75 of 184 · dialogue · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:75
+msgctxt "238"
+msgid "\"From the Borgia!\""
+msgstr ""
+
+#. Card 76 of 184 · dialogue · 3.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:76
+msgctxt "242"
+msgid ""
+"\"Borgia parchment is\n"
+"oftimes poisoned!\""
+msgstr ""
+
+#. Card 77 of 184 · insert · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:77
+msgctxt "244"
+msgid ""
+"Faciet vobis gratum si\n"
+"venire hac nocte ad\n"
+"Palatium Sanctae Mariae...\n"
+"Lucrezia Borgia\n"
+"Cesare Borgia"
+msgstr ""
+
+#. Card 78 of 184 · insert · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:78
+msgctxt "245"
+msgid ""
+"It is our pleasure that you\n"
+"present yourself this eve at the\n"
+"Palazzo Santa Maria—\n"
+"\n"
+"Lucrezia Borgia\n"
+"\n"
+"Cesare Borgia"
+msgstr ""
+
+#. Card 79 of 184 · insert · 2.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:79
+msgctxt "246"
+msgid ""
+"It is our pleasure that you\n"
+"present yourself this eve at the\n"
+"Palazzo Santa Maria—\n"
+"\n"
+"Lucrezia Borgia\n"
+"\n"
+"Cesare Borgia"
+msgstr ""
+
+#. Card 80 of 184 · insert · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:80
+msgctxt "247"
+msgid ""
+"It is our pleasure that you\n"
+"present yourself this eve at the\n"
+"Palazzo Santa Maria—\n"
+"\n"
+"Lucrezia Borgia\n"
+"\n"
+"Cesare Borgia"
+msgstr ""
+
+#. Card 81 of 184 · dialogue · 3.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:81
+msgctxt "248"
+msgid ""
+"\"What are my engagements\n"
+"tonight?\""
+msgstr ""
+
+#. Card 82 of 184 · insert · 5.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:82
+msgctxt "249"
+msgid ""
+"Rendezvous\n"
+"Wednesday.\n"
+"Niki .................. 23rd hour.\n"
+"Drusilla .................. 24th hour.\n"
+"La Ulina .................. 1st hour.\n"
+"? [blonde in green] .................. Soon after.\n"
+"Maria .................. Sunset.\n"
+"Constanzia .................. twilight."
+msgstr ""
+
+#. Card 83 of 184 · insert · 5.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:83
+msgctxt "250"
+msgid ""
+"Rendezvous\n"
+"Wednesday.\n"
+"Niki .................. 23rd hour.\n"
+"Drusilla .................. 24th hour.\n"
+"La Ulina .................. 1st hour.\n"
+"? [blonde in green] .................. Soon after.\n"
+"Maria .................. Sunset.\n"
+"Constanzia .................. twilight."
+msgstr ""
+
+#. Card 84 of 184 · insert · 2.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:84
+msgctxt "251"
+msgid ""
+"Rendezvous\n"
+"Wednesday.\n"
+"Niki .................. 23rd hour.\n"
+"Drusilla .................. 24th hour.\n"
+"La Ulina .................. 1st hour.\n"
+"? [blonde in green] .................. Soon after.\n"
+"Maria .................. Sunset.\n"
+"Constanzia .................. twilight."
+msgstr ""
+
+#. Card 85 of 184 · narrative · 9.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:85
+msgctxt "253"
+msgid ""
+"The glory of the\n"
+"Borgia——the Palazzo\n"
+"Santa Maria."
+msgstr ""
+
+#. Card 86 of 184 · dialogue · 6.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:86
+msgctxt "255"
+msgid ""
+"\"The Duke della Varnese—\n"
+"the Lady Adriana della\n"
+"Varnese.\""
+msgstr ""
+
+#. Card 87 of 184 · dialogue · 9.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:87
+msgctxt "259"
+msgid ""
+"\"A little flat, perhaps, but\n"
+"you'll console yourself\n"
+"with the ample figure\n"
+"of her father's fortune—\n"
+"marry her by all means,\n"
+"Giano.\""
+msgstr ""
+
+#. Card 88 of 184 · dialogue · 8.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:88
+msgctxt "260"
+msgid ""
+"\"Why did we come, father,\n"
+"when we know how they\n"
+"hate us and all the Orsini?\""
+msgstr ""
+
+#. Card 89 of 184 · dialogue · 12.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:89
+msgctxt "261"
+msgid ""
+"\"The invitation was a\n"
+"command. It is death to\n"
+"defy the Borgia, even\n"
+"though it may be fatal\n"
+"to obey.\""
+msgstr ""
+
+#. Card 90 of 184 · dialogue · 5.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:90
+msgctxt "262"
+msgid ""
+"\"My kinsman, Count\n"
+"Donati—a true Borgia\n"
+"and our closest friend.\""
+msgstr ""
+
+#. Card 91 of 184 · dialogue · 3.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:91
+msgctxt "263"
+msgid ""
+"\"Inform me the instant\n"
+"Don Juan arrives.\""
+msgstr ""
+
+#. Card 92 of 184 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:92
+msgctxt "267"
+msgid ""
+"\"Quickly, Excellency! Her\n"
+"Highness awaits you!\""
+msgstr ""
+
+#. Card 93 of 184 · dialogue · 6.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:93
+msgctxt "269"
+msgid ""
+"\"If her face matches her\n"
+"feet—God help us both!\""
+msgstr ""
+
+#. Card 94 of 184 · dialogue · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:94
+msgctxt "271"
+msgid "\"It does!\""
+msgstr ""
+
+#. Card 95 of 184 · narrative · 4.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:95
+msgctxt "281"
+msgid ""
+"\"While the mistress waits—\n"
+"our Spaniard dallies with\n"
+"the maid.\""
+msgstr ""
+
+#. Card 96 of 184 · dialogue · 7.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:96
+msgctxt "282"
+msgid ""
+"\"We shall see if the Lady\n"
+"Lucrezia's sense of humor,\n"
+"is equal to this occasion!\""
+msgstr ""
+
+#. Card 97 of 184 · dialogue · 8.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:97
+msgctxt "284"
+msgid ""
+"\"You are very sure of yourself—but you will believe the tale when all Rome "
+"laughs.\""
+msgstr ""
+
+#. Card 98 of 184 · dialogue · 8.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:98
+msgctxt "288"
+msgid "\"We are lost, Master! Lady Lucrezia herself is coming!\""
+msgstr ""
+
+#. Card 99 of 184 · dialogue · 12.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:99
+msgctxt "295"
+msgid ""
+"\"My apologies for the wretch, gracious lady—I had hoped to improve his "
+"morals by my own example.\""
+msgstr ""
+
+#. Card 100 of 184 · dialogue · 6.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:100
+msgctxt "299"
+msgid ""
+"\"May a simple Spaniard pay his respects to the illustrious flower of "
+"Europe?\""
+msgstr ""
+
+#. Card 101 of 184 · dialogue · 7.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:101
+msgctxt "303"
+msgid "\"Your beauty was known to me in Seville, Madonna.\""
+msgstr ""
+
+#. Card 102 of 184 · dialogue · 6.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:102
+msgctxt "304"
+msgid "\"Your reputation is not unknown to me, Don Juan.\""
+msgstr ""
+
+#. Card 103 of 184 · dialogue · 9.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:103
+msgctxt "314"
+msgid ""
+"\"Perhaps you are not aware that Donati is our best swordsman. He may resent"
+" your interest in his lady.\""
+msgstr ""
+
+#. Card 104 of 184 · narrative · 2.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:104
+msgctxt "324"
+msgid ""
+"None so dreaded as Neri, the sorcerer, whose rare and subtle poisons were "
+"distilled in a secret room of the Borgia palace."
+msgstr ""
+
+#. Card 105 of 184 · dialogue · 17.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:105
+msgctxt "329"
+msgid ""
+"\"A pity that the Duke della Varnese—worthy gentleman!—will suffer a heart "
+"attack before dawn.\""
+msgstr ""
+
+#. Card 106 of 184 · dialogue · 6.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:106
+msgctxt "336"
+msgid "\"To commemorate the first visit of an Orsini to a Borgia—a little wine?\""
+msgstr ""
+
+#. Card 107 of 184 · dialogue · 2.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:107
+msgctxt "344"
+msgid "\"To your devastating charm!\""
+msgstr ""
+
+#. Card 108 of 184 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:108
+msgctxt "346"
+msgid "\"Let your lips perfume the wine.\""
+msgstr ""
+
+#. Card 109 of 184 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:109
+msgctxt "350"
+msgid "\"We Borgia do not share with another.\""
+msgstr ""
+
+#. Card 110 of 184 · dialogue · 10.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:110
+msgctxt "351"
+msgid "\"Let no man scorn so wise an example, sweet teacher!\""
+msgstr ""
+
+#. Card 111 of 184 · dialogue · 4.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:111
+msgctxt "357"
+msgid "\"The rose is richer by a great experience.\""
+msgstr ""
+
+#. Card 112 of 184 · dialogue · 13.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:112
+msgctxt "362"
+msgid ""
+"\"We Borgia approve of cleverness in our friends—we have no clever "
+"enemies!\""
+msgstr ""
+
+#. Card 113 of 184 · dialogue · 7.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:113
+msgctxt "367"
+msgid "\"Your balcony—at midnight?\""
+msgstr ""
+
+#. Card 114 of 184 · dialogue · 7.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:114
+msgctxt "370"
+msgid "\"This Spaniard, sweet sister, is yours to win—or mine to slay!\""
+msgstr ""
+
+#. Card 115 of 184 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:115
+msgctxt "371"
+msgid "\"In that case, dear brother—he shall live!\""
+msgstr ""
+
+#. Card 116 of 184 · dialogue · 11.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:116
+msgctxt "376"
+msgid ""
+"\"Tonight you saved my father's life—what can I do to prove my heart's "
+"gratitude?\""
+msgstr ""
+
+#. Card 117 of 184 · dialogue · 28.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:117
+msgctxt "377"
+msgid "\"Later!\""
+msgstr ""
+
+#. Card 118 of 184 · narrative · 13.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:118
+msgctxt "380"
+msgid "Midnight."
+msgstr ""
+
+#. Card 119 of 184 · dialogue · 3.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:119
+msgctxt "382"
+msgid "\"Highness, your Don Juan is late.\""
+msgstr ""
+
+#. Card 120 of 184 · dialogue · 4.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:120
+msgctxt "383"
+msgid "\"Perhaps he stays away because of the Lady Adriana.\""
+msgstr ""
+
+#. Card 121 of 184 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:121
+msgctxt "384"
+msgid "\"Go to bed—I would sit alone awhile.\""
+msgstr ""
+
+#. Card 122 of 184 · dialogue · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:122
+msgctxt "385"
+msgid "\"I, too, think the Spaniard most handsome.\""
+msgstr ""
+
+#. Card 123 of 184 · dialogue · 6.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:123
+msgctxt "392"
+msgid "\"Why are you here—at such an hour?\""
+msgstr ""
+
+#. Card 124 of 184 · dialogue · 3.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:124
+msgctxt "393"
+msgid ""
+"\"If I am late—a thousand\n"
+"pardons!\""
+msgstr ""
+
+#. Card 125 of 184 · dialogue · 6.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:125
+msgctxt "405"
+msgid ""
+"\"You promised to reward\n"
+"me—but perhaps you fear\n"
+"Donati, your swordsman\n"
+"friend.\""
+msgstr ""
+
+#. Card 126 of 184 · dialogue · 3.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:126
+msgctxt "408"
+msgid ""
+"\"You are a charming\n"
+"actress, Madonna.\""
+msgstr ""
+
+#. Card 127 of 184 · narrative · 12.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:127
+msgctxt "422"
+msgid ""
+"Days passed slowly\n"
+"for Juan."
+msgstr ""
+
+#. Card 128 of 184 · dialogue · 8.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:128
+msgctxt "427"
+msgid ""
+"\"For three days at this\n"
+"same hour I have\n"
+"waited here.\""
+msgstr ""
+
+#. Card 129 of 184 · dialogue · 3.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:129
+msgctxt "429"
+msgid ""
+"\"My soul has been asleep—\n"
+"you have awakened it—\""
+msgstr ""
+
+#. Card 130 of 184 · dialogue · 10.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:130
+msgctxt "433"
+msgid ""
+"\"You have given me a new\n"
+"faith—faith in the goodness\n"
+"of women—teach me—help\n"
+"me—so that I may never\n"
+"lose that faith again!\""
+msgstr ""
+
+#. Card 131 of 184 · dialogue · 8.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:131
+msgctxt "435"
+msgid ""
+"\"What did I tell you,\n"
+"milady? The chapel\n"
+"garden holds more\n"
+"allure for him than\n"
+"your grace's balcony.\""
+msgstr ""
+
+#. Card 132 of 184 · narrative · 6.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:132
+msgctxt "444"
+msgid ""
+"The home of the\n"
+"Duke della Varnese--\n"
+"the secret object of the\n"
+"Borgia's unprovoked\n"
+"attack on the Orsini--"
+msgstr ""
+
+#. Card 133 of 184 · dialogue · 9.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:133
+msgctxt "445"
+msgid ""
+"\"You are under arrest—\n"
+"as an Orsini you know\n"
+"your fate.\""
+msgstr ""
+
+#. Card 134 of 184 · dialogue · 8.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:134
+msgctxt "448"
+msgid ""
+"\"But a Borgia is nothing\n"
+"if not merciful—a pardon\n"
+"is still possible.\""
+msgstr ""
+
+#. Card 135 of 184 · dialogue · 15.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:135
+msgctxt "449"
+msgid ""
+"\"My kinsman, Count Donati,\n"
+"desires your daughter in\n"
+"marriage--consent and\n"
+"become our loyal follower.\""
+msgstr ""
+
+#. Card 136 of 184 · dialogue · 8.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:136
+msgctxt "451"
+msgid ""
+"\"Take him to St. Angelo—\n"
+"and behead him!\""
+msgstr ""
+
+#. Card 137 of 184 · dialogue · 9.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:137
+msgctxt "454"
+msgid ""
+"\"What chance have we?\n"
+"If I refuse it means death\n"
+"to you—and a worse fate\n"
+"for me.\""
+msgstr ""
+
+#. Card 138 of 184 · dialogue · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:138
+msgctxt "456"
+msgid "\"My father accepts.\""
+msgstr ""
+
+#. Card 139 of 184 · dialogue · 14.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:139
+msgctxt "463"
+msgid ""
+"\"It is true, Master—the Orsini\n"
+"are attacked without provo-\n"
+"cation—their followers killed\n"
+"or imprisoned in St. Angelo—\n"
+"and the Duke della Varnese\n"
+"is threatened!\""
+msgstr ""
+
+#. Card 140 of 184 · dialogue · 9.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:140
+msgctxt "472"
+msgid ""
+"\"Twice I summoned you\n"
+"and you ignored me—\n"
+"tonight I lay aside my\n"
+"pride and come to you.\""
+msgstr ""
+
+#. Card 141 of 184 · dialogue · 33.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:141
+msgctxt "478"
+msgid ""
+"\"You fool! Do you think\n"
+"Donati will allow any\n"
+"harm to come to—her?\""
+msgstr ""
+
+#. Card 142 of 184 · dialogue · 10.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:142
+msgctxt "479"
+msgid ""
+"\"The wisest man is the\n"
+"easiest to deceive.\""
+msgstr ""
+
+#. Card 143 of 184 · dialogue · 14.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:143
+msgctxt "481"
+msgid ""
+"\"Rome is laughing at you!\n"
+"When you have learned\n"
+"what we all knew long\n"
+"ago—come to me, and\n"
+"perhaps I shall teach you\n"
+"wisdom.\""
+msgstr ""
+
+#. Card 144 of 184 · dialogue · 12.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:144
+msgctxt "488"
+msgid ""
+"\"Adriana della Varnese is\n"
+"safe with her father—at\n"
+"the Vatican.\""
+msgstr ""
+
+#. Card 145 of 184 · dialogue · 7.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:145
+msgctxt "498"
+msgid ""
+"\"If you betray me by a look\n"
+"or sign — I will run this\n"
+"intruder through!\""
+msgstr ""
+
+#. Card 146 of 184 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:146
+msgctxt "501"
+msgid ""
+"\"There is no one here—\n"
+"please go!\""
+msgstr ""
+
+#. Card 147 of 184 · dialogue · 9.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:147
+msgctxt "508"
+msgid ""
+"\"Your pardon, signor—\n"
+"for trespassing ever so\n"
+"slightly in your garden.\""
+msgstr ""
+
+#. Card 148 of 184 · narrative · 4.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:148
+msgctxt "522"
+msgid ""
+"Rome celebrated, on a\n"
+"certain evening a month\n"
+"later, the marriage of\n"
+"Adriana della Varnese to\n"
+"the Count Donati-- and\n"
+"drunken shouts took up\n"
+"the refrain of the\n"
+"cathedral bells."
+msgstr ""
+
+#. Card 149 of 184 · dialogue · 16.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:149
+msgctxt "542"
+msgid ""
+"\"Your repetition forces\n"
+"me to believe you.\""
+msgstr ""
+
+#. Card 150 of 184 · dialogue · 4.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:150
+msgctxt "543"
+msgid "\"Get the lady's cloak.\""
+msgstr ""
+
+#. Card 151 of 184 · dialogue · 7.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:151
+msgctxt "551"
+msgid ""
+"\"My husband suspects—\n"
+"I rushed here to warn\n"
+"you!\""
+msgstr ""
+
+#. Card 152 of 184 · dialogue · 12.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:152
+msgctxt "552"
+msgid ""
+"\"Help me, Juan! If he\n"
+"finds me out it will\n"
+"end everything for me—\n"
+"honor—happiness—my\n"
+"very life!\""
+msgstr ""
+
+#. Card 153 of 184 · dialogue · 14.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:153
+msgctxt "554"
+msgid ""
+"\"If my husband finds me\n"
+"here—I'll kill myself.\""
+msgstr ""
+
+#. Card 154 of 184 · dialogue · 2.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:154
+msgctxt "578"
+msgid "\"Hush—my lady sleeps!\""
+msgstr ""
+
+#. Card 155 of 184 · dialogue · 15.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:155
+msgctxt "581"
+msgid ""
+"\"A tragedy, gentlemen,\n"
+"in place of the usual\n"
+"comedy! The husband—\n"
+"as it happens—has killed\n"
+"his wife.\""
+msgstr ""
+
+#. Card 156 of 184 · dialogue · 6.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:156
+msgctxt "584"
+msgid ""
+"\"Look—his hands drip\n"
+"with blood!\""
+msgstr ""
+
+#. Card 157 of 184 · dialogue · 5.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:157
+msgctxt "586"
+msgid ""
+"\"Be lenient—the man\n"
+"is mad.\""
+msgstr ""
+
+#. Card 158 of 184 · dialogue · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:158
+msgctxt "590"
+msgid ""
+"\"Will those bells never\n"
+"stop?\""
+msgstr ""
+
+#. Card 159 of 184 · dialogue · 6.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:159
+msgctxt "591"
+msgid ""
+"\"Not until the banquet is\n"
+"over and Donati escorts\n"
+"his bride to their nuptial\n"
+"chamber.\""
+msgstr ""
+
+#. Card 160 of 184 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:160
+msgctxt "608"
+msgid ""
+"\"Go—prepare yourself\n"
+"for the nuptials.\""
+msgstr ""
+
+#. Card 161 of 184 · dialogue · 3.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:161
+msgctxt "610"
+msgid ""
+"\"The Lady Adriana defies\n"
+"your command.\""
+msgstr ""
+
+#. Card 162 of 184 · dialogue · 8.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:162
+msgctxt "612"
+msgid ""
+"\"You are too impetuous, my\n"
+"Giano——a haughty bride\n"
+"makes a stubborn wife. She\n"
+"must come to you.\""
+msgstr ""
+
+#. Card 163 of 184 · dialogue · 6.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:163
+msgctxt "619"
+msgid ""
+"\"Your bride is here—\n"
+"come and get her!\""
+msgstr ""
+
+#. Card 164 of 184 · dialogue · 11.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:164
+msgctxt "623"
+msgid ""
+"\"You must believe in me,\n"
+"Juan—my marriage was\n"
+"plotted by the Borgia.\n"
+"I swear I am innocent.\""
+msgstr ""
+
+#. Card 165 of 184 · dialogue · 3.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:165
+msgctxt "624"
+msgid "\"Your bride is still here!\""
+msgstr ""
+
+#. Card 166 of 184 · dialogue · 4.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:166
+msgctxt "625"
+msgid ""
+"\"With your permission,\n"
+"sire, we fight to the\n"
+"death!\""
+msgstr ""
+
+#. Card 167 of 184 · dialogue · 4.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:167
+msgctxt "631"
+msgid ""
+"\"Arrest him for the murder\n"
+"of Count Donati!\""
+msgstr ""
+
+#. Card 168 of 184 · dialogue · 4.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:168
+msgctxt "632"
+msgid ""
+"\"Throw him into the\n"
+"dungeon of St. Angelo!\""
+msgstr ""
+
+#. Card 169 of 184 · dialogue · 6.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:169
+msgctxt "635"
+msgid ""
+"\"Arrest her as an accomplice\n"
+"in the murder of her\n"
+"husband!\""
+msgstr ""
+
+#. Card 170 of 184 · dialogue · 6.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:170
+msgctxt "636"
+msgid ""
+"\"Neri will be delighted.\n"
+"Take her to the tower.\""
+msgstr ""
+
+#. Card 171 of 184 · narrative · 9.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:171
+msgctxt "638"
+msgid ""
+"When the gates of\n"
+"St. Angelo clanged shut\n"
+"upon a prisoner he was\n"
+"never heard of again--\n"
+"for certain death\n"
+"awaited him in a slimy\n"
+"cell below the level of\n"
+"the River Tiber."
+msgstr ""
+
+#. Card 172 of 184 · dialogue · 8.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:172
+msgctxt "656"
+msgid ""
+"\"Your quarters, rash\n"
+"Spaniard, are none\n"
+"too tidy.\""
+msgstr ""
+
+#. Card 173 of 184 · dialogue · 6.0s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:173
+msgctxt "657"
+msgid ""
+"\"They will serve, I\n"
+"think—for the brief\n"
+"time I remain here.\""
+msgstr ""
+
+#. Card 174 of 184 · dialogue · 10.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:174
+msgctxt "662"
+msgid ""
+"\"Your freedom shall be\n"
+"a gift from me—if\n"
+"you are capable of\n"
+"appreciating it.\""
+msgstr ""
+
+#. Card 175 of 184 · dialogue · 26.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:175
+msgctxt "668"
+msgid ""
+"\"As this is your last hour it\n"
+"will comfort you to know\n"
+"that Adriana was faithful to\n"
+"you. It served our purpose to\n"
+"have you believe otherwise.\""
+msgstr ""
+
+#. Card 176 of 184 · dialogue · 13.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:176
+msgctxt "670"
+msgid ""
+"\"It will amuse us to place\n"
+"Adriana at Neri's disposal—\n"
+"on the rack.\""
+msgstr ""
+
+#. Card 177 of 184 · dialogue · 10.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:177
+msgctxt "673"
+msgid ""
+"\"Prepare the block—in\n"
+"an hour I shall return\n"
+"to see how a Spaniard\n"
+"dies.\""
+msgstr ""
+
+#. Card 178 of 184 · dialogue · 12.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:178
+msgctxt "692"
+msgid ""
+"\"I see! God's will is deeper\n"
+"than a river—He would\n"
+"have thee live, for He\n"
+"has shown a way—!\""
+msgstr ""
+
+#. Card 179 of 184 · dialogue · 6.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:179
+msgctxt "696"
+msgid ""
+"\"My wronged wife agonizes\n"
+"in hell—thou shalt not\n"
+"join her there!\""
+msgstr ""
+
+#. Card 180 of 184 · dialogue · 3.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:180
+msgctxt "698"
+msgid ""
+"\"Go—and begin thy\n"
+"living hell!\""
+msgstr ""
+
+#. Card 181 of 184 · narrative · 21.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:181
+msgctxt "700"
+msgid ""
+"The tower of the Borgia\n"
+"Palace——A room of\n"
+"horrors—Neri's workshop."
+msgstr ""
+
+#. Card 182 of 184 · dialogue · 10.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:182
+msgctxt "714"
+msgid ""
+"\"Such a lovely subject\n"
+"should give us an amusing\n"
+"transformation. Prolong our\n"
+"diversion to the utmost!\""
+msgstr ""
+
+#. Card 183 of 184 · dialogue · 9.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:183
+msgctxt "723"
+msgid ""
+"\"Don Juan shall be disposed\n"
+"of—then we shall return—\n"
+"to watch——\""
+msgstr ""
+
+#. Card 184 of 184 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/don-juan-1926/cards.yaml:184
+msgctxt "761"
+msgid ""
+"\"Before us, beloved,\n"
+"is Spain — — and\n"
+"happiness—\""
+msgstr ""

@@ -1,0 +1,3334 @@
+# Intertitle cards, in film order. Schema: data/README.md and films/_example/cards.yaml.
+# Written by the pipeline (transcribe.py, scrub.py); hand edits are fine, key order is kept.
+film: don-juan-1926
+cards:
+  - id: "002"
+    in: "00:00:03.250"
+    out: "00:00:07.750"
+    type: credit
+    text: |-
+      a WARNER BROTHERS
+      PRODUCTION
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: letter-spaced caps in "PRODUCTION"
+      all_caps: false
+    confidence: high
+
+  - id: "003"
+    in: "00:00:09.750"
+    out: "00:00:32.750"
+    type: credit
+    text: |-
+      THE PLAYERS
+      Donna Isobel .... JANE WINTON
+      Leandro .... JOHN ROCHE
+      Cesare Borgia .... WARNER OLAND
+      Lucrezia Borgia .... ESTELLE TAYLOR
+      Count Giano Donati .... MONTAGUE LOVE
+      Duke della Varnese .... JOSEPH SWICKARD
+      Pedrillo .... WILLARD LOUIS
+      Marchese Rinaldo .... NIGEL DE BRULIER
+      Marchesa Rinaldo .... HEDDA HOPPER
+      Mai, Lady in Waiting .... MYRNA LOY
+      Adriana della Varnese .... MARY ASTOR
+      Don Jose de Marana
+      Don Juan de Marana } JOHN BARRYMORE
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: ""
+      emphasis: character names in italic script; actor names in small caps
+      all_caps: false
+    confidence: high
+
+  - id: "004"
+    in: "00:00:33.750"
+    out: "00:00:39.250"
+    type: credit
+    text: |-
+      THE PLAYERS
+      Donna Isobel .... JANE WINTON
+      Leandro .... JOHN ROCHE
+      Cesare Borgia .... WARNER OLAND
+      Lucrezia Borgia .... ESTELLE TAYLOR
+      Count Giano Donati .... MONTAGUE LOVE
+      Duke della Varnese .... JOSEPH SWICKARD
+      Pedrillo .... WILLARD LOUIS
+      Marchese Rinaldo .... NIGEL DE BRULIER
+      Marchesa Rinaldo .... HEDDA HOPPER
+      Mai, Lady in Waiting .... MYRNA LOY
+      Adriana della Varnese .... MARY ASTOR
+      Don Jose de Marana
+      Don Juan de Marana } JOHN BARRYMORE
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: ""
+      emphasis: character names in italic script; actor names in small caps
+      all_caps: false
+    confidence: high
+
+  - id: "006"
+    in: "00:00:41.750"
+    out: "00:00:50.250"
+    type: credit
+    text: |-
+      A WARNER BROTHERS
+      CLASSIC OF THE SCREEN
+      Directed by
+      ALAN CROSLAND
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "007"
+    in: "00:00:50.750"
+    out: "00:00:59.250"
+    type: credit
+    text: |-
+      Musical Accompaniment to
+      "DON JUAN"
+      Played on
+      VITAPHONE
+      by
+      THE NEW YORK
+      PHILHARMONIC ORCHESTRA
+      Passed by The National Board of Review – Copyright MCMXXVI by Warner Bros. Pictures, Inc.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: double straight
+      emphasis: '"VITAPHONE" set larger'
+      all_caps: false
+    confidence: high
+
+  - id: "008"
+    in: "00:01:01.000"
+    out: "00:01:23.750"
+    type: narrative
+    text: |-
+      The tale they tell of Don Juan, immortal lover and doubter of woman, is bold with life and color — — a merry, insolent tale slashed with intrigue — — yet its beginning is as gray as the old Spanish castle of Juan's earliest memory.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "011"
+    in: "00:01:36.250"
+    out: "00:01:39.000"
+    type: narrative
+    text: |-
+      Don Juan de Marana.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "013"
+    in: "00:01:50.250"
+    out: "00:01:59.500"
+    type: credit
+    text: |-
+      Don Jose de Marana—
+      father of Don Juan.
+      - - - John Barrymore.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: ""
+      emphasis: italic script font, oversized decorative initial "D"; actor name set in cursive script after a dash separator; superimposed over a scene with a hanging crest
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'father of Don Juan\nTohn Barrymore'
+
+  - id: "014"
+    in: "00:02:01.500"
+    out: "00:02:15.500"
+    type: narrative
+    text: |-
+      His beautiful and
+      beloved lady——the
+      Donna Isobel.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "015"
+    in: "00:02:16.750"
+    out: "00:02:27.250"
+    type: narrative
+    text: |-
+      From the shadows of
+      this Gothic world
+      strange creatures
+      emerged—souls curiously
+      warped with hate.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "017"
+    in: "00:02:43.000"
+    out: "00:02:51.750"
+    type: dialogue
+    text: |-
+      "Not long will you suffer
+      loneliness—the King shall
+      have his treasure, and
+      I'll return straight to—
+      mine."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "037"
+    in: "00:05:42.750"
+    out: "00:05:45.500"
+    type: dialogue
+    text: |-
+      "If you have lied—"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "044"
+    in: "00:06:25.750"
+    out: "00:06:36.250"
+    type: dialogue
+    text: |-
+      "I find I have left
+      unguarded, the thing
+      I valued most."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "053"
+    in: "00:07:43.000"
+    out: "00:07:48.000"
+    type: dialogue
+    text: |-
+      "In the haste of departure, the
+      wall was left unmended."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "069"
+    in: "00:09:10.250"
+    out: "00:09:18.500"
+    type: dialogue
+    text: |-
+      "Think you of any reason
+      why they should not seal
+      the wall?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "070"
+    in: "00:09:21.250"
+    out: "00:09:28.250"
+    type: dialogue
+    text: |-
+      "There is nothing of value
+      there—now—is there?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "078"
+    in: "00:10:23.250"
+    out: "00:10:30.000"
+    type: dialogue
+    text: |-
+      "Snivel, you lying wretch—
+      you betrayer of men and
+      the honor of men!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "080"
+    in: "00:10:37.750"
+    out: "00:10:40.250"
+    type: dialogue
+    text: |-
+      "Out—before I kill you!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "082"
+    in: "00:11:18.500"
+    out: "00:11:27.250"
+    type: dialogue
+    text: |-
+      "Yonder goes your mother—
+      and with her goes my
+      faith in women!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "085"
+    in: "00:11:40.250"
+    out: "00:11:44.750"
+    type: narrative
+    text: |-
+      In the years that followed,
+      Don Jose kept his
+      bitterness alive after a
+      curiously sardonic fashion
+      -- and banquet torches
+      flared nightly in the
+      gaunt halls of the
+      Marana castle.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: word before 'aunt halls' is partly hidden behind a candle-holder ornament; read as 'gaunt halls'
+
+  - id: "102"
+    in: "00:13:12.000"
+    out: "00:13:19.750"
+    type: narrative
+    text: |-
+      The jealous Donna
+      Elvira had enjoyed
+      the unique honor of
+      Don Jose's exclusive
+      favor for two months—
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "122"
+    in: "00:15:34.000"
+    out: "00:15:39.750"
+    type: dialogue
+    text: |-
+      "Is not one member of
+      the family enough to
+      contaminate?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "125"
+    in: "00:16:53.750"
+    out: "00:17:00.250"
+    type: dialogue
+    text: |-
+      "My three-fold debt to
+      woman is now complete
+      —life—disillusionment—
+      death!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "127"
+    in: "00:17:30.750"
+    out: "00:17:37.750"
+    type: dialogue
+    text: |-
+      "This is my legacy to
+      you—beware of giving
+      your love to women."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: italic on 'your'
+      all_caps: false
+    confidence: high
+
+  - id: "128"
+    in: "00:17:43.000"
+    out: "00:17:52.500"
+    type: dialogue
+    text: |-
+      "Go out into the world and
+      take their love when it
+      please you--smile--and
+      forget!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: italic on 'their'
+      all_caps: false
+    confidence: high
+
+  - id: "130"
+    in: "00:19:00.750"
+    out: "00:19:01.500"
+    type: narrative
+    text: |-
+      ROME - - - the mighty
+      Vatican towering heavenward
+      above a seethe of
+      corruption—scented velvets
+      brushing against the plague
+      sores of the wretched
+      —incense—purple wine—gold—
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: none
+      emphasis: large decorative drop capital R
+      all_caps: false
+    confidence: medium
+    doubt: dash/dot pattern after 'ROME' uncertain (spaced dashes vs. dashes with a dot)
+
+  - id: "134"
+    in: "00:19:36.250"
+    out: "00:19:39.250"
+    type: dialogue
+    text: |-
+      "God help us—
+      The Borgia!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: italic on 'The Borgia!'
+      all_caps: false
+    confidence: high
+
+  - id: "135"
+    in: "00:19:54.250"
+    out: "00:20:05.000"
+    type: narrative
+    text: |-
+      The Borgia tyranny over
+      Rome and its subjects,
+      was one of ceaseless
+      cruelty — torturing and
+      crushing those who
+      opposed their regime.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: none
+      emphasis: large decorative drop capital T
+      all_caps: false
+    confidence: high
+
+  - id: "137"
+    in: "00:20:20.750"
+    out: "00:20:25.250"
+    type: narrative
+    text: |-
+      Head of the House of
+      the Crimson Bull— —
+      and the secret ruler of
+      Rome— — Cesare Borgia.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: none
+      emphasis: large decorative drop capital H
+      all_caps: false
+    confidence: high
+
+  - id: "139"
+    in: "00:20:31.250"
+    out: "00:20:35.750"
+    type: narrative
+    text: |-
+      His sister—the inspiration
+      of his vicious crimes—
+      beauty without pity—
+      ambition without remorse
+      — —Lucrezia Borgia.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: none
+      emphasis: large decorative drop capital H
+      all_caps: false
+    confidence: high
+
+  - id: "141"
+    in: "00:20:41.750"
+    out: "00:20:43.750"
+    type: narrative
+    text: |-
+      Count Giano Donati—
+      a kinsman of the Borgia—
+      with a roving eye as
+      keen as his sword.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: none
+      emphasis: large decorative drop capital C
+      all_caps: false
+    confidence: high
+
+  - id: "147"
+    in: "00:21:14.500"
+    out: "00:21:22.500"
+    type: dialogue
+    text: |-
+      "It is the daughter of the
+      Duke della Varnese—a
+      follower of our enemy,
+      the Orsini."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "149"
+    in: "00:21:30.750"
+    out: "00:21:40.000"
+    type: dialogue
+    text: |-
+      "Giano dear, your little
+      whims must be gratified.
+      We will include the Duke
+      and his daughter among
+      our guests tonight."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "153"
+    in: "00:22:26.000"
+    out: "00:22:35.000"
+    type: dialogue
+    text: |-
+      "It is the home of Don
+      Juan—a young Spanish
+      grandee, lately arrived
+      from the University
+      of Pisa."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "154"
+    in: "00:22:40.500"
+    out: "00:22:46.250"
+    type: dialogue
+    text: |-
+      "He is handsome and rich,
+      illustrious lady, and of
+      most exquisite manners."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "155"
+    in: "00:22:50.750"
+    out: "00:22:58.500"
+    type: dialogue
+    text: |-
+      "And if rumor does not lie—
+      half the fair ones of Rome
+      have already succumbed to
+      his charm."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "156"
+    in: "00:23:01.750"
+    out: "00:23:06.000"
+    type: dialogue
+    text: |-
+      "Ah, he is the one they
+      call the great lover!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "157"
+    in: "00:23:07.250"
+    out: "00:23:09.500"
+    type: dialogue
+    text: |-
+      "The great forgetful
+      lover!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: italic "forgetful"
+      all_caps: false
+    confidence: high
+
+  - id: "158"
+    in: "00:23:14.750"
+    out: "00:23:18.250"
+    type: dialogue
+    text: |-
+      "There might be one
+      he could not forget."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: italic "one"
+      all_caps: false
+    confidence: high
+
+  - id: "159"
+    in: "00:23:22.750"
+    out: "00:23:27.500"
+    type: dialogue
+    text: |-
+      "Only your illustrious
+      highness would dare
+      such a challenge."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "160"
+    in: "00:23:30.000"
+    out: "00:23:39.250"
+    type: dialogue
+    text: |-
+      "See that a messenger is
+      dispatched to this Don
+      Juan—our evening ball
+      will be more interesting
+      for his presence."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "162"
+    in: "00:23:50.000"
+    out: "00:23:54.000"
+    type: narrative
+    text: |-
+      Don Juan's home—where
+      innocence might enter—
+      but never depart.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: ""
+      emphasis: italic script font with oversized decorative initial "D"; superimposed over a scene with a hanging crest and a Warner Bros. shield logo visible bottom-right
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "Don Juan's home-Where\ninnocence might enter -\nbut neDer depart."
+
+  - id: "163"
+    in: "00:23:55.000"
+    out: "00:23:56.500"
+    type: narrative
+    text: |-
+      Don Juan's home—where
+      innocence might enter—
+      but never depart.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: ""
+      emphasis: italic script font with oversized decorative initial "D"; superimposed over a dim scene with a hanging crest
+      all_caps: false
+    confidence: medium
+    doubt: underlying scene is dark and grainy, but the overlaid text is clear; replaced ocr reading 'innocence might enter -\nbut neDer depart.'
+
+  - id: "164"
+    in: "00:24:02.250"
+    out: "00:24:06.250"
+    type: narrative
+    text: |-
+      Don Juan's faithful
+      attendant and imitator—
+      —Pedrillo.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: none
+      emphasis: large drop-cap "D"
+      all_caps: false
+    confidence: high
+
+  - id: "165"
+    in: "00:24:11.750"
+    out: "00:24:12.500"
+    type: insert
+    text: |-
+      My Juan
+      Accept, I pray you, this small
+      jewel as a seal upon our love.
+      Milord, my husband remains in
+      Venice for another night.
+      Maria
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: none
+      emphasis: handwritten script
+      all_caps: false
+    confidence: medium
+    doubt: signature "Maria" is cut off at bottom of frame; "Milord" may be "M'lord"
+
+  - id: "166"
+    in: "00:24:13.000"
+    out: "00:24:24.250"
+    type: insert
+    text: |-
+      My Juan
+      Accept, I pray you, this small
+      jewel as a seal upon our love.
+      Milord, my husband remains in
+      Venice for another night.
+      Maria
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: none
+      emphasis: handwritten script
+      all_caps: false
+    confidence: medium
+    doubt: signature "Maria" is cut off at bottom of frame; "Milord" may be "M'lord"
+
+  - id: "167"
+    in: "00:24:47.500"
+    out: "00:24:49.250"
+    type: narrative
+    text: |-
+      Little Trusia had
+      managed to elude her
+      watchful uncle, the
+      Duke Margoni—and
+      awaited the tardy Don Juan.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: none
+      emphasis: large drop-cap "L"
+      all_caps: false
+    confidence: high
+
+  - id: "174"
+    in: "00:25:08.000"
+    out: "00:25:11.000"
+    type: dialogue
+    text: |-
+      "A sick friend doubtless
+      detains him, Milady."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "175"
+    in: "00:25:12.750"
+    out: "00:25:14.500"
+    type: dialogue
+    text: |-
+      "A woman?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"A woman'
+
+  - id: "176"
+    in: "00:25:16.500"
+    out: "00:25:21.000"
+    type: dialogue
+    text: |-
+      "Madonna, you are the
+      one love of his life."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "177"
+    in: "00:25:29.250"
+    out: "00:25:34.000"
+    type: narrative
+    text: |-
+      Imperia, a famous
+      frailty, had managed
+      to elude her jealous
+      admirer, the Duke
+      Margoni.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: none
+      emphasis: large drop-cap "I"
+      all_caps: false
+    confidence: high
+
+  - id: "179"
+    in: "00:25:41.000"
+    out: "00:25:45.500"
+    type: dialogue
+    text: |-
+      "Why wait? It may be
+      a matter of hours."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "181"
+    in: "00:26:04.500"
+    out: "00:26:13.000"
+    type: dialogue
+    text: |-
+      "Where is he? For an hour I have awaited your master in the blistering sun on the Palatine Hill!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "182"
+    in: "00:26:15.250"
+    out: "00:26:19.750"
+    type: dialogue
+    text: |-
+      "A sick friend doubtless detains him, Milady."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "184"
+    in: "00:26:25.000"
+    out: "00:26:27.250"
+    type: dialogue
+    text: |-
+      "A woman?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "185"
+    in: "00:26:30.000"
+    out: "00:26:35.750"
+    type: dialogue
+    text: |-
+      "Madonna, you are the one love of his life."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "186"
+    in: "00:26:40.000"
+    out: "00:26:44.500"
+    type: dialogue
+    text: |-
+      "Why wait? It may be a matter of hours."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "190"
+    in: "00:27:35.750"
+    out: "00:27:40.750"
+    type: title
+    text: |-
+      Don Juan de Marana.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "197"
+    in: "00:28:38.000"
+    out: "00:28:41.000"
+    type: dialogue
+    text: |-
+      "Love lent my feet wings."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Love lent my feet Wings.'
+
+  - id: "200"
+    in: "00:29:00.000"
+    out: "00:29:04.250"
+    type: narrative
+    text: |-
+      The Duchess Margoni had also managed to elude her vigilant husband, the Duke Margoni.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "205"
+    in: "00:30:17.500"
+    out: "00:30:23.500"
+    type: dialogue
+    text: |-
+      "You must hasten! Your uncle Margoni suspects—he is coming here!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "210"
+    in: "00:31:30.000"
+    out: "00:31:36.500"
+    type: dialogue
+    text: |-
+      "You must hasten! Your admirer Margoni suspects—he is coming here!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "212"
+    in: "00:31:47.250"
+    out: "00:31:49.000"
+    type: dialogue
+    text: |-
+      "Tomorrow?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "216"
+    in: "00:32:13.500"
+    out: "00:32:19.500"
+    type: dialogue
+    text: |-
+      "Is there a woman on earth who knows just when to leave?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "217"
+    in: "00:32:34.500"
+    out: "00:32:41.000"
+    type: dialogue
+    text: |-
+      "You must hasten! Your husband Margoni suspects—he is coming here!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "220"
+    in: "00:33:11.750"
+    out: "00:33:13.500"
+    type: dialogue
+    text: |-
+      "My husband!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "221"
+    in: "00:33:21.000"
+    out: "00:33:25.000"
+    type: dialogue
+    text: |-
+      "Margoni—without knowing it—served us well!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "224"
+    in: "00:33:49.500"
+    out: "00:33:51.750"
+    type: dialogue
+    text: |-
+      "Pompous old ass!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "227"
+    in: "00:34:19.250"
+    out: "00:34:24.500"
+    type: dialogue
+    text: |-
+      "I have been told that
+      the Duchess, my wife,
+      is here!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "230"
+    in: "00:34:56.000"
+    out: "00:34:59.250"
+    type: dialogue
+    text: |-
+      "Do not let her see you!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "231"
+    in: "00:35:07.750"
+    out: "00:35:15.750"
+    type: dialogue
+    text: |-
+      "Your lovely wife suspects
+      your affair with Imperia—
+      and sent messages to bring
+      you both here—"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "232"
+    in: "00:35:18.750"
+    out: "00:35:26.750"
+    type: dialogue
+    text: |-
+      "—she came herself to catch
+      you together—I've done my
+      poor best to protect you!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "233"
+    in: "00:35:28.500"
+    out: "00:35:33.750"
+    type: dialogue
+    text: |-
+      "Splendid! Some day I may
+      be of service to you!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: italic on "you"
+      all_caps: false
+    confidence: high
+
+  - id: "234"
+    in: "00:35:35.250"
+    out: "00:35:37.750"
+    type: dialogue
+    text: |-
+      "I'm sure of it!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "238"
+    in: "00:36:14.000"
+    out: "00:36:16.000"
+    type: dialogue
+    text: |-
+      "From the Borgia!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "242"
+    in: "00:36:50.000"
+    out: "00:36:53.750"
+    type: dialogue
+    text: |-
+      "Borgia parchment is
+      oftimes poisoned!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "244"
+    in: "00:37:08.250"
+    out: "00:37:09.000"
+    type: insert
+    text: |-
+      Faciet vobis gratum si
+      venire hac nocte ad
+      Palatium Sanctae Mariae...
+      Lucrezia Borgia
+      Cesare Borgia
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: none
+      emphasis: blackletter/gothic calligraphic script
+      all_caps: false
+    confidence: low
+    doubt: 'pass 1: ''Faciet vobis gratum si\nvenire hac nocte ad\nPalatium Sanctae Mariae...\nLucrezia Borgia\nCesare Borgia'' | pass 2: ''Faciet vobis gratum si\nvenire hac noctu ad\nPalatium Sanctae Mariae...\nLucrezia Borgia\nCesare Borgia'' | Latin wording on the parchment uncertain, especially "Faciet vobis gratum si" and "hac nocte"; blackletter script hard to resolve letter by letter | handwritten Latin calligraphy is ambiguous letter-by-letter (b/v, c/e forms are similar); "Faciet vobis" could read "Facie(t) nobis", "Sanctae Mariae" spelling uncertain; proper names "Lucrezia Borgia" and "Cesare Borgia" are the most legible parts'
+
+  - id: "245"
+    in: "00:37:11.500"
+    out: "00:37:12.250"
+    type: insert
+    text: |-
+      It is our pleasure that you
+      present yourself this eve at the
+      Palazzo Santa Maria—
+
+      Lucrezia Borgia
+
+      Cesare Borgia
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: bottom signature line is cut off at the frame edge; read as 'Cesare Borgia'
+
+  - id: "246"
+    in: "00:37:15.250"
+    out: "00:37:17.750"
+    type: insert
+    text: |-
+      It is our pleasure that you
+      present yourself this eve at the
+      Palazzo Santa Maria—
+
+      Lucrezia Borgia
+
+      Cesare Borgia
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: bottom signature line is cut off at the frame edge; read as 'Cesare Borgia'
+
+  - id: "247"
+    in: "00:37:18.250"
+    out: "00:37:21.250"
+    type: insert
+    text: |-
+      It is our pleasure that you
+      present yourself this eve at the
+      Palazzo Santa Maria—
+
+      Lucrezia Borgia
+
+      Cesare Borgia
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: bottom signature line is cut off at the frame edge; read as 'Cesare Borgia'
+
+  - id: "248"
+    in: "00:37:23.500"
+    out: "00:37:26.750"
+    type: dialogue
+    text: |-
+      "What are my engagements
+      tonight?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "249"
+    in: "00:37:34.500"
+    out: "00:37:39.500"
+    type: insert
+    text: |-
+      Rendezvous
+      Wednesday.
+      Niki .................. 23rd hour.
+      Drusilla .................. 24th hour.
+      La Ulina .................. 1st hour.
+      ? [blonde in green] .................. Soon after.
+      Maria .................. Sunset.
+      Constanzia .................. twilight.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: 'cursive names uncertain: ''La Ulina'' may be ''La Alina'' or ''La Elina''; ''Constanzia'' may be ''Coustanzia'''
+
+  - id: "250"
+    in: "00:37:40.250"
+    out: "00:37:45.250"
+    type: insert
+    text: |-
+      Rendezvous
+      Wednesday.
+      Niki .................. 23rd hour.
+      Drusilla .................. 24th hour.
+      La Ulina .................. 1st hour.
+      ? [blonde in green] .................. Soon after.
+      Maria .................. Sunset.
+      Constanzia .................. twilight.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: 'cursive names uncertain: ''La Ulina'' may be ''La Alina'' or ''La Elina''; ''Constanzia'' may be ''Coustanzia'''
+
+  - id: "251"
+    in: "00:37:46.000"
+    out: "00:37:48.750"
+    type: insert
+    text: |-
+      Rendezvous
+      Wednesday.
+      Niki .................. 23rd hour.
+      Drusilla .................. 24th hour.
+      La Ulina .................. 1st hour.
+      ? [blonde in green] .................. Soon after.
+      Maria .................. Sunset.
+      Constanzia .................. twilight.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: 'cursive names uncertain: ''La Ulina'' may be ''La Alina'' or ''La Elina''; ''Constanzia'' may be ''Coustanzia'''
+
+  - id: "253"
+    in: "00:37:59.500"
+    out: "00:38:08.750"
+    type: narrative
+    text: |-
+      The glory of the
+      Borgia——the Palazzo
+      Santa Maria.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: large decorative initial capital on "The"
+      all_caps: false
+    confidence: high
+
+  - id: "255"
+    in: "00:38:15.750"
+    out: "00:38:22.250"
+    type: dialogue
+    text: |-
+      "The Duke della Varnese—
+      the Lady Adriana della
+      Varnese."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "259"
+    in: "00:39:08.500"
+    out: "00:39:18.000"
+    type: dialogue
+    text: |-
+      "A little flat, perhaps, but
+      you'll console yourself
+      with the ample figure
+      of her father's fortune—
+      marry her by all means,
+      Giano."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "260"
+    in: "00:39:24.000"
+    out: "00:39:32.000"
+    type: dialogue
+    text: |-
+      "Why did we come, father,
+      when we know how they
+      hate us and all the Orsini?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "261"
+    in: "00:39:33.000"
+    out: "00:39:45.750"
+    type: dialogue
+    text: |-
+      "The invitation was a
+      command. It is death to
+      defy the Borgia, even
+      though it may be fatal
+      to obey."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "262"
+    in: "00:39:52.750"
+    out: "00:39:58.000"
+    type: dialogue
+    text: |-
+      "My kinsman, Count
+      Donati—a true Borgia
+      and our closest friend."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "263"
+    in: "00:40:13.250"
+    out: "00:40:17.000"
+    type: dialogue
+    text: |-
+      "Inform me the instant
+      Don Juan arrives."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "267"
+    in: "00:40:50.000"
+    out: "00:40:53.500"
+    type: dialogue
+    text: |-
+      "Quickly, Excellency! Her
+      Highness awaits you!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "269"
+    in: "00:41:06.250"
+    out: "00:41:12.750"
+    type: dialogue
+    text: |-
+      "If her face matches her
+      feet—God help us both!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "271"
+    in: "00:41:19.500"
+    out: "00:41:21.750"
+    type: dialogue
+    text: |-
+      "It does!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: frame background is heavily damaged/blotchy with print noise; the card text itself is legible
+
+  - id: "281"
+    in: "00:42:44.250"
+    out: "00:42:49.000"
+    type: narrative
+    text: |-
+      "While the mistress waits—
+      our Spaniard dallies with
+      the maid."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "282"
+    in: "00:42:53.500"
+    out: "00:43:00.750"
+    type: dialogue
+    text: |-
+      "We shall see if the Lady
+      Lucrezia's sense of humor,
+      is equal to this occasion!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: italics on "this"
+      all_caps: false
+    confidence: high
+
+  - id: "284"
+    in: "00:43:25.750"
+    out: "00:43:34.250"
+    type: dialogue
+    text: |-
+      "You are very sure of yourself—but you will believe the tale when all Rome laughs."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "288"
+    in: "00:43:54.750"
+    out: "00:44:03.000"
+    type: dialogue
+    text: |-
+      "We are lost, Master! Lady Lucrezia herself is coming!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "295"
+    in: "00:44:43.500"
+    out: "00:44:55.500"
+    type: dialogue
+    text: |-
+      "My apologies for the wretch, gracious lady—I had hoped to improve his morals by my own example."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "299"
+    in: "00:45:22.000"
+    out: "00:45:28.000"
+    type: dialogue
+    text: |-
+      "May a simple Spaniard pay his respects to the illustrious flower of Europe?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "303"
+    in: "00:45:42.250"
+    out: "00:45:49.250"
+    type: dialogue
+    text: |-
+      "Your beauty was known to me in Seville, Madonna."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "304"
+    in: "00:45:50.250"
+    out: "00:45:56.500"
+    type: dialogue
+    text: |-
+      "Your reputation is not unknown to me, Don Juan."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "314"
+    in: "00:46:54.500"
+    out: "00:47:03.750"
+    type: dialogue
+    text: |-
+      "Perhaps you are not aware that Donati is our best swordsman. He may resent your interest in his lady."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: '"his lady" in italics'
+      all_caps: false
+    confidence: high
+
+  - id: "324"
+    in: "00:47:59.750"
+    out: "00:48:01.750"
+    type: narrative
+    text: |-
+      None so dreaded as Neri, the sorcerer, whose rare and subtle poisons were distilled in a secret room of the Borgia palace.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: none
+      emphasis: italic
+      all_caps: false
+    confidence: high
+
+  - id: "329"
+    in: "00:48:20.000"
+    out: "00:48:37.500"
+    type: dialogue
+    text: |-
+      "A pity that the Duke della Varnese—worthy gentleman!—will suffer a heart attack before dawn."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "336"
+    in: "00:50:03.000"
+    out: "00:50:09.500"
+    type: dialogue
+    text: |-
+      "To commemorate the first visit of an Orsini to a Borgia—a little wine?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "344"
+    in: "00:51:32.000"
+    out: "00:51:34.500"
+    type: dialogue
+    text: |-
+      "To your devastating charm!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "346"
+    in: "00:51:41.250"
+    out: "00:51:44.750"
+    type: dialogue
+    text: |-
+      "Let your lips perfume the wine."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "350"
+    in: "00:51:55.500"
+    out: "00:51:59.000"
+    type: dialogue
+    text: |-
+      "We Borgia do not share with another."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "351"
+    in: "00:51:59.750"
+    out: "00:52:10.000"
+    type: dialogue
+    text: |-
+      "Let no man scorn so wise an example, sweet teacher!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "357"
+    in: "00:52:37.250"
+    out: "00:52:41.500"
+    type: dialogue
+    text: |-
+      "The rose is richer by a great experience."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "362"
+    in: "00:53:09.250"
+    out: "00:53:22.250"
+    type: dialogue
+    text: |-
+      "We Borgia approve of cleverness in our friends—we have no clever enemies!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "367"
+    in: "00:53:38.000"
+    out: "00:53:45.250"
+    type: dialogue
+    text: |-
+      "Your balcony—at midnight?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "370"
+    in: "00:54:19.250"
+    out: "00:54:26.250"
+    type: dialogue
+    text: |-
+      "This Spaniard, sweet sister, is yours to win—or mine to slay!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "371"
+    in: "00:54:29.250"
+    out: "00:54:33.750"
+    type: dialogue
+    text: |-
+      "In that case, dear brother—he shall live!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "376"
+    in: "00:54:55.500"
+    out: "00:55:07.250"
+    type: dialogue
+    text: |-
+      "Tonight you saved my father's life—what can I do to prove my heart's gratitude?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "377"
+    in: "00:55:07.750"
+    out: "00:55:36.000"
+    type: dialogue
+    text: |-
+      "Later!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: frame is dark and grainy, background scene barely visible
+
+  - id: "380"
+    in: "00:55:51.000"
+    out: "00:56:04.500"
+    type: narrative
+    text: |-
+      Midnight.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "382"
+    in: "00:56:20.500"
+    out: "00:56:24.250"
+    type: dialogue
+    text: |-
+      "Highness, your Don Juan is late."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "383"
+    in: "00:56:34.750"
+    out: "00:56:39.500"
+    type: dialogue
+    text: |-
+      "Perhaps he stays away because of the Lady Adriana."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "384"
+    in: "00:56:51.750"
+    out: "00:56:56.250"
+    type: dialogue
+    text: |-
+      "Go to bed—I would sit alone awhile."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "385"
+    in: "00:56:59.750"
+    out: "00:57:05.500"
+    type: dialogue
+    text: |-
+      "I, too, think the Spaniard most handsome."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "392"
+    in: "00:57:38.250"
+    out: "00:57:44.750"
+    type: dialogue
+    text: |-
+      "Why are you here—at such an hour?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "393"
+    in: "00:57:47.000"
+    out: "00:57:50.250"
+    type: dialogue
+    text: |-
+      "If I am late—a thousand
+      pardons!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "405"
+    in: "00:59:04.750"
+    out: "00:59:11.000"
+    type: dialogue
+    text: |-
+      "You promised to reward
+      me—but perhaps you fear
+      Donati, your swordsman
+      friend."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "408"
+    in: "00:59:29.250"
+    out: "00:59:32.500"
+    type: dialogue
+    text: |-
+      "You are a charming
+      actress, Madonna."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "422"
+    in: "01:01:33.750"
+    out: "01:01:46.000"
+    type: narrative
+    text: |-
+      Days passed slowly
+      for Juan.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: large decorative initial cap
+      all_caps: false
+    confidence: high
+
+  - id: "427"
+    in: "01:02:11.000"
+    out: "01:02:19.750"
+    type: dialogue
+    text: |-
+      "For three days at this
+      same hour I have
+      waited here."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "429"
+    in: "01:02:32.500"
+    out: "01:02:36.250"
+    type: dialogue
+    text: |-
+      "My soul has been asleep—
+      you have awakened it—"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "433"
+    in: "01:03:03.000"
+    out: "01:03:13.250"
+    type: dialogue
+    text: |-
+      "You have given me a new
+      faith—faith in the goodness
+      of women—teach me—help
+      me—so that I may never
+      lose that faith again!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "435"
+    in: "01:03:19.500"
+    out: "01:03:27.750"
+    type: dialogue
+    text: |-
+      "What did I tell you,
+      milady? The chapel
+      garden holds more
+      allure for him than
+      your grace's balcony."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "444"
+    in: "01:04:37.750"
+    out: "01:04:44.000"
+    type: narrative
+    text: |-
+      The home of the
+      Duke della Varnese--
+      the secret object of the
+      Borgia's unprovoked
+      attack on the Orsini--
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "445"
+    in: "01:04:52.000"
+    out: "01:05:01.500"
+    type: dialogue
+    text: |-
+      "You are under arrest—
+      as an Orsini you know
+      your fate."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "448"
+    in: "01:05:09.500"
+    out: "01:05:18.000"
+    type: dialogue
+    text: |-
+      "But a Borgia is nothing
+      if not merciful—a pardon
+      is still possible."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "449"
+    in: "01:05:19.750"
+    out: "01:05:35.000"
+    type: dialogue
+    text: |-
+      "My kinsman, Count Donati,
+      desires your daughter in
+      marriage--consent and
+      become our loyal follower."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "451"
+    in: "01:05:44.250"
+    out: "01:05:52.500"
+    type: dialogue
+    text: |-
+      "Take him to St. Angelo—
+      and behead him!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "454"
+    in: "01:06:07.250"
+    out: "01:06:16.250"
+    type: dialogue
+    text: |-
+      "What chance have we?
+      If I refuse it means death
+      to you—and a worse fate
+      for me."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "456"
+    in: "01:06:24.000"
+    out: "01:06:26.250"
+    type: dialogue
+    text: |-
+      "My father accepts."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "463"
+    in: "01:07:37.500"
+    out: "01:07:51.750"
+    type: dialogue
+    text: |-
+      "It is true, Master—the Orsini
+      are attacked without provo-
+      cation—their followers killed
+      or imprisoned in St. Angelo—
+      and the Duke della Varnese
+      is threatened!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "472"
+    in: "01:08:45.250"
+    out: "01:08:54.250"
+    type: dialogue
+    text: |-
+      "Twice I summoned you
+      and you ignored me—
+      tonight I lay aside my
+      pride and come to you."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "478"
+    in: "01:09:33.250"
+    out: "01:10:06.500"
+    type: dialogue
+    text: |-
+      "You fool! Do you think
+      Donati will allow any
+      harm to come to—her?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: italic on "her"
+      all_caps: false
+    confidence: high
+
+  - id: "479"
+    in: "01:10:07.000"
+    out: "01:10:17.750"
+    type: dialogue
+    text: |-
+      "The wisest man is the
+      easiest to deceive."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "481"
+    in: "01:10:23.500"
+    out: "01:10:37.500"
+    type: dialogue
+    text: |-
+      "Rome is laughing at you!
+      When you have learned
+      what we all knew long
+      ago—come to me, and
+      perhaps I shall teach you
+      wisdom."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "488"
+    in: "01:11:42.750"
+    out: "01:11:55.250"
+    type: dialogue
+    text: |-
+      "Adriana della Varnese is
+      safe with her father—at
+      the Vatican."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "498"
+    in: "01:12:40.250"
+    out: "01:12:48.000"
+    type: dialogue
+    text: |-
+      "If you betray me by a look
+      or sign — I will run this
+      intruder through!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "501"
+    in: "01:13:04.750"
+    out: "01:13:09.250"
+    type: dialogue
+    text: |-
+      "There is no one here—
+      please go!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "508"
+    in: "01:13:33.250"
+    out: "01:13:42.250"
+    type: dialogue
+    text: |-
+      "Your pardon, signor—
+      for trespassing ever so
+      slightly in your garden."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "522"
+    in: "01:15:23.250"
+    out: "01:15:28.000"
+    type: narrative
+    text: |-
+      Rome celebrated, on a
+      certain evening a month
+      later, the marriage of
+      Adriana della Varnese to
+      the Count Donati-- and
+      drunken shouts took up
+      the refrain of the
+      cathedral bells.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "542"
+    in: "01:18:14.000"
+    out: "01:18:30.000"
+    type: dialogue
+    text: |-
+      "Your repetition forces
+      me to believe you."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "543"
+    in: "01:18:30.500"
+    out: "01:18:34.750"
+    type: dialogue
+    text: |-
+      "Get the lady's cloak."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Get the lady\'s cloak.'
+
+  - id: "551"
+    in: "01:19:26.250"
+    out: "01:19:33.750"
+    type: dialogue
+    text: |-
+      "My husband suspects—
+      I rushed here to warn
+      you!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "552"
+    in: "01:19:37.250"
+    out: "01:19:49.250"
+    type: dialogue
+    text: |-
+      "Help me, Juan! If he
+      finds me out it will
+      end everything for me—
+      honor—happiness—my
+      very life!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "554"
+    in: "01:20:06.750"
+    out: "01:20:21.000"
+    type: dialogue
+    text: |-
+      "If my husband finds me
+      here—I'll kill myself."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "578"
+    in: "01:22:47.250"
+    out: "01:22:49.750"
+    type: dialogue
+    text: |-
+      "Hush—my lady sleeps!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "581"
+    in: "01:23:01.750"
+    out: "01:23:17.000"
+    type: dialogue
+    text: |-
+      "A tragedy, gentlemen,
+      in place of the usual
+      comedy! The husband—
+      as it happens—has killed
+      his wife."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "584"
+    in: "01:23:35.500"
+    out: "01:23:42.000"
+    type: dialogue
+    text: |-
+      "Look—his hands drip
+      with blood!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Look - his hands drip\nWith blood!"'
+
+  - id: "586"
+    in: "01:23:48.750"
+    out: "01:23:53.750"
+    type: dialogue
+    text: |-
+      "Be lenient—the man
+      is mad."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "590"
+    in: "01:24:34.250"
+    out: "01:24:37.250"
+    type: dialogue
+    text: |-
+      "Will those bells never
+      stop?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "591"
+    in: "01:24:39.000"
+    out: "01:24:45.750"
+    type: dialogue
+    text: |-
+      "Not until the banquet is
+      over and Donati escorts
+      his bride to their nuptial
+      chamber."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "608"
+    in: "01:27:26.250"
+    out: "01:27:30.750"
+    type: dialogue
+    text: |-
+      "Go—prepare yourself
+      for the nuptials."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "610"
+    in: "01:28:08.250"
+    out: "01:28:12.000"
+    type: dialogue
+    text: |-
+      "The Lady Adriana defies
+      your command."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "612"
+    in: "01:28:30.750"
+    out: "01:28:39.000"
+    type: dialogue
+    text: |-
+      "You are too impetuous, my
+      Giano——a haughty bride
+      makes a stubborn wife. She
+      must come to you."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "619"
+    in: "01:29:40.500"
+    out: "01:29:47.250"
+    type: dialogue
+    text: |-
+      "Your bride is here—
+      come and get her!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "623"
+    in: "01:30:22.000"
+    out: "01:30:33.250"
+    type: dialogue
+    text: |-
+      "You must believe in me,
+      Juan—my marriage was
+      plotted by the Borgia.
+      I swear I am innocent."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "624"
+    in: "01:31:52.500"
+    out: "01:31:55.500"
+    type: dialogue
+    text: |-
+      "Your bride is still here!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "625"
+    in: "01:32:04.000"
+    out: "01:32:08.750"
+    type: dialogue
+    text: |-
+      "With your permission,
+      sire, we fight to the
+      death!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "631"
+    in: "01:34:20.000"
+    out: "01:34:24.250"
+    type: dialogue
+    text: |-
+      "Arrest him for the murder
+      of Count Donati!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "632"
+    in: "01:34:28.750"
+    out: "01:34:33.000"
+    type: dialogue
+    text: |-
+      "Throw him into the
+      dungeon of St. Angelo!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "635"
+    in: "01:34:59.000"
+    out: "01:35:05.250"
+    type: dialogue
+    text: |-
+      "Arrest her as an accomplice
+      in the murder of her
+      husband!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "636"
+    in: "01:35:13.750"
+    out: "01:35:19.750"
+    type: dialogue
+    text: |-
+      "Neri will be delighted.
+      Take her to the tower."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Neri wWill be delighted\nTake her to the tower.'
+
+  - id: "638"
+    in: "01:35:31.750"
+    out: "01:35:40.750"
+    type: narrative
+    text: |-
+      When the gates of
+      St. Angelo clanged shut
+      upon a prisoner he was
+      never heard of again--
+      for certain death
+      awaited him in a slimy
+      cell below the level of
+      the River Tiber.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "656"
+    in: "01:38:07.500"
+    out: "01:38:16.250"
+    type: dialogue
+    text: |-
+      "Your quarters, rash
+      Spaniard, are none
+      too tidy."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "657"
+    in: "01:38:16.750"
+    out: "01:38:22.750"
+    type: dialogue
+    text: |-
+      "They will serve, I
+      think—for the brief
+      time I remain here."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "662"
+    in: "01:38:38.500"
+    out: "01:38:49.000"
+    type: dialogue
+    text: |-
+      "Your freedom shall be
+      a gift from me—if
+      you are capable of
+      appreciating it."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "668"
+    in: "01:39:31.250"
+    out: "01:39:58.000"
+    type: dialogue
+    text: |-
+      "As this is your last hour it
+      will comfort you to know
+      that Adriana was faithful to
+      you. It served our purpose to
+      have you believe otherwise."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "670"
+    in: "01:40:00.750"
+    out: "01:40:14.500"
+    type: dialogue
+    text: |-
+      "It will amuse us to place
+      Adriana at Neri's disposal—
+      on the rack."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "673"
+    in: "01:40:31.500"
+    out: "01:40:42.250"
+    type: dialogue
+    text: |-
+      "Prepare the block—in
+      an hour I shall return
+      to see how a Spaniard
+      dies."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: '"block—in" — possibly "block; in" or "block! In"'
+
+  - id: "692"
+    in: "01:42:57.750"
+    out: "01:43:10.000"
+    type: dialogue
+    text: |-
+      "I see! God's will is deeper
+      than a river—He would
+      have thee live, for He
+      has shown a way—!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "696"
+    in: "01:43:49.500"
+    out: "01:43:55.750"
+    type: dialogue
+    text: |-
+      "My wronged wife agonizes
+      in hell—thou shalt not
+      join her there!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "698"
+    in: "01:44:14.000"
+    out: "01:44:17.250"
+    type: dialogue
+    text: |-
+      "Go—and begin thy
+      living hell!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "700"
+    in: "01:44:37.750"
+    out: "01:44:59.250"
+    type: narrative
+    text: |-
+      The tower of the Borgia
+      Palace——A room of
+      horrors—Neri's workshop.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "714"
+    in: "01:46:19.250"
+    out: "01:46:29.500"
+    type: dialogue
+    text: |-
+      "Such a lovely subject
+      should give us an amusing
+      transformation. Prolong our
+      diversion to the utmost!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "723"
+    in: "01:47:41.250"
+    out: "01:47:50.750"
+    type: dialogue
+    text: |-
+      "Don Juan shall be disposed
+      of—then we shall return—
+      to watch——"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "761"
+    in: "01:51:37.750"
+    out: "01:51:42.250"
+    type: dialogue
+    text: |-
+      "Before us, beloved,
+      is Spain — — and
+      happiness—"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
