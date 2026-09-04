@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-04T03:57:54Z",
+ "generated": "2026-09-04T03:58:15Z",
  "films": [
   {
    "slug": "don-juan-1926",
@@ -21,8 +21,8 @@
    "slug": "faust-1926",
    "title": "Faust",
    "year": 1926,
-   "cards": 0,
-   "transcribed": 0,
+   "cards": 134,
+   "transcribed": 134,
    "verified": 0,
    "translated": {
     "es-MX": 0
@@ -31,7 +31,7 @@
     "es-MX": 0
    },
    "timing": "reference",
-   "extraction": "not-started"
+   "extraction": "transcribed"
   },
   {
    "slug": "it-1927",

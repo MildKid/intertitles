@@ -1,0 +1,2437 @@
+# Intertitle cards, in film order. Schema: data/README.md and films/_example/cards.yaml.
+# Written by the pipeline (transcribe.py, scrub.py); hand edits are fine, key order is kept.
+film: faust-1926
+cards:
+  - id: "002"
+    in: "00:00:02.750"
+    out: "00:00:08.000"
+    type: title
+    text: |-
+      Faust
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: large illuminated blackletter lettering
+      all_caps: false
+    confidence: high
+
+  - id: "003"
+    in: "00:00:09.750"
+    out: "00:00:17.500"
+    type: credit
+    text: |-
+      Manuskript:
+      Hans Kyser
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: blackletter type
+      all_caps: false
+    confidence: high
+
+  - id: "004"
+    in: "00:00:18.750"
+    out: "00:00:21.750"
+    type: credit
+    text: |-
+      Regie:
+      F. W. Murnau
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: blackletter type
+      all_caps: false
+    confidence: high
+
+  - id: "005"
+    in: "00:00:23.750"
+    out: "00:00:27.000"
+    type: credit
+    text: |-
+      Photographie:
+      Carl Hoffmann
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: blackletter type
+      all_caps: false
+    confidence: high
+
+  - id: "006"
+    in: "00:00:28.000"
+    out: "00:00:34.000"
+    type: credit
+    text: |-
+      Bauten, Landschaften,
+      Kostüme:
+      Robert Herlth Walter Röhrig
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: blackletter type, two names set side by side on the last line
+      all_caps: false
+    confidence: high
+
+  - id: "008"
+    in: "00:00:36.000"
+    out: "00:00:55.000"
+    type: credit
+    text: |-
+      Personen:
+      Faust ... Gösta Ekman
+      Mephisto ... Emil Jannings
+      Gretchen ... Camilla Horn
+      Mutter ... Frieda Richard
+      Valentin ... Wilhelm Dieterle
+      Marthe ... Yvette Guilbert
+      Herzog ... Eric Barclay
+      Herzogin ... Hanna Ralph
+      Erzengel ... Werner Fuetterer
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: blackletter type, leader dots between name and role
+      all_caps: false
+    confidence: medium
+    doubt: Marthe's actress given as "Yvette Guilbert"; the blackletter v/o shapes could also read "Yoette Guilbert"
+
+  - id: "009"
+    in: "00:00:56.000"
+    out: "00:01:12.250"
+    type: narrative
+    text: |-
+      Aufgetan sind
+      die Pforten der Finsternis
+      und die Schrecken der Völker
+      jagen über die Erde...
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: blackletter type
+      all_caps: false
+    confidence: high
+
+  - id: "013"
+    in: "00:01:54.750"
+    out: "00:02:03.750"
+    type: dialogue
+    text: |-
+      „Zurück! Halt ein!
+      Was geißelst Du
+      die Menschheit mit Krieg,
+      Pest, Hungersnot?!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: blackletter type
+      all_caps: false
+    confidence: high
+
+  - id: "014"
+    in: "00:02:05.500"
+    out: "00:02:08.000"
+    type: dialogue
+    text: |-
+      „Mein
+      ist die Erde!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: blackletter type, letter-spaced word "Mein"
+      all_caps: false
+    confidence: high
+
+  - id: "016"
+    in: "00:02:12.000"
+    out: "00:02:21.000"
+    type: dialogue
+    text: |-
+      „Wie wird die Erde
+      Dein sein!
+      Der Mensch ist gut:
+      Sein Geist strebt
+      nach der Wahrheit.“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: blackletter type
+      all_caps: false
+    confidence: medium
+    doubt: last line "nach der Wahrheit" and its closing punctuation sit close to the burned-in caption band and are only partly legible
+
+  - id: "017"
+    in: "00:02:22.000"
+    out: "00:02:24.750"
+    type: dialogue
+    text: |-
+      „Sieh dort hinab!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: blackletter type
+      all_caps: false
+    confidence: high
+
+  - id: "019"
+    in: "00:02:46.250"
+    out: "00:03:06.000"
+    type: dialogue
+    text: |-
+      „Wunderbar
+      sind alle Dinge Himmels
+      und der Erde!
+      Doch der Wunder Größtes
+      ist die Freiheit des Menschen:
+      Zu wählen zwischen
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: blackletter type
+      all_caps: false
+    confidence: low
+    doubt: card is cut off after "Zu wählen zwischen"; the closing line (likely "Gut und Böse." plus closing quote) is not visible in this frame
+
+  - id: "023"
+    in: "00:03:19.250"
+    out: "00:03:21.750"
+    type: dialogue
+    text: |-
+      „Sahst Du den Faust?!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: first word's Fraktur initial is ambiguous; read as 'Sahst' but could be 'Kennst'
+
+  - id: "024"
+    in: "00:03:23.000"
+    out: "00:03:37.750"
+    type: dialogue
+    text: |-
+      „Ein Schelm wie alle!
+      Er lehrt das Gute
+      und er treibt das Böse!
+      Gold will er schaffen
+      und den Stein der Weisen!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: last line partly obscured by an overlaid caption; read as 'Weisen' (as in Stein der Weisen) though the final letters are unclear
+
+  - id: "028"
+    in: "00:04:44.000"
+    out: "00:04:53.500"
+    type: dialogue
+    text: |-
+      „Was gilt die Wette:
+      Ich ringe Gott
+      die Seele Faustens ab!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "029"
+    in: "00:04:58.500"
+    out: "00:05:07.250"
+    type: dialogue
+    text: |-
+      „Kannst
+      Du in Faust das
+      Göttliche zerstören:
+      Dein
+      sei die Erde!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: '''sei'' rendered in long-s Fraktur is hard to distinguish from ''lei'' at this resolution'
+
+  - id: "031"
+    in: "00:05:13.750"
+    out: "00:05:20.750"
+    type: dialogue
+    text: |-
+      „Dem Bösen widersteht
+      kein Mensch!
+      Die Wette gilt!!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "044"
+    in: "00:06:42.000"
+    out: "00:06:46.250"
+    type: dialogue
+    text: |-
+      „Die Pest!......Die Pest!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: exact number of dots in the ellipsis between the two exclamations is uncertain
+
+  - id: "051"
+    in: "00:07:24.250"
+    out: "00:07:31.750"
+    type: narrative
+    text: |-
+      Furchtbar griff die
+      Seuche um sich:
+      in wenigen Tagen
+      lag die halbe Stadt
+      im Sterben!
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: last line partly obscured by an overlaid caption; read as 'im Sterben'
+
+  - id: "055"
+    in: "00:07:55.000"
+    out: "00:08:29.000"
+    type: narrative
+    text: |-
+      Tag und Nacht
+      rang Faust
+      im Gebet mit Gott,
+      um ein Heilmittel
+      gegen die Pest
+      zu finden
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: low
+    doubt: last line partly obscured by a burned-in English subtitle; read as 'zu finden' from the visible partial strokes
+
+  - id: "056"
+    in: "00:08:30.250"
+    out: "00:08:32.750"
+    type: insert
+    text: |-
+      und es war ein Geschrey im gantzen Aegyptenland, denn es war nicht ein Haus, in dem nicht ein Toter lag
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: last word of the passage is faint; read as 'Toter', could be 'Totes'
+
+  - id: "057"
+    in: "00:08:39.000"
+    out: "00:08:39.750"
+    type: insert
+    text: |-
+      und es war ein Geschrey im gantzen Aegyptenland, denn es war nicht ein Haus, in dem nicht ein Toter lag
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: low
+    doubt: final word 'lag' is cut off at the bottom frame edge; last word of the prior line read as 'Toter', could be 'Totes'
+
+  - id: "060"
+    in: "00:08:51.750"
+    out: "00:09:12.000"
+    type: dialogue
+    text: |-
+      „Segne das Werk
+      der Rettung,
+      Herr mein Gott,
+      nur Du kannst in diesem
+      Jammer helfen!“
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: low
+    doubt: last line partly obscured by a burned-in English subtitle; read as 'Jammer helfen!' with a closing quote assumed but not clearly visible
+
+  - id: "063"
+    in: "00:09:20.000"
+    out: "00:10:16.750"
+    type: dialogue
+    text: |-
+      „Hilf . . . hilf!
+      Meine Mutter stirbt!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "075"
+    in: "00:12:16.750"
+    out: "00:12:25.500"
+    type: narrative
+    text: |-
+      Todesangst
+      und Todesraserei
+      erfüllte die Stadt...
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "078"
+    in: "00:12:37.250"
+    out: "00:12:46.500"
+    type: dialogue
+    text: |-
+      „Tuet Buße,
+      fastet und betet!
+      Der Glaube nur
+      bezwingt den Tod!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: '"bezwingt" is a best guess; card is faint and mottled'
+
+  - id: "084"
+    in: "00:13:23.500"
+    out: "00:13:28.250"
+    type: dialogue
+    text: |-
+      „Habt Ehrfurcht
+      vor dem Tode!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "085"
+    in: "00:13:29.750"
+    out: "00:13:38.750"
+    type: dialogue
+    text: |-
+      „Wir wissen nicht,
+      wann es uns trifft!
+      Bis dahin wollen wir leben
+      und genießen!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "087"
+    in: "00:13:44.000"
+    out: "00:13:53.250"
+    type: dialogue
+    text: |-
+      „Wer da glaubet,
+      der wird leben!
+      Die Gottlosen aber
+      wird der Tod
+      zerschmettern!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "090"
+    in: "00:14:11.000"
+    out: "00:14:13.250"
+    type: narrative
+    text: |-
+      The Plague!! The Plague!!
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "093"
+    in: "00:15:02.000"
+    out: "00:15:43.500"
+    type: dialogue
+    text: |-
+      „Laßt ab von mir!
+      Wir sind verloren!
+      Es hilft kein Glaube,
+      es hilft kein Wissen!
+      Alles ist Lüge...“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: closing quote mark is cropped at the bottom edge of the frame
+
+  - id: "098"
+    in: "00:16:07.000"
+    out: "00:16:22.750"
+    type: insert
+    text: |-
+      Du aber Herr Gott
+      bist barmherzig und
+      von großer Güte
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: none
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: '"Güte" is a best guess; page is photographed at an angle and partly shadowed'
+
+  - id: "110"
+    in: "00:18:54.000"
+    out: "00:19:07.500"
+    type: dialogue
+    text: |-
+      „Um Hilfe rufe ich
+      Dich an,
+      Geist der Finsternis:
+      Erscheine!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "112"
+    in: "00:19:17.250"
+    out: "00:19:21.750"
+    type: dialogue
+    text: |-
+      „Erscheine,
+      Dämon des Bösen!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "122"
+    in: "00:21:31.750"
+    out: "00:22:19.750"
+    type: dialogue
+    text: |-
+      „Du hast mich
+      gerufen!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "124"
+    in: "00:22:32.250"
+    out: "00:22:33.500"
+    type: insert
+    text: |-
+      Ich entsage Gott und
+      seinen himmlischen
+      Heerscharen. Und dafür
+      soll mein sein alle Macht
+      und Herrlichkeit der
+      Welt.
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: low
+    doubt: Cursive handwriting hard to read; "entsage" and "Heerscharen" uncertain letter by letter
+
+  - id: "125"
+    in: "00:22:43.750"
+    out: "00:22:48.500"
+    type: dialogue
+    text: |-
+      Hebe Dich hinweg von mir, Satan!
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "129"
+    in: "00:23:59.250"
+    out: "00:24:05.750"
+    type: narrative
+    text: |-
+      Macht
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: low
+    doubt: faint additional text lower-left, possibly the end of another word ('...lichkeit'), obscured by the smoke effect and not clearly part of this card
+
+  - id: "134"
+    in: "00:25:40.250"
+    out: "00:25:46.250"
+    type: dialogue
+    text: |-
+      Blut ist ein ganz besondrer Saft!
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "136"
+    in: "00:25:50.250"
+    out: "00:25:54.500"
+    type: dialogue
+    text: |-
+      Für einen Tag - -?!
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "138"
+    in: "00:26:08.500"
+    out: "00:26:19.500"
+    type: dialogue
+    text: |-
+      Faust! Hilf uns!!
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "139"
+    in: "00:26:20.000"
+    out: "00:26:27.250"
+    type: dialogue
+    text: |-
+      So helfe ich denn in Teufels Namen!
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "141"
+    in: "00:27:17.250"
+    out: "00:27:20.000"
+    type: dialogue
+    text: |-
+      Ein Wunder! Ein Wunder!
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "152"
+    in: "00:28:26.250"
+    out: "00:28:33.500"
+    type: dialogue
+    text: |-
+      „Immer will ich
+      zum Gekreuzigten
+      für Dich beten,
+      wenn Dusie heißt!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: low
+    doubt: unclear phrase 'wenn Dusie heißt' — possibly 'wie Du heißt' (whatever you're called)
+
+  - id: "153"
+    in: "00:28:45.250"
+    out: "00:28:50.250"
+    type: dialogue
+    text: |-
+      „Er kann das heilige
+      Kreuz nicht ansehen!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "155"
+    in: "00:28:54.500"
+    out: "00:29:02.000"
+    type: dialogue
+    text: |-
+      „Der Teufel ist mit ihm
+      im Bund!
+      Steiniget ihn!
+      Steiniget ihn!!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "160"
+    in: "00:29:22.750"
+    out: "00:30:40.750"
+    type: dialogue
+    text: |-
+      „Erlöse du mich,
+      Trank des Todes!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "161"
+    in: "00:30:43.250"
+    out: "00:31:11.000"
+    type: dialogue
+    text: |-
+      „Es ist das Leben,
+      Faust,
+      das Dich mit Deiner Jugend
+      schönem Bildnis
+      lockt!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "163"
+    in: "00:31:13.250"
+    out: "00:32:01.500"
+    type: dialogue
+    text: |-
+      „Dein Leben war
+      nur Bücherstaub
+      und Moder!
+      Genuß ist alles!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "164"
+    in: "00:32:02.000"
+    out: "00:32:06.250"
+    type: dialogue
+    text: |-
+      „Ich biete Dir
+      das höchste Glück:
+      Die Jugend!
+      Greif' zu!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "170"
+    in: "00:33:40.000"
+    out: "00:33:42.750"
+    type: dialogue
+    text: |-
+      „Den Alten hätten wir
+      eingefangen!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "178"
+    in: "00:34:42.250"
+    out: "00:35:10.250"
+    type: narrative
+    text: |-
+      Auf meinen antel tritt
+      Step upon my cloak..
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "189"
+    in: "00:37:38.250"
+    out: "00:37:57.000"
+    type: dialogue
+    text: |-
+      „Das Hochzeitsfest
+      der Herzogin von Parma:
+      der schönsten Frau
+      Italiens!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "194"
+    in: "00:38:32.000"
+    out: "00:38:35.250"
+    type: dialogue
+    text: |-
+      „Seltsame Gäste!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "197"
+    in: "00:39:02.750"
+    out: "00:39:13.250"
+    type: dialogue
+    text: |-
+      „Der höchsten Schönheit
+      huldigend,
+      bringt Euch mein Herr
+      die Schätze seiner Reiche!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "225"
+    in: "00:42:44.000"
+    out: "00:43:11.500"
+    type: dialogue
+    text: |-
+      „Der Probetag ist um!
+      Das Glas ist voll!
+      Sei, der Du warst!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: First word of line 3 read as 'Sei'; could be misread as 'Hei' in the blackletter font
+
+  - id: "232"
+    in: "00:44:30.000"
+    out: "00:44:40.750"
+    type: dialogue
+    text: |-
+      „Du hast das Leben
+      gründlich durchgekostet,
+      Faust!
+      Von Rausch zu Rausch . . .
+      ein Taumel ohnegleichen!
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: low
+    doubt: Final line of the card ('Doch nichts befriedigt Dich!') is obscured by a burned-in caption in this frame and not transcribed
+
+  - id: "233"
+    in: "00:44:41.250"
+    out: "00:44:44.250"
+    type: dialogue
+    text: |-
+      „Du hast das Leben
+      gründlich durchgekostet,
+      Faust!
+      Von Rausch zu Rausch . . .
+      ein Taumel ohnegleichen!
+      Doch nichts befriedigt Dich!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "234"
+    in: "00:44:49.750"
+    out: "00:45:02.750"
+    type: dialogue
+    text: |-
+      „Willst Du ein Weib,
+      ein Kartenspiel,
+      ein Bachanal?
+      Was Du Dir wünschest,
+      ich muß es Dir erfüllen!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "238"
+    in: "00:45:59.750"
+    out: "00:46:05.750"
+    type: dialogue
+    text: |-
+      „Zur Heimat bring' mich!
+      Und im Augenblick!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "239"
+    in: "00:46:26.250"
+    out: "00:46:31.250"
+    type: dialogue
+    text: |-
+      „Ist heut ein Fest
+      in Eurer Stadt?“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "240"
+    in: "00:46:35.750"
+    out: "00:46:45.250"
+    type: dialogue
+    text: |-
+      „Ihr kommt wohl
+      aus dem Türkenland,
+      daß Ihr
+      vom heiligen Ostern
+      nichts gehört?!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "241"
+    in: "00:47:48.750"
+    out: "00:47:59.000"
+    type: dialogue
+    text: |-
+      „Als steht das Leben
+      immer still:
+      Es ist alles noch
+      wie einst...!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: first line reads 'Als steht das Leben'; could be 'Als stünd das Leben'
+
+  - id: "243"
+    in: "00:48:44.000"
+    out: "00:48:47.500"
+    type: dialogue
+    text: |-
+      „Ein Unschuldslärochen,
+      das zum Pfaffen läuft...
+      Sie ist nichts
+      für Dich..!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: '''Unschuldslärochen'' uncertain, possibly ''Unschuldslärvchen'''
+
+  - id: "244"
+    in: "00:48:48.250"
+    out: "00:48:52.000"
+    type: dialogue
+    text: |-
+      „Ein Unschuldslärochen,
+      das zum Pfaffen läuft...
+      Sie ist nichts
+      für Dich..!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: '''Unschuldslärochen'' uncertain, possibly ''Unschuldslärvchen''; duplicate frame of card 243'
+
+  - id: "250"
+    in: "00:49:40.250"
+    out: "00:49:48.500"
+    type: dialogue
+    text: |-
+      „Lobe den Herren
+      den mächtigen König
+      der Ehren...“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: decorative oversized initial capital
+      all_caps: false
+    confidence: high
+
+  - id: "252"
+    in: "00:50:31.250"
+    out: "00:50:33.250"
+    type: dialogue
+    text: |-
+      „Urlaub, Mutter!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "260"
+    in: "00:52:01.500"
+    out: "00:52:07.250"
+    type: dialogue
+    text: |-
+      „Ich weiß Dir hier
+      gefälligere Dirnen!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "261"
+    in: "00:52:10.000"
+    out: "00:52:15.500"
+    type: dialogue
+    text: |-
+      „Ich will nur sie!
+      Du tust, was ich befehle!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "270"
+    in: "00:53:40.750"
+    out: "00:53:43.000"
+    type: dialogue
+    text: |-
+      „Bruder Valentin!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "279"
+    in: "00:54:21.500"
+    out: "00:54:30.750"
+    type: dialogue
+    text: |-
+      „Hat sie dies
+      goldne Kettlein
+      erst im Haus,
+      wird sie die Teufelskraft
+      schon spüren!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "291"
+    in: "00:56:36.250"
+    out: "00:56:39.500"
+    type: dialogue
+    text: |-
+      „Potzblitz,
+      wie hübsch Du bist!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: '"Potzblitz" is a stylized Fraktur exclamation; could be misread as "Poßblitz"'
+
+  - id: "292"
+    in: "00:56:41.750"
+    out: "00:56:45.000"
+    type: dialogue
+    text: |-
+      „Wie steht's denn
+      mit dem Freiersmann?“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "302"
+    in: "00:57:56.500"
+    out: "00:58:00.500"
+    type: dialogue
+    text: |-
+      „Was hast Du, Kind?“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "305"
+    in: "00:58:19.750"
+    out: "00:58:27.500"
+    type: dialogue
+    text: |-
+      „Sag's ihr, mein Kind,
+      wenn Du es mir
+      nicht sagen willst!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "320"
+    in: "00:59:58.500"
+    out: "01:00:04.250"
+    type: dialogue
+    text: |-
+      „Darf ich zur
+      Muhme Marthe
+      gehen?“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "321"
+    in: "01:00:05.500"
+    out: "01:00:10.500"
+    type: narrative
+    text: |-
+      Frau Marthe Schwerdtlein
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "324"
+    in: "01:00:25.500"
+    out: "01:00:37.250"
+    type: dialogue
+    text: |-
+      „Drei Tropfen
+      von diesem Liebestrank
+      machen alle Frauenherzen
+      nach Dir toll!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "329"
+    in: "01:02:02.750"
+    out: "01:02:08.500"
+    type: dialogue
+    text: |-
+      „Sieh', Muhme Marthe,
+      was ich
+      in meiner Lade fand . . . !“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "330"
+    in: "01:02:14.250"
+    out: "01:02:18.250"
+    type: dialogue
+    text: |-
+      „Ein reicher Schatz!
+      Gesteh's!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "332"
+    in: "01:02:23.750"
+    out: "01:02:26.250"
+    type: dialogue
+    text: |-
+      „Ich fands
+      in meiner Lade!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "333"
+    in: "01:02:49.500"
+    out: "01:02:55.250"
+    type: dialogue
+    text: |-
+      „Ein einziges Mal nur
+      laß mich die schöne Kette
+      umnehmen!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "335"
+    in: "01:03:36.500"
+    out: "01:03:42.000"
+    type: dialogue
+    text: |-
+      „Ein Sträußchen
+      für den Bräutigam,
+      ein Kränzlein
+      für die Braut . . .“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: large ornamental initial letter
+      all_caps: false
+    confidence: medium
+    doubt: opening quote mark obscured by the decorative initial letter
+
+  - id: "344"
+    in: "01:05:12.750"
+    out: "01:05:19.250"
+    type: dialogue
+    text: |-
+      „Verzeihung,
+      schöne Frau,
+      ich suche
+      Frau Marthe Schwerdtlein!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "346"
+    in: "01:05:57.500"
+    out: "01:06:03.250"
+    type: dialogue
+    text: |-
+      „Von Eurem Vetter . . .
+      aus der Lombardei . . . !“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "347"
+    in: "01:06:15.000"
+    out: "01:06:20.750"
+    type: dialogue
+    text: |-
+      „Er gab mir
+      diese Kette zum Geschenk
+      für Euch!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "356"
+    in: "01:07:59.750"
+    out: "01:08:06.750"
+    type: dialogue
+    text: |-
+      „Wen wir schließen
+      im Ringelreih'n,
+      der soll unser
+      Liebster sein . . .!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: large ornamental initial letter
+      all_caps: false
+    confidence: medium
+    doubt: first word obscured by the decorative initial letter, read as "Wen"
+
+  - id: "357"
+    in: "01:08:11.000"
+    out: "01:08:15.750"
+    type: dialogue
+    text: |-
+      „Eins, zwei, drei,
+      mach Dich frei . . .!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: large ornamental initial letter
+      all_caps: false
+    confidence: high
+
+  - id: "360"
+    in: "01:08:38.750"
+    out: "01:08:43.000"
+    type: dialogue
+    text: |-
+      „Verzeiht:
+      Mein Magen
+      ist zu schwach für solch
+      ein feuriges Getränk!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "362"
+    in: "01:08:47.500"
+    out: "01:08:57.500"
+    type: dialogue
+    text: |-
+      „Erlaubt,
+      daß ich mir selbst
+      ein Tränklein mische,
+      wie ichs in Padua
+      gelernt!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "376"
+    in: "01:11:23.500"
+    out: "01:11:29.500"
+    type: dialogue
+    text: |-
+      „Mein Freund,
+      ein Prinz aus edelstem
+      Geblüt!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "388"
+    in: "01:13:03.000"
+    out: "01:13:05.250"
+    type: narrative
+    text: |-
+      ...liebt mich nicht...
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "389"
+    in: "01:13:11.750"
+    out: "01:13:14.500"
+    type: narrative
+    text: |-
+      ...liebt mich...
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "390"
+    in: "01:13:18.000"
+    out: "01:13:23.000"
+    type: dialogue
+    text: |-
+      „Ja, von ganzem Herzen
+      liebt er Dich!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "395"
+    in: "01:14:01.750"
+    out: "01:14:04.250"
+    type: dialogue
+    text: |-
+      „Sie liebt mich...
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: no closing quotation mark visible on the card
+
+  - id: "396"
+    in: "01:14:08.000"
+    out: "01:14:10.500"
+    type: narrative
+    text: |-
+      ...liebt mich nicht...
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "397"
+    in: "01:14:12.500"
+    out: "01:14:14.750"
+    type: dialogue
+    text: |-
+      „Sie liebt Dich!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "402"
+    in: "01:14:41.750"
+    out: "01:14:45.250"
+    type: dialogue
+    text: |-
+      „Auf ewig
+      bin ich Dein!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "409"
+    in: "01:15:36.750"
+    out: "01:15:39.250"
+    type: dialogue
+    text: |-
+      „Er liebt mich...!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "418"
+    in: "01:16:54.250"
+    out: "01:17:12.000"
+    type: dialogue
+    text: |-
+      „Was wartest Du!?
+      Das Liebchen
+      leuchtet selbst
+      Dir auf den Weg . . . .!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "434"
+    in: "01:18:59.500"
+    out: "01:19:19.000"
+    type: dialogue
+    text: |-
+      „Kein Mädchen gibt's,
+      daß Deiner Schwester
+      gleicht:
+      Gretchen soll leben!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "435"
+    in: "01:19:21.250"
+    out: "01:19:27.250"
+    type: dialogue
+    text: |-
+      „Ein hübsches Mädchen
+      ist nicht brav!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "436"
+    in: "01:19:29.500"
+    out: "01:19:31.750"
+    type: dialogue
+    text: |-
+      „Gretchen soll leben!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "437"
+    in: "01:19:33.250"
+    out: "01:19:40.500"
+    type: dialogue
+    text: |-
+      „Dein Gretchen
+      soll leben!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "456"
+    in: "01:23:36.250"
+    out: "01:23:43.000"
+    type: dialogue
+    text: |-
+      „Mord . . . Mord . . .
+      Mord . . .!!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "459"
+    in: "01:23:53.750"
+    out: "01:23:59.750"
+    type: dialogue
+    text: |-
+      „Fort ! . . . Fort !!
+      Die Häscher
+      suchen schon den Mörder!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "463"
+    in: "01:24:27.250"
+    out: "01:24:34.250"
+    type: dialogue
+    text: |-
+      „Rühr mich nicht an,
+      Du Dirne!
+      Dein Buhle hat mich
+      ermordet!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: first word set in Fraktur reads like 'Kühr' but 'Rühr' (touch) fits sense and letterform
+
+  - id: "464"
+    in: "01:24:43.750"
+    out: "01:24:52.250"
+    type: dialogue
+    text: |-
+      „Lest mir die Totenmesse
+      erst!
+      Dann: an den Pranger
+      mit der Dirne!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "466"
+    in: "01:25:07.250"
+    out: "01:25:10.750"
+    type: dialogue
+    text: |-
+      „Gretchen . . .
+      Gretchen . . .!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "468"
+    in: "01:25:29.750"
+    out: "01:26:11.000"
+    type: dialogue
+    text: |-
+      „Erd und Weltall
+      werden beben,
+      wenn die Toten sich
+      erheben,
+      Antwort ihrem Herrn
+      zu geben . . .“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: last line 'zu geben . . .' partly obscured by an overlaid English subtitle burned into the frame
+
+  - id: "469"
+    in: "01:26:11.500"
+    out: "01:26:17.000"
+    type: dialogue
+    text: |-
+      „Alles muß zu Tage
+      kommen!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "493"
+    in: "01:29:55.000"
+    out: "01:29:57.750"
+    type: dialogue
+    text: |-
+      „Mutter . . . Mutter!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "503"
+    in: "01:32:52.750"
+    out: "01:32:59.750"
+    type: dialogue
+    text: |-
+      „Erbarmt Euch
+      meines Kindes!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "504"
+    in: "01:33:00.250"
+    out: "01:33:07.250"
+    type: dialogue
+    text: |-
+      „Bist Du nicht Gretchen,
+      das am Pranger stand?!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "512"
+    in: "01:33:38.000"
+    out: "01:33:42.750"
+    type: dialogue
+    text: |-
+      „Erbarmen! Erbarmen!
+      Mein Kind stirbt!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "530"
+    in: "01:36:10.750"
+    out: "01:36:18.750"
+    type: dialogue
+    text: |-
+      Sie hat ihr Kind getötet!
+      Packt sie,
+      die Mörderin!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: opening quotation mark not visible on this card, only the closing “ after 'Mörderin!'
+
+  - id: "531"
+    in: "01:36:23.250"
+    out: "01:36:27.750"
+    type: dialogue
+    text: |-
+      „Faust . . . Faust . . .
+      hilf Deinem Gretchen!!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "532"
+    in: "01:36:42.000"
+    out: "01:36:44.250"
+    type: dialogue
+    text: |-
+      „Mephisto!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "533"
+    in: "01:36:47.000"
+    out: "01:36:53.500"
+    type: dialogue
+    text: |-
+      „Du hast mich betrogen!
+      Sie leidet . . .
+      sie leidet!!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "534"
+    in: "01:36:58.500"
+    out: "01:37:05.000"
+    type: dialogue
+    text: |-
+      „Der Kindesmörderin
+      den Scheiterhaufen!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "536"
+    in: "01:37:31.000"
+    out: "01:37:39.500"
+    type: dialogue
+    text: |-
+      „Noch bist Du
+      mein Knecht!
+      Bring mich zu ihr,
+      sonst ist der Pakt
+      gebrochen!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: low
+    doubt: last word 'gebrochen' is obscured on this frame by a burned-in English subtitle box; read from context and the overlaid translation, not directly legible
+
+  - id: "537"
+    in: "01:37:43.000"
+    out: "01:37:50.500"
+    type: dialogue
+    text: |-
+      „Mein Rappe wartet!
+      Schnell,
+      ehe sich der Morgen hebt!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: '''Rappe'' vs ''Kappe'': the Fraktur initial is ambiguous between R and K; ''Rappe'' (black horse) fits the Faust legend''s ride before dawn'
+
+  - id: "545"
+    in: "01:40:20.500"
+    out: "01:40:24.000"
+    type: dialogue
+    text: |-
+      „Schneller . . . schneller!!
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: low
+    doubt: Right side of card is faded/cropped; the second "schneller" and closing punctuation are partly illegible, no closing quote mark visible
+
+  - id: "549"
+    in: "01:41:00.250"
+    out: "01:41:14.500"
+    type: dialogue
+    text: |-
+      „O hätt' ich nie
+      die Jugend mir gewünscht,
+      die solchen Jammer schuf!
+      Verflucht . . . verflucht
+      der Wahn der Jugend!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: medium
+    doubt: First word could be 'O' or 'D' in this blackletter face, and 'Verflucht' could be 'Berflucht'; read as 'O' and 'Verflucht' based on sense and the burned-in English translation
+
+  - id: "551"
+    in: "01:41:33.250"
+    out: "01:41:45.250"
+    type: dialogue
+    text: |-
+      „Du hast die Jugend
+      selbst verflucht!
+      Was Du Dir wünschst,
+      ich muß es Dir erfüllen!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "556"
+    in: "01:42:25.750"
+    out: "01:42:31.500"
+    type: dialogue
+    text: |-
+      „Sei, der Du warst:
+      ein Greis!!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "558"
+    in: "01:42:45.500"
+    out: "01:42:50.250"
+    type: dialogue
+    text: |-
+      „Vergib . . .
+      vergib mir meine Schuld!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "563"
+    in: "01:43:35.500"
+    out: "01:43:41.500"
+    type: dialogue
+    text: |-
+      „Gretchen . . .!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "567"
+    in: "01:44:49.750"
+    out: "01:44:53.250"
+    type: dialogue
+    text: |-
+      „Hier führt
+      kein Weg für Dich!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: large decorative initial capital H
+      all_caps: false
+    confidence: high
+
+  - id: "568"
+    in: "01:44:56.000"
+    out: "01:44:59.500"
+    type: dialogue
+    text: |-
+      „Es gilt mein Pakt!“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: large decorative initial capital E
+      all_caps: false
+    confidence: medium
+    doubt: opening quotation mark obscured by light flare around the initial capital
+
+  - id: "570"
+    in: "01:45:16.250"
+    out: "01:45:33.500"
+    type: dialogue
+    text: |-
+      „Das Wort,
+      das jubelnd durch die
+      Schöpfung schallt,
+      das Wort,
+      das jeden Schmerz und Kummer stillt,
+      das Wort,
+      das alle Menschenschuld versühnt,
+      das ewige Wort, -
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: large decorative initial capital D
+      all_caps: false
+    confidence: medium
+    doubt: '''versühnt'' shown, may be ''versöhnt'' (o/u umlaut hard to distinguish in Fraktur)'
+
+  - id: "571"
+    in: "01:45:34.000"
+    out: "01:45:36.500"
+    type: dialogue
+    text: |-
+      „Das Wort,
+      das jubelnd durch die
+      Schöpfung schallt,
+      das Wort,
+      das jeden Schmerz und Kummer stillt,
+      das Wort,
+      das alle Menschenschuld versühnt,
+      das ewige Wort, -
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: large decorative initial capital D
+      all_caps: false
+    confidence: medium
+    doubt: '''versühnt'' shown, may be ''versöhnt'' (o/u umlaut hard to distinguish in Fraktur); same card frame as id 570'
+
+  - id: "572"
+    in: "01:45:38.000"
+    out: "01:45:43.500"
+    type: dialogue
+    text: |-
+      „Wie heißt das Wort?“
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "574"
+    in: "01:46:19.500"
+    out: "01:46:24.250"
+    type: narrative
+    text: |-
+      Ende
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: stylized display lettering
+      all_caps: true
+    confidence: high
