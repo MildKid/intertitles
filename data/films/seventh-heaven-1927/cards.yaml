@@ -1,0 +1,2439 @@
+# Intertitle cards, in film order. Schema: data/README.md and films/_example/cards.yaml.
+# Written by the pipeline (transcribe.py, scrub.py); hand edits are fine, key order is kept.
+film: seventh-heaven-1927
+cards:
+  - id: "012"
+    in: "00:01:03.750"
+    out: "00:01:11.750"
+    type: title
+    text: |-
+      WILLIAM FOX
+      Presents
+      7TH HEAVEN
+      FRANK BORZAGE
+      PRODUCTION
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: mixed type sizes and faces for studio name, script word "Presents", large title, and production credit
+      all_caps: false
+    confidence: high
+
+  - id: "013"
+    in: "00:01:13.500"
+    out: "00:01:26.750"
+    type: credit
+    text: |-
+      From the stage play by
+      Austin Strong
+
+      Scenario by
+      Benjamin Glazer
+
+      Edited and titled by
+      Katharine Hilliker
+      and H.H. Caldwell
+
+      Passed by the National Board of Review
+      Copyright Fox Film Corporation MCMXXVII
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: names set larger than the role labels above them
+      all_caps: true
+    confidence: high
+
+  - id: "014"
+    in: "00:01:29.000"
+    out: "00:01:42.250"
+    type: credit
+    text: |-
+      Assistant directors
+      Lew Borzage
+      Park Frame
+
+      Photographed by
+      Ernest Palmer
+      J.A. Valentine
+
+      Directed by
+      Frank Borzage
+
+      Settings by
+      Harry Oliver
+
+      Costumes designed by
+      Kathleen Kay
+
+      Technician
+      Andre Chotan
+
+      Film editor
+      Barney Wolf
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: two-column layout with a larger centered director credit between the columns
+      all_caps: true
+    confidence: medium
+    doubt: '"Andre Chotan": accent on the E may be é (André) but is hard to confirm at this resolution'
+
+  - id: "015"
+    in: "00:01:44.250"
+    out: "00:02:03.750"
+    type: credit
+    text: |-
+      THE CAST
+
+      Diane...........JANET GAYNOR
+      Chico...........CHARLES FARRELL
+      Boul.............ALBERT GRAN
+      Gobin............DAVID BUTLER
+      Madame Gobin.....MARIE MOSQUINI
+      Nana.............GLADYS BROCKWELL
+      Pere Chevillon....EMILE CHAUTARD
+      Brissac...........BEN BARD
+      The Rat...........GEORGE STONE
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: role names in a lighter script-like face, actor names in bold caps, joined by dot leaders
+      all_caps: false
+    confidence: medium
+    doubt: '"Pere Chevillon": accents (Père) not fully legible at this resolution'
+
+  - id: "016"
+    in: "00:02:04.250"
+    out: "00:02:37.000"
+    type: narrative
+    text: |-
+      For those who will climb it, there is a ladder leading from the depths to the heights—from the sewer to the stars——the ladder of Courage.
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: left
+      quote_style: ""
+      emphasis: illuminated decorative drop capital F in an ornamented box
+      all_caps: false
+    confidence: high
+
+  - id: "020"
+    in: "00:03:18.000"
+    out: "00:03:31.750"
+    type: dialogue
+    text: |-
+      'Look, Chicol"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "025"
+    in: "00:04:09.750"
+    out: "00:04:13.250"
+    type: dialogue
+    text: |-
+      That's Monsieur Gobin,
+      the street-washer.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "027"
+    in: "00:04:21.500"
+    out: "00:04:30.500"
+    type: dialogue
+    text: |-
+      That's what I should
+      be, Rat——a street-
+      washer! Up there in
+      the sunshine—among
+      people——
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "028"
+    in: "00:04:34.250"
+    out: "00:04:38.750"
+    type: dialogue
+    text: |-
+      "After all, you know, I'm
+      a very remarkable fellow!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "034"
+    in: "00:05:28.500"
+    out: "00:05:34.000"
+    type: dialogue
+    text: |-
+      Stop bleating about
+      stolen goods—take
+      this and bring me
+      some absinthe!
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "042"
+    in: "00:07:53.500"
+    out: "00:07:58.250"
+    type: dialogue
+    text: |-
+      You've come to the
+      wrong place to spout
+      religion!
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "043"
+    in: "00:08:01.750"
+    out: "00:08:15.000"
+    type: dialogue
+    text: |-
+      I bring good news, my
+      child. After all these
+      years your aunt and
+      uncle have returned
+      from the South Seas—
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "045"
+    in: "00:08:19.500"
+    out: "00:08:28.000"
+    type: dialogue
+    text: |-
+      —He is rich. They want
+      to take you and your
+      sister home.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "046"
+    in: "00:08:54.250"
+    out: "00:09:01.250"
+    type: dialogue
+    text: |-
+      Dear Father Chevillon,
+      you have given me
+      new hope. We will be
+      ready tomorrow.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "049"
+    in: "00:09:35.500"
+    out: "00:09:48.750"
+    type: dialogue
+    text: |-
+      "My dear Colonel Brissac,
+      I am astonished to find
+      my nieces in such a
+      neighborhood!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "058"
+    in: "00:11:17.000"
+    out: "00:11:24.750"
+    type: dialogue
+    text: |-
+      "How good you smell—
+      of sandalwood——and
+      fresh linen—"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "059"
+    in: "00:11:25.250"
+    out: "00:11:27.500"
+    type: dialogue
+    text: |-
+      "—You smell of
+      home!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "063"
+    in: "00:12:09.000"
+    out: "00:12:47.500"
+    type: dialogue
+    text: |-
+      "—If you and Nana
+      haven't been good
+      girls, I don't want
+      you in my home!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "073"
+    in: "00:14:37.500"
+    out: "00:14:41.000"
+    type: dialogue
+    text: |-
+      "Now we can discuss this more calmly."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "074"
+    in: "00:14:48.250"
+    out: "00:14:52.500"
+    type: dialogue
+    text: |-
+      "Will you promise not to abuse this girl any more?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "075"
+    in: "00:15:03.250"
+    out: "00:15:09.000"
+    type: dialogue
+    text: |-
+      "If I catch you at it again, I'll cut out your gizzard and fry it!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "081"
+    in: "00:15:36.500"
+    out: "00:15:39.500"
+    type: dialogue
+    text: |-
+      "You saved her life, Chico."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "082"
+    in: "00:15:43.000"
+    out: "00:15:48.500"
+    type: dialogue
+    text: |-
+      "It wasn't worth saving, Papa Boul. A creature like that is better off dead."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "104"
+    in: "00:18:23.750"
+    out: "00:18:30.000"
+    type: dialogue
+    text: |-
+      "The trouble with you is you won't fight. You're afraid!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "105"
+    in: "00:18:32.750"
+    out: "00:18:39.250"
+    type: dialogue
+    text: |-
+      "Me! I'm not afraid of anything! That's why I'm a very remarkable fellow!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: word "why" set in a heavier weight
+      all_caps: false
+    confidence: high
+
+  - id: "107"
+    in: "00:19:13.500"
+    out: "00:19:21.500"
+    type: dialogue
+    text: |-
+      "Tell me, then! Did He make this girl to be beaten and strangled in the gutter?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "108"
+    in: "00:19:32.750"
+    out: "00:19:35.750"
+    type: dialogue
+    text: |-
+      "Did the Bon Dieu make me?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "113"
+    in: "00:20:03.500"
+    out: "00:20:08.750"
+    type: dialogue
+    text: |-
+      "Well—everybody makes mistakes sometimes."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "117"
+    in: "00:20:57.000"
+    out: "00:21:03.750"
+    type: dialogue
+    text: |-
+      "Then I gave him another chance—five francs more—"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "121"
+    in: "00:21:31.750"
+    out: "00:21:40.250"
+    type: dialogue
+    text: |-
+      "Bah! The only thing the Bon Dieu throws in my way is a creature like that!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "123"
+    in: "00:21:48.750"
+    out: "00:21:53.750"
+    type: dialogue
+    text: |-
+      "That makes ten francs totally wasted."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "124"
+    in: "00:21:54.250"
+    out: "00:22:06.000"
+    type: dialogue
+    text: |-
+      "That's why I'm an atheist—God owes me ten francs!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "125"
+    in: "00:22:08.250"
+    out: "00:23:04.500"
+    type: dialogue
+    text: |-
+      "This is an appointment as street-washer. It is
+      yours, Chico, and the debt is somewhat paid."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "127"
+    in: "00:23:16.750"
+    out: "00:23:18.750"
+    type: dialogue
+    text: |-
+      "Religious medals?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "130"
+    in: "00:23:22.750"
+    out: "00:23:29.750"
+    type: dialogue
+    text: |-
+      "Don't scorn them, Citizen Street-
+      Washer—they may help you some day.
+      Who knows?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "131"
+    in: "00:23:50.750"
+    out: "00:23:54.750"
+    type: dialogue
+    text: |-
+      "Let's have a drink to
+      celebrate!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "132"
+    in: "00:24:32.500"
+    out: "00:24:34.750"
+    type: dialogue
+    text: |-
+      "Welcome, Comrade!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "133"
+    in: "00:24:37.000"
+    out: "00:24:39.250"
+    type: dialogue
+    text: |-
+      "I thank you, Comrade."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "138"
+    in: "00:26:31.750"
+    out: "00:26:37.000"
+    type: dialogue
+    text: |-
+      "Why did you want
+      to take your life?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "151"
+    in: "00:28:16.750"
+    out: "00:28:22.000"
+    type: dialogue
+    text: |-
+      "That's my sister! She's no better than I am. Take her, too!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "156"
+    in: "00:29:19.750"
+    out: "00:29:26.000"
+    type: dialogue
+    text: |-
+      "Your address will be investigated. If you're lying, you'll get in trouble."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "157"
+    in: "00:29:40.750"
+    out: "00:29:45.250"
+    type: dialogue
+    text: |-
+      "Now why did I do that? Oh, I am ruined!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "160"
+    in: "00:30:01.500"
+    out: "00:30:11.000"
+    type: dialogue
+    text: |-
+      "They'll come to my house and find I have no wife. Then I'll lose my job as street-washer!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "163"
+    in: "00:30:35.000"
+    out: "00:30:49.250"
+    type: dialogue
+    text: |-
+      "Couldn't I stay at your house until the police come? Then I'd go away."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "164"
+    in: "00:30:55.500"
+    out: "00:31:08.500"
+    type: dialogue
+    text: |-
+      "You have a great head!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "170"
+    in: "00:31:47.500"
+    out: "00:31:50.000"
+    type: dialogue
+    text: |-
+      "Crank up Eloise!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "175"
+    in: "00:32:35.750"
+    out: "00:32:43.000"
+    type: dialogue
+    text: |-
+      "Allow me the honor of presenting you to
+      Madame Chico, my good wife!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "179"
+    in: "00:33:13.000"
+    out: "00:33:24.000"
+    type: dialogue
+    text: |-
+      "Get in before Eloise
+      changes her mind!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: the name "Eloise" is italicized
+      all_caps: false
+    confidence: high
+
+  - id: "180"
+    in: "00:33:32.250"
+    out: "00:33:40.750"
+    type: dialogue
+    text: |-
+      "Remember, you
+      mustn't take this
+      seriously. You're
+      not going to take
+      advantage of me?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "182"
+    in: "00:33:46.000"
+    out: "00:34:00.750"
+    type: dialogue
+    text: |-
+      "Make a tour of the
+      boulevards——then
+      home. Tonight I am
+      the Bank of France!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "199"
+    in: "00:36:36.000"
+    out: "00:36:50.500"
+    type: dialogue
+    text: |-
+      "Not bad, eh? I work
+      in the sewer—but I
+      live near the stars!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "213"
+    in: "00:39:00.000"
+    out: "00:39:15.250"
+    type: dialogue
+    text: |-
+      "—Always look up!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "274"
+    in: "00:48:22.000"
+    out: "00:48:33.250"
+    type: dialogue
+    text: |-
+      "Women are all alike—
+      they try to reach a man through his stomach—"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "275"
+    in: "00:48:35.750"
+    out: "00:48:45.750"
+    type: dialogue
+    text: |-
+      "But you can't get around me. After the police come, you go!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "283"
+    in: "00:49:13.250"
+    out: "00:49:23.250"
+    type: dialogue
+    text: |-
+      "Now that you've climbed out of the sewer, Comrade, I can recognize you as a neighbor——"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "284"
+    in: "00:49:24.000"
+    out: "00:49:29.500"
+    type: dialogue
+    text: |-
+      "——Permit me to escort you to the hose."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "287"
+    in: "00:49:44.250"
+    out: "00:49:50.500"
+    type: dialogue
+    text: |-
+      "You forgot to kiss your wife goodbye."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "291"
+    in: "00:50:18.750"
+    out: "00:50:26.000"
+    type: dialogue
+    text: |-
+      "I didn't mean it! Don't think you can stay!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "316"
+    in: "00:54:34.250"
+    out: "00:54:42.000"
+    type: narrative
+    text: |-
+      am a police
+      detective-
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "317"
+    in: "00:54:42.500"
+    out: "00:54:50.000"
+    type: dialogue
+    text: |-
+      "Is that your wife?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "335"
+    in: "00:56:52.500"
+    out: "00:56:58.750"
+    type: dialogue
+    text: |-
+      "Chico, I believe in the Bon Dieu—I believe He brought you to me."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "337"
+    in: "00:57:04.250"
+    out: "00:57:07.500"
+    type: dialogue
+    text: |-
+      "Don't bother your head about such big thoughts. Leave them to me."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "364"
+    in: "01:00:25.500"
+    out: "01:00:31.000"
+    type: dialogue
+    text: |-
+      "It looks like a wedding dress."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "376"
+    in: "01:01:19.250"
+    out: "01:01:22.500"
+    type: dialogue
+    text: |-
+      "Don't you want to marry me?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: italic on "want"
+      all_caps: false
+    confidence: high
+
+  - id: "378"
+    in: "01:01:27.000"
+    out: "01:01:32.250"
+    type: dialogue
+    text: |-
+      "But you never said—you love me."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "380"
+    in: "01:01:40.750"
+    out: "01:01:50.250"
+    type: dialogue
+    text: |-
+      "Couldn't you say it—just once?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "386"
+    in: "01:02:20.250"
+    out: "01:02:23.500"
+    type: dialogue
+    text: |-
+      "I can't say it! It's too silly."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "392"
+    in: "01:02:52.000"
+    out: "01:02:54.500"
+    type: dialogue
+    text: |-
+      "Well, this way then—"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "393"
+    in: "01:02:58.000"
+    out: "01:03:01.000"
+    type: title
+    text: |-
+      "Chico—
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: low
+    doubt: frame is badly damaged/degraded (heavy print artifacts); only "Chico—" legible, closing quote and any further text uncertain
+
+  - id: "394"
+    in: "01:03:01.750"
+    out: "01:03:03.500"
+    type: title
+    text: |-
+      —Diane—
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: low
+    doubt: frame is badly damaged/degraded (heavy print artifacts); opening quote mark not visible, only "—Diane—" legible
+
+  - id: "395"
+    in: "01:03:06.250"
+    out: "01:03:08.750"
+    type: title
+    text: |-
+      —Heaven!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: low
+    doubt: frame is badly damaged/degraded (heavy print artifacts); only "—Heaven!" legible, likely continuation of a card split across 393-395
+
+  - id: "399"
+    in: "01:03:27.000"
+    out: "01:03:30.750"
+    type: narrative
+    text: |-
+      *Say it again!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "403"
+    in: "01:03:57.000"
+    out: "01:04:01.750"
+    type: dialogue
+    text: |-
+      "Are we going to be married in church?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "404"
+    in: "01:04:04.000"
+    out: "01:04:06.500"
+    type: dialogue
+    text: |-
+      "No—certainly not!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "405"
+    in: "01:04:13.000"
+    out: "01:04:16.000"
+    type: dialogue
+    text: |-
+      "I am an atheist—
+      I walk alone!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "408"
+    in: "01:04:40.000"
+    out: "01:04:45.750"
+    type: dialogue
+    text: |-
+      "No religious medals
+      can frighten me! It's
+      only a coincidence."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: italic script on "me"
+      all_caps: false
+    confidence: high
+
+  - id: "409"
+    in: "01:04:56.000"
+    out: "01:05:00.000"
+    type: dialogue
+    text: |-
+      "Is it ready—the soup
+      for my wife?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "411"
+    in: "01:05:25.250"
+    out: "01:05:27.500"
+    type: dialogue
+    text: |-
+      "I'm not afraid?
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "412"
+    in: "01:05:31.000"
+    out: "01:05:34.000"
+    type: dialogue
+    text: |-
+      "I'll never be afraid
+      again!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "419"
+    in: "01:06:18.750"
+    out: "01:06:19.500"
+    type: insert
+    text: |-
+      Army of the Land and Army of the Sea
+
+      Order of General Mobilization
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: ""
+      emphasis: bold headline lettering
+      all_caps: false
+    confidence: low
+    doubt: frame shows a doubled/ghosted exposure (motion blur or fade transition); the headline is legible through the doubling but the fine-print body paragraphs are not readable in this frame
+
+  - id: "420"
+    in: "01:06:20.250"
+    out: "01:06:25.250"
+    type: insert
+    text: |-
+      Army of the Land and Army of the Sea
+
+      Order of General Mobilization
+
+      By decree of the President of the Republic mobilization of the armies of land and sea is ordered, also requisition of animals, carriages and harness necessary for the completion of these armies.
+
+      The first day of the mobilization is August 2nd 1914.
+
+      Every Frenchman subject to military service must under penalty of being punished to the fullest extent of the Law, obey the prescription of the PAMPHLET OF MOBILIZATION (colored pages placed in this booklet).
+
+      Included in the present order are ALL THE MEN not at present under the Flags and belonging:
+      1° to the ARMY of the LAND including COLONIAL TROOPS and the men of the AUXILIARY SERVICES.
+      2° to the ARMY of the SEA including the enrolled SEAMEN and the MARINE GUNNERS.
+
+      The Civil and Military Authorities are responsible for the execution of the present decree.
+
+      The Minister of War
+      The Minister of Marine
+    context: ""
+    verified: false
+    style:
+      frame: illustrated
+      align: left
+      quote_style: ""
+      emphasis: bold and small-caps lettering for the headline and key terms (ARMY, ALL THE MEN, etc.)
+      all_caps: false
+    confidence: medium
+    doubt: the handwritten mobilization date and a few words in the dense fine print are hard to confirm precisely at this resolution
+
+  - id: "421"
+    in: "01:06:38.250"
+    out: "01:06:44.750"
+    type: dialogue
+    text: |-
+      "I've said nothing to
+      the women, but——
+      it's come, Comrade,
+      the war!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "422"
+    in: "01:06:46.750"
+    out: "01:06:52.250"
+    type: dialogue
+    text: |-
+      "Our regiment is on
+      the first list. We leave
+      within the hour."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: bolder weight on "We leave"
+      all_caps: false
+    confidence: high
+
+  - id: "423"
+    in: "01:07:48.750"
+    out: "01:07:55.500"
+    type: dialogue
+    text: |-
+      "You're right, Comrade!
+      We must defend our
+      homes———and our
+      women!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "450"
+    in: "01:10:15.500"
+    out: "01:10:18.250"
+    type: dialogue
+    text: |-
+      "Diane, I love you!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "451"
+    in: "01:10:26.500"
+    out: "01:10:30.500"
+    type: dialogue
+    text: |-
+      "At last! You've said it all by yourself!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "452"
+    in: "01:10:50.500"
+    out: "01:10:54.000"
+    type: dialogue
+    text: |-
+      "I'm not used to being happy—"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "458"
+    in: "01:11:34.000"
+    out: "01:11:40.750"
+    type: dialogue
+    text: |-
+      "Diane—I have terrible news! Gobin and I leave at once! War has come!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: italic on "War has come!"
+      all_caps: false
+    confidence: high
+
+  - id: "459"
+    in: "01:11:47.000"
+    out: "01:11:48.750"
+    type: narrative
+    text: |-
+      I'm afraidl
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: single
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "462"
+    in: "01:12:09.250"
+    out: "01:12:13.000"
+    type: dialogue
+    text: |-
+      "Never look down— always look up!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "463"
+    in: "01:12:19.000"
+    out: "01:12:22.250"
+    type: dialogue
+    text: |-
+      "See what you've made of me—"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "464"
+    in: "01:12:27.500"
+    out: "01:12:30.500"
+    type: dialogue
+    text: |-
+      "I, too, am a very remarkable fellow!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "477"
+    in: "01:14:26.250"
+    out: "01:14:32.750"
+    type: dialogue
+    text: |-
+      "How can I leave you—and now we haven't even time for a wedding."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "481"
+    in: "01:14:51.750"
+    out: "01:14:55.250"
+    type: dialogue
+    text: |-
+      "I have it! We will marry now—here!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "485"
+    in: "01:15:15.500"
+    out: "01:15:23.750"
+    type: dialogue
+    text: |-
+      "I am an atheist— but I'll give God one more chance."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "488"
+    in: "01:15:39.750"
+    out: "01:15:50.750"
+    type: dialogue
+    text: |-
+      "Monsieur le Bon Dieu, if there is any truth in the idea of You, please make this a true marriage."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "494"
+    in: "01:16:35.000"
+    out: "01:16:44.250"
+    type: dialogue
+    text: |-
+      "I take you, Chico, for my husband— forever."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "513"
+    in: "01:18:50.250"
+    out: "01:19:01.000"
+    type: dialogue
+    text: |-
+      "Hurry, Comrade,
+      we must be at the
+      station in fifteen
+      minutes."
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "518"
+    in: "01:19:38.250"
+    out: "01:19:42.250"
+    type: dialogue
+    text: |-
+      "—Let me fill my eyes with you!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "530"
+    in: "01:21:16.000"
+    out: "01:21:26.750"
+    type: dialogue
+    text: |-
+      "I've been hiding in the hall till your sewer man left. So the war's got him!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "535"
+    in: "01:23:10.250"
+    out: "01:23:15.000"
+    type: dialogue
+    text: |-
+      "Chico! Chico! I am brave!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: italic script on "I am brave!"
+      all_caps: false
+    confidence: high
+
+  - id: "536"
+    in: "01:23:17.500"
+    out: "01:23:31.250"
+    type: narrative
+    text: |-
+      Invading armies——gray-coated hordes that stretched half-way across Europe—a tidal wave of death rolling relentlessly down upon Paris.
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: left
+      quote_style: ""
+      emphasis: illuminated drop-cap initial
+      all_caps: false
+    confidence: high
+
+  - id: "537"
+    in: "01:23:39.000"
+    out: "01:23:47.250"
+    type: narrative
+    text: |-
+      The enemy's outriders—scouting ahead of the advancing troops.
+    context: ""
+    verified: false
+    style:
+      frame: ornate
+      align: left
+      quote_style: ""
+      emphasis: illuminated drop-cap initial
+      all_caps: false
+    confidence: high
+
+  - id: "538"
+    in: "01:24:38.250"
+    out: "01:24:44.000"
+    type: dialogue
+    text: |-
+      "Only thirty miles away —sweeping down like an avalanche! Paris is doomed!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "549"
+    in: "01:26:27.750"
+    out: "01:26:39.250"
+    type: dialogue
+    text: |-
+      "Sir, the enemy has crossed the Marne—our line is in danger! General Joffre asks for every man you can send!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "551"
+    in: "01:26:47.000"
+    out: "01:26:54.500"
+    type: dialogue
+    text: |-
+      "Commandeer all taxicabs, private cars, omnibuses—everything on wheels with a motor—"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "552"
+    in: "01:26:58.000"
+    out: "01:27:09.000"
+    type: dialogue
+    text: |-
+      "—Order out the garrison troops—get every soldier in Paris and start them to the Front!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "553"
+    in: "01:27:33.000"
+    out: "01:27:39.250"
+    type: dialogue
+    text: |-
+      "Name of a dog! Get out! Eloise is too old to go to war!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: '"Eloise" in italics'
+      all_caps: false
+    confidence: high
+
+  - id: "561"
+    in: "01:29:19.500"
+    out: "01:29:28.500"
+    type: dialogue
+    text: |-
+      "It's the guns! They rumble closer every day. I pray my husband and Chico are safe."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "568"
+    in: "01:30:09.750"
+    out: "01:30:13.000"
+    type: dialogue
+    text: |-
+      "They're on our heels! The whole French army—in taxicabs!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "575"
+    in: "01:32:10.250"
+    out: "01:32:15.250"
+    type: dialogue
+    text: |-
+      "Run, fools! No army in the world can beat the taxi drivers of Paris!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "580"
+    in: "01:32:39.750"
+    out: "01:32:42.750"
+    type: dialogue
+    text: |-
+      "My poor Eloise! She gave her life for France!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: '"Eloise" in italics'
+      all_caps: false
+    confidence: high
+
+  - id: "582"
+    in: "01:33:05.250"
+    out: "01:33:09.000"
+    type: dialogue
+    text: |-
+      "Colonel Brissac, I wish you wouldn't come here."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "583"
+    in: "01:33:16.000"
+    out: "01:33:24.500"
+    type: dialogue
+    text: |-
+      "Listen to me, Diane. The world is upside down—ideals, beliefs, traditions, all in the discard!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "584"
+    in: "01:33:51.000"
+    out: "01:33:57.000"
+    type: dialogue
+    text: |-
+      "What do the old rules matter now? Each day may be our last. Let me take care of you!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "585"
+    in: "01:34:05.000"
+    out: "01:34:10.250"
+    type: dialogue
+    text: |-
+      "Chico fights at the Front—I fight here in a munitions factory—"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "586"
+    in: "01:34:18.750"
+    out: "01:34:23.250"
+    type: dialogue
+    text: |-
+      "—We are shoulder to shoulder—that is all that matters."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "594"
+    in: "01:35:29.000"
+    out: "01:35:33.500"
+    type: dialogue
+    text: |-
+      "If this war lasts long enough, I'll be a general!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "605"
+    in: "01:37:54.750"
+    out: "01:38:02.000"
+    type: dialogue
+    text: |-
+      "Be quiet! He's talking to his wife——every morning at eleven it's the same."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double curly
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "609"
+    in: "01:38:28.000"
+    out: "01:38:41.250"
+    type: narrative
+    text: |-
+      Chico
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: low
+    doubt: frame heavily blurred/dissolved; only "Chico" is legible, rest of card (if any) unreadable
+
+  - id: "616"
+    in: "01:39:19.000"
+    out: "01:39:24.750"
+    type: narrative
+    text: |-
+      jayafter day-year
+      afteryear
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: none
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "628"
+    in: "01:40:35.250"
+    out: "01:40:42.500"
+    type: dialogue
+    text: |-
+      "We'll wash them down
+      —fight their fire with
+      fire! Gobin and I have
+      handled the hose before."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "663"
+    in: "01:45:48.750"
+    out: "01:45:56.500"
+    type: dialogue
+    text: |-
+      "Father Chevillon—
+      I borrowed the
+      General's watch—
+      please give it back
+      to him."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "666"
+    in: "01:46:52.500"
+    out: "01:47:02.000"
+    type: dialogue
+    text: |-
+      "Give this to Madame
+      Chico with my love. Tell
+      her I died looking up!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: italics on "looking up!"
+      all_caps: false
+    confidence: high
+
+  - id: "673"
+    in: "01:47:56.500"
+    out: "01:48:01.750"
+    type: dialogue
+    text: |-
+      "Forgive me for this
+      intrusion. I must
+      talk to you—"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: italics on "must" and "you"
+      all_caps: false
+    confidence: high
+
+  - id: "675"
+    in: "01:48:11.000"
+    out: "01:48:16.000"
+    type: dialogue
+    text: |-
+      "Diane, I wish I could spare you.  I have very bad news—"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "681"
+    in: "01:48:34.500"
+    out: "01:48:42.000"
+    type: insert
+    text: |-
+      Raoul Papal...........soldier.....missing
+      Chico Robas...........corporal....killed
+      Paul Lebrun...........soldier.....missing
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: typewriter monospaced font with dot leaders
+      all_caps: true
+    confidence: medium
+    doubt: top edge of first line ("Raoul Papal") is cropped by the frame edge; exact dot-leader counts are approximate
+
+  - id: "684"
+    in: "01:48:50.750"
+    out: "01:48:54.250"
+    type: dialogue
+    text: |-
+      "It isn't true一Chico
+      is alive! I know!"
+    context: ""
+    verified: false
+    style:
+      frame: ""
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: 
+    confidence: medium
+    doubt: ocr
+
+  - id: "685"
+    in: "01:48:58.250"
+    out: "01:49:06.500"
+    type: dialogue
+    text: |-
+      "He promised to come to me every morning at eleven——and he has never failed me."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "694"
+    in: "01:49:43.750"
+    out: "01:49:50.500"
+    type: dialogue
+    text: |-
+      "I'm afraid it's true—it's the Government that says so."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "699"
+    in: "01:50:20.000"
+    out: "01:50:24.250"
+    type: dialogue
+    text: |-
+      "Father Chevillon, you have news for me—of Chico?"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "701"
+    in: "01:50:30.250"
+    out: "01:50:44.250"
+    type: dialogue
+    text: |-
+      "He sent you his love—and he told me to tell you that he died——looking up."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "706"
+    in: "01:51:58.250"
+    out: "01:52:02.250"
+    type: dialogue
+    text: |-
+      "They've signed the armistice!  The war is over!"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "718"
+    in: "01:53:40.500"
+    out: "01:53:45.250"
+    type: dialogue
+    text: |-
+      "We must not question God's will, my child."
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "721"
+    in: "01:54:19.000"
+    out: "01:54:24.250"
+    type: dialogue
+    text: |-
+      "For four years I have called this Heaven—I prayed—I believed in God——"
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "722"
+    in: "01:54:28.500"
+    out: "01:54:32.750"
+    type: dialogue
+    text: |-
+      —I believed He would bring Chico back to me—
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "723"
+    in: "01:54:36.000"
+    out: "01:54:38.000"
+    type: dialogue
+    text: |-
+      —And Chico is dead!
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "734"
+    in: "01:55:53.750"
+    out: "01:56:01.750"
+    type: dialogue
+    text: |-
+      Diane!
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: true
+    confidence: high
+
+  - id: "740"
+    in: "01:56:44.750"
+    out: "01:56:53.750"
+    type: dialogue
+    text: |-
+      Diane, I've been hit by every shell that's made! They thought I was dead, but I'll never die!
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: italics on "never"
+      all_caps: false
+    confidence: high
+
+  - id: "742"
+    in: "01:57:14.750"
+    out: "01:57:23.000"
+    type: dialogue
+    text: |-
+      Diane, those big thoughts I had were the Bon Dieu after all. He is within me—
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "743"
+    in: "01:57:25.750"
+    out: "01:58:14.750"
+    type: dialogue
+    text: |-
+      My eyes are still filled with you.
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: double straight
+      emphasis: ""
+      all_caps: false
+    confidence: high
+
+  - id: "748"
+    in: "01:58:50.000"
+    out: "01:59:12.500"
+    type: credit
+    text: ""
+    context: ""
+    verified: false
+    style:
+      frame: none
+      align: center
+      quote_style: ""
+      emphasis: ""
+      all_caps: false
+    confidence: low
+    doubt: frame badly damaged/scratched, text illegible

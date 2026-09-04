@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-04T00:10:11Z",
+ "generated": "2026-09-04T01:16:46Z",
  "films": [
   {
    "slug": "don-juan-1926",
@@ -85,8 +85,8 @@
    "slug": "seventh-heaven-1927",
    "title": "7th Heaven",
    "year": 1927,
-   "cards": 0,
-   "transcribed": 0,
+   "cards": 142,
+   "transcribed": 141,
    "verified": 0,
    "translated": {
     "es-MX": 0
@@ -95,7 +95,7 @@
     "es-MX": 0
    },
    "timing": "reference",
-   "extraction": "not-started"
+   "extraction": "transcribed"
   },
   {
    "slug": "sherlock-jr-1924",
