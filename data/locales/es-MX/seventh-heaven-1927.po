@@ -643,13 +643,6 @@ msgctxt "395"
 msgid "—Heaven!\""
 msgstr ""
 
-#. Card 72 of 142 · narrative · 3.8s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:72
-msgctxt "399"
-msgid "*Say it again!\""
-msgstr ""
-
 #. Card 73 of 142 · dialogue · 4.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:73
@@ -690,13 +683,6 @@ msgctxt "409"
 msgid ""
 "\"Is it ready—the soup\n"
 "for my wife?\""
-msgstr ""
-
-#. Card 78 of 142 · dialogue · 2.2s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:78
-msgctxt "411"
-msgid "\"I'm not afraid?"
 msgstr ""
 
 #. Card 79 of 142 · dialogue · 3.0s on screen
@@ -801,13 +787,6 @@ msgstr ""
 #: data/films/seventh-heaven-1927/cards.yaml:88
 msgctxt "458"
 msgid "\"Diane—I have terrible news! Gobin and I leave at once! War has come!\""
-msgstr ""
-
-#. Card 89 of 142 · narrative · 1.8s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:89
-msgctxt "459"
-msgid "I'm afraidl"
 msgstr ""
 
 #. Card 90 of 142 · dialogue · 3.8s on screen
@@ -1053,15 +1032,6 @@ msgctxt "609"
 msgid "Chico"
 msgstr ""
 
-#. Card 121 of 142 · narrative · 5.8s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:121
-msgctxt "616"
-msgid ""
-"jayafter day-year\n"
-"afteryear"
-msgstr ""
-
 #. Card 122 of 142 · dialogue · 7.2s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:122
@@ -1120,15 +1090,6 @@ msgid ""
 "Raoul Papal...........soldier.....missing\n"
 "Chico Robas...........corporal....killed\n"
 "Paul Lebrun...........soldier.....missing"
-msgstr ""
-
-#. Card 128 of 142 · dialogue · 3.5s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:128
-msgctxt "684"
-msgid ""
-"\"It isn't true一Chico\n"
-"is alive! I know!\""
 msgstr ""
 
 #. Card 129 of 142 · dialogue · 8.2s on screen
@@ -1229,3 +1190,66 @@ msgstr ""
 msgctxt "743"
 msgid "My eyes are still filled with you."
 msgstr ""
+
+#. Card 72 of 142 · dialogue · 3.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:72
+msgctxt "399"
+msgid "\"Say it again!\""
+msgstr ""
+
+#. Card 78 of 142 · dialogue · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:78
+msgctxt "411"
+msgid "\"I'm not afraid.\""
+msgstr ""
+
+#. Card 89 of 142 · dialogue · 1.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:89
+msgctxt "459"
+msgid "\"I'm afraid!\""
+msgstr ""
+
+#. Card 121 of 142 · narrative · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:121
+msgctxt "616"
+msgid ""
+"Day after day—year\n"
+"after year—"
+msgstr ""
+
+#. Card 128 of 142 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:128
+msgctxt "684"
+msgid ""
+"\"It isn't true—Chico\n"
+"is alive! I know!\""
+msgstr ""
+
+#~ msgctxt "399"
+#~ msgid "*Say it again!\""
+#~ msgstr ""
+
+#~ msgctxt "411"
+#~ msgid "\"I'm not afraid?"
+#~ msgstr ""
+
+#~ msgctxt "459"
+#~ msgid "I'm afraidl"
+#~ msgstr ""
+
+#~ msgctxt "616"
+#~ msgid ""
+#~ "jayafter day-year\n"
+#~ "afteryear"
+#~ msgstr ""
+
+#~ msgctxt "684"
+#~ msgid ""
+#~ "\"It isn't true一Chico\n"
+#~ "is alive! I know!\""
+#~ msgstr ""
