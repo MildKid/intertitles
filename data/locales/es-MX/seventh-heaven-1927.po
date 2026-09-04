@@ -1,22 +1,29 @@
-#
+# 7th Heaven (1927) — intertitles.
+# Generated from data/films/<slug>/cards.yaml by pipeline/tools/export_po.py. Do not edit by hand.
 msgid ""
 msgstr ""
-"Project-Id-Version: intertitles seventh-heaven-1927\n"
-"POT-Creation-Date: 2026-09-04 01:16+0000\n"
-"Language: es-MX\n"
+"Project-Id-Version: intertitles\n"
+"POT-Creation-Date: 2026-09-04 03:57+0000\n"
+"Language: es_MX\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Film-Title: 7th Heaven\n"
 "X-Film-Year: 1927\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: intertitles\n"
+"X-Crowdin-Project-ID: 925929\n"
+"X-Crowdin-Language: es-MX\n"
+"X-Crowdin-File: /main/data/locales/templates/seventh-heaven-1927.pot\n"
+"X-Crowdin-File-ID: 27\n"
+"Language-Team: Spanish, Mexico\n"
+"PO-Revision-Date: 2026-09-04 17:54\n"
 
 #. Card 1 of 142 · title · 8.0s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:1
 msgctxt "012"
-msgid ""
-"WILLIAM FOX\n"
+msgid "WILLIAM FOX\n"
 "Presents\n"
 "7TH HEAVEN\n"
 "FRANK BORZAGE\n"
@@ -27,17 +34,13 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:2
 msgctxt "013"
-msgid ""
-"From the stage play by\n"
-"Austin Strong\n"
-"\n"
+msgid "From the stage play by\n"
+"Austin Strong\n\n"
 "Scenario by\n"
-"Benjamin Glazer\n"
-"\n"
+"Benjamin Glazer\n\n"
 "Edited and titled by\n"
 "Katharine Hilliker\n"
-"and H.H. Caldwell\n"
-"\n"
+"and H.H. Caldwell\n\n"
 "Passed by the National Board of Review\n"
 "Copyright Fox Film Corporation MCMXXVII"
 msgstr ""
@@ -46,27 +49,20 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:3
 msgctxt "014"
-msgid ""
-"Assistant directors\n"
+msgid "Assistant directors\n"
 "Lew Borzage\n"
-"Park Frame\n"
-"\n"
+"Park Frame\n\n"
 "Photographed by\n"
 "Ernest Palmer\n"
-"J.A. Valentine\n"
-"\n"
+"J.A. Valentine\n\n"
 "Directed by\n"
-"Frank Borzage\n"
-"\n"
+"Frank Borzage\n\n"
 "Settings by\n"
-"Harry Oliver\n"
-"\n"
+"Harry Oliver\n\n"
 "Costumes designed by\n"
-"Kathleen Kay\n"
-"\n"
+"Kathleen Kay\n\n"
 "Technician\n"
-"Andre Chotan\n"
-"\n"
+"Andre Chotan\n\n"
 "Film editor\n"
 "Barney Wolf"
 msgstr ""
@@ -75,9 +71,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:4
 msgctxt "015"
-msgid ""
-"THE CAST\n"
-"\n"
+msgid "THE CAST\n\n"
 "Diane...........JANET GAYNOR\n"
 "Chico...........CHARLES FARRELL\n"
 "Boul.............ALBERT GRAN\n"
@@ -93,17 +87,21 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:5
 msgctxt "016"
-msgid ""
-"For those who will climb it, there is a ladder leading from the depths to "
-"the heights—from the sewer to the stars——the ladder of Courage."
+msgid "For those who will climb it, there is a ladder leading from the depths to the heights—from the sewer to the stars——the ladder of Courage."
+msgstr ""
+
+#. Card 6 of 142 · dialogue · 13.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:6
+msgctxt "020"
+msgid "Look, Chico!"
 msgstr ""
 
 #. Card 7 of 142 · dialogue · 3.5s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:7
 msgctxt "025"
-msgid ""
-"That's Monsieur Gobin,\n"
+msgid "That's Monsieur Gobin,\n"
 "the street-washer."
 msgstr ""
 
@@ -111,20 +109,26 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:8
 msgctxt "027"
-msgid ""
-"That's what I should\n"
+msgid "That's what I should\n"
 "be, Rat——a street-\n"
 "washer! Up there in\n"
 "the sunshine—among\n"
 "people——"
 msgstr ""
 
+#. Card 9 of 142 · dialogue · 4.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:9
+msgctxt "028"
+msgid "After all, you know, I'm\n"
+"a very remarkable fellow!"
+msgstr ""
+
 #. Card 10 of 142 · dialogue · 5.5s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:10
 msgctxt "034"
-msgid ""
-"Stop bleating about\n"
+msgid "Stop bleating about\n"
 "stolen goods—take\n"
 "this and bring me\n"
 "some absinthe!"
@@ -134,8 +138,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:11
 msgctxt "042"
-msgid ""
-"You've come to the\n"
+msgid "You've come to the\n"
 "wrong place to spout\n"
 "religion!"
 msgstr ""
@@ -144,8 +147,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:12
 msgctxt "043"
-msgid ""
-"I bring good news, my\n"
+msgid "I bring good news, my\n"
 "child. After all these\n"
 "years your aunt and\n"
 "uncle have returned\n"
@@ -156,8 +158,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:13
 msgctxt "045"
-msgid ""
-"—He is rich. They want\n"
+msgid "—He is rich. They want\n"
 "to take you and your\n"
 "sister home."
 msgstr ""
@@ -166,8 +167,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:14
 msgctxt "046"
-msgid ""
-"Dear Father Chevillon,\n"
+msgid "Dear Father Chevillon,\n"
 "you have given me\n"
 "new hope. We will be\n"
 "ready tomorrow."
@@ -177,8 +177,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:15
 msgctxt "049"
-msgid ""
-"\"My dear Colonel Brissac,\n"
+msgid "\"My dear Colonel Brissac,\n"
 "I am astonished to find\n"
 "my nieces in such a\n"
 "neighborhood!\""
@@ -188,8 +187,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:16
 msgctxt "058"
-msgid ""
-"\"How good you smell—\n"
+msgid "\"How good you smell—\n"
 "of sandalwood——and\n"
 "fresh linen—\""
 msgstr ""
@@ -198,8 +196,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:17
 msgctxt "059"
-msgid ""
-"\"—You smell of\n"
+msgid "\"—You smell of\n"
 "home!\""
 msgstr ""
 
@@ -207,8 +204,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:18
 msgctxt "063"
-msgid ""
-"\"—If you and Nana\n"
+msgid "\"—If you and Nana\n"
 "haven't been good\n"
 "girls, I don't want\n"
 "you in my home!\""
@@ -246,9 +242,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:23
 msgctxt "082"
-msgid ""
-"\"It wasn't worth saving, Papa Boul. A creature like that is better off "
-"dead.\""
+msgid "\"It wasn't worth saving, Papa Boul. A creature like that is better off dead.\""
 msgstr ""
 
 #. Card 24 of 142 · dialogue · 6.2s on screen
@@ -262,17 +256,14 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:25
 msgctxt "105"
-msgid ""
-"\"Me! I'm not afraid of anything! That's why I'm a very remarkable fellow!\""
+msgid "\"Me! I'm not afraid of anything! That's why I'm a very remarkable fellow!\""
 msgstr ""
 
 #. Card 26 of 142 · dialogue · 8.0s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:26
 msgctxt "107"
-msgid ""
-"\"Tell me, then! Did He make this girl to be beaten and strangled in the "
-"gutter?\""
+msgid "\"Tell me, then! Did He make this girl to be beaten and strangled in the gutter?\""
 msgstr ""
 
 #. Card 27 of 142 · dialogue · 3.0s on screen
@@ -300,9 +291,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:30
 msgctxt "121"
-msgid ""
-"\"Bah! The only thing the Bon Dieu throws in my way is a creature like "
-"that!\""
+msgid "\"Bah! The only thing the Bon Dieu throws in my way is a creature like that!\""
 msgstr ""
 
 #. Card 31 of 142 · dialogue · 5.0s on screen
@@ -323,8 +312,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:33
 msgctxt "125"
-msgid ""
-"\"This is an appointment as street-washer. It is\n"
+msgid "\"This is an appointment as street-washer. It is\n"
 "yours, Chico, and the debt is somewhat paid.\""
 msgstr ""
 
@@ -339,8 +327,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:35
 msgctxt "130"
-msgid ""
-"\"Don't scorn them, Citizen Street-\n"
+msgid "\"Don't scorn them, Citizen Street-\n"
 "Washer—they may help you some day.\n"
 "Who knows?\""
 msgstr ""
@@ -349,17 +336,29 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:36
 msgctxt "131"
-msgid ""
-"\"Let's have a drink to\n"
+msgid "\"Let's have a drink to\n"
 "celebrate!\""
+msgstr ""
+
+#. Card 37 of 142 · dialogue · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:37
+msgctxt "132"
+msgid "Welcome, Comrade!"
+msgstr ""
+
+#. Card 38 of 142 · dialogue · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:38
+msgctxt "133"
+msgid "I thank you, Comrade."
 msgstr ""
 
 #. Card 39 of 142 · dialogue · 5.2s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:39
 msgctxt "138"
-msgid ""
-"\"Why did you want\n"
+msgid "\"Why did you want\n"
 "to take your life?\""
 msgstr ""
 
@@ -374,9 +373,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:41
 msgctxt "156"
-msgid ""
-"\"Your address will be investigated. If you're lying, you'll get in "
-"trouble.\""
+msgid "\"Your address will be investigated. If you're lying, you'll get in trouble.\""
 msgstr ""
 
 #. Card 42 of 142 · dialogue · 4.5s on screen
@@ -390,9 +387,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:43
 msgctxt "160"
-msgid ""
-"\"They'll come to my house and find I have no wife. Then I'll lose my job as"
-" street-washer!\""
+msgid "\"They'll come to my house and find I have no wife. Then I'll lose my job as street-washer!\""
 msgstr ""
 
 #. Card 44 of 142 · dialogue · 14.2s on screen
@@ -409,12 +404,18 @@ msgctxt "164"
 msgid "\"You have a great head!\""
 msgstr ""
 
+#. Card 46 of 142 · dialogue · 2.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:46
+msgctxt "170"
+msgid "Crank up Eloise!"
+msgstr ""
+
 #. Card 47 of 142 · dialogue · 7.2s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:47
 msgctxt "175"
-msgid ""
-"\"Allow me the honor of presenting you to\n"
+msgid "\"Allow me the honor of presenting you to\n"
 "Madame Chico, my good wife!\""
 msgstr ""
 
@@ -422,8 +423,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:48
 msgctxt "179"
-msgid ""
-"\"Get in before Eloise\n"
+msgid "\"Get in before Eloise\n"
 "changes her mind!\""
 msgstr ""
 
@@ -431,8 +431,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:49
 msgctxt "180"
-msgid ""
-"\"Remember, you\n"
+msgid "\"Remember, you\n"
 "mustn't take this\n"
 "seriously. You're\n"
 "not going to take\n"
@@ -443,8 +442,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:50
 msgctxt "182"
-msgid ""
-"\"Make a tour of the\n"
+msgid "\"Make a tour of the\n"
 "boulevards——then\n"
 "home. Tonight I am\n"
 "the Bank of France!\""
@@ -454,8 +452,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:51
 msgctxt "199"
-msgid ""
-"\"Not bad, eh? I work\n"
+msgid "\"Not bad, eh? I work\n"
 "in the sewer—but I\n"
 "live near the stars!\""
 msgstr ""
@@ -471,8 +468,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:53
 msgctxt "274"
-msgid ""
-"\"Women are all alike—\n"
+msgid "\"Women are all alike—\n"
 "they try to reach a man through his stomach—\""
 msgstr ""
 
@@ -487,9 +483,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:55
 msgctxt "283"
-msgid ""
-"\"Now that you've climbed out of the sewer, Comrade, I can recognize you as "
-"a neighbor——\""
+msgid "\"Now that you've climbed out of the sewer, Comrade, I can recognize you as a neighbor——\""
 msgstr ""
 
 #. Card 56 of 142 · dialogue · 5.5s on screen
@@ -511,6 +505,14 @@ msgstr ""
 #: data/films/seventh-heaven-1927/cards.yaml:58
 msgctxt "291"
 msgid "\"I didn't mean it! Don't think you can stay!\""
+msgstr ""
+
+#. Card 59 of 142 · dialogue · 7.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:59
+msgctxt "316"
+msgid "I am a police\n"
+"detective—"
 msgstr ""
 
 #. Card 60 of 142 · dialogue · 7.5s on screen
@@ -597,6 +599,13 @@ msgctxt "395"
 msgid "—Heaven!\""
 msgstr ""
 
+#. Card 72 of 142 · dialogue · 3.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:72
+msgctxt "399"
+msgid "\"Say it again!\""
+msgstr ""
+
 #. Card 73 of 142 · dialogue · 4.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:73
@@ -615,8 +624,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:75
 msgctxt "405"
-msgid ""
-"\"I am an atheist—\n"
+msgid "\"I am an atheist—\n"
 "I walk alone!\""
 msgstr ""
 
@@ -624,8 +632,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:76
 msgctxt "408"
-msgid ""
-"\"No religious medals\n"
+msgid "\"No religious medals\n"
 "can frighten me! It's\n"
 "only a coincidence.\""
 msgstr ""
@@ -634,41 +641,48 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:77
 msgctxt "409"
-msgid ""
-"\"Is it ready—the soup\n"
+msgid "\"Is it ready—the soup\n"
 "for my wife?\""
+msgstr ""
+
+#. Card 78 of 142 · dialogue · 2.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:78
+msgctxt "411"
+msgid "\"I'm not afraid.\""
 msgstr ""
 
 #. Card 79 of 142 · dialogue · 3.0s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:79
 msgctxt "412"
-msgid ""
-"\"I'll never be afraid\n"
+msgid "\"I'll never be afraid\n"
 "again!\""
+msgstr ""
+
+#. Card 80 of 142 · insert · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:80
+msgctxt "419"
+msgid "Army of the Land and Army of the Sea\n"
+"Armée de Terre et Armée de Mer\n\n"
+"Order of General Mobilization\n"
+"Ordre de Mobilisation Générale"
 msgstr ""
 
 #. Card 81 of 142 · insert · 5.0s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:81
 msgctxt "420"
-msgid ""
-"Army of the Land and Army of the Sea\n"
-"\n"
-"Order of General Mobilization\n"
-"\n"
-"By decree of the President of the Republic mobilization of the armies of land and sea is ordered, also requisition of animals, carriages and harness necessary for the completion of these armies.\n"
-"\n"
-"The first day of the mobilization is August 2nd 1914.\n"
-"\n"
-"Every Frenchman subject to military service must under penalty of being punished to the fullest extent of the Law, obey the prescription of the PAMPHLET OF MOBILIZATION (colored pages placed in this booklet).\n"
-"\n"
+msgid "Army of the Land and Army of the Sea\n\n"
+"Order of General Mobilization\n\n"
+"By decree of the President of the Republic mobilization of the armies of land and sea is ordered, also requisition of animals, carriages and harness necessary for the completion of these armies.\n\n"
+"The first day of the mobilization is August 2nd 1914.\n\n"
+"Every Frenchman subject to military service must under penalty of being punished to the fullest extent of the Law, obey the prescription of the PAMPHLET OF MOBILIZATION (colored pages placed in this booklet).\n\n"
 "Included in the present order are ALL THE MEN not at present under the Flags and belonging:\n"
 "1° to the ARMY of the LAND including COLONIAL TROOPS and the men of the AUXILIARY SERVICES.\n"
-"2° to the ARMY of the SEA including the enrolled SEAMEN and the MARINE GUNNERS.\n"
-"\n"
-"The Civil and Military Authorities are responsible for the execution of the present decree.\n"
-"\n"
+"2° to the ARMY of the SEA including the enrolled SEAMEN and the MARINE GUNNERS.\n\n"
+"The Civil and Military Authorities are responsible for the execution of the present decree.\n\n"
 "The Minister of War\n"
 "The Minister of Marine"
 msgstr ""
@@ -677,8 +691,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:82
 msgctxt "421"
-msgid ""
-"\"I've said nothing to\n"
+msgid "\"I've said nothing to\n"
 "the women, but——\n"
 "it's come, Comrade,\n"
 "the war!\""
@@ -688,8 +701,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:83
 msgctxt "422"
-msgid ""
-"\"Our regiment is on\n"
+msgid "\"Our regiment is on\n"
 "the first list. We leave\n"
 "within the hour.\""
 msgstr ""
@@ -698,8 +710,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:84
 msgctxt "423"
-msgid ""
-"\"You're right, Comrade!\n"
+msgid "\"You're right, Comrade!\n"
 "We must defend our\n"
 "homes———and our\n"
 "women!\""
@@ -731,6 +742,13 @@ msgstr ""
 #: data/films/seventh-heaven-1927/cards.yaml:88
 msgctxt "458"
 msgid "\"Diane—I have terrible news! Gobin and I leave at once! War has come!\""
+msgstr ""
+
+#. Card 89 of 142 · dialogue · 1.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:89
+msgctxt "459"
+msgid "\"I'm afraid!\""
 msgstr ""
 
 #. Card 90 of 142 · dialogue · 3.8s on screen
@@ -779,9 +797,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:96
 msgctxt "488"
-msgid ""
-"\"Monsieur le Bon Dieu, if there is any truth in the idea of You, please "
-"make this a true marriage.\""
+msgid "\"Monsieur le Bon Dieu, if there is any truth in the idea of You, please make this a true marriage.\""
 msgstr ""
 
 #. Card 97 of 142 · dialogue · 9.2s on screen
@@ -795,8 +811,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:98
 msgctxt "513"
-msgid ""
-"\"Hurry, Comrade,\n"
+msgid "\"Hurry, Comrade,\n"
 "we must be at the\n"
 "station in fifteen\n"
 "minutes.\""
@@ -813,9 +828,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:100
 msgctxt "530"
-msgid ""
-"\"I've been hiding in the hall till your sewer man left. So the war's got "
-"him!\""
+msgid "\"I've been hiding in the hall till your sewer man left. So the war's got him!\""
 msgstr ""
 
 #. Card 101 of 142 · dialogue · 4.8s on screen
@@ -829,9 +842,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:102
 msgctxt "536"
-msgid ""
-"Invading armies——gray-coated hordes that stretched half-way across Europe—a "
-"tidal wave of death rolling relentlessly down upon Paris."
+msgid "Invading armies——gray-coated hordes that stretched half-way across Europe—a tidal wave of death rolling relentlessly down upon Paris."
 msgstr ""
 
 #. Card 103 of 142 · narrative · 8.2s on screen
@@ -845,36 +856,28 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:104
 msgctxt "538"
-msgid ""
-"\"Only thirty miles away —sweeping down like an avalanche! Paris is "
-"doomed!\""
+msgid "\"Only thirty miles away —sweeping down like an avalanche! Paris is doomed!\""
 msgstr ""
 
 #. Card 105 of 142 · dialogue · 11.5s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:105
 msgctxt "549"
-msgid ""
-"\"Sir, the enemy has crossed the Marne—our line is in danger! General Joffre"
-" asks for every man you can send!\""
+msgid "\"Sir, the enemy has crossed the Marne—our line is in danger! General Joffre asks for every man you can send!\""
 msgstr ""
 
 #. Card 106 of 142 · dialogue · 7.5s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:106
 msgctxt "551"
-msgid ""
-"\"Commandeer all taxicabs, private cars, omnibuses—everything on wheels with"
-" a motor—\""
+msgid "\"Commandeer all taxicabs, private cars, omnibuses—everything on wheels with a motor—\""
 msgstr ""
 
 #. Card 107 of 142 · dialogue · 11.0s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:107
 msgctxt "552"
-msgid ""
-"\"—Order out the garrison troops—get every soldier in Paris and start them "
-"to the Front!\""
+msgid "\"—Order out the garrison troops—get every soldier in Paris and start them to the Front!\""
 msgstr ""
 
 #. Card 108 of 142 · dialogue · 6.2s on screen
@@ -888,9 +891,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:109
 msgctxt "561"
-msgid ""
-"\"It's the guns! They rumble closer every day. I pray my husband and Chico "
-"are safe.\""
+msgid "\"It's the guns! They rumble closer every day. I pray my husband and Chico are safe.\""
 msgstr ""
 
 #. Card 110 of 142 · dialogue · 3.2s on screen
@@ -925,18 +926,14 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:114
 msgctxt "583"
-msgid ""
-"\"Listen to me, Diane. The world is upside down—ideals, beliefs, traditions,"
-" all in the discard!\""
+msgid "\"Listen to me, Diane. The world is upside down—ideals, beliefs, traditions, all in the discard!\""
 msgstr ""
 
 #. Card 115 of 142 · dialogue · 6.0s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:115
 msgctxt "584"
-msgid ""
-"\"What do the old rules matter now? Each day may be our last. Let me take "
-"care of you!\""
+msgid "\"What do the old rules matter now? Each day may be our last. Let me take care of you!\""
 msgstr ""
 
 #. Card 116 of 142 · dialogue · 5.2s on screen
@@ -964,9 +961,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:119
 msgctxt "605"
-msgid ""
-"\"Be quiet! He's talking to his wife——every morning at eleven it's the "
-"same.\""
+msgid "\"Be quiet! He's talking to his wife——every morning at eleven it's the same.\""
 msgstr ""
 
 #. Card 120 of 142 · narrative · 13.2s on screen
@@ -976,12 +971,19 @@ msgctxt "609"
 msgid "Chico"
 msgstr ""
 
+#. Card 121 of 142 · narrative · 5.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:121
+msgctxt "616"
+msgid "Day after day—year\n"
+"after year—"
+msgstr ""
+
 #. Card 122 of 142 · dialogue · 7.2s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:122
 msgctxt "628"
-msgid ""
-"\"We'll wash them down\n"
+msgid "\"We'll wash them down\n"
 "—fight their fire with\n"
 "fire! Gobin and I have\n"
 "handled the hose before.\""
@@ -991,8 +993,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:123
 msgctxt "663"
-msgid ""
-"\"Father Chevillon—\n"
+msgid "\"Father Chevillon—\n"
 "I borrowed the\n"
 "General's watch—\n"
 "please give it back\n"
@@ -1003,8 +1004,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:124
 msgctxt "666"
-msgid ""
-"\"Give this to Madame\n"
+msgid "\"Give this to Madame\n"
 "Chico with my love. Tell\n"
 "her I died looking up!\""
 msgstr ""
@@ -1013,8 +1013,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:125
 msgctxt "673"
-msgid ""
-"\"Forgive me for this\n"
+msgid "\"Forgive me for this\n"
 "intrusion. I must\n"
 "talk to you—\""
 msgstr ""
@@ -1030,19 +1029,24 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:127
 msgctxt "681"
-msgid ""
-"Raoul Papal...........soldier.....missing\n"
+msgid "Raoul Papal...........soldier.....missing\n"
 "Chico Robas...........corporal....killed\n"
 "Paul Lebrun...........soldier.....missing"
+msgstr ""
+
+#. Card 128 of 142 · dialogue · 3.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:128
+msgctxt "684"
+msgid "\"It isn't true—Chico\n"
+"is alive! I know!\""
 msgstr ""
 
 #. Card 129 of 142 · dialogue · 8.2s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:129
 msgctxt "685"
-msgid ""
-"\"He promised to come to me every morning at eleven——and he has never failed"
-" me.\""
+msgid "\"He promised to come to me every morning at eleven——and he has never failed me.\""
 msgstr ""
 
 #. Card 130 of 142 · dialogue · 6.8s on screen
@@ -1063,9 +1067,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:132
 msgctxt "701"
-msgid ""
-"\"He sent you his love—and he told me to tell you that he died——looking "
-"up.\""
+msgid "\"He sent you his love—and he told me to tell you that he died——looking up.\""
 msgstr ""
 
 #. Card 133 of 142 · dialogue · 4.0s on screen
@@ -1114,18 +1116,14 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:139
 msgctxt "740"
-msgid ""
-"Diane, I've been hit by every shell that's made! They thought I was dead, "
-"but I'll never die!"
+msgid "Diane, I've been hit by every shell that's made! They thought I was dead, but I'll never die!"
 msgstr ""
 
 #. Card 140 of 142 · dialogue · 8.2s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:140
 msgctxt "742"
-msgid ""
-"Diane, those big thoughts I had were the Bon Dieu after all. He is within "
-"me—"
+msgid "Diane, those big thoughts I had were the Bon Dieu after all. He is within me—"
 msgstr ""
 
 #. Card 141 of 142 · dialogue · 49.0s on screen
@@ -1135,158 +1133,3 @@ msgctxt "743"
 msgid "My eyes are still filled with you."
 msgstr ""
 
-#. Card 72 of 142 · dialogue · 3.8s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:72
-msgctxt "399"
-msgid "\"Say it again!\""
-msgstr ""
-
-#. Card 78 of 142 · dialogue · 2.2s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:78
-msgctxt "411"
-msgid "\"I'm not afraid.\""
-msgstr ""
-
-#. Card 89 of 142 · dialogue · 1.8s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:89
-msgctxt "459"
-msgid "\"I'm afraid!\""
-msgstr ""
-
-#. Card 121 of 142 · narrative · 5.8s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:121
-msgctxt "616"
-msgid ""
-"Day after day—year\n"
-"after year—"
-msgstr ""
-
-#. Card 128 of 142 · dialogue · 3.5s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:128
-msgctxt "684"
-msgid ""
-"\"It isn't true—Chico\n"
-"is alive! I know!\""
-msgstr ""
-
-#. Card 6 of 142 · dialogue · 13.8s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:6
-msgctxt "020"
-msgid "Look, Chico!"
-msgstr ""
-
-#. Card 9 of 142 · dialogue · 4.5s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:9
-msgctxt "028"
-msgid ""
-"After all, you know, I'm\n"
-"a very remarkable fellow!"
-msgstr ""
-
-#. Card 37 of 142 · dialogue · 2.2s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:37
-msgctxt "132"
-msgid "Welcome, Comrade!"
-msgstr ""
-
-#. Card 38 of 142 · dialogue · 2.2s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:38
-msgctxt "133"
-msgid "I thank you, Comrade."
-msgstr ""
-
-#. Card 46 of 142 · dialogue · 2.5s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:46
-msgctxt "170"
-msgid "Crank up Eloise!"
-msgstr ""
-
-#. Card 59 of 142 · dialogue · 7.8s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:59
-msgctxt "316"
-msgid ""
-"I am a police\n"
-"detective—"
-msgstr ""
-
-#. Card 80 of 142 · insert · 0.8s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:80
-msgctxt "419"
-msgid ""
-"Army of the Land and Army of the Sea\n"
-"Armée de Terre et Armée de Mer\n"
-"\n"
-"Order of General Mobilization\n"
-"Ordre de Mobilisation Générale"
-msgstr ""
-
-#~ msgctxt "419"
-#~ msgid ""
-#~ "Army of the Land and Army of the Sea\n"
-#~ "\n"
-#~ "Order of General Mobilization"
-#~ msgstr ""
-
-#~ msgctxt "020"
-#~ msgid "'Look, Chicol\""
-#~ msgstr ""
-
-#~ msgctxt "028"
-#~ msgid ""
-#~ "\"After all, you know, I'm\n"
-#~ "a very remarkable fellow!\""
-#~ msgstr ""
-
-#~ msgctxt "132"
-#~ msgid "\"Welcome, Comrade!\""
-#~ msgstr ""
-
-#~ msgctxt "133"
-#~ msgid "\"I thank you, Comrade.\""
-#~ msgstr ""
-
-#~ msgctxt "170"
-#~ msgid "\"Crank up Eloise!\""
-#~ msgstr ""
-
-#~ msgctxt "316"
-#~ msgid ""
-#~ "am a police\n"
-#~ "detective-"
-#~ msgstr ""
-
-#~ msgctxt "399"
-#~ msgid "*Say it again!\""
-#~ msgstr ""
-
-#~ msgctxt "411"
-#~ msgid "\"I'm not afraid?"
-#~ msgstr ""
-
-#~ msgctxt "459"
-#~ msgid "I'm afraidl"
-#~ msgstr ""
-
-#~ msgctxt "616"
-#~ msgid ""
-#~ "jayafter day-year\n"
-#~ "afteryear"
-#~ msgstr ""
-
-#~ msgctxt "684"
-#~ msgid ""
-#~ "\"It isn't true一Chico\n"
-#~ "is alive! I know!\""
-#~ msgstr ""
