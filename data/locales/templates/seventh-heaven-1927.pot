@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: intertitles seventh-heaven-1927\n"
-"POT-Creation-Date: 2026-09-04 03:56+0000\n"
+"POT-Creation-Date: 2026-09-04 03:57+0000\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -622,7 +622,7 @@ msgctxt "392"
 msgid "\"Well, this way then—\""
 msgstr ""
 
-#. Card 69 of 142 · title · 3.0s on screen
+#. Card 69 of 142 · dialogue · 3.0s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:69
 msgctxt "393"
@@ -636,7 +636,7 @@ msgctxt "394"
 msgid "—Diane—"
 msgstr ""
 
-#. Card 71 of 142 · title · 2.5s on screen
+#. Card 71 of 142 · dialogue · 2.5s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:71
 msgctxt "395"
@@ -714,8 +714,10 @@ msgstr ""
 msgctxt "419"
 msgid ""
 "Army of the Land and Army of the Sea\n"
+"Armée de Terre et Armée de Mer\n"
 "\n"
-"Order of General Mobilization"
+"Order of General Mobilization\n"
+"Ordre de Mobilisation Générale"
 msgstr ""
 
 #. Card 81 of 142 · insert · 5.0s on screen

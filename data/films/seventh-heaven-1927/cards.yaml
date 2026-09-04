@@ -1194,7 +1194,7 @@ cards:
   - id: "393"
     in: "01:02:58.000"
     out: "01:03:01.000"
-    type: title
+    type: dialogue
     text: |-
       "Chico—
     context: ""
@@ -1205,8 +1205,8 @@ cards:
       quote_style: double straight
       emphasis: ""
       all_caps: false
-    confidence: low
-    doubt: 'pass 1: ''"Chico—'' | pass 2: ''Chico—'' | frame is badly damaged/degraded (heavy print artifacts); only "Chico—" legible, closing quote and any further text uncertain'
+    confidence: medium
+    doubt: frame heavily damaged with print artifacts; opening quote before "Chico" is legible, but the mark after the dash looks like scratch damage rather than punctuation
 
   - id: "394"
     in: "01:03:01.750"
@@ -1227,7 +1227,7 @@ cards:
   - id: "395"
     in: "01:03:06.250"
     out: "01:03:08.750"
-    type: title
+    type: dialogue
     text: |-
       —Heaven!"
     context: ""
@@ -1238,8 +1238,8 @@ cards:
       quote_style: double straight
       emphasis: ""
       all_caps: false
-    confidence: low
-    doubt: 'pass 1: ''—Heaven!"'' | pass 2: ''—Heaven!'' | frame is badly damaged/degraded (heavy print artifacts); only "—Heaven!" legible, likely continuation of a card split across 393-395'
+    confidence: medium
+    doubt: frame heavily damaged with print artifacts; closing quote after "Heaven!" is legible, continuation of the line begun on card 393; mark before the dash looks like scratch damage rather than punctuation
 
   - id: "399"
     in: "01:03:27.000"
@@ -1382,8 +1382,10 @@ cards:
     type: insert
     text: |-
       Army of the Land and Army of the Sea
+      Armée de Terre et Armée de Mer
 
       Order of General Mobilization
+      Ordre de Mobilisation Générale
     context: ""
     verified: false
     style:
@@ -1393,7 +1395,7 @@ cards:
       emphasis: bold headline lettering
       all_caps: false
     confidence: low
-    doubt: 'pass 1: ''Army of the Land and Army of the Sea\n\nOrder of General Mobilization'' | pass 2: ''Armée de Terre et Armée de Mer\nOrdre de Mobilisation Générale'' | frame shows a doubled/ghosted exposure (motion blur or fade transition); the headline is legible through the doubling but the fine-print body paragraphs are not readable in this frame | bilingual double-exposure overlay makes the exact wording, especially the superimposed English translation, hard to read with certainty'
+    doubt: doubled/ghosted exposure superimposes an English translation over the French mobilization poster; both headline layers are legible through the doubling but the fine-print body paragraphs below are not readable in this frame
 
   - id: "420"
     in: "01:06:20.250"

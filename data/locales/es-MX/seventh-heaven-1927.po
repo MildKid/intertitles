@@ -576,7 +576,7 @@ msgctxt "392"
 msgid "\"Well, this way then—\""
 msgstr ""
 
-#. Card 69 of 142 · title · 3.0s on screen
+#. Card 69 of 142 · dialogue · 3.0s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:69
 msgctxt "393"
@@ -590,7 +590,7 @@ msgctxt "394"
 msgid "—Diane—"
 msgstr ""
 
-#. Card 71 of 142 · title · 2.5s on screen
+#. Card 71 of 142 · dialogue · 2.5s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/seventh-heaven-1927/cards.yaml:71
 msgctxt "395"
@@ -646,16 +646,6 @@ msgctxt "412"
 msgid ""
 "\"I'll never be afraid\n"
 "again!\""
-msgstr ""
-
-#. Card 80 of 142 · insert · 0.8s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/seventh-heaven-1927/cards.yaml:80
-msgctxt "419"
-msgid ""
-"Army of the Land and Army of the Sea\n"
-"\n"
-"Order of General Mobilization"
 msgstr ""
 
 #. Card 81 of 142 · insert · 5.0s on screen
@@ -1229,6 +1219,25 @@ msgid ""
 "I am a police\n"
 "detective—"
 msgstr ""
+
+#. Card 80 of 142 · insert · 0.8s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/seventh-heaven-1927/cards.yaml:80
+msgctxt "419"
+msgid ""
+"Army of the Land and Army of the Sea\n"
+"Armée de Terre et Armée de Mer\n"
+"\n"
+"Order of General Mobilization\n"
+"Ordre de Mobilisation Générale"
+msgstr ""
+
+#~ msgctxt "419"
+#~ msgid ""
+#~ "Army of the Land and Army of the Sea\n"
+#~ "\n"
+#~ "Order of General Mobilization"
+#~ msgstr ""
 
 #~ msgctxt "020"
 #~ msgid "'Look, Chicol\""
