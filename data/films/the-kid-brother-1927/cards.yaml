@@ -528,8 +528,8 @@ cards:
       quote_style: none
       emphasis: handwritten cursive document
       all_caps: false
-    confidence: low
-    doubt: 'pass 1: ''Subscribers to County Dam\n\nThe undersigned citizens of\nHickoryville have paid\ntheir share for the new dam.\n\nJim Hickory          Joe Ryan\nFrank Lanning          Jim McIntyre\nLem Hardy          Frank Mitchel\nGeorge Turner          Joe Young\nFred Brown          Clyde Snyder\nPeter Toole          L. K. Cole\nFrank Nelson          George Reddy\nAmos Parker          A.J. Milhen'' | pass 2: ''Subscribers to County Dam\n\nThe undersigned citizens of\nHickoryville have paid\ntheir share for the new dam.\n\nJim Hickory\nFrank Lanning\nHem Hardy\nGeorge Turner\nFred Brown\nPeter Toole\nFrank Nelson\nAmos Parker\nJoe Ryan\nJim McIntyre\nFrank Mitchel\nJoe Young\nClyde Snyder\nL.K. Cole\nGeorge Reddy\nA.J. Milhen'' | several handwritten names uncertain: "Lem Hardy" could read "Hem Hardy"; "Frank Lanning" could read "Frank Lansing"; bottom-right surname is cut off/unclear, read as "A.J. Milhen" | several handwritten names uncertain: "Frank Lanning" (could be Fanning/Manning), "Hem Hardy" (could be Sem/Lem Hardy), "Jim McIntyre" (could be McIntire), "L.K. Cole" (could be I.K./L.R. Cole), "A.J. Milhen" (could be Millen), last row partly cut off at bottom of frame'
+    confidence: medium
+    doubt: 'Some handwritten surnames are ambiguous: Frank Lanning (could be Lansing/Fanning), Jim McIntyre (could be McIntire), Clyde Snyder (faint), L. K. Cole (could be J.K. Cole), George Reddy (could be Riddle/Reddie); bottom row (Amos Parker / A.J. Milhen) sits at the very edge of frame and is the least certain.'
 
   - id: "063"
     in: "00:14:52.000"
@@ -1274,10 +1274,12 @@ cards:
     out: "00:42:35.250"
     type: insert
     text: |-
-      HICKORYVILLE CLARION
-      Vol. IX. No. 44   Hickoryville, May 7, 1927   Published Weekly
-      MONEY COLLECTED FOR COUNTY DAM
-      SHERIFF JIM HICKORY REALIZES LIFE-LONG AMBITION
+      Hickoryville Clarion
+      Vol. IX. No. 44          Hickoryville, May 7, 1927          Published Weekly
+      Money collected for county dam
+      Sheriff Jim Hickory
+      realizes life-long
+      ambition
       At a mass meeting held at Town Hall today, Hickoryville officially turned over to Sheriff Hickory the money that has been collected from the townspeople for the building of the new dam.
       The money will now remain in the Sheriff's keeping until the celebration tomorrow when he will turn it over to the State officials who will be present.
       This is a big movement for Hickoryville as the hopes for a county dam are now to be realized and the much needed water supply will make our
@@ -1289,8 +1291,8 @@ cards:
       quote_style: ""
       emphasis: bold headline type
       all_caps: false
-    confidence: low
-    doubt: 'pass 1: "HICKORYVILLE CLARION\nVol. IX. No. 44   Hickoryville, May 7, 1927   Published Weekly\nMONEY COLLECTED FOR COUNTY DAM\nSHERIFF JIM HICKORY REALIZES LIFE-LONG AMBITION\nAt a mass meeting held at Town Hall today, Hickoryville officially turned over to Sheriff Hickory the money that has been collected from the townspeople for the building of the new dam.\nThe money will now remain in the Sheriff''s keeping until the celebration tomorrow when he will turn it over to the State officials who will be present.\nThis is a big movement for Hickoryville as the hopes for a county dam are now to be realized and the much needed water supply will make our" | pass 2: "HICKORYVILLE CLARION\nVOL. IX No. 44          HICKORYVILLE, MAY 7, 1927          Published Weekly\nMONEY COLLECTED FOR COUNTY DAM\nSHERIFF JIM HICKORY\nREALIZES LIFE-LONG\nAMBITION\nAt a mass meeting held at Town Hall today, Hickoryville officially turned over to Sheriff Hickory the money that has been collected from the townspeople for the building of the new dam.\nThe money will now remain in the Sheriff''s keeping until the celebration tomorrow when he will turn it over to the State officials who will be present.\nThis is a big movement for Hickoryville as the hopes for a county dam are now to be realized and the much needed water supply will make our" | final line of body text is cut off at the bottom frame edge (''will make our...''); some small print may be misread | bottom paragraph is cut off mid-sentence after ''make our''; some small print (vol/date line, byline text) is faint and partly uncertain'
+    confidence: high
+    doubt: Final paragraph is cut off by the frame edge after 'will make our'; small print in the vol/date line is slightly soft but legible.
 
   - id: "244"
     in: "00:42:39.500"
@@ -1945,13 +1947,13 @@ cards:
       Hickoryville have paid
       their share for the new dam.
 
-      Jim Hickory  Joe Ryan
-      Frank Landrum  Jim McIntyre
-      Lem Hardy  Frank Mitchell
-      George Turner  Joe Young
-      Fred Brown  [illegible] Snyder
-      Peter Todd  J.K. Cole
-      George Riddle
+      Jim Hickory          Joe Ryan
+      Frank Lanning          Jim McIntyre
+      Lem Hardy          Frank Mitchel
+      George Turner          Joe Young
+      Fred Brown          Clyde Snyder
+      Peter Toole          L. K. Cole
+                George Reddy
     context: ""
     verified: false
     style:
@@ -1960,8 +1962,8 @@ cards:
       quote_style: ""
       emphasis: ""
       all_caps: false
-    confidence: low
-    doubt: 'pass 1: ''Subscribers to County Dam\n\nThe undersigned citizens of\nHickoryville have paid\ntheir share for the new dam.\n\nJim Hickory  Joe Ryan\nFrank Landrum  Jim McIntyre\nLem Hardy  Frank Mitchell\nGeorge Turner  Joe Young\nFred Brown  [illegible] Snyder\nPeter Todd  J.K. Cole\nGeorge Riddle'' | pass 2: ''Subscribers to County Dam\nThe undersigned citizens of\nHickoryville have paid\ntheir share for the new dam.\nJim Hickory\nFrank Lanning\nLem Hardy\nGeorge Turner\nFred Brown\nPeter Todd\nJoe Ryan\nJim McIntyre\nFrank Mitchel\nJoe Young\nJ. Snyder\nJ.K. Cole\nGeorge Riddle'' | handwritten signatures partly illegible: Frank Landrum, Jim McIntyre, the name before Snyder, Peter Todd, and George Riddle are uncertain readings; more names may continue below the visible edge | signature list is small cursive and partly obscured; several surnames uncertain, including Lanning, McIntyre, Snyder, Todd, and Riddle'
+    confidence: medium
+    doubt: Angled, crumpled-paper shot is blurrier than the flat reference copy; several surnames uncertain (Lanning, McIntyre, Snyder, Cole, Reddy); rows below 'George Reddy' (a further signature) and beyond 'Peter Toole' on the left are cut off by the frame or paper fold and not legible.
 
   - id: "322"
     in: "01:01:55.500"
@@ -1974,13 +1976,13 @@ cards:
       Hickoryville have paid
       their share for the new dam.
 
-      Jim Hickory  Joe Ryan
-      Frank Landrum  Jim McIntyre
-      Lem Hardy  Frank Mitchell
-      George Turner  Joe Young
-      Fred Brown  [illegible] Snyder
-      Peter Todd  J.K. Cole
-      George Riddle
+      Jim Hickory          Joe Ryan
+      Frank Lanning          Jim McIntyre
+      Lem Hardy          Frank Mitchel
+      George Turner          Joe Young
+      Fred Brown          Clyde Snyder
+      Peter Toole          L. K. Cole
+                George Reddy
     context: ""
     verified: false
     style:
@@ -1989,8 +1991,8 @@ cards:
       quote_style: ""
       emphasis: ""
       all_caps: false
-    confidence: low
-    doubt: 'pass 1: ''Subscribers to County Dam\n\nThe undersigned citizens of\nHickoryville have paid\ntheir share for the new dam.\n\nJim Hickory  Joe Ryan\nFrank Landrum  Jim McIntyre\nLem Hardy  Frank Mitchell\nGeorge Turner  Joe Young\nFred Brown  [illegible] Snyder\nPeter Todd  J.K. Cole\nGeorge Riddle'' | pass 2: ''Subscribers to County Dam\nThe undersigned citizens of\nHickoryville have paid\ntheir share for the new dam.\nJim Hickory\nFrank Lanning\nLem Hardy\nGeorge Turner\nFred Brown\nPeter Todd\nJoe Ryan\nJim McIntyre\nFrank Mitchel\nJoe Young\nJ. Snyder\nJ.K. Cole\nGeorge Riddle'' | handwritten signatures partly illegible: Frank Landrum, Jim McIntyre, the name before Snyder, Peter Todd, and George Riddle are uncertain readings; more names may continue below the visible edge | signature list is small cursive and partly obscured; several surnames uncertain, including Lanning, McIntyre, Snyder, Todd, and Riddle'
+    confidence: medium
+    doubt: Angled, crumpled-paper shot is blurrier than the flat reference copy; several surnames uncertain (Lanning, McIntyre, Snyder, Cole, Reddy); rows below 'George Reddy' (a further signature) and beyond 'Peter Toole' on the left are cut off by the frame or paper fold and not legible.
 
   - id: "360"
     in: "01:09:00.750"

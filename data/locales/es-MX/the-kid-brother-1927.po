@@ -703,20 +703,6 @@ msgctxt "242"
 msgid "Next morning—"
 msgstr ""
 
-#. Card 69 of 115 · insert · 1.5s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/the-kid-brother-1927/cards.yaml:69
-msgctxt "243"
-msgid ""
-"HICKORYVILLE CLARION\n"
-"Vol. IX. No. 44   Hickoryville, May 7, 1927   Published Weekly\n"
-"MONEY COLLECTED FOR COUNTY DAM\n"
-"SHERIFF JIM HICKORY REALIZES LIFE-LONG AMBITION\n"
-"At a mass meeting held at Town Hall today, Hickoryville officially turned over to Sheriff Hickory the money that has been collected from the townspeople for the building of the new dam.\n"
-"The money will now remain in the Sheriff's keeping until the celebration tomorrow when he will turn it over to the State officials who will be present.\n"
-"This is a big movement for Hickoryville as the hopes for a county dam are now to be realized and the much needed water supply will make our"
-msgstr ""
-
 #. Card 70 of 115 · insert · 3.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-kid-brother-1927/cards.yaml:70
@@ -1062,46 +1048,6 @@ msgctxt "320"
 msgid "Black Ghost"
 msgstr ""
 
-#. Card 105 of 115 · insert · 1.5s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/the-kid-brother-1927/cards.yaml:105
-msgctxt "321"
-msgid ""
-"Subscribers to County Dam\n"
-"\n"
-"The undersigned citizens of\n"
-"Hickoryville have paid\n"
-"their share for the new dam.\n"
-"\n"
-"Jim Hickory  Joe Ryan\n"
-"Frank Landrum  Jim McIntyre\n"
-"Lem Hardy  Frank Mitchell\n"
-"George Turner  Joe Young\n"
-"Fred Brown  [illegible] Snyder\n"
-"Peter Todd  J.K. Cole\n"
-"George Riddle"
-msgstr ""
-
-#. Card 106 of 115 · insert · 1.2s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/the-kid-brother-1927/cards.yaml:106
-msgctxt "322"
-msgid ""
-"Subscribers to County Dam\n"
-"\n"
-"The undersigned citizens of\n"
-"Hickoryville have paid\n"
-"their share for the new dam.\n"
-"\n"
-"Jim Hickory  Joe Ryan\n"
-"Frank Landrum  Jim McIntyre\n"
-"Lem Hardy  Frank Mitchell\n"
-"George Turner  Joe Young\n"
-"Fred Brown  [illegible] Snyder\n"
-"Peter Todd  J.K. Cole\n"
-"George Riddle"
-msgstr ""
-
 #. Card 107 of 115 · dialogue · 0.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/the-kid-brother-1927/cards.yaml:107
@@ -1179,3 +1125,104 @@ msgid ""
 "Orchestration: Nic Raine\n"
 "Orchestra of Radio-Television Luxembourg"
 msgstr ""
+
+#. Card 69 of 115 · insert · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:69
+msgctxt "243"
+msgid ""
+"Hickoryville Clarion\n"
+"Vol. IX. No. 44          Hickoryville, May 7, 1927          Published Weekly\n"
+"Money collected for county dam\n"
+"Sheriff Jim Hickory\n"
+"realizes life-long\n"
+"ambition\n"
+"At a mass meeting held at Town Hall today, Hickoryville officially turned over to Sheriff Hickory the money that has been collected from the townspeople for the building of the new dam.\n"
+"The money will now remain in the Sheriff's keeping until the celebration tomorrow when he will turn it over to the State officials who will be present.\n"
+"This is a big movement for Hickoryville as the hopes for a county dam are now to be realized and the much needed water supply will make our"
+msgstr ""
+
+#. Card 105 of 115 · insert · 1.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:105
+msgctxt "321"
+msgid ""
+"Subscribers to County Dam\n"
+"\n"
+"The undersigned citizens of\n"
+"Hickoryville have paid\n"
+"their share for the new dam.\n"
+"\n"
+"Jim Hickory          Joe Ryan\n"
+"Frank Lanning          Jim McIntyre\n"
+"Lem Hardy          Frank Mitchel\n"
+"George Turner          Joe Young\n"
+"Fred Brown          Clyde Snyder\n"
+"Peter Toole          L. K. Cole\n"
+"          George Reddy"
+msgstr ""
+
+#. Card 106 of 115 · insert · 1.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/the-kid-brother-1927/cards.yaml:106
+msgctxt "322"
+msgid ""
+"Subscribers to County Dam\n"
+"\n"
+"The undersigned citizens of\n"
+"Hickoryville have paid\n"
+"their share for the new dam.\n"
+"\n"
+"Jim Hickory          Joe Ryan\n"
+"Frank Lanning          Jim McIntyre\n"
+"Lem Hardy          Frank Mitchel\n"
+"George Turner          Joe Young\n"
+"Fred Brown          Clyde Snyder\n"
+"Peter Toole          L. K. Cole\n"
+"          George Reddy"
+msgstr ""
+
+#~ msgctxt "243"
+#~ msgid ""
+#~ "HICKORYVILLE CLARION\n"
+#~ "Vol. IX. No. 44   Hickoryville, May 7, 1927   Published Weekly\n"
+#~ "MONEY COLLECTED FOR COUNTY DAM\n"
+#~ "SHERIFF JIM HICKORY REALIZES LIFE-LONG AMBITION\n"
+#~ "At a mass meeting held at Town Hall today, Hickoryville officially turned over to Sheriff Hickory the money that has been collected from the townspeople for the building of the new dam.\n"
+#~ "The money will now remain in the Sheriff's keeping until the celebration tomorrow when he will turn it over to the State officials who will be present.\n"
+#~ "This is a big movement for Hickoryville as the hopes for a county dam are now to be realized and the much needed water supply will make our"
+#~ msgstr ""
+
+#~ msgctxt "321"
+#~ msgid ""
+#~ "Subscribers to County Dam\n"
+#~ "\n"
+#~ "The undersigned citizens of\n"
+#~ "Hickoryville have paid\n"
+#~ "their share for the new dam.\n"
+#~ "\n"
+#~ "Jim Hickory  Joe Ryan\n"
+#~ "Frank Landrum  Jim McIntyre\n"
+#~ "Lem Hardy  Frank Mitchell\n"
+#~ "George Turner  Joe Young\n"
+#~ "Fred Brown  [illegible] Snyder\n"
+#~ "Peter Todd  J.K. Cole\n"
+#~ "George Riddle"
+#~ msgstr ""
+
+#~ msgctxt "322"
+#~ msgid ""
+#~ "Subscribers to County Dam\n"
+#~ "\n"
+#~ "The undersigned citizens of\n"
+#~ "Hickoryville have paid\n"
+#~ "their share for the new dam.\n"
+#~ "\n"
+#~ "Jim Hickory  Joe Ryan\n"
+#~ "Frank Landrum  Jim McIntyre\n"
+#~ "Lem Hardy  Frank Mitchell\n"
+#~ "George Turner  Joe Young\n"
+#~ "Fred Brown  [illegible] Snyder\n"
+#~ "Peter Todd  J.K. Cole\n"
+#~ "George Riddle"
+#~ msgstr ""
