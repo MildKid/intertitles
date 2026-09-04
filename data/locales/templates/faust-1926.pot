@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: intertitles faust-1926\n"
-"POT-Creation-Date: 2026-09-04 04:02+0000\n"
+"POT-Creation-Date: 2026-09-04 04:04+0000\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -377,8 +377,7 @@ msgid ""
 "seinen himmlischen\n"
 "Heerscharen. Und dafür\n"
 "soll mein sein alle Macht\n"
-"und Herrlichkeit der\n"
-"Welt."
+"und Herrlichkeit der"
 msgstr ""
 
 #. Card 37 of 134 · dialogue · 4.8s on screen
@@ -388,11 +387,11 @@ msgctxt "125"
 msgid "Hebe Dich hinweg von mir, Satan!"
 msgstr ""
 
-#. Card 38 of 134 · narrative · 6.5s on screen
+#. Card 38 of 134 · insert · 6.5s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/faust-1926/cards.yaml:38
 msgctxt "129"
-msgid "Macht"
+msgid "…lichkeit … Macht"
 msgstr ""
 
 #. Card 39 of 134 · dialogue · 6.0s on screen

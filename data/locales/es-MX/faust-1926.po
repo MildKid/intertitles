@@ -361,31 +361,11 @@ msgid ""
 "gerufen!“"
 msgstr ""
 
-#. Card 36 of 134 · insert · 1.2s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/faust-1926/cards.yaml:36
-msgctxt "124"
-msgid ""
-"Ich entsage Gott und\n"
-"seinen himmlischen\n"
-"Heerscharen. Und dafür\n"
-"soll mein sein alle Macht\n"
-"und Herrlichkeit der\n"
-"Welt."
-msgstr ""
-
 #. Card 37 of 134 · dialogue · 4.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/faust-1926/cards.yaml:37
 msgctxt "125"
 msgid "Hebe Dich hinweg von mir, Satan!"
-msgstr ""
-
-#. Card 38 of 134 · narrative · 6.5s on screen
-#. Keep the line breaks: each newline is a line on the card.
-#: data/films/faust-1926/cards.yaml:38
-msgctxt "129"
-msgid "Macht"
 msgstr ""
 
 #. Card 39 of 134 · dialogue · 6.0s on screen
@@ -1302,6 +1282,39 @@ msgstr ""
 msgctxt "178"
 msgid "„Auf meinen Mantel tritt . . .“"
 msgstr ""
+
+#. Card 36 of 134 · insert · 1.2s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/faust-1926/cards.yaml:36
+msgctxt "124"
+msgid ""
+"Ich entsage Gott und\n"
+"seinen himmlischen\n"
+"Heerscharen. Und dafür\n"
+"soll mein sein alle Macht\n"
+"und Herrlichkeit der"
+msgstr ""
+
+#. Card 38 of 134 · insert · 6.5s on screen
+#. Keep the line breaks: each newline is a line on the card.
+#: data/films/faust-1926/cards.yaml:38
+msgctxt "129"
+msgid "…lichkeit … Macht"
+msgstr ""
+
+#~ msgctxt "124"
+#~ msgid ""
+#~ "Ich entsage Gott und\n"
+#~ "seinen himmlischen\n"
+#~ "Heerscharen. Und dafür\n"
+#~ "soll mein sein alle Macht\n"
+#~ "und Herrlichkeit der\n"
+#~ "Welt."
+#~ msgstr ""
+
+#~ msgctxt "129"
+#~ msgid "Macht"
+#~ msgstr ""
 
 #~ msgctxt "090"
 #~ msgid "The Plague!! The Plague!!"

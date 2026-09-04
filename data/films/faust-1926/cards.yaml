@@ -224,8 +224,8 @@ cards:
       quote_style: double curly
       emphasis: blackletter type
       all_caps: false
-    confidence: low
-    doubt: 'pass 1: ''„Wunderbar\nsind alle Dinge Himmels\nund der Erde!\nDoch der Wunder Größtes\nist die Freiheit des Menschen:\nZu wählen zwischen'' | pass 2: ''Wunderbar\nsind alle Dinge Himmels\nund der Erde!\nDoch der Wunder Größtes\nist die Freiheit des Menschen:\nZu wählen zwischen\nGut und Böse!'' | card is cut off after "Zu wählen zwischen"; the closing line (likely "Gut und Böse." plus closing quote) is not visible in this frame | last line is cut off by a burned-in caption overlay; ending reconstructed as ''Gut und Böse'' from context and is not fully visible'
+    confidence: medium
+    doubt: Last line (likely "Gut und Böse!" plus closing quote) is covered by a burned-in caption overlay and not visible in this frame.
 
   - id: "023"
     in: "00:03:19.250"
@@ -379,8 +379,8 @@ cards:
       quote_style: ""
       emphasis: ""
       all_caps: false
-    confidence: low
-    doubt: 'pass 1: ''Tag und Nacht\nrang Faust\nim Gebet mit Gott,\num ein Heilmittel\ngegen die Pest\nzu finden'' | pass 2: ''Tag und Nacht\nrang Faust\nim Gebet mit Gott,\num ein Heilmittel\ngegen die Pest\nzu finden.'' | last line partly obscured by a burned-in English subtitle; read as ''zu finden'' from the visible partial strokes | last line is partly obscured by a burned-in caption overlay; ''zu finden'' reconstructed from context'
+    confidence: medium
+    doubt: Last line is partly obscured by a burned-in caption overlay; "zu finden" read from visible partial strokes, final punctuation not confirmed.
 
   - id: "056"
     in: "00:08:30.250"
@@ -668,7 +668,6 @@ cards:
       Heerscharen. Und dafür
       soll mein sein alle Macht
       und Herrlichkeit der
-      Welt.
     context: ""
     verified: false
     style:
@@ -677,8 +676,8 @@ cards:
       quote_style: ""
       emphasis: ""
       all_caps: false
-    confidence: low
-    doubt: 'pass 1: ''Ich entsage Gott und\nseinen himmlischen\nHeerscharen. Und dafür\nsoll mein sein alle Macht\nund Herrlichkeit der\nWelt.'' | pass 2: ''Ich entsage Gott und\nseinen himmlischen\nHeerscharen. Und dafür\nsoll mein sein alle Macht\nund Herrlichkeit der …'' | Cursive handwriting hard to read; "entsage" and "Heerscharen" uncertain letter by letter | bottom of the handwritten text is obscured by a burned-in caption overlay; word(s) after ''der'' are not legible'
+    confidence: medium
+    doubt: Cursive handwriting; word(s) after "der" on the final line are covered by a burned-in caption overlay and not legible in this frame.
 
   - id: "125"
     in: "00:22:43.750"
@@ -699,9 +698,9 @@ cards:
   - id: "129"
     in: "00:23:59.250"
     out: "00:24:05.750"
-    type: narrative
+    type: insert
     text: |-
-      Macht
+      …lichkeit … Macht
     context: ""
     verified: false
     style:
@@ -711,7 +710,7 @@ cards:
       emphasis: ""
       all_caps: false
     confidence: low
-    doubt: 'pass 1: ''Macht'' | pass 2: ''…lichkeit … Macht'' | faint additional text lower-left, possibly the end of another word (''...lichkeit''), obscured by the smoke effect and not clearly part of this card | extreme close-up of handwritten cursive text; only fragments are legible (''...lichkeit'', and a word read as ''Macht'', possibly ''Nacht''); most of the card is not readable'
+    doubt: Extreme close-up pan across handwritten text, mostly obscured by a smoke/blur effect; only these fragments are legible, the rest of the card is not readable.
 
   - id: "134"
     in: "00:25:40.250"
@@ -1049,8 +1048,8 @@ cards:
       quote_style: double curly
       emphasis: ""
       all_caps: false
-    confidence: low
-    doubt: 'pass 1: ''„Du hast das Leben\ngründlich durchgekostet,\nFaust!\nVon Rausch zu Rausch . . .\nein Taumel ohnegleichen!'' | pass 2: ''„Du hast das Leben\ngründlich durchgekostet,\nFaust!\nVon Rausch zu Rausch . . .\nein Taumel ohnegleichen!\nDoch nichts befriedigt Dich!“'' | Final line of the card (''Doch nichts befriedigt Dich!'') is obscured by a burned-in caption in this frame and not transcribed | last line is partly obscured by a burned-in caption overlay; first word reconstructed as ''Doch'' from the visible fragment'
+    confidence: medium
+    doubt: Final line ("Doch nichts befriedigt Dich!“") is covered by a burned-in caption overlay and not visible in this frame.
 
   - id: "233"
     in: "00:44:41.250"
