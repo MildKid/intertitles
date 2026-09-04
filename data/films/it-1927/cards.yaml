@@ -53,22 +53,24 @@ cards:
   - id: "004"
     in: "00:00:53.750"
     out: "00:00:56.250"
-    type: narrative
+    type: credit
     text: |-
-      Directed
+      Directed by
       Clarence Badger
-      Photographed
-      H.Kinley Martin
+      IT
+      Photographed by
+      H. Kinley Martin
+      PASSED BY THE NATIONAL BOARD OF REVIEW
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: illustrated
       align: center
-      quote_style: none
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: ""
+      emphasis: giant title lettering "IT" as a starfield pillar design behind the credit text; "by" set in script
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Directed\nClarence Badger\nPhotographed\nH.Kinley Martin'
 
   - id: "005"
     in: "00:01:00.250"
@@ -125,79 +127,79 @@ cards:
     out: "00:01:42.750"
     type: narrative
     text: |-
-      T'is that qualitypossessed by some
-      whichdraws all others with its
-      magnetic force.WithIT"you win
-      all menifyou areawomanandall
-      women if you are a man.IT*can
-      bea quality of the mind as well asa
-      physicalattraction.
+      "IT" is that quality possessed by some
+      which draws all others with its
+      magnetic force. With "IT" you win
+      all men if you are a woman — and all
+      women if you are a man. "IT" can
+      be a quality of the mind as well as a
+      physical attraction.
     context: ""
     verified: false
     style:
-      frame: ""
-      align: center
-      quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      frame: ornate
+      align: left
+      quote_style: double curly
+      emphasis: large decorative drop-cap opening letter; the word "you are a woman" is set bold/heavier; signed in script "Elinor Glyn" below the text
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'T\'is that qualitypossessed by some\nwhichdraws all others with its\nmagnetic force.WithIT"you win\nall menifyou areawomanandall\nwomen if you are a man.IT*can\nbea quality of the mind as well asa\nphysicalattraction.'
 
   - id: "016"
     in: "00:02:35.250"
     out: "00:02:39.500"
     type: narrative
     text: |-
-      eaving his department store
-      to hisson,CyrusT.Waltham
+      Leaving his department store
+      to his son, Cyrus T. Waltham
       has gone to Herrin, Illinois, for
-      the shooting
+      the shooting.
     context: ""
     verified: false
     style:
-      frame: ""
-      align: center
-      quote_style: none
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      frame: ornate
+      align: left
+      quote_style: ""
+      emphasis: large decorative drop-cap "L" opening the card
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'eaving his department store\nto hisson,CyrusT.Waltham\nhas gone to Herrin, Illinois, for\nthe shooting'
 
   - id: "019"
     in: "00:02:46.750"
     out: "00:02:49.250"
-    type: narrative
+    type: dialogue
     text: |-
-      *A gentleman to see
+      "A gentleman to see
       you, sir."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '*A gentleman to see\nyou, sir."'
 
   - id: "024"
     in: "00:03:23.250"
     out: "00:03:26.750"
     type: dialogue
     text: |-
-      "For a good boy - on
+      "For a good boy — on
       his first work day."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "025"
     in: "00:03:28.500"
@@ -210,13 +212,13 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "027"
     in: "00:03:53.750"
@@ -242,28 +244,28 @@ cards:
   - id: "028"
     in: "00:04:00.250"
     out: "00:04:19.000"
-    type: narrative
+    type: insert
     text: |-
-      whofsdivinelygood-looking has not"iTat
-      all.Do you gather whatI mean, Grannie?
-      ""IT' is that peculiar quality which some
+      who is divinely good-looking has not "IT" at
+      all. Do you gather what I mean, Grannie?
+      " 'IT' is that peculiar quality which some
       persons possess, which attracts others of the
-      opposite sex. The possessor of IT'must be
-      absolutely un-selfconscious,and must have
-      that magnetic “"sex appeal"which is irresis-
+      opposite sex. The possessor of 'IT' must be
+      absolutely un-selfconscious, and must have
+      that magnetic "sex appeal" which is irresis-
       tible.
       "It is a magnetic and peculiar force, and
-      you know itas soon as you come in contact
+      you know it as soon as you come in contact
     context: ""
     verified: false
     style:
-      frame: ""
-      align: center
-      quote_style: double straight
+      frame: none
+      align: left
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
+      all_caps: false
     confidence: medium
-    doubt: ocr
+    doubt: top and bottom lines are faded from vignette blur and the passage is cut off mid-sentence at the bottom; the visible words are legible; replaced ocr reading 'whofsdivinelygood-looking has not"iTat\nall.Do you gather whatI mean, Grannie?\n""IT\' is that peculiar quality which some\npersons possess, which attracts others of the\nopposite sex. The possessor of IT\'must be\nabsolutely un-selfconscious,and must have\nthat magnetic “"sex appeal"which is irresis-\ntible.\n"It is a magnetic and peculiar force, and\nyou know itas soon as you come in contact'
 
   - id: "029"
     in: "00:04:22.500"
@@ -310,17 +312,17 @@ cards:
     type: dialogue
     text: |-
       "What the devil are you
-      doing?*
+      doing?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"What the devil are you\ndoing?*'
 
   - id: "034"
     in: "00:05:36.500"
@@ -361,18 +363,18 @@ cards:
     out: "00:05:58.500"
     type: dialogue
     text: |-
-      "I'mtolookover the
-      store. Come along.
+      "I'm to look over the
+      store. Come along."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I\'mtolookover the\nstore. Come along.'
 
   - id: "038"
     in: "00:06:40.500"
@@ -474,21 +476,21 @@ cards:
   - id: "046"
     in: "00:08:12.500"
     out: "00:08:17.000"
-    type: narrative
+    type: dialogue
     text: |-
-      Justyouwait-I'lltake
+      "Just you wait — I'll take
       the snap out of your
-      garters yet!'
+      garters yet!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: single
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "Justyouwait-I'lltake\nthe snap out of your\ngarters yet!'"
 
   - id: "049"
     in: "00:09:14.500"
@@ -511,95 +513,92 @@ cards:
     out: "00:10:23.000"
     type: dialogue
     text: |-
-      "Shall we gnaw achop
+      "Shall we gnaw a chop
       at the club tonight?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Shall we gnaw achop\nat the club tonight?"'
 
   - id: "051"
     in: "00:10:25.750"
     out: "00:10:29.000"
     type: dialogue
     text: |-
-      "Thanks,but I have an
-      engagementat theRitz.
+      "Thanks, but I have an
+      engagement at the Ritz."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Thanks,but I have an\nengagementat theRitz.'
 
   - id: "053"
     in: "00:11:27.500"
     out: "00:11:30.250"
     type: dialogue
     text: |-
-      "CouldI-is it asking
-      toomuch-wouldit be
-      possible for me to-to
-      drive you home?"
+      "I'd be very glad to go
+      with you — if you'd
+      ride in my car."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: double curly
+      emphasis: italics on "my"
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"CouldI-is it asking\ntoomuch-wouldit be\npossible for me to-to\ndrive you home?"'
 
   - id: "056"
     in: "00:11:40.750"
     out: "00:11:44.250"
-    type: dialogue
+    type: narrative
     text: |-
-      "I'd be very glad to go
-      with you - if you'd
-      ride in my car.
+      Betty lived in that
+      fashionable down-
+      town suburb — Gas-
+      house Gables —
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: ornate
       align: center
-      quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: ""
+      emphasis: decorative drop-cap initial "B"
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I\'d be very glad to go\nwith you - if you\'d\nride in my car.'
 
   - id: "059"
     in: "00:12:19.000"
     out: "00:12:22.000"
-    type: narrative
+    type: dialogue
     text: |-
-      etty lived in that
-      fashionabledown
-      townsuburb-Gas-
-      house Gables-
+      "I'd love to — "
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'etty lived in that\nfashionabledown\ntownsuburb-Gas-\nhouse Gables-'
 
   - id: "062"
     in: "00:12:41.750"
@@ -622,17 +621,17 @@ cards:
     out: "00:12:51.750"
     type: dialogue
     text: |-
-      'I'd love to -
+      "Toodles is hungry."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: single
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "'I'd love to -"
 
   - id: "065"
     in: "00:13:05.500"
@@ -671,17 +670,18 @@ cards:
     out: "00:14:40.500"
     type: dialogue
     text: |-
-      "Toodles is hungry.
+      "Don't be sill, Molly!  I
+      won't go back on a pal!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: low
+    doubt: '"sill" — may be "silly" as printed on the card; replaced ocr reading ''"Toodles is hungry.'''
 
   - id: "070"
     in: "00:14:49.750"
@@ -708,18 +708,20 @@ cards:
     out: "00:15:10.000"
     type: dialogue
     text: |-
-      "Don't be sill, Molly 
-      won't go back on a pal!"
+      "Could I — is it asking
+      too much — would it be
+      possible for me to — to
+      drive you home?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Don\'t be sill, Molly \nwon\'t go back on a pal!"'
 
   - id: "073"
     in: "00:15:12.250"
@@ -781,21 +783,21 @@ cards:
     out: "00:17:14.750"
     type: narrative
     text: |-
-      very evening,in America,
-      eighteenmillionblondes
+      Every evening, in America,
+      eighteen million blondes
       prepare to dine with gentle-
-      men.One of the eighteen
-      million一
+      men. One of the eighteen
+      million —
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: ornate
       align: center
-      quote_style: none
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: ""
+      emphasis: decorative drop-cap initial "E"
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'very evening,in America,\neighteenmillionblondes\nprepare to dine with gentle-\nmen.One of the eighteen\nmillion一'
 
   - id: "081"
     in: "00:17:42.750"
@@ -804,17 +806,17 @@ cards:
     text: |-
       "Mother, would you
       approve of my being
-      Mrs.CyrusT.Waltham?"
+      Mrs. Cyrus T. Waltham?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Mother, would you\napprove of my being\nMrs.CyrusT.Waltham?"'
 
   - id: "085"
     in: "00:17:53.500"
@@ -822,17 +824,17 @@ cards:
     type: dialogue
     text: |-
       "He hasn't proposed yet
-      - but he's going to!"
+      — but he's going to!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: double curly
+      emphasis: italics on "going to"
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "087"
     in: "00:19:47.500"
@@ -844,32 +846,32 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "094"
     in: "00:20:32.250"
     out: "00:20:34.500"
     type: dialogue
     text: |-
-      "A nice, quiet table-
+      "A nice, quiet table—
       in the corner, Mr.
       Montgomery?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "095"
     in: "00:21:33.750"
@@ -877,19 +879,19 @@ cards:
     type: dialogue
     text: |-
       "I don't crave this table.
-      WhenI'm intheswim,
+      When I'm in the swim,
       I want to be with the
       goldfish!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I don\'t crave this table.\nWhenI\'m intheswim,\nI want to be with the\ngoldfish!"'
 
   - id: "099"
     in: "00:22:28.250"
@@ -918,8 +920,8 @@ cards:
       quote_style: ""
       emphasis: ""
       all_caps: false
-    confidence: low
-    doubt: menu header cut off at top right ("MEN..."); "Perles lu Japon" item name uncertain
+    confidence: medium
+    doubt: menu header cut off at top right ("MEN..."); "Perles lu Japon" item name uncertain; 'Perles lu Japon' likely misprints or mistranscribes 'Perles du Japon'; menu title cropped at top edge ("MEN...") not transcribed
 
   - id: "100"
     in: "00:22:45.250"
@@ -947,31 +949,31 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "102"
     in: "00:23:05.500"
     out: "00:23:07.500"
     type: dialogue
     text: |-
-      "I don't know-but isn't
+      "I don't know — but isn't
       she attractive?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I don\'t know-but isn\'t\nshe attractive?"'
 
   - id: "103"
     in: "00:23:17.500"
@@ -979,37 +981,37 @@ cards:
     type: dialogue
     text: |-
       "Who's the blonde with
-      Mr.Waltham?"
+      Mr. Waltham?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Who\'s the blonde with\nMr.Waltham?"'
 
   - id: "104"
     in: "00:23:23.500"
     out: "00:23:29.250"
     type: dialogue
     text: |-
-      "AdelaVan Norman-
+      "Adela Van Norman —
       they've been friends for
-      years. Some day they'll
+      years.  Some day they'll
       marry and end it all."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"AdelaVan Norman-\nthey\'ve been friends for\nyears. Some day they\'ll\nmarry and end it all."'
 
   - id: "106"
     in: "00:23:58.000"
@@ -1035,96 +1037,96 @@ cards:
     type: dialogue
     text: |-
       "Monty was raving about
-      it today. What is 'IT'?"
+      it today.  What is 'IT'?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: double curly
+      emphasis: italic word 'is'
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "108"
     in: "00:24:20.750"
     out: "00:24:25.250"
     type: dialogue
     text: |-
-      "Here's ElinorGlynherself!
+      "Here's Elinor Glyn herself!
       Let's ask her to tell us
-      something aboutIT"
+      something about 'IT'."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Here\'s ElinorGlynherself!\nLet\'s ask her to tell us\nsomething aboutIT"'
 
   - id: "109"
     in: "00:24:43.000"
     out: "00:24:48.750"
     type: dialogue
     text: |-
-      "Madame Glyn,we've
+      "Madame Glyn, we've
       been talking about your
-      latest story.Just what
-      is thisIT'?"
+      latest story.  Just what
+      is this 'IT'?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: double curly
+      emphasis: italic word 'is'
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Madame Glyn,we\'ve\nbeen talking about your\nlatest story.Just what\nis thisIT\'?"'
 
   - id: "110"
     in: "00:24:53.750"
     out: "00:24:58.500"
     type: dialogue
     text: |-
-      "Self-confidenceandindifference
-      astowhetheryouarepleasing
-      ornot-andsomethinginyou
-      thatgivesthe impression that
-      you are not all cold.That's'IT'I"
+      "Self-confidence and indifference
+      as to whether you are pleasing
+      or not — and something in you
+      that gives the impression that
+      you are not all cold. That's 'IT'!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Self-confidenceandindifference\nastowhetheryouarepleasing\nornot-andsomethinginyou\nthatgivesthe impression that\nyou are not all cold.That\'s\'IT\'I"'
 
   - id: "112"
     in: "00:25:05.500"
     out: "00:25:08.750"
     type: dialogue
     text: |-
-      "If you have IT', you
+      "If you have 'IT', you
       will win the girl you
       love."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"If you have IT\', you\nwill win the girl you\nlove."'
 
   - id: "113"
     in: "00:25:16.500"
@@ -1152,13 +1154,13 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "115"
     in: "00:25:55.750"
@@ -1182,17 +1184,17 @@ cards:
     out: "00:26:13.000"
     type: dialogue
     text: |-
-      "Oh,I musttelephone!
+      "Oh, I must telephone!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
+      all_caps: false
     confidence: medium
-    doubt: ocr
+    doubt: faint mark below the line after 'must' may be a comma or a print scratch; replaced ocr reading '"Oh,I musttelephone!'
 
   - id: "118"
     in: "00:26:42.250"
@@ -1204,30 +1206,30 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "120"
     in: "00:27:11.000"
     out: "00:27:12.250"
     type: dialogue
     text: |-
-      "This is a great pleasure.
+      "This is a great pleasure."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"This is a great pleasure.'
 
   - id: "121"
     in: "00:27:19.500"
@@ -1235,37 +1237,37 @@ cards:
     type: dialogue
     text: |-
       "I'll bet you won't even
-      recognize me,the next
+      recognize me, the next
       time we meet."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I\'ll bet you won\'t even\nrecognize me,the next\ntime we meet."'
 
   - id: "123"
     in: "00:27:31.000"
     out: "00:27:33.250"
     type: dialogue
     text: |-
-      "I'll take the bet
+      "I'll take the bet —
       and you can name
       the stakes."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I\'ll take the bet\nand you can name\nthe stakes."'
 
   - id: "125"
     in: "00:28:06.000"
@@ -1292,19 +1294,19 @@ cards:
     type: dialogue
     text: |-
       "She always takes goods on
-      approval一wears them around
-      forsixmonths-andthenfinds
-      she doesn't approvel"
+      approval — wears them around
+      for six months — and then finds
+      she doesn't approve!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"She always takes goods on\napproval一wears them around\nforsixmonths-andthenfinds\nshe doesn\'t approvel"'
 
   - id: "128"
     in: "00:28:48.250"
@@ -1329,18 +1331,18 @@ cards:
     type: dialogue
     text: |-
       "See that the garment is
-      replaced - and send the
+      replaced — and send the
       salesgirl to my office."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "134"
     in: "00:30:02.500"
@@ -1349,35 +1351,35 @@ cards:
     text: |-
       "Young lady, in this store
       the customer is always
-      right一"
+      right — "
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      emphasis: italics on "always"
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Young lady, in this store\nthe customer is always\nright一"'
 
   - id: "143"
     in: "00:30:34.750"
     out: "00:30:38.750"
     type: dialogue
     text: |-
-      "I'm the salesgirll Go
-      on - bawl me out!"
+      "I'm the salesgirl!   Go
+      on — bawl me out!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I\'m the salesgirll Go\non - bawl me out!"'
 
   - id: "145"
     in: "00:30:51.500"
@@ -1386,17 +1388,17 @@ cards:
     text: |-
       "Well, anyway, I lose the
       bet for not recognizing
-      you. What's the forfeit?"
+      you.   What's the forfeit?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "147"
     in: "00:30:58.750"
@@ -1404,18 +1406,18 @@ cards:
     type: dialogue
     text: |-
       "Oh, that wasn't a
-      real bet. I don't want
-      anything 一
+      real bet.   I don't want
+      anything — "
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Oh, that wasn\'t a\nreal bet. I don\'t want\nanything 一'
 
   - id: "149"
     in: "00:31:13.750"
@@ -1428,13 +1430,13 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "153"
     in: "00:31:37.250"
@@ -1447,13 +1449,13 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      emphasis: italics on "insist"
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "154"
     in: "00:31:44.500"
@@ -1476,18 +1478,18 @@ cards:
     out: "00:31:50.500"
     type: dialogue
     text: |-
-      "Let's go to the beach -
+      "Let's go to the beach—
       and do it up right!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Let\'s go to the beach -\nand do it up right!"'
 
   - id: "158"
     in: "00:33:02.000"
@@ -1510,18 +1512,18 @@ cards:
     out: "00:34:08.500"
     type: dialogue
     text: |-
-      "Hold me tight, Mr
-      Waltham.
+      "Hold me tight, Mr.
+      Waltham."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Hold me tight, Mr\nWaltham.'
 
   - id: "163"
     in: "00:35:14.500"
@@ -1529,38 +1531,38 @@ cards:
     type: dialogue
     text: |-
       "So you're one of those
-      MinuteMen-the minute
+      Minute Men—the minute
       you know a girl you
-      think you can kiss herl"
+      think you can kiss her!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
+      all_caps: false
     confidence: medium
-    doubt: ocr
+    doubt: '"Minute Men" may be set in a heavier weight; kept as plain text; replaced ocr reading ''"So you\''re one of those\nMinuteMen-the minute\nyou know a girl you\nthink you can kiss herl"'''
 
   - id: "172"
     in: "00:36:19.750"
     out: "00:36:24.250"
     type: narrative
     text: |-
-      overty is no disgrace
-      -一until meddling
+      Poverty is no disgrace
+      — — until meddling
       neighbors hear of it.
     context: ""
     verified: false
     style:
-      frame: ""
-      align: center
-      quote_style: none
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      frame: none
+      align: left
+      quote_style: ""
+      emphasis: large ornamental drop cap on first letter (P)
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'overty is no disgrace\n-一until meddling\nneighbors hear of it.'
 
   - id: "174"
     in: "00:36:35.500"
@@ -1584,19 +1586,19 @@ cards:
   - id: "175"
     in: "00:37:17.750"
     out: "00:37:18.500"
-    type: narrative
+    type: dialogue
     text: |-
-      *Get that story.
+      "Get that story."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '*Get that story.'
 
   - id: "176"
     in: "00:37:40.000"
@@ -1606,54 +1608,54 @@ cards:
       "If women like you would
       stay home and have babies
       of your own, we'd all be
-      better offi"
+      better off!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"If women like you would\nstay home and have babies\nof your own, we\'d all be\nbetter offi"'
 
   - id: "178"
     in: "00:37:49.500"
     out: "00:37:51.750"
-    type: narrative
+    type: dialogue
     text: |-
-      We're doing our duty.
-      The mother is ill - and
+      "We're doing our duty.
+      The mother is ill—and
       she has no means of
       support."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'We\'re doing our duty.\nThe mother is ill - and\nshe has no means of\nsupport."'
 
   - id: "180"
     in: "00:38:01.000"
     out: "00:38:01.750"
-    type: narrative
+    type: dialogue
     text: |-
-      *This is my baby!"
+      "This is my baby!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      emphasis: italics on "my"
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '*This is my baby!"'
 
   - id: "181"
     in: "00:38:07.000"
@@ -1664,13 +1666,13 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "182"
     in: "00:38:10.500"
@@ -1696,55 +1698,52 @@ cards:
     out: "00:38:34.250"
     type: dialogue
     text: |-
-      "Haven't I a job,Monty-
+      "Haven't I a job, Monty—
       at Waltham's? Tell 'em!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Haven\'t I a job,Monty-\nat Waltham\'s? Tell \'em!"'
 
   - id: "185"
     in: "00:38:48.000"
     out: "00:38:48.750"
     type: dialogue
     text: |-
-      "Is that the baby's
-      father?"
+      "Is that the baby's father?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      emphasis: italics on "that"
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "186"
     in: "00:38:53.000"
     out: "00:38:56.500"
     type: dialogue
     text: |-
-      "Him? He couldn't
-      even give birth to
-      a suspicionl"
+      "Him? He couldn't even give birth to a suspicion!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Him? He couldn\'t\neven give birth to\na suspicionl"'
 
   - id: "187"
     in: "00:39:01.250"
@@ -1756,66 +1755,66 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      emphasis: italics on 'Have'
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "188"
     in: "00:39:10.750"
     out: "00:39:12.000"
     type: dialogue
     text: |-
-      "None of your business!
+      "None of your business!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"None of your business!'
 
   - id: "189"
     in: "00:39:34.250"
     out: "00:39:38.000"
     type: dialogue
     text: |-
-      "I say,Betty, this isn't
+      "I say, Betty, this isn't
       really your child, is it?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I say,Betty, this isn\'t\nreally your child, is it?"'
 
   - id: "191"
     in: "00:39:45.500"
     out: "00:39:48.500"
-    type: narrative
+    type: dialogue
     text: |-
-      Are you blind? Can't you
+      "Are you blind? Can't you
       see the resemblance?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Are you blind? Can\'t you\nsee the resemblance?"'
 
   - id: "194"
     in: "00:40:19.500"
@@ -1837,45 +1836,45 @@ cards:
       quote_style: none
       emphasis: ""
       all_caps: false
-    confidence: low
-    doubt: first line and last line cropped at frame edge; last line partly illegible, 'so do see me in any case' is a best guess
+    confidence: medium
+    doubt: first line and last line cropped at frame edge; last line partly illegible, 'so do see me in any case' is a best guess; top line is cut off by the frame edge (sentence begins mid-thought) and the last line is faint cursive, best guess 'So do see me in any case.'
 
   - id: "196"
     in: "00:40:43.000"
     out: "00:40:47.750"
     type: dialogue
     text: |-
-      "Ihave tashted the milk
-      of human kindnesh-
-      an'it'salotofFermillacl"
+      "I have tashted the milk
+      of human kindnesh —
+      an' it's a lot of Fermillac!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
+      all_caps: false
     confidence: medium
-    doubt: ocr
+    doubt: '''Fermillac'' is an unusual invented word (drunken-speech dialect card); reading is clear but the word itself is uncertain; replaced ocr reading ''"Ihave tashted the milk\nof human kindnesh-\nan\''it\''salotofFermillacl"'''
 
   - id: "197"
     in: "00:40:55.250"
     out: "00:40:58.250"
-    type: narrative
+    type: dialogue
     text: |-
-      B'lieveitornot-my
-      baby is its mother!*
+      "B'lieve it or not — my
+      baby is its mother!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: single
+      quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "B'lieveitornot-my\nbaby is its mother!*"
 
   - id: "198"
     in: "00:41:02.500"
@@ -1893,8 +1892,8 @@ cards:
       quote_style: ""
       emphasis: italic subhead
       all_caps: false
-    confidence: low
-    doubt: last visible line of body text is cut off at frame edge and partly illegible
+    confidence: medium
+    doubt: last visible line of body text is cut off at frame edge and partly illegible; body paragraph is cut off at the frame edge and partly obscured by an adjoining newspaper column; text past 'Nolan Street,' not legible
 
   - id: "199"
     in: "00:41:15.500"
@@ -1923,19 +1922,19 @@ cards:
     out: "00:41:31.500"
     type: dialogue
     text: |-
-      "I'm the chappie-the
-      manabouttown-I'm
-      the amplemeans!"
+      "I'm the chappie — the
+      man about town — I'm
+      the ample means!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I\'m the chappie-the\nmanabouttown-I\'m\nthe amplemeans!"'
 
   - id: "202"
     in: "00:41:54.000"
@@ -1944,53 +1943,53 @@ cards:
     text: |-
       "We are investigating the
       case of a girl who says
-      she's employed here-
+      she's employed here —"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"We are investigating the\ncase of a girl who says\nshe\'s employed here-'
 
   - id: "204"
     in: "00:42:00.250"
     out: "00:42:02.250"
     type: dialogue
     text: |-
-      —sheshe-there's
+      "— she — she — there's
       a baby."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '—sheshe-there\'s\na baby."'
 
   - id: "205"
     in: "00:42:08.250"
     out: "00:42:10.250"
     type: dialogue
     text: |-
-      'She gave the name
-      of Betty Lou Spence.
+      "She gave the name
+      of Betty Lou Spence."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: single
+      quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "'She gave the name\nof Betty Lou Spence."
 
   - id: "207"
     in: "00:42:26.250"
@@ -2023,13 +2022,13 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "209"
     in: "00:43:13.000"
@@ -2037,18 +2036,18 @@ cards:
     type: dialogue
     text: |-
       "She's the one. She told
-      me it's her baby-told
-      mewithher ownlipsh!"
+      me it's her baby—told
+      me with her own lipsh!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
+      all_caps: false
     confidence: medium
-    doubt: ocr
+    doubt: '"lipsh" may be a deliberate slurred spelling of "lips"; replaced ocr reading ''"She\''s the one. She told\nme it\''s her baby-told\nmewithher ownlipsh!"'''
 
   - id: "211"
     in: "00:43:34.750"
@@ -2071,37 +2070,37 @@ cards:
   - id: "213"
     in: "00:44:21.250"
     out: "00:44:26.750"
-    type: narrative
+    type: insert
     text: |-
       Betty Lou Spence
     context: ""
     verified: false
     style:
-      frame: ""
-      align: center
-      quote_style: none
+      frame: illustrated
+      align: left
+      quote_style: ""
       emphasis: ""
-      all_caps: 
+      all_caps: false
     confidence: medium
-    doubt: ocr
+    doubt: photographed check/paycheck; overlapping banknote pattern obscures other printed text
 
   - id: "218"
     in: "00:45:46.000"
     out: "00:45:51.250"
-    type: narrative
+    type: dialogue
     text: |-
-      Areyou mad at me
-      because I slapped you?
+      "Are you mad at me
+      because I slapped you?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Areyou mad at me\nbecause I slapped you?'
 
   - id: "220"
     in: "00:46:08.500"
@@ -2127,89 +2126,89 @@ cards:
     out: "00:46:32.750"
     type: dialogue
     text: |-
-      "Let's forget it.We've
+      "Let's forget it. We've
       got each other straight
-      now,haven't we?"
+      now, haven't we?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Let\'s forget it.We\'ve\ngot each other straight\nnow,haven\'t we?"'
 
   - id: "224"
     in: "00:46:37.000"
     out: "00:46:42.000"
     type: dialogue
     text: |-
-      'Yes -we have!"
+      "Yes — we have!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '\'Yes -we have!"'
 
   - id: "226"
     in: "00:47:00.000"
     out: "00:47:03.750"
     type: dialogue
     text: |-
-      "It's a star sapphire.
+      "It's a star sapphire."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"It\'s a star sapphire.'
 
   - id: "227"
     in: "00:47:10.250"
     out: "00:47:14.750"
-    type: narrative
+    type: dialogue
     text: |-
-      It'spretty-butIlike
-      diamonds better.
+      "It's pretty — but I like
+      diamonds better."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: single
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "It'spretty-butIlike\ndiamonds better."
 
   - id: "230"
     in: "00:47:20.250"
     out: "00:47:25.750"
-    type: narrative
+    type: dialogue
     text: |-
-      *Would you like some
-      diamonds for yourself?*
+      "Would you like some
+      diamonds for yourself?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '*Would you like some\ndiamonds for yourself?*'
 
   - id: "235"
     in: "00:47:48.750"
@@ -2217,53 +2216,53 @@ cards:
     type: dialogue
     text: |-
       "Betty, I'm crazy
-      about you -
+      about you—"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Betty, I\'m crazy\nabout you -'
 
   - id: "238"
     in: "00:48:07.500"
     out: "00:48:10.500"
     type: dialogue
     text: |-
-      'I love you, too.
+      "I love you, too."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: single
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "'I love you, too."
 
   - id: "239"
     in: "00:48:34.000"
     out: "00:48:39.000"
     type: dialogue
     text: |-
-      "'ll buy you diamonds -
-      clothes-everything
-      you want-
+      "I'll buy you diamonds—
+      clothes — everything
+      you want—"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"\'ll buy you diamonds -\nclothes-everything\nyou want-'
 
   - id: "241"
     in: "00:49:02.250"
@@ -2290,17 +2289,17 @@ cards:
     type: dialogue
     text: |-
       "I'm crazy about you!
-      Isn't that enough?
+      Isn't that enough?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I\'m crazy about you!\nIsn\'t that enough?'
 
   - id: "244"
     in: "00:49:33.750"
@@ -2312,13 +2311,13 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "245"
     in: "00:49:55.500"
@@ -2327,17 +2326,17 @@ cards:
     text: |-
       "Cancel my appointments,
       please. I'm leaving town
-      for a week.
+      for a week."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Cancel my appointments,\nplease. I\'m leaving town\nfor a week.'
 
   - id: "247"
     in: "00:50:20.250"
@@ -2361,41 +2360,41 @@ cards:
   - id: "251"
     in: "00:50:46.750"
     out: "00:50:50.250"
-    type: narrative
+    type: insert
     text: |-
-      neDaily NewsDispate
+      Daily News Dispatch
       FEMALE HELP WANTED
-      Must beexperienced, neat appe
-      Dispatch
-      emanent position:salary $15
+      Must be experienced, neat appearance
+      Dispatch.
+      permanent position; salary $15 to
     context: ""
     verified: false
     style:
-      frame: ""
-      align: center
+      frame: none
+      align: left
       quote_style: none
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      emphasis: bold headline "FEMALE HELP WANTED"
+      all_caps: false
+    confidence: low
+    doubt: newspaper clipping cut off at left and right frame edges; masthead first letter and ad copy at both margins not fully readable; replaced ocr reading 'neDaily NewsDispate\nFEMALE HELP WANTED\nMust beexperienced, neat appe\nDispatch\nemanent position:salary $15'
 
   - id: "255"
     in: "00:51:56.000"
     out: "00:51:59.500"
     type: dialogue
     text: |-
-      "I - I've come to
-      forgive you.
+      "I — I've come to
+      forgive you."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I - I\'ve come to\nforgive you.'
 
   - id: "257"
     in: "00:52:17.750"
@@ -2408,32 +2407,32 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: double curly
+      emphasis: italic on "mine"
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "258"
     in: "00:52:29.250"
     out: "00:52:33.750"
-    type: narrative
+    type: dialogue
     text: |-
-      There's its mother!
+      "There's its mother!
       Can't you see the
       resemblance?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: double curly
+      emphasis: italic on "There's"
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'There\'s its mother!\nCan\'t you see the\nresemblance?"'
 
   - id: "259"
     in: "00:52:54.750"
@@ -2462,13 +2461,13 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "261"
     in: "00:53:25.250"
@@ -2513,19 +2512,19 @@ cards:
     out: "00:54:09.250"
     type: dialogue
     text: |-
-      "But- he's going on a
-      yachting cruise and-
+      "But — he's going on a
+      yachting cruise and —
       and I'm going with him!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"But- he\'s going on a\nyachting cruise and-\nand I\'m going with him!"'
 
   - id: "264"
     in: "00:54:15.750"
@@ -2533,17 +2532,17 @@ cards:
     type: dialogue
     text: |-
       "Fine! I'll yacht
-      with you.
+      with you."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Fine! I\'ll yacht\nwith you.'
 
   - id: "265"
     in: "00:54:27.250"
@@ -2568,18 +2567,18 @@ cards:
     type: dialogue
     text: |-
       "That's the joke on you
-      -you're going to buy
-      them for me.
+      — you're going to buy
+      them for me."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: double curly
+      emphasis: italic on "you"
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"That\'s the joke on you\n-you\'re going to buy\nthem for me.'
 
   - id: "267"
     in: "00:54:51.500"
@@ -2587,286 +2586,286 @@ cards:
     type: dialogue
     text: |-
       "Give me your word
-      you won't tell him -
+      you won't tell him —
       anything!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "269"
     in: "00:55:54.500"
     out: "00:55:56.500"
-    type: narrative
+    type: dialogue
     text: |-
-      *Is Mr. Waltham aboard?"
+      “Is Mr. Waltham aboard?”
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '*Is Mr. Waltham aboard?"'
 
   - id: "270"
     in: "00:55:57.750"
     out: "00:55:59.250"
     type: dialogue
     text: |-
-      'Not yet, sir.
+      “The party’s off.  We
+      might as well go back.”
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: single
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "'Not yet, sir."
 
   - id: "271"
     in: "00:56:03.000"
     out: "00:56:08.750"
     type: dialogue
     text: |-
-      "The party's off. We
-      might as well go back.
+      “Oh no, sir! Mr. Waltham’s
+      expecting you — he’ll be
+      here any minute.”
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"The party\'s off. We\nmight as well go back.'
 
   - id: "272"
     in: "00:56:11.750"
     out: "00:56:19.750"
     type: dialogue
     text: |-
-      "Ohno,sir!Mr.Waltham's
-      expecting you - he'll be
-      here any minute.
+      “Shall I show you to
+      your cabins?”
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Ohno,sir!Mr.Waltham\'s\nexpecting you - he\'ll be\nhere any minute.'
 
   - id: "273"
     in: "00:56:24.000"
     out: "00:56:28.500"
-    type: narrative
+    type: dialogue
     text: |-
-      Shall I show you to
-      your cabins?"
+      “Something I can get for
+      you, Mr. Montgomery?”
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Shall I show you to\nyour cabins?"'
 
   - id: "274"
     in: "00:56:58.250"
     out: "00:57:03.500"
-    type: narrative
+    type: dialogue
     text: |-
-      Something I can get for
-      you, Mr. Montgomery?"
+      “Not yet, sir.”
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Something I can get for\nyou, Mr. Montgomery?"'
 
   - id: "275"
     in: "00:57:05.500"
     out: "00:57:09.250"
-    type: narrative
+    type: dialogue
     text: |-
-      No,thanks-I'mjust
-      prowling about."
+      “No, thanks — I’m just
+      prowling about.”
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'No,thanks-I\'mjust\nprowling about."'
 
   - id: "276"
     in: "00:57:24.500"
     out: "00:57:28.250"
     type: dialogue
     text: |-
-      "Just going for some -
-      some 一 cigars.
+      “Just going for some —
+      some — cigars.”
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Just going for some -\nsome 一 cigars.'
 
   - id: "277"
     in: "00:57:47.250"
     out: "00:57:48.750"
-    type: narrative
+    type: dialogue
     text: |-
-      *Everything ready
-      Captain?"
+      “Everything ready,
+      Captain?”
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '*Everything ready\nCaptain?"'
 
   - id: "278"
     in: "00:57:58.250"
     out: "00:58:00.250"
     type: dialogue
     text: |-
-      "Let's get under way.
+      “Let’s get under way.”
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Let\'s get under way.'
 
   - id: "279"
     in: "00:58:18.250"
     out: "00:58:21.250"
     type: dialogue
     text: |-
-      "I'm not feeling so well."
+      “I’m not feeling so well.”
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "281"
     in: "00:58:55.000"
     out: "00:58:56.250"
     type: dialogue
     text: |-
-      "Tea, sir?*
+      “Tea, sir?”
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Tea, sir?*'
 
   - id: "282"
     in: "00:59:08.000"
     out: "00:59:10.000"
-    type: narrative
+    type: dialogue
     text: |-
-      *Feeling better, Monty?"
+      "Feeling better, Monty?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '*Feeling better, Monty?"'
 
   - id: "284"
     in: "00:59:12.750"
     out: "00:59:23.500"
     type: dialogue
     text: |-
-      "I feel so low,old chap,
+      "I feel so low, old chap,
       that I could get on
       stilts and walk under
-      a dachshundi"
+      a dachshund!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I feel so low,old chap,\nthat I could get on\nstilts and walk under\na dachshundi"'
 
   - id: "285"
     in: "00:59:28.000"
     out: "00:59:35.250"
-    type: narrative
+    type: dialogue
     text: |-
-      ShallIcallMissVan
-      Cortland, sir? She's
-      in her cabin.
+      "Shall I call Miss Van
+      Cortland, sir?  She's
+      in her cabin."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: single
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "ShallIcallMissVan\nCortland, sir? She's\nin her cabin."
 
   - id: "286"
     in: "00:59:46.000"
@@ -2874,73 +2873,73 @@ cards:
     type: dialogue
     text: |-
       "I say, I almost forgot
-      about Miss Van Cortland.
+      about Miss Van Cortland."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I say, I almost forgot\nabout Miss Van Cortland.'
 
   - id: "287"
     in: "00:59:55.500"
     out: "01:00:05.500"
-    type: narrative
+    type: dialogue
     text: |-
-      MissVanCortland-the
-      -the girl I asked when
+      "Miss Van Cortland — the
+      — the girl I asked when
       you asked me to ask
-      someone.
+      someone."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'MissVanCortland-the\n-the girl I asked when\nyou asked me to ask\nsomeone.'
 
   - id: "288"
     in: "01:00:15.500"
     out: "01:00:19.000"
-    type: narrative
+    type: dialogue
     text: |-
-      *Monty,who is Miss
+      "Monty, who is Miss
       Van Cortland?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '*Monty,who is Miss\nVan Cortland?"'
 
   - id: "289"
     in: "01:00:23.500"
     out: "01:00:27.000"
     type: dialogue
     text: |-
-      "You - you tell them,
+      "You — you tell them,
       old thing."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "290"
     in: "01:00:33.500"
@@ -2948,18 +2947,18 @@ cards:
     type: dialogue
     text: |-
       "She's a very nice girl. I
-      -Ibelieve Monty met
-      her in Paris last summer.
+      — I believe Monty met
+      her in Paris last summer."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"She\'s a very nice girl. I\n-Ibelieve Monty met\nher in Paris last summer.'
 
   - id: "292"
     in: "01:00:54.500"
@@ -2984,54 +2983,54 @@ cards:
     type: dialogue
     text: |-
       "She's a ripping sort,
-      really! She's positively
+      really!  She's positively
       topheavy with 'IT'."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: double curly
+      emphasis: single quotes around 'IT'
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "294"
     in: "01:01:24.750"
     out: "01:01:31.000"
-    type: narrative
+    type: dialogue
     text: |-
-      *Oh, Monty, am I late for
-      tea? I'm so sorry."
+      "Oh, Monty, am I late for
+      tea?  I'm so sorry."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: double curly
+      emphasis: italic on "so"
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '*Oh, Monty, am I late for\ntea? I\'m so sorry."'
 
   - id: "298"
     in: "01:01:58.250"
     out: "01:02:02.500"
     type: dialogue
     text: |-
-      "Mr.Waltham!It'sbeen
-      years,hasn't it?"
+      "Mr. Waltham! It's been
+      years, hasn't it?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Mr.Waltham!It\'sbeen\nyears,hasn\'t it?"'
 
   - id: "299"
     in: "01:02:13.000"
@@ -3043,49 +3042,47 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "300"
     in: "01:02:50.250"
     out: "01:02:53.000"
     type: dialogue
     text: |-
-      "Haven't I seen you
-      some place?"
+      "Haven't I seen you some place?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "301"
     in: "01:02:57.250"
     out: "01:03:01.750"
     type: dialogue
     text: |-
-      "In Paris, perhaps. I'm
-      there so often."
+      "In Paris, perhaps.  I'm there so often."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "304"
     in: "01:03:10.750"
@@ -3096,179 +3093,166 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      emphasis: whole card set in italics
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "311"
     in: "01:04:02.500"
     out: "01:04:06.750"
     type: dialogue
     text: |-
-      "What do you mean by
-      bringing her?"
+      "What do you mean by bringing her?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      emphasis: italic on "her"
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "312"
     in: "01:04:18.500"
     out: "01:04:25.000"
     type: dialogue
     text: |-
-      "You know what sort
-      she is-with her father-
-      less childi"
+      "You know what sort she is — with her fatherless child!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"You know what sort\nshe is-with her father-\nless childi"'
 
   - id: "313"
     in: "01:04:26.750"
     out: "01:04:30.500"
-    type: narrative
+    type: dialogue
     text: |-
-      But, I say -it isn't
-      fatherless-"
+      "But, I say — it isn't fatherless —"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'But, I say -it isn\'t\nfatherless-"'
 
   - id: "314"
     in: "01:04:39.000"
     out: "01:04:46.250"
     type: dialogue
     text: |-
-      "I won't have her. on
-      boardl We'll put back
-      to port."
+      "I won't have her on board!  We'll put back to port."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I won\'t have her. on\nboardl We\'ll put back\nto port."'
 
   - id: "315"
     in: "01:05:18.250"
     out: "01:05:27.250"
     type: dialogue
     text: |-
-      "Do you think we'll have
-      as nice a day as this
-      all day, Captain?"
+      "Do you think we'll have as nice a day as this all day, Captain?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "316"
     in: "01:05:39.500"
     out: "01:05:46.500"
     type: dialogue
     text: |-
-      "That's the last time I'll
-      get you out of a scrape!"
+      "That's the last time I'll get you out of a scrape!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      emphasis: italic on "you"
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "318"
     in: "01:06:31.500"
     out: "01:06:38.750"
-    type: narrative
+    type: dialogue
     text: |-
-      MissVanCortlandseems
-      to be rather lacking in
-      reserve, doesn't she?"
+      "Miss Van Cortland seems to be rather lacking in reserve, doesn't she?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'MissVanCortlandseems\nto be rather lacking in\nreserve, doesn\'t she?"'
 
   - id: "319"
     in: "01:06:42.250"
     out: "01:06:47.750"
     type: dialogue
     text: |-
-      "Personally, I think she
-      has plenty 一 in reserve!"
+      "Personally, I think she has plenty — in reserve!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Personally, I think she\nhas plenty 一 in reserve!"'
 
   - id: "320"
     in: "01:07:15.750"
     out: "01:07:20.250"
     type: dialogue
     text: |-
-      "Betty, I've something to
-      say to you.
+      "Betty, I've something to say to you."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Betty, I\'ve something to\nsay to you.'
 
   - id: "321"
     in: "01:07:25.000"
@@ -3292,19 +3276,17 @@ cards:
     out: "01:07:41.750"
     type: dialogue
     text: |-
-      "I'vebeen thinking things
-      over, Betty. I want to
-      talk to you- seriously.
+      "I've been thinking things over, Betty.  I want to talk to you — seriously."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I\'vebeen thinking things\nover, Betty. I want to\ntalk to you- seriously.'
 
   - id: "323"
     in: "01:07:43.250"
@@ -3328,19 +3310,19 @@ cards:
     out: "01:08:07.250"
     type: dialogue
     text: |-
-      " don't care what you've
-      been - I want you to
-      marry me!
+      "I don't care what you've
+      been — I want you to
+      marry me!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '" don\'t care what you\'ve\nbeen - I want you to\nmarry me!'
 
   - id: "325"
     in: "01:08:13.750"
@@ -3352,13 +3334,13 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "326"
     in: "01:09:03.000"
@@ -3403,20 +3385,20 @@ cards:
     out: "01:10:11.250"
     type: dialogue
     text: |-
-      "It'sher friend's baby
+      "It's her friend's baby!
       And she's crying for
-      you - I mean Betty,
-      not the baby -
+      you — I mean Betty,
+      not the baby—"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"It\'sher friend\'s baby\nAnd she\'s crying for\nyou - I mean Betty,\nnot the baby -'
 
   - id: "329"
     in: "01:10:14.250"
@@ -3424,17 +3406,17 @@ cards:
     type: dialogue
     text: |-
       "But you said yourself
-      it was her baby -
+      it was her baby—"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"But you said yourself\nit was her baby -'
 
   - id: "330"
     in: "01:10:25.750"
@@ -3442,17 +3424,17 @@ cards:
     type: dialogue
     text: |-
       "Take the wheel, Monty
-      - I'm going to find her.'
+      —I'm going to find her."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Take the wheel, Monty\n- I\'m going to find her.\''
 
   - id: "331"
     in: "01:11:39.000"
@@ -3478,18 +3460,18 @@ cards:
     type: dialogue
     text: |-
       "Silly of me, but I'm afraid I
-      overdid itmade a left-hand
-      turn and what not 
+      overdid it—made a left-hand
+      turn and what not—"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Silly of me, but I\'m afraid I\noverdid itmade a left-hand\nturn and what not '
 
   - id: "333"
     in: "01:12:41.250"
@@ -3498,18 +3480,18 @@ cards:
     text: |-
       "Take your girl friend.
       I had to knock her
-      cold - but maybe it'll
+      cold — but maybe it'll
       do her good."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "334"
     in: "01:13:03.750"
@@ -3517,17 +3499,17 @@ cards:
     type: dialogue
     text: |-
       "Betty, where are
-      you going?
+      you going?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Betty, where are\nyou going?'
 
   - id: "335"
     in: "01:13:09.750"
@@ -3538,65 +3520,65 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "336"
     in: "01:13:33.500"
     out: "01:13:35.750"
-    type: narrative
+    type: dialogue
     text: |-
-      Monty will get you.
+      "Monty will get you."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Monty will get you.'
 
   - id: "337"
     in: "01:15:12.250"
     out: "01:15:17.250"
-    type: narrative
+    type: dialogue
     text: |-
-      Monty, I wonder if there's
+      "Monty, I wonder if there's
       anything between them?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Monty, I wonder if there\'s\nanything between them?"'
 
   - id: "338"
     in: "01:15:27.500"
     out: "01:15:29.750"
     type: dialogue
     text: |-
-      "I'm afraid there is.
+      "I'm afraid there is."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I\'m afraid there is.'
 
   - id: "339"
     in: "01:15:36.750"
@@ -3618,22 +3600,23 @@ cards:
   - id: "340"
     in: "01:15:51.750"
     out: "01:16:33.750"
-    type: narrative
+    type: credit
     text: |-
       Manager
-      PAULWING
+      PAUL WING
+
       Recording
-      RICHARDBRADFORD
+      RICHARD BRADFORD
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: ""
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: low
+    doubt: top line partially cut off at frame edge, likely a preceding credit; replaced ocr reading 'Manager\nPAULWING\nRecording\nRICHARDBRADFORD'
 
   - id: "341"
     in: "01:16:34.500"
