@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: intertitles metropolis-1927\n"
-"POT-Creation-Date: 2026-09-04 03:56+0000\n"
+"POT-Creation-Date: 2026-09-04 03:59+0000\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -86,21 +86,23 @@ msgid ""
 "\"Which of you ladies\n"
 "shall today have the honor\n"
 "of entertaining Master Freder,\n"
-"Joh Fredersen's son?"
+"Joh Fredersen's son?\""
 msgstr ""
 
 #. Card 9 of 130 · dialogue · 3.0s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:9
 msgctxt "050"
-msgid "\"Freder -! Freder -!\""
+msgid "\"Freder –! Freder –!\""
 msgstr ""
 
-#. Card 10 of 130 · narrative · 4.0s on screen
+#. Card 10 of 130 · dialogue · 4.0s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:10
 msgctxt "055"
-msgid "These are your brothers!"
+msgid ""
+"\"Look!\n"
+"These are your brothers!\""
 msgstr ""
 
 #. Card 11 of 130 · dialogue · 5.2s on screen
@@ -114,14 +116,14 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:12
 msgctxt "057"
-msgid "\"These are your brothers!"
+msgid "\"These are your brothers!\""
 msgstr ""
 
 #. Card 13 of 130 · dialogue · 3.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:13
 msgctxt "067"
-msgid "\"Who -- was that?\""
+msgid "\"Who – was that?\""
 msgstr ""
 
 #. Card 14 of 130 · narrative · 9.2s on screen
@@ -130,8 +132,8 @@ msgstr ""
 msgctxt "071"
 msgid ""
 "But this is what happened to\n"
-"Freder - son o of Joh Fredersen,\n"
-"master of Metropolis -- when he\n"
+"Freder – son of Joh Fredersen,\n"
+"master of Metropolis – when he\n"
 "went in search of the girl:"
 msgstr ""
 
@@ -140,8 +142,8 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:15
 msgctxt "093"
 msgid ""
-"\"o the new Tower of Babel -\n"
-"to my father -!\""
+"\"To the new Tower of Babel –\n"
+"to my father –!\""
 msgstr ""
 
 #. Card 16 of 130 · dialogue · 25.0s on screen
@@ -152,7 +154,7 @@ msgid ""
 "\"Why is it, Josaphat,\n"
 "that I learn of the explosion\n"
 "from my son,\n"
-"and not from you -- --!"
+"and not from you––!\""
 msgstr ""
 
 #. Card 17 of 130 · dialogue · 10.8s on screen
@@ -173,7 +175,7 @@ msgid ""
 "\"I wanted to look into\n"
 "the faces of the people\n"
 "whose little children are\n"
-"my brothers, my sisters..."
+"my brothers, my sisters...\""
 msgstr ""
 
 #. Card 19 of 130 · dialogue · 7.5s on screen
@@ -181,10 +183,10 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:19
 msgctxt "142"
 msgid ""
-"\"Yur magnificent city, Father --\n"
-"and you the brain of this city -\n"
+"\"Your magnificent city, Father –\n"
+"and you the brain of this city –\n"
 "and all of us\n"
-"in the city's light... -- ."
+"in the city's light... – –\""
 msgstr ""
 
 #. Card 20 of 130 · dialogue · 9.0s on screen
@@ -203,18 +205,18 @@ msgstr ""
 msgctxt "157"
 msgid ""
 "\"The chief foreman\n"
-"of the Heart Machine, Grot -\n"
-"with an important message."
+"of the Heart Machine, Grot –\n"
+"with an important message...\""
 msgstr ""
 
-#. Card 22 of 130 · narrative · 19.0s on screen
+#. Card 22 of 130 · dialogue · 19.0s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:22
 msgctxt "166"
 msgid ""
-"..in the pockets of two men\n"
+"\"...in the pockets of two men\n"
 "involved in today's accident\n"
-"at the M-Machine."
+"at the M-Machine...\""
 msgstr ""
 
 #. Card 23 of 130 · dialogue · 5.0s on screen
@@ -223,7 +225,7 @@ msgstr ""
 msgctxt "171"
 msgid ""
 "\"Apply to the G-Bank\n"
-"for your remaining wages."
+"for your remaining wages...\""
 msgstr ""
 
 #. Card 24 of 130 · dialogue · 6.5s on screen
@@ -253,7 +255,7 @@ msgctxt "198"
 msgid ""
 "\"Where do you live, Josaphat?\"\n"
 "Freder asked, and noted:\n"
-"Block99,House7,7thFloor."
+"Block 99, House 7, 7th Floor."
 msgstr ""
 
 #. Card 27 of 130 · dialogue · 3.2s on screen
@@ -289,7 +291,7 @@ msgctxt "215"
 msgid ""
 "\"Listen to me...\n"
 "I want to trade lives\n"
-"with you!"
+"with you!\""
 msgstr ""
 
 #. Card 31 of 130 · narrative · 10.2s on screen
@@ -297,10 +299,10 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:31
 msgctxt "216"
 msgid ""
-"Meanwhile,theThin Man,\n"
-"JohFredersen'sspy,iswatching\n"
+"Meanwhile, the Thin Man,\n"
+"Joh Fredersen's spy, is watching\n"
 "the spot where Freder's chauffeur\n"
-"hasparkedhiscar."
+"has parked his car."
 msgstr ""
 
 #. Card 32 of 130 · dialogue · 4.0s on screen
@@ -308,8 +310,8 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:32
 msgctxt "217"
 msgid ""
-"\"Wait for me --\n"
-"both of you..."
+"\"Wait for me –\n"
+"both of you...\""
 msgstr ""
 
 #. Card 33 of 130 · narrative · 64.0s on screen
@@ -327,8 +329,8 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:34
 msgctxt "222"
 msgid ""
-"There,ona pedestal as wide\n"
-"asawall and astallas aman,\n"
+"There, on a pedestal as wide\n"
+"as a wall and as tall as a man,\n"
 "he sees the stone head of a woman."
 msgstr ""
 
@@ -337,18 +339,18 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:35
 msgctxt "223"
 msgid ""
-"The angier Rawang becomes,\n"
-"the calmer grows Joh Fredersen,"
+"The angrier Rotwang becomes,\n"
+"the calmer grows Joh Fredersen."
 msgstr ""
 
-#. Card 36 of 130 · narrative · 5.0s on screen
+#. Card 36 of 130 · dialogue · 5.0s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:36
 msgctxt "224"
 msgid ""
-"Let the dead rest in peace,\n"
+"\"Let the dead rest in peace,\n"
 "Rotwang...\n"
-"For you, as for me, she is dead."
+"For you, as for me, she is dead......\""
 msgstr ""
 
 #. Card 37 of 130 · dialogue · 7.0s on screen
@@ -357,8 +359,8 @@ msgstr ""
 msgctxt "225"
 msgid ""
 "\"For me, she is not dead,\n"
-"Joh Fredersen, --\n"
-"forme, she lives --!"
+"Joh Fredersen,—\n"
+"for me, she lives——!\""
 msgstr ""
 
 #. Card 38 of 130 · dialogue · 11.8s on screen
@@ -369,7 +371,7 @@ msgid ""
 "\"Do you think\n"
 "that losing a hand\n"
 "is too high a price to pay\n"
-"for re-creating Hel -?!\""
+"for re-creating Hel—?!\""
 msgstr ""
 
 #. Card 39 of 130 · dialogue · 9.2s on screen
@@ -390,11 +392,11 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:40
 msgctxt "236"
 msgid ""
-"“Give me another 24 hours --\n"
+"\"Give me another 24 hours—,\n"
 "and no one, Joh Fredersen,\n"
 "no one will be able\n"
 "to tell a Machine-Man\n"
-"from a mortal - -!'"
+"from a mortal——!\""
 msgstr ""
 
 #. Card 41 of 130 · dialogue · 8.8s on screen
@@ -402,9 +404,9 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:41
 msgctxt "239"
 msgid ""
-"\"The woman is m i n e ,\n"
+"\"The woman is mine,\n"
 "Joh Fredersen!\n"
-"The son of Hel  was yours!"
+"The son of Hel was yours!\""
 msgstr ""
 
 #. Card 42 of 130 · dialogue · 4.8s on screen
@@ -421,9 +423,9 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:43
 msgctxt "242"
 msgid ""
-"\"As usual.\n"
+"\"As usual,\n"
 "when my experts fail me,\n"
-"I come to you for advice..."
+"I come to you for advice...\""
 msgstr ""
 
 #. Card 44 of 130 · dialogue · 8.2s on screen
@@ -435,17 +437,17 @@ msgid ""
 "we have been finding\n"
 "these plans\n"
 "in my workers' clothes.\n"
-"What do they mean?"
+"What do they mean?\""
 msgstr ""
 
-#. Card 45 of 130 · narrative · 5.0s on screen
+#. Card 45 of 130 · dialogue · 5.0s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:45
 msgctxt "251"
 msgid ""
-"...at two...\n"
+"\"...at two...\n"
 "at the end of the shift!\n"
-"Sh e has summoned us again.."
+"She has summoned us again...\""
 msgstr ""
 
 #. Card 46 of 130 · dialogue · 6.5s on screen
@@ -463,10 +465,10 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:47
 msgctxt "259"
 msgid ""
-"\"-it is a plan of the\n"
+"\"—it is a plan of the\n"
 "2000-year-old catacombs\n"
 "deep below the lowest levels\n"
-"of your Metropolis..."
+"of your Metropolis...\""
 msgstr ""
 
 #. Card 48 of 130 · dialogue · 13.2s on screen
@@ -477,7 +479,7 @@ msgid ""
 "\"I should like\n"
 "to know what\n"
 "my workers are doing\n"
-"in the catacombs..."
+"in the catacombs...\""
 msgstr ""
 
 #. Card 49 of 130 · dialogue · 18.2s on screen
@@ -584,7 +586,7 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:59
 msgctxt "307"
 msgid ""
-"“Yu called me -- --\n"
+"\"You called me – –\n"
 "here I am!\""
 msgstr ""
 
@@ -602,10 +604,10 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:61
 msgctxt "342"
 msgid ""
-"Feder seesamonkinthepulpit\n"
-"who preaches:\"Verily,I say unto you,\n"
+"Feder sees a monk in the pulpit\n"
+"who preaches: \"Verily, I say unto you,\n"
 "the days spoken of in the Apocalypse\n"
-"arenigh!\""
+"are nigh!\""
 msgstr ""
 
 #. Card 62 of 130 · narrative · 65.5s on screen
@@ -614,9 +616,9 @@ msgstr ""
 msgctxt "346"
 msgid ""
 "Disappointed that Maria has\n"
-"not come,Freder goesto\n"
+"not come, Freder goes to\n"
 "Josaphat's home, where he\n"
-"hopestofindWorker11811."
+"hopes to find Worker 11811."
 msgstr ""
 
 #. Card 63 of 130 · dialogue · 15.0s on screen
@@ -635,7 +637,7 @@ msgstr ""
 msgctxt "414"
 msgid ""
 "\"She is\n"
-"with your father..."
+"with your father...\""
 msgstr ""
 
 #. Card 65 of 130 · dialogue · 12.2s on screen
@@ -675,10 +677,10 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:68
 msgctxt "447"
 msgid ""
-"TheThinMan in theform\n"
-"ofamonkpreaches:\n"
-"\"Verily,I sayuntoyou,\n"
-"thedays spoken of in the Apocalypse\n"
+"The Thin Man in the form\n"
+"of a monk preaches:\n"
+"\"Verily, I say unto you,\n"
+"the days spoken of in the Apocalypse\n"
 "are nigh...!\""
 msgstr ""
 
@@ -687,9 +689,9 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:69
 msgctxt "456"
 msgid ""
-"\"And thewoman was arrayed\n"
+"\"And the woman was arrayed\n"
 "in purple and scarlet color,\n"
-"having a golden cup in her hand..."
+"having a golden cup in her hand...\""
 msgstr ""
 
 #. Card 70 of 130 · dialogue · 6.8s on screen
@@ -716,10 +718,10 @@ msgstr ""
 msgctxt "471"
 msgid ""
 "\"I put on this disguise\n"
-"to escape from the Thin Man.\n"
+"to escape from the Thin Man...\n"
 "But for ten days your father's spy\n"
 "has been making\n"
-"even the workers' city risky.."
+"even the workers' city risky...\""
 msgstr ""
 
 #. Card 73 of 130 · narrative · 16.5s on screen
@@ -727,28 +729,28 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:73
 msgctxt "472"
 msgid ""
-"JosaphatrelatestoFreder\n"
-"more of the strangeevents\n"
-"afterhiscollapse:\n"
-"\"On the evening you fell sick..."
+"Josaphat relates to Freder\n"
+"more of the strange events\n"
+"after his collapse:\n"
+"\"On the evening you fell sick...\""
 msgstr ""
 
-#. Card 74 of 130 · narrative · 4.8s on screen
+#. Card 74 of 130 · dialogue · 4.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:74
 msgctxt "475"
 msgid ""
-"..once the best of friends\n"
-"because of that woman."
+"\"...once the best of friends...\n"
+"because of that woman...\""
 msgstr ""
 
-#. Card 75 of 130 · narrative · 5.5s on screen
+#. Card 75 of 130 · dialogue · 5.5s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:75
 msgctxt "476"
 msgid ""
-"...the other man.\n"
-"the same evening.."
+"\"...the other man...\n"
+"the same evening...\""
 msgstr ""
 
 #. Card 76 of 130 · dialogue · 6.8s on screen
@@ -757,15 +759,15 @@ msgstr ""
 msgctxt "478"
 msgid ""
 "\"The Eternal Gardens\n"
-"lie abandoned..\n"
-"but night after night in Xshiwara."
+"lie abandoned...\n"
+"but night after night in Yoshiwara...\""
 msgstr ""
 
-#. Card 77 of 130 · narrative · 13.5s on screen
+#. Card 77 of 130 · dialogue · 13.5s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:77
 msgctxt "481"
-msgid "..s also named Maria."
+msgid "\"...is also named Maria...\""
 msgstr ""
 
 #. Card 78 of 130 · narrative · 25.5s on screen
@@ -773,9 +775,9 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:78
 msgctxt "483"
 msgid ""
-"Frederreminds Josaphat:\n"
+"Freder reminds Josaphat:\n"
 "\"Many now go to the city of the dead,\n"
-"toawomanwhohasproven\n"
+"to a woman who has proven\n"
 "herself as true as gold..."
 msgstr ""
 
@@ -788,14 +790,14 @@ msgid ""
 "their belief in a mediator!\""
 msgstr ""
 
-#. Card 80 of 130 · narrative · 7.8s on screen
+#. Card 80 of 130 · dialogue · 7.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:80
 msgctxt "491"
 msgid ""
-"ou know that I have\n"
-"always spoken of peace..\n"
-"but your mediator has not come."
+"\"You know that I have\n"
+"always spoken of peace...\n"
+"but your mediator has not come...\""
 msgstr ""
 
 #. Card 81 of 130 · dialogue · 6.8s on screen
@@ -807,15 +809,15 @@ msgid ""
 "Your time has come –!”"
 msgstr ""
 
-#. Card 82 of 130 · narrative · 13.2s on screen
+#. Card 82 of 130 · dialogue · 13.2s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:82
 msgctxt "495"
 msgid ""
-"..but I have tricked Joh Fredersen!\n"
-"Xur double does not\n"
-"obey h i s will --\n"
-"only min e!"
+"\"...but I have tricked Joh Fredersen!\n"
+"Your double does not\n"
+"obey his will--\n"
+"only mine!\""
 msgstr ""
 
 #. Card 83 of 130 · dialogue · 6.5s on screen
@@ -824,7 +826,7 @@ msgstr ""
 msgctxt "496"
 msgid ""
 "\"Who is the living food\n"
-"for the machines in Metropolis -?!\""
+"for the machines in Metropolis--?!\""
 msgstr ""
 
 #. Card 84 of 130 · dialogue · 6.5s on screen
@@ -834,16 +836,16 @@ msgctxt "497"
 msgid ""
 "\"Who lubricates\n"
 "the machine joints\n"
-"with their own  n blood-?!"
+"with their own blood--?!\""
 msgstr ""
 
-#. Card 85 of 130 · narrative · 4.8s on screen
+#. Card 85 of 130 · dialogue · 4.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:85
 msgctxt "498"
 msgid ""
-"Who feeds the machines\n"
-"with their own flesh - --?!'"
+"\"Who feeds the machines\n"
+"with their own flesh--?!\""
 msgstr ""
 
 #. Card 86 of 130 · dialogue · 6.5s on screen
@@ -856,20 +858,20 @@ msgid ""
 "Let them die–!!\""
 msgstr ""
 
-#. Card 87 of 130 · narrative · 4.8s on screen
+#. Card 87 of 130 · dialogue · 4.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:87
 msgctxt "500"
 msgid ""
-"Kill them -\n"
-"the machines-!!\""
+"\"Kill them—\n"
+"the machines—!!\""
 msgstr ""
 
 #. Card 88 of 130 · dialogue · 4.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:88
 msgctxt "501"
-msgid "\"Yu are not Maria -!!!\""
+msgid "\"You are not Maria—!!!\""
 msgstr ""
 
 #. Card 89 of 130 · dialogue · 4.2s on screen
@@ -884,16 +886,16 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:90
 msgctxt "503"
 msgid ""
-"“Maria speaks of peace,\n"
-"not killing -!\n"
-"This is not Maria -!!\""
+"\"Maria speaks of peace,\n"
+"not killing—!\n"
+"This is not Maria—!!\""
 msgstr ""
 
-#. Card 91 of 130 · narrative · 5.0s on screen
+#. Card 91 of 130 · dialogue · 5.0s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:91
 msgctxt "504"
-msgid "Joh Fredersen's son -!!\""
+msgid "\"Joh Fredersen's son—!!\""
 msgstr ""
 
 #. Card 92 of 130 · dialogue · 6.5s on screen
@@ -902,30 +904,30 @@ msgstr ""
 msgctxt "505"
 msgid ""
 "\"Kill him, the dog,\n"
-"in his white siken fur-!!!"
+"in his white silken fur—!!!\""
 msgstr ""
 
-#. Card 93 of 130 · narrative · 8.0s on screen
+#. Card 93 of 130 · dialogue · 8.0s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:93
 msgctxt "509"
 msgid ""
-"Get your women, your sons,\n"
+"\"Get your women, your sons,\n"
 "from the workers' city!\n"
 "Let no one stay behind!\n"
-"Death to the machines -!!!"
+"Death to the machines—!!!\""
 msgstr ""
 
-#. Card 94 of 130 · narrative · 23.5s on screen
+#. Card 94 of 130 · dialogue · 23.5s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:94
 msgctxt "510"
 msgid ""
-"...andItrickedJohFredersen\n"
-"twiceover-!ForIconcealed\n"
-"fromhimthathis sonwants\n"
-"tobeyourbrothers'mediator\n"
-"-andlovesyou-!\""
+"\"...and I tricked Joh Fredersen\n"
+"twice over—! For I concealed\n"
+"from him that his son wants\n"
+"to be your brothers' mediator\n"
+"— and loves you—!\""
 msgstr ""
 
 #. Card 95 of 130 · dialogue · 4.0s on screen
@@ -940,10 +942,10 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:96
 msgctxt "514"
 msgid ""
-"JohFredersenbreaksinto\n"
-"Rotwang's attic.Hebattles\n"
-"withhisoldrival,\n"
-"overcominghim.Maria is free"
+"Joh Fredersen breaks into\n"
+"Rotwang's attic. He battles\n"
+"with his old rival,\n"
+"overcoming him. Maria is free."
 msgstr ""
 
 #. Card 97 of 130 · dialogue · 4.8s on screen
@@ -952,8 +954,8 @@ msgstr ""
 msgctxt "515"
 msgid ""
 "\"Women and men,\n"
-"let no one miss today-!\n"
-"Death to the machines --!!'"
+"let no one miss today—!\n"
+"Death to the machines—!!\""
 msgstr ""
 
 #. Card 98 of 130 · dialogue · 5.0s on screen
@@ -971,9 +973,9 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:99
 msgctxt "525"
 msgid ""
-"ThemobstormstheM-Machine\n"
+"The mob storms the M-Machine\n"
 "and rushes toward the Heart Machine,\n"
-"thepowerhouseofMetropolis."
+"the power house of Metropolis."
 msgstr ""
 
 #. Card 100 of 130 · dialogue · 4.8s on screen
@@ -995,10 +997,10 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:102
 msgctxt "537"
 msgid ""
-"GrotwarnsFredersen:\n"
-"\"If the HeartMachineis\n"
+"Grot warns Fredersen:\n"
+"\"If the Heart Machine is\n"
 "destroyed, the entire machine\n"
-"district will end up in ruins."
+"district will end up in ruins.\""
 msgstr ""
 
 #. Card 103 of 130 · narrative · 8.2s on screen
@@ -1006,8 +1008,8 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:103
 msgctxt "538"
 msgid ""
-"FinallyGrotobeysJohFredersen's\n"
-"orderandopensthegates.\n"
+"Finally Grot obeys Joh Fredersen's\n"
+"order and opens the gates.\n"
 "The workers race to the Heart Machine."
 msgstr ""
 
@@ -1016,10 +1018,10 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:104
 msgctxt "540"
 msgid ""
-"\"Have you gone mad -??\n"
+"\"Have you gone mad –??\n"
 "If the Heart Machine is destroyed,\n"
 "the entire workers' city\n"
-"will be flooded -!!'"
+"will be flooded –!!\""
 msgstr ""
 
 #. Card 105 of 130 · dialogue · 5.8s on screen
@@ -1037,8 +1039,8 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:106
 msgctxt "571"
 msgid ""
-"\"Yes -- you!\n"
-"Yu are Maria -!\""
+"\"Yes – – you!\n"
+"You are Maria –!\""
 msgstr ""
 
 #. Card 107 of 130 · dialogue · 6.5s on screen
@@ -1046,10 +1048,10 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:107
 msgctxt "572"
 msgid ""
-"\"To the air shafts --\n"
+"\"To the air shafts –\n"
 "quickly! Quickly!\n"
 "The reservoirs have burst!\n"
-"The city is flooding-!\""
+"The city is flooding –!\""
 msgstr ""
 
 #. Card 108 of 130 · narrative · 4.0s on screen
@@ -1057,9 +1059,9 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:108
 msgctxt "574"
 msgid ""
-"FinallyFreder and Josaphat\n"
-"succeedinbreakingdown\n"
-"themetal gate."
+"Finally Freder and Josaphat\n"
+"succeed in breaking down\n"
+"the metal gate."
 msgstr ""
 
 #. Card 109 of 130 · narrative · 5.0s on screen
@@ -1067,9 +1069,9 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:109
 msgctxt "575"
 msgid ""
-"Frederclimbsbackdowm\n"
+"Freder climbs back down\n"
 "to get Maria and the last\n"
-"ofthechildren."
+"of the children."
 msgstr ""
 
 #. Card 110 of 130 · dialogue · 4.8s on screen
@@ -1078,7 +1080,7 @@ msgstr ""
 msgctxt "577"
 msgid ""
 "\"We'll take the children\n"
-"to the Club of the Sons!'"
+"to the Club of the Sons!\""
 msgstr ""
 
 #. Card 111 of 130 · dialogue · 5.0s on screen
@@ -1092,7 +1094,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:112
 msgctxt "586"
-msgid "\"Where are your children??!"
+msgid "\"Where are your children??!\""
 msgstr ""
 
 #. Card 113 of 130 · dialogue · 6.5s on screen
@@ -1102,7 +1104,7 @@ msgctxt "587"
 msgid ""
 "\"The city lies underwater,\n"
 "the shafts are\n"
-"completely flooded -!!\""
+"completely flooded–!!\""
 msgstr ""
 
 #. Card 114 of 130 · dialogue · 8.8s on screen
@@ -1113,14 +1115,14 @@ msgid ""
 "\"Who told you\n"
 "to attack the machines,\n"
 "you idiots?\n"
-"Without them you'll all die!!'"
+"Without them you'll all die!!\""
 msgstr ""
 
 #. Card 115 of 130 · dialogue · 4.8s on screen
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:115
 msgctxt "589"
-msgid "\"It's the witch's fault-!\""
+msgid "\"It's the witch's fault–!\""
 msgstr ""
 
 #. Card 116 of 130 · dialogue · 6.5s on screen
@@ -1128,8 +1130,8 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:116
 msgctxt "590"
 msgid ""
-"“Let's all watch\n"
-"as the world goes to the devil!'"
+"\"Let's all watch\n"
+"as the world goes to the devil!\""
 msgstr ""
 
 #. Card 117 of 130 · dialogue · 6.2s on screen
@@ -1138,8 +1140,8 @@ msgstr ""
 msgctxt "592"
 msgid ""
 "\"Find the witch,\n"
-"this is all her fault-!\n"
-"Strike her dead-!!\""
+"this is all her fault–!\n"
+"Strike her dead–!!\""
 msgstr ""
 
 #. Card 118 of 130 · narrative · 10.8s on screen
@@ -1147,9 +1149,9 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:118
 msgctxt "598"
 msgid ""
-"In frontof Hel'smonument\n"
-"Rotwangdecides:\"NowI'm\n"
-"going to take you home, my Hel!"
+"In front of Hel's monument\n"
+"Rotwang decides: \"Now I'm\n"
+"going to take you home, my Hel!\""
 msgstr ""
 
 #. Card 119 of 130 · narrative · 6.2s on screen
@@ -1157,9 +1159,9 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:119
 msgctxt "600"
 msgid ""
-"Marialeadsthelast ofthe\n"
-"childrento safetyinthe\n"
-"CluboftheSons."
+"Maria leads the last of the\n"
+"children to safety in the\n"
+"Club of the Sons."
 msgstr ""
 
 #. Card 120 of 130 · narrative · 4.0s on screen
@@ -1168,7 +1170,7 @@ msgstr ""
 msgctxt "601"
 msgid ""
 "Then she is spotted by Grot\n"
-"andthemob."
+"and the mob."
 msgstr ""
 
 #. Card 121 of 130 · dialogue · 6.5s on screen
@@ -1176,8 +1178,8 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:121
 msgctxt "602"
 msgid ""
-"\"The witch-! the witch-!\n"
-"here she is-! there she is-!"
+"\"The witch–! the witch–!\n"
+"There she is–! there she is–!\""
 msgstr ""
 
 #. Card 122 of 130 · dialogue · 6.5s on screen
@@ -1185,8 +1187,8 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:122
 msgctxt "603"
 msgid ""
-"\"Where are our dhildren,\n"
-"you with-??!\""
+"\"Where are our children,\n"
+"you witch–??!\""
 msgstr ""
 
 #. Card 123 of 130 · narrative · 18.8s on screen
@@ -1194,9 +1196,9 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:123
 msgctxt "604"
 msgid ""
-"Suspecting nothing,Maria tries\n"
-"to speak.But the mob roars\n"
-"and throws hammers ather."
+"Suspecting nothing, Maria tries\n"
+"to speak. But the mob roars\n"
+"and throws hammers at her."
 msgstr ""
 
 #. Card 124 of 130 · narrative · 5.0s on screen
@@ -1204,8 +1206,8 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:124
 msgctxt "608"
 msgid ""
-"Maria,pursued bythemob\n"
-"runs headlong intothe\n"
+"Maria, pursued by the mob,\n"
+"runs headlong into the\n"
 "revellers from Yoshiwara."
 msgstr ""
 
@@ -1213,7 +1215,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:125
 msgctxt "611"
-msgid "\"To the stake with her -!"
+msgid "\"To the stake with her–!\""
 msgstr ""
 
 #. Card 126 of 130 · dialogue · 4.2s on screen
@@ -1227,7 +1229,7 @@ msgstr ""
 #. Keep the line breaks: each newline is a line on the card.
 #: data/films/metropolis-1927/cards.yaml:127
 msgctxt "620"
-msgid "“Hel-! My Hel-!!\""
+msgid "\"Hel–! My Hel–!!\""
 msgstr ""
 
 #. Card 128 of 130 · dialogue · 5.0s on screen
@@ -1244,12 +1246,12 @@ msgstr ""
 #: data/films/metropolis-1927/cards.yaml:129
 msgctxt "676"
 msgid ""
-"“Head and hands\n"
+"\"Head and hands\n"
 "want to join together,\n"
 "but they don't have the heart\n"
-"to do it....\n"
+"to do it...\n"
 "Oh mediator,\n"
-"show them the way to each other."
+"show them the way to each other...\""
 msgstr ""
 
 #. Card 130 of 130 · credit · 77.8s on screen

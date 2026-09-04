@@ -64,13 +64,13 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: none
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "027"
     in: "00:04:21.000"
@@ -81,13 +81,13 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: single
+      quote_style: none
       emphasis: ""
-      all_caps: 
+      all_caps: false
     confidence: medium
-    doubt: ocr
+    doubt: text appears blurred as if mid-dissolve; may be a fragment of a longer sentence continued from the previous card
 
   - id: "031"
     in: "00:05:32.250"
@@ -108,8 +108,8 @@ cards:
       quote_style: double curly
       emphasis: ""
       all_caps: false
-    confidence: low
-    doubt: final line is cut off at the bottom of the frame and unreadable, likely continuing "of the Sons" or similar
+    confidence: medium
+    doubt: final line is cut off at the bottom of the frame and unreadable, likely continuing "of the Sons" or similar; final line of the card is garbled/illegible, likely the club's name and closing quote
 
   - id: "040"
     in: "00:06:33.500"
@@ -124,13 +124,13 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: none
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "043"
     in: "00:06:57.500"
@@ -140,51 +140,52 @@ cards:
       "Which of you ladies
       shall today have the honor
       of entertaining Master Freder,
-      Joh Fredersen's son?
+      Joh Fredersen's son?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Which of you ladies\nshall today have the honor\nof entertaining Master Freder,\nJoh Fredersen\'s son?'
 
   - id: "050"
     in: "00:07:59.750"
     out: "00:08:02.750"
     type: dialogue
     text: |-
-      "Freder -! Freder -!"
+      "Freder –! Freder –!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "055"
     in: "00:09:18.500"
     out: "00:09:22.500"
-    type: narrative
+    type: dialogue
     text: |-
-      These are your brothers!
+      "Look!
+      These are your brothers!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'These are your brothers!'
 
   - id: "056"
     in: "00:09:25.000"
@@ -207,34 +208,34 @@ cards:
     out: "00:09:39.250"
     type: dialogue
     text: |-
-      "These are your brothers!
+      "These are your brothers!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"These are your brothers!'
 
   - id: "067"
     in: "00:11:03.250"
     out: "00:11:07.000"
     type: dialogue
     text: |-
-      "Who -- was that?"
+      "Who – was that?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Who -- was that?"'
 
   - id: "071"
     in: "00:11:54.000"
@@ -242,37 +243,37 @@ cards:
     type: narrative
     text: |-
       But this is what happened to
-      Freder - son o of Joh Fredersen,
-      master of Metropolis -- when he
+      Freder – son of Joh Fredersen,
+      master of Metropolis – when he
       went in search of the girl:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: none
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'But this is what happened to\nFreder - son o of Joh Fredersen,\nmaster of Metropolis -- when he\nwent in search of the girl:'
 
   - id: "093"
     in: "00:15:58.500"
     out: "00:16:03.500"
     type: dialogue
     text: |-
-      "o the new Tower of Babel -
-      to my father -!"
+      "To the new Tower of Babel –
+      to my father –!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"o the new Tower of Babel -\nto my father -!"'
 
   - id: "131"
     in: "00:19:32.250"
@@ -282,17 +283,17 @@ cards:
       "Why is it, Josaphat,
       that I learn of the explosion
       from my son,
-      and not from you -- --!
+      and not from you––!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Why is it, Josaphat,\nthat I learn of the explosion\nfrom my son,\nand not from you -- --!'
 
   - id: "138"
     in: "00:20:59.500"
@@ -320,37 +321,37 @@ cards:
       "I wanted to look into
       the faces of the people
       whose little children are
-      my brothers, my sisters...
+      my brothers, my sisters..."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I wanted to look into\nthe faces of the people\nwhose little children are\nmy brothers, my sisters...'
 
   - id: "142"
     in: "00:21:43.500"
     out: "00:21:51.000"
     type: dialogue
     text: |-
-      "Yur magnificent city, Father --
-      and you the brain of this city -
+      "Your magnificent city, Father –
+      and you the brain of this city –
       and all of us
-      in the city's light... -- .
+      in the city's light... – –"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Yur magnificent city, Father --\nand you the brain of this city -\nand all of us\nin the city\'s light... -- .'
 
   - id: "149"
     in: "00:22:46.500"
@@ -363,13 +364,13 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "157"
     in: "00:23:23.250"
@@ -377,37 +378,37 @@ cards:
     type: dialogue
     text: |-
       "The chief foreman
-      of the Heart Machine, Grot -
-      with an important message.
+      of the Heart Machine, Grot –
+      with an important message..."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"The chief foreman\nof the Heart Machine, Grot -\nwith an important message.'
 
   - id: "166"
     in: "00:24:27.250"
     out: "00:24:46.250"
-    type: narrative
+    type: dialogue
     text: |-
-      ..in the pockets of two men
+      "...in the pockets of two men
       involved in today's accident
-      at the M-Machine.
+      at the M-Machine..."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: single
+      quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "..in the pockets of two men\ninvolved in today's accident\nat the M-Machine."
 
   - id: "171"
     in: "00:25:22.000"
@@ -415,17 +416,17 @@ cards:
     type: dialogue
     text: |-
       "Apply to the G-Bank
-      for your remaining wages.
+      for your remaining wages..."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Apply to the G-Bank\nfor your remaining wages.'
 
   - id: "189"
     in: "00:27:29.750"
@@ -456,13 +457,13 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "198"
     in: "00:28:32.000"
@@ -471,17 +472,17 @@ cards:
     text: |-
       "Where do you live, Josaphat?"
       Freder asked, and noted:
-      Block99,House7,7thFloor.
+      Block 99, House 7, 7th Floor.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Where do you live, Josaphat?"\nFreder asked, and noted:\nBlock99,House7,7thFloor.'
 
   - id: "212"
     in: "00:30:34.750"
@@ -541,55 +542,55 @@ cards:
     text: |-
       "Listen to me...
       I want to trade lives
-      with you!
+      with you!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Listen to me...\nI want to trade lives\nwith you!'
 
   - id: "216"
     in: "00:31:22.750"
     out: "00:31:33.000"
     type: narrative
     text: |-
-      Meanwhile,theThin Man,
-      JohFredersen'sspy,iswatching
+      Meanwhile, the Thin Man,
+      Joh Fredersen's spy, is watching
       the spot where Freder's chauffeur
-      hasparkedhiscar.
+      has parked his car.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: single
+      quote_style: none
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "Meanwhile,theThin Man,\nJohFredersen'sspy,iswatching\nthe spot where Freder's chauffeur\nhasparkedhiscar."
 
   - id: "217"
     in: "00:31:48.500"
     out: "00:31:52.500"
     type: dialogue
     text: |-
-      "Wait for me --
-      both of you...
+      "Wait for me –
+      both of you..."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Wait for me --\nboth of you...'
 
   - id: "221"
     in: "00:32:15.750"
@@ -602,69 +603,69 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: none
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "222"
     in: "00:33:20.250"
     out: "00:34:10.000"
     type: narrative
     text: |-
-      There,ona pedestal as wide
-      asawall and astallas aman,
+      There, on a pedestal as wide
+      as a wall and as tall as a man,
       he sees the stone head of a woman.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: ""
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'There,ona pedestal as wide\nasawall and astallas aman,\nhe sees the stone head of a woman.'
 
   - id: "223"
     in: "00:34:10.500"
     out: "00:34:42.000"
     type: narrative
     text: |-
-      The angier Rawang becomes,
-      the calmer grows Joh Fredersen,
+      The angrier Rotwang becomes,
+      the calmer grows Joh Fredersen.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: ""
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'The angier Rawang becomes,\nthe calmer grows Joh Fredersen,'
 
   - id: "224"
     in: "00:34:44.500"
     out: "00:34:49.500"
-    type: narrative
+    type: dialogue
     text: |-
-      Let the dead rest in peace,
+      "Let the dead rest in peace,
       Rotwang...
-      For you, as for me, she is dead.
+      For you, as for me, she is dead......"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: double straight
       emphasis: ""
-      all_caps: 
+      all_caps: false
     confidence: medium
-    doubt: ocr
+    doubt: exact number of ellipsis dots at end uncertain; replaced ocr reading 'Let the dead rest in peace,\nRotwang...\nFor you, as for me, she is dead.'
 
   - id: "225"
     in: "00:34:55.000"
@@ -672,18 +673,18 @@ cards:
     type: dialogue
     text: |-
       "For me, she is not dead,
-      Joh Fredersen, --
-      forme, she lives --!
+      Joh Fredersen,—
+      for me, she lives——!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      emphasis: 'letter-spaced words: "she lives"'
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"For me, she is not dead,\nJoh Fredersen, --\nforme, she lives --!'
 
   - id: "226"
     in: "00:35:03.750"
@@ -693,17 +694,17 @@ cards:
       "Do you think
       that losing a hand
       is too high a price to pay
-      for re-creating Hel -?!"
+      for re-creating Hel—?!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Do you think\nthat losing a hand\nis too high a price to pay\nfor re-creating Hel -?!"'
 
   - id: "234"
     in: "00:37:18.500"
@@ -731,40 +732,40 @@ cards:
     out: "00:37:45.500"
     type: dialogue
     text: |-
-      “Give me another 24 hours --
+      "Give me another 24 hours—,
       and no one, Joh Fredersen,
       no one will be able
       to tell a Machine-Man
-      from a mortal - -!'
+      from a mortal——!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double curly
+      quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "“Give me another 24 hours --\nand no one, Joh Fredersen,\nno one will be able\nto tell a Machine-Man\nfrom a mortal - -!'"
 
   - id: "239"
     in: "00:37:54.750"
     out: "00:38:03.500"
     type: dialogue
     text: |-
-      "The woman is m i n e ,
+      "The woman is mine,
       Joh Fredersen!
-      The son of Hel  was yours!
+      The son of Hel was yours!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      emphasis: 'letter-spaced word: "mine"'
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"The woman is m i n e ,\nJoh Fredersen!\nThe son of Hel  was yours!'
 
   - id: "241"
     in: "00:38:13.250"
@@ -776,32 +777,32 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "242"
     in: "00:38:18.500"
     out: "00:38:34.750"
     type: dialogue
     text: |-
-      "As usual.
+      "As usual,
       when my experts fail me,
-      I come to you for advice...
+      I come to you for advice..."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"As usual.\nwhen my experts fail me,\nI come to you for advice...'
 
   - id: "244"
     in: "00:38:39.750"
@@ -812,36 +813,36 @@ cards:
       we have been finding
       these plans
       in my workers' clothes.
-      What do they mean?
+      What do they mean?"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"For months now,\nwe have been finding\nthese plans\nin my workers\' clothes.\nWhat do they mean?'
 
   - id: "251"
     in: "00:39:21.750"
     out: "00:39:26.750"
-    type: narrative
+    type: dialogue
     text: |-
-      ...at two...
+      "...at two...
       at the end of the shift!
-      Sh e has summoned us again..
+      She has summoned us again..."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: double straight
+      emphasis: 'letter-spaced word: "She"'
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '...at two...\nat the end of the shift!\nSh e has summoned us again..'
 
   - id: "257"
     in: "00:40:49.500"
@@ -866,20 +867,20 @@ cards:
     out: "00:41:45.250"
     type: dialogue
     text: |-
-      "-it is a plan of the
+      "—it is a plan of the
       2000-year-old catacombs
       deep below the lowest levels
-      of your Metropolis...
+      of your Metropolis..."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"-it is a plan of the\n2000-year-old catacombs\ndeep below the lowest levels\nof your Metropolis...'
 
   - id: "260"
     in: "00:42:01.000"
@@ -889,17 +890,17 @@ cards:
       "I should like
       to know what
       my workers are doing
-      in the catacombs...
+      in the catacombs..."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I should like\nto know what\nmy workers are doing\nin the catacombs...'
 
   - id: "273"
     in: "00:45:24.000"
@@ -1023,13 +1024,13 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: illustrated
       align: center
       quote_style: none
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "284"
     in: "00:48:01.000"
@@ -1076,31 +1077,31 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "307"
     in: "00:51:35.000"
     out: "00:51:41.250"
     type: dialogue
     text: |-
-      “Yu called me -- --
+      "You called me – –
       here I am!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: double curly
+      emphasis: double dash mid-line
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '“Yu called me -- --\nhere I am!"'
 
   - id: "315"
     in: "00:54:00.250"
@@ -1112,33 +1113,33 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "342"
     in: "00:58:17.250"
     out: "01:00:02.750"
     type: narrative
     text: |-
-      Feder seesamonkinthepulpit
-      who preaches:"Verily,I say unto you,
+      Feder sees a monk in the pulpit
+      who preaches: "Verily, I say unto you,
       the days spoken of in the Apocalypse
-      arenigh!"
+      are nigh!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
+      all_caps: false
     confidence: medium
-    doubt: ocr
+    doubt: '"Feder" may be a card misprint or misreading of "Freder"; replaced ocr reading ''Feder seesamonkinthepulpit\nwho preaches:"Verily,I say unto you,\nthe days spoken of in the Apocalypse\narenigh!"'''
 
   - id: "346"
     in: "01:00:43.000"
@@ -1146,19 +1147,19 @@ cards:
     type: narrative
     text: |-
       Disappointed that Maria has
-      not come,Freder goesto
+      not come, Freder goes to
       Josaphat's home, where he
-      hopestofindWorker11811.
+      hopes to find Worker 11811.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: single
+      quote_style: none
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "Disappointed that Maria has\nnot come,Freder goesto\nJosaphat's home, where he\nhopestofindWorker11811."
 
   - id: "356"
     in: "01:02:46.500"
@@ -1171,13 +1172,13 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "414"
     in: "01:10:22.750"
@@ -1185,17 +1186,17 @@ cards:
     type: dialogue
     text: |-
       "She is
-      with your father...
+      with your father..."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"She is\nwith your father...'
 
   - id: "418"
     in: "01:11:21.750"
@@ -1259,40 +1260,40 @@ cards:
     out: "01:15:13.250"
     type: narrative
     text: |-
-      TheThinMan in theform
-      ofamonkpreaches:
-      "Verily,I sayuntoyou,
-      thedays spoken of in the Apocalypse
+      The Thin Man in the form
+      of a monk preaches:
+      "Verily, I say unto you,
+      the days spoken of in the Apocalypse
       are nigh...!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'TheThinMan in theform\nofamonkpreaches:\n"Verily,I sayuntoyou,\nthedays spoken of in the Apocalypse\nare nigh...!"'
 
   - id: "456"
     in: "01:15:50.250"
     out: "01:16:00.750"
     type: dialogue
     text: |-
-      "And thewoman was arrayed
+      "And the woman was arrayed
       in purple and scarlet color,
-      having a golden cup in her hand...
+      having a golden cup in her hand..."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      emphasis: bold, different typeface from surrounding cards
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"And thewoman was arrayed\nin purple and scarlet color,\nhaving a golden cup in her hand...'
 
   - id: "457"
     in: "01:16:02.750"
@@ -1334,76 +1335,76 @@ cards:
     type: dialogue
     text: |-
       "I put on this disguise
-      to escape from the Thin Man.
+      to escape from the Thin Man...
       But for ten days your father's spy
       has been making
-      even the workers' city risky..
+      even the workers' city risky..."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"I put on this disguise\nto escape from the Thin Man.\nBut for ten days your father\'s spy\nhas been making\neven the workers\' city risky..'
 
   - id: "472"
     in: "01:18:03.500"
     out: "01:18:20.000"
     type: narrative
     text: |-
-      JosaphatrelatestoFreder
-      more of the strangeevents
-      afterhiscollapse:
-      "On the evening you fell sick...
+      Josaphat relates to Freder
+      more of the strange events
+      after his collapse:
+      "On the evening you fell sick..."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'JosaphatrelatestoFreder\nmore of the strangeevents\nafterhiscollapse:\n"On the evening you fell sick...'
 
   - id: "475"
     in: "01:18:32.250"
     out: "01:18:37.000"
-    type: narrative
+    type: dialogue
     text: |-
-      ..once the best of friends
-      because of that woman.
+      "...once the best of friends...
+      because of that woman..."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '..once the best of friends\nbecause of that woman.'
 
   - id: "476"
     in: "01:18:42.500"
     out: "01:18:48.000"
-    type: narrative
+    type: dialogue
     text: |-
-      ...the other man.
-      the same evening..
+      "...the other man...
+      the same evening..."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '...the other man.\nthe same evening..'
 
   - id: "478"
     in: "01:18:54.000"
@@ -1411,55 +1412,55 @@ cards:
     type: dialogue
     text: |-
       "The Eternal Gardens
-      lie abandoned..
-      but night after night in Xshiwara.
+      lie abandoned...
+      but night after night in Yoshiwara..."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"The Eternal Gardens\nlie abandoned..\nbut night after night in Xshiwara.'
 
   - id: "481"
     in: "01:19:42.250"
     out: "01:19:55.750"
-    type: narrative
+    type: dialogue
     text: |-
-      ..s also named Maria.
+      "...is also named Maria..."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '..s also named Maria.'
 
   - id: "483"
     in: "01:20:01.750"
     out: "01:20:27.250"
     type: narrative
     text: |-
-      Frederreminds Josaphat:
+      Freder reminds Josaphat:
       "Many now go to the city of the dead,
-      toawomanwhohasproven
+      to a woman who has proven
       herself as true as gold...
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Frederreminds Josaphat:\n"Many now go to the city of the dead,\ntoawomanwhohasproven\nherself as true as gold...'
 
   - id: "488"
     in: "01:21:47.750"
@@ -1471,32 +1472,32 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "491"
     in: "01:22:14.500"
     out: "01:22:22.250"
-    type: narrative
+    type: dialogue
     text: |-
-      ou know that I have
-      always spoken of peace..
-      but your mediator has not come.
+      "You know that I have
+      always spoken of peace...
+      but your mediator has not come..."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'ou know that I have\nalways spoken of peace..\nbut your mediator has not come.'
 
   - id: "494"
     in: "01:22:47.000"
@@ -1518,22 +1519,22 @@ cards:
   - id: "495"
     in: "01:22:55.000"
     out: "01:23:08.250"
-    type: narrative
+    type: dialogue
     text: |-
-      ..but I have tricked Joh Fredersen!
-      Xur double does not
-      obey h i s will --
-      only min e!
+      "...but I have tricked Joh Fredersen!
+      Your double does not
+      obey his will--
+      only mine!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
-      emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      quote_style: double straight
+      emphasis: letter-spacing on "his" and "mine"
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '..but I have tricked Joh Fredersen!\nXur double does not\nobey h i s will --\nonly min e!'
 
   - id: "496"
     in: "01:23:14.750"
@@ -1541,17 +1542,17 @@ cards:
     type: dialogue
     text: |-
       "Who is the living food
-      for the machines in Metropolis -?!"
+      for the machines in Metropolis--?!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Who is the living food\nfor the machines in Metropolis -?!"'
 
   - id: "497"
     in: "01:23:25.500"
@@ -1560,35 +1561,35 @@ cards:
     text: |-
       "Who lubricates
       the machine joints
-      with their own  n blood-?!
+      with their own blood--?!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Who lubricates\nthe machine joints\nwith their own  n blood-?!'
 
   - id: "498"
     in: "01:23:46.250"
     out: "01:23:51.000"
-    type: narrative
+    type: dialogue
     text: |-
-      Who feeds the machines
-      with their own flesh - --?!'
+      "Who feeds the machines
+      with their own flesh--?!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: single
+      quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "Who feeds the machines\nwith their own flesh - --?!'"
 
   - id: "499"
     in: "01:23:57.500"
@@ -1611,37 +1612,37 @@ cards:
   - id: "500"
     in: "01:24:07.000"
     out: "01:24:11.750"
-    type: narrative
+    type: dialogue
     text: |-
-      Kill them -
-      the machines-!!"
+      "Kill them—
+      the machines—!!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Kill them -\nthe machines-!!"'
 
   - id: "501"
     in: "01:24:25.000"
     out: "01:24:29.750"
     type: dialogue
     text: |-
-      "Yu are not Maria -!!!"
+      "You are not Maria—!!!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Yu are not Maria -!!!"'
 
   - id: "502"
     in: "01:24:33.250"
@@ -1664,36 +1665,36 @@ cards:
     out: "01:24:56.000"
     type: dialogue
     text: |-
-      “Maria speaks of peace,
-      not killing -!
-      This is not Maria -!!"
+      "Maria speaks of peace,
+      not killing—!
+      This is not Maria—!!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '“Maria speaks of peace,\nnot killing -!\nThis is not Maria -!!"'
 
   - id: "504"
     in: "01:24:59.500"
     out: "01:25:04.500"
-    type: narrative
+    type: dialogue
     text: |-
-      Joh Fredersen's son -!!"
+      "Joh Fredersen's son—!!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Joh Fredersen\'s son -!!"'
 
   - id: "505"
     in: "01:25:06.750"
@@ -1701,58 +1702,58 @@ cards:
     type: dialogue
     text: |-
       "Kill him, the dog,
-      in his white siken fur-!!!
+      in his white silken fur—!!!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Kill him, the dog,\nin his white siken fur-!!!'
 
   - id: "509"
     in: "01:25:43.000"
     out: "01:25:51.000"
-    type: narrative
+    type: dialogue
     text: |-
-      Get your women, your sons,
+      "Get your women, your sons,
       from the workers' city!
       Let no one stay behind!
-      Death to the machines -!!!
+      Death to the machines—!!!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: single
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "Get your women, your sons,\nfrom the workers' city!\nLet no one stay behind!\nDeath to the machines -!!!"
 
   - id: "510"
     in: "01:26:01.000"
     out: "01:26:24.500"
-    type: narrative
+    type: dialogue
     text: |-
-      ...andItrickedJohFredersen
-      twiceover-!ForIconcealed
-      fromhimthathis sonwants
-      tobeyourbrothers'mediator
-      -andlovesyou-!"
+      "...and I tricked Joh Fredersen
+      twice over—! For I concealed
+      from him that his son wants
+      to be your brothers' mediator
+      — and loves you—!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '...andItrickedJohFredersen\ntwiceover-!ForIconcealed\nfromhimthathis sonwants\ntobeyourbrothers\'mediator\n-andlovesyou-!"'
 
   - id: "513"
     in: "01:26:49.000"
@@ -1775,20 +1776,20 @@ cards:
     out: "01:27:14.000"
     type: narrative
     text: |-
-      JohFredersenbreaksinto
-      Rotwang's attic.Hebattles
-      withhisoldrival,
-      overcominghim.Maria is free
+      Joh Fredersen breaks into
+      Rotwang's attic. He battles
+      with his old rival,
+      overcoming him. Maria is free.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: single
+      quote_style: ""
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "JohFredersenbreaksinto\nRotwang's attic.Hebattles\nwithhisoldrival,\novercominghim.Maria is free"
 
   - id: "515"
     in: "01:27:42.000"
@@ -1796,18 +1797,18 @@ cards:
     type: dialogue
     text: |-
       "Women and men,
-      let no one miss today-!
-      Death to the machines --!!'
+      let no one miss today—!
+      Death to the machines—!!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Women and men,\nlet no one miss today-!\nDeath to the machines --!!\''
 
   - id: "521"
     in: "01:29:28.750"
@@ -1832,19 +1833,19 @@ cards:
     out: "01:30:14.500"
     type: narrative
     text: |-
-      ThemobstormstheM-Machine
+      The mob storms the M-Machine
       and rushes toward the Heart Machine,
-      thepowerhouseofMetropolis.
+      the power house of Metropolis.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: ""
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'ThemobstormstheM-Machine\nand rushes toward the Heart Machine,\nthepowerhouseofMetropolis.'
 
   - id: "535"
     in: "01:30:57.250"
@@ -1855,13 +1856,13 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "536"
     in: "01:31:06.750"
@@ -1872,72 +1873,72 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double straight
+      quote_style: double curly
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "537"
     in: "01:31:12.750"
     out: "01:31:18.750"
     type: narrative
     text: |-
-      GrotwarnsFredersen:
-      "If the HeartMachineis
+      Grot warns Fredersen:
+      "If the Heart Machine is
       destroyed, the entire machine
-      district will end up in ruins.
+      district will end up in ruins."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'GrotwarnsFredersen:\n"If the HeartMachineis\ndestroyed, the entire machine\ndistrict will end up in ruins.'
 
   - id: "538"
     in: "01:31:20.250"
     out: "01:31:28.500"
     type: narrative
     text: |-
-      FinallyGrotobeysJohFredersen's
-      orderandopensthegates.
+      Finally Grot obeys Joh Fredersen's
+      order and opens the gates.
       The workers race to the Heart Machine.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: single
+      quote_style: none
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "FinallyGrotobeysJohFredersen's\norderandopensthegates.\nThe workers race to the Heart Machine."
 
   - id: "540"
     in: "01:31:44.000"
     out: "01:31:53.000"
     type: dialogue
     text: |-
-      "Have you gone mad -??
+      "Have you gone mad –??
       If the Heart Machine is destroyed,
       the entire workers' city
-      will be flooded -!!'
+      will be flooded –!!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Have you gone mad -??\nIf the Heart Machine is destroyed,\nthe entire workers\' city\nwill be flooded -!!\''
 
   - id: "565"
     in: "01:37:27.500"
@@ -1950,89 +1951,89 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "571"
     in: "01:38:32.000"
     out: "01:38:37.000"
     type: dialogue
     text: |-
-      "Yes -- you!
-      Yu are Maria -!"
+      "Yes – – you!
+      You are Maria –!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Yes -- you!\nYu are Maria -!"'
 
   - id: "572"
     in: "01:38:43.250"
     out: "01:38:49.750"
     type: dialogue
     text: |-
-      "To the air shafts --
+      "To the air shafts –
       quickly! Quickly!
       The reservoirs have burst!
-      The city is flooding-!"
+      The city is flooding –!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"To the air shafts --\nquickly! Quickly!\nThe reservoirs have burst!\nThe city is flooding-!"'
 
   - id: "574"
     in: "01:39:50.000"
     out: "01:39:54.000"
     type: narrative
     text: |-
-      FinallyFreder and Josaphat
-      succeedinbreakingdown
-      themetal gate.
+      Finally Freder and Josaphat
+      succeed in breaking down
+      the metal gate.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: none
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'FinallyFreder and Josaphat\nsucceedinbreakingdown\nthemetal gate.'
 
   - id: "575"
     in: "01:39:58.500"
     out: "01:40:03.500"
     type: narrative
     text: |-
-      Frederclimbsbackdowm
+      Freder climbs back down
       to get Maria and the last
-      ofthechildren.
+      of the children.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: none
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Frederclimbsbackdowm\nto get Maria and the last\nofthechildren.'
 
   - id: "577"
     in: "01:41:12.500"
@@ -2040,17 +2041,17 @@ cards:
     type: dialogue
     text: |-
       "We'll take the children
-      to the Club of the Sons!'
+      to the Club of the Sons!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"We\'ll take the children\nto the Club of the Sons!\''
 
   - id: "578"
     in: "01:41:28.000"
@@ -2061,30 +2062,30 @@ cards:
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "586"
     in: "01:42:52.000"
     out: "01:42:56.000"
     type: dialogue
     text: |-
-      "Where are your children??!
+      "Where are your children??!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Where are your children??!'
 
   - id: "587"
     in: "01:43:04.000"
@@ -2093,17 +2094,17 @@ cards:
     text: |-
       "The city lies underwater,
       the shafts are
-      completely flooded -!!"
+      completely flooded–!!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"The city lies underwater,\nthe shafts are\ncompletely flooded -!!"'
 
   - id: "588"
     in: "01:43:17.000"
@@ -2113,52 +2114,52 @@ cards:
       "Who told you
       to attack the machines,
       you idiots?
-      Without them you'll all die!!'
+      Without them you'll all die!!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Who told you\nto attack the machines,\nyou idiots?\nWithout them you\'ll all die!!\''
 
   - id: "589"
     in: "01:43:31.750"
     out: "01:43:36.500"
     type: dialogue
     text: |-
-      "It's the witch's fault-!"
+      "It's the witch's fault–!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "590"
     in: "01:43:46.000"
     out: "01:43:52.500"
     type: dialogue
     text: |-
-      “Let's all watch
-      as the world goes to the devil!'
+      "Let's all watch
+      as the world goes to the devil!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double curly
+      quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "“Let's all watch\nas the world goes to the devil!'"
 
   - id: "592"
     in: "01:44:17.500"
@@ -2166,56 +2167,56 @@ cards:
     type: dialogue
     text: |-
       "Find the witch,
-      this is all her fault-!
-      Strike her dead-!!"
+      this is all her fault–!
+      Strike her dead–!!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "598"
     in: "01:45:14.500"
     out: "01:45:25.250"
     type: narrative
     text: |-
-      In frontof Hel'smonument
-      Rotwangdecides:"NowI'm
-      going to take you home, my Hel!
+      In front of Hel's monument
+      Rotwang decides: "Now I'm
+      going to take you home, my Hel!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'In frontof Hel\'smonument\nRotwangdecides:"NowI\'m\ngoing to take you home, my Hel!'
 
   - id: "600"
     in: "01:45:41.750"
     out: "01:45:48.000"
     type: narrative
     text: |-
-      Marialeadsthelast ofthe
-      childrento safetyinthe
-      CluboftheSons.
+      Maria leads the last of the
+      children to safety in the
+      Club of the Sons.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: ""
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Marialeadsthelast ofthe\nchildrento safetyinthe\nCluboftheSons.'
 
   - id: "601"
     in: "01:45:49.000"
@@ -2223,108 +2224,108 @@ cards:
     type: narrative
     text: |-
       Then she is spotted by Grot
-      andthemob.
+      and the mob.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: ""
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Then she is spotted by Grot\nandthemob.'
 
   - id: "602"
     in: "01:45:55.750"
     out: "01:46:02.250"
     type: dialogue
     text: |-
-      "The witch-! the witch-!
-      here she is-! there she is-!
+      "The witch–! the witch–!
+      There she is–! there she is–!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"The witch-! the witch-!\nhere she is-! there she is-!'
 
   - id: "603"
     in: "01:46:04.750"
     out: "01:46:11.250"
     type: dialogue
     text: |-
-      "Where are our dhildren,
-      you with-??!"
+      "Where are our children,
+      you witch–??!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"Where are our dhildren,\nyou with-??!"'
 
   - id: "604"
     in: "01:46:18.250"
     out: "01:46:37.000"
     type: narrative
     text: |-
-      Suspecting nothing,Maria tries
-      to speak.But the mob roars
-      and throws hammers ather.
+      Suspecting nothing, Maria tries
+      to speak. But the mob roars
+      and throws hammers at her.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: ""
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Suspecting nothing,Maria tries\nto speak.But the mob roars\nand throws hammers ather.'
 
   - id: "608"
     in: "01:47:00.250"
     out: "01:47:05.250"
     type: narrative
     text: |-
-      Maria,pursued bythemob
-      runs headlong intothe
+      Maria, pursued by the mob,
+      runs headlong into the
       revellers from Yoshiwara.
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: none
+      quote_style: ""
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading 'Maria,pursued bythemob\nruns headlong intothe\nrevellers from Yoshiwara.'
 
   - id: "611"
     in: "01:47:24.250"
     out: "01:47:29.000"
     type: dialogue
     text: |-
-      "To the stake with her -!
+      "To the stake with her–!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading '"To the stake with her -!'
 
   - id: "616"
     in: "01:48:57.250"
@@ -2347,17 +2348,17 @@ cards:
     out: "01:49:44.000"
     type: dialogue
     text: |-
-      “Hel-! My Hel-!!"
+      "Hel–! My Hel–!!"
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
       quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: ocr and pass 2 agree
 
   - id: "644"
     in: "01:52:48.250"
@@ -2381,22 +2382,22 @@ cards:
     out: "01:56:44.000"
     type: dialogue
     text: |-
-      “Head and hands
+      "Head and hands
       want to join together,
       but they don't have the heart
-      to do it....
+      to do it...
       Oh mediator,
-      show them the way to each other.
+      show them the way to each other..."
     context: ""
     verified: false
     style:
-      frame: ""
+      frame: none
       align: center
-      quote_style: double curly
+      quote_style: double straight
       emphasis: ""
-      all_caps: 
-    confidence: medium
-    doubt: ocr
+      all_caps: false
+    confidence: high
+    doubt: replaced ocr reading "“Head and hands\nwant to join together,\nbut they don't have the heart\nto do it....\nOh mediator,\nshow them the way to each other."
 
   - id: "684"
     in: "01:57:20.000"
